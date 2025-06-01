@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #343a40;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    left: 0; top: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    /* Use flex to center content */
+    display: flex;
+}
+
+.popup-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.popup-content {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.3);
+    padding: 2rem;
+    width: 800px;
+    max-width: 95vw;
+    max-height: 90vh;
+    overflow: auto;
+    margin: auto;
+    position: relative; /* <-- Add this line */
+}
+
+#closePopup {
+    position: absolute;
+    /* Place in the top right corner of the popup-content */
+    top: 12px;
+    right: 12px;
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 36px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+    z-index: 1010; /* higher than .popup */
+    outline: none;
+}
+
+#closePopup:hover, #closePopup:focus {
+    background: #c82333;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+    transform: scale(1.08);
+}
+@media (max-width: 700px) {
+    .popup-content {
+        width: 98vw;
+        padding: 1rem;
+    }
+}
+
+#todaysUpdatesTable tr td:nth-child(1) {
+    white-space: nowrap;
+}

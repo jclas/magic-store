@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 18 18'><text x='0' y='14'>🔮</text></svg>" />
+    <link href="./bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="magic-store.css" rel="stylesheet" />
+    <script src="./bootstrap/bootstrap.min.js"></script>
+    <script src="magic-store.js"></script>
+    <!-- The following scripts update likability scores -->
+    <script src="likability.js"></script>
+    <script src="update-spell-likability.js"></script>
+    <script src="update-scroll-likability.js"></script>
+    <script src="update-magic-item-likability.js"></script>
+    <title>Magic Store Inventory</title>
+</head>
+<body>
+<main>
+    <!-- 🧙🏻🧙🏻‍♀️🔮🪄 -->
+    <h1>🧙🏻Welcome to the Magic Store</h1>
+    <div class="mb-2 d-flex align-items-center gap-2">
+        <input type="file" id="inventoryFileInput" accept=".json" style="display:none;" />
+        <label for="inventoryFileInput" class="btn btn-outline-primary mb-0" id="inventoryFileLabel" tabindex="0" style="cursor:pointer;">Load Inventory File 🪄</label>
+        <button id="btnTodaysUpdates" class="btn btn-outline-primary">Today's Updates 🪄</button>
+    </div>
+
+<div id="updatePopup" class="popup" style="display:none;">
+    <div class="popup-content">
+        <span class="close" id="closePopup" aria-label="Close">&times;</span>
+        <h2>Inventory Updates</h2>
+        <div id="inventoryUpdates">
+            <div class="mb-2">
+                <label>
+                    Number of new magic items from suppliers: 
+                    <input type="number" id="arrivalsInput" min="1" max="100" value="10" style="width:60px;">
+                </label>
+            </div>
+            <div class="mb-2">
+                <label>
+                    Number of random magic items sold: 
+                    <input type="number" id="salesInput" min="0" max="100" value="9" style="width:60px;">
+                </label>
+            </div>
+            <button id="btnGenerateUpdates" class="btn btn-secondary mb-2">Generate Today's Updates</button>
+            <div id="todaysUpdatesTable"></div>
+        </div>
+        <button id="btnSaveTodaysUpdates">Save Updates</button>
+    </div>
+</div>
+
+</main>
+
+<script>
+// updateSpellLikability();
+// updateScrollLikability();
+// updateMagicItemLikability();
+
+
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+Spell 	Lvl 	School 	Casting Time 	Range 	V,S,M 	Concentration 	Ritual 
+Abi-Dalzim's Horrid Wilting	8	necromancy	1 action	150 ft	V,S,M		
+Absorb Elements	1	abjuration	1 reaction	Self	S		
+Aganazzar's Scorcher	2	evocation	1 action	30 ft	V,S,M		
+Beast Bond	1	divination	1 action	Touch	V,S,M	Concentration	
+Blade of Disaster	9	conjuration	1 bonus action	60 ft	V,S	Concentration	
+Bones of the Earth	6	transmutation	1 action	120 ft	V,S		
+Booming Blade	0	evocation	1 action	Self (5-ft radius)	V,M		
+Catapult	1	transmutation	1 action	60 ft	S		
+Catnap	3	enchantment	1 action	30 ft	S,M		
+Cause Fear	1	necromancy	1 action	60 ft	V	Concentration	
+Ceremony	1	abjuration	1 hour	Touch	V,S,M		Ritual
+Chaos Bolt	1	evocation	1 action	120 ft	V,S		
+Charm Monster	4	enchantment	1 action	30 ft	V,S		
+Control Flames	0	transmutation	1 action	60 ft	S		
+Control Winds	5	transmutation	1 action	300 ft	V,S	Concentration	
+Create Bonfire	0	conjuration	1 action	60 ft	V,S	Concentration	
+Create Homunculus	6	transmutation	1 hour	Touch	V,S,M		
+Crown of Stars	7	evocation	1 action	Self	V,S		
+Danse Macabre	5	necromancy	1 action	60 ft	V,S	Concentration	
+Dawn	5	evocation	1 action	60 ft	V,S,M	Concentration	
+Dragon's Breath	2	transmutation	1 bonus action	Touch	V,S,M	Concentration	
+Dream of the Blue Veil	7	conjuration	10 minutes	20 ft	V,S,M		
+Druid Grove	6	abjuration	10 minutes	Touch	V,S,M		
+Dust Devil	2	conjuration	1 action	60 ft	V,S,M	Concentration	
+Earth Tremor	1	evocation	1 action	10 ft	V,S		
+Earthbind	2	transmutation	1 action	300 ft	V	Concentration	
+Elemental Bane	4	transmutation	1 action	90 ft	V,S	Concentration	
+Enemies Abound	3	enchantment	1 action	120 ft	V,S	Concentration	
+Enervation	5	necromancy	1 action	60 ft	V,S	Concentration	
+Erupting Earth	3	transmutation	1 action	120 ft	V,S,M		
+Far Step	5	conjuration	1 bonus action	Self	V	Concentration	
+Find Greater Steed	4	conjuration	10 minutes	30 ft	V,S		
+Flame Arrows	3	transmutation	1 action	Touch	V,S	Concentration	
+Frostbite	0	evocation	1 action	60 ft	V,S		
+Green-Flame Blade	0	evocation	1 action	Self (5-ft radius)	V,M		
+Guardian of Nature	4	transmutation	1 bonus action	Self	V	Concentration	
+Gust	0	transmutation	1 action	30 ft	V,S		
+Healing Spirit	2	conjuration	1 bonus action	60 ft	V,S	Concentration	
+Holy Weapon	5	evocation	1 bonus action	Touch	V,S	Concentration	
+Ice Knife	1	conjuration	1 action	60 ft	S,M		
+Illusory Dragon	8	illusion	1 action	120 ft	S	Concentration	
+Immolation	5	evocation	1 action	90 ft	V	Concentration	
+Infernal Calling	5	conjuration	1 minute	90 ft	V,S,M	Concentration	
+Infestation	0	conjuration	1 action	30 ft	V,S,M		
+Intellect Fortress	3	abjuration	1 action	30 ft	V	Concentration	
+Investiture of Flame	6	transmutation	1 action	Self	V,S	Concentration	
+Investiture of Ice	6	transmutation	1 action	Self	V,S	Concentration	
+Investiture of Stone	6	transmutation	1 action	Self	V,S	Concentration	
+Investiture of Wind	6	transmutation	1 action	Self	V,S	Concentration	
+Invulnerability	9	abjuration	1 action	Self	V,S,M	Concentration	
+Life Transference	3	necromancy	1 action	30 ft	V,S		
+Lightning Lure	0	evocation	1 action	Self (15-ft radius)	V		
+Maddening Darkness	8	evocation	1 action	150 ft	V,M	Concentration	
+Maelstrom	5	evocation	1 action	120 ft	V,S,M	Concentration	
+Magic Stone	0	transmutation	1 bonus action	Touch	V,S		
+Mass Polymorph	9	transmutation	1 action	120 ft	V,S,M	Concentration	
+Maximilian's Earthen Grasp	2	transmutation	1 action	30 ft	V,S,M	Concentration	
+Melf's Minute Meteors	3	evocation	1 action	Self	V,S,M	Concentration	
+Mental Prison	6	illusion	1 action	60 ft	S	Concentration	
+Mighty Fortress	8	conjuration	1 minute	1 mile	V,S,M		
+Mind Sliver	0	enchantment	1 action	60 ft	V		
+Mind Spike	2	divination	1 action	60 ft	S	Concentration	
+Mold Earth	0	transmutation	1 action	30 ft	S		
+Negative Energy Flood	5	necromancy	1 action	60 ft	V,M		
+Power Word Pain	7	enchantment	1 action	60 ft	V		
+Primal Savagery	0	transmutation	1 action	Self	S		
+Primordial Ward	6	abjuration	1 action	Self	V,S	Concentration	
+Psychic Scream	9	enchantment	1 action	90 ft	S		
+Pyrotechnics	2	transmutation	1 action	60 ft	V,S		
+Scatter	6	conjuration	1 action	30 ft	V		
+Shadow Blade	2	illusion	1 bonus action	Self	V,S	Concentration	
+Shadow of Moil	4	necromancy	1 action	Self	V,S,M	Concentration	
+Shape Water	0	transmutation	1 action	30 ft	S		
+Sickening Radiance	4	evocation	1 action	120 ft	V,S	Concentration	
+Skill Empowerment	5	transmutation	1 action	Touch	V,S	Concentration	
+Skywrite	2	transmutation	1 action	Sight	V,S	Concentration	Ritual
+Snare	1	abjuration	1 minute	Touch	S,M		
+Snilloc's Snowball Swarm	2	evocation	1 action	90 ft	V,S,M		
+Soul Cage	6	necromancy	1 reaction	60 ft	V,S,M		
+Spirit Shroud	3	necromancy	1 bonus action	Self	V,S	Concentration	
+Steel Wind Strike	5	conjuration	1 action	30 ft	S,M		
+Storm Sphere	4	evocation	1 action	150 ft	V,S	Concentration	
+Summon Aberration	4	conjuration	1 action	90 ft	V,S,M	Concentration	
+Summon Beast	2	conjuration	1 action	90 ft	V,S,M	Concentration	
+Summon Celestial	5	conjuration	1 action	90 ft	V,S,M	Concentration	
+Summon Construct	4	conjuration	1 action	90 ft	V,S,M	Concentration	
+Summon Elemental	4	conjuration	1 action	90 ft	V,S,M	Concentration	
+Summon Fey	3	conjuration	1 action	90 ft	V,S,M	Concentration	
+Summon Fiend	6	conjuration	1 action	90 ft	V,S,M	Concentration	
+Summon Greater Demon	4	conjuration	1 action	60 ft	V,S,M	Concentration	
+Summon Lesser Demons	3	conjuration	1 action	60 ft	V,S,M	Concentration	
+Summon Shadowspawn	3	conjuration	1 action	90 ft	V,S,M	Concentration	
+Summon Undead	3	necromancy	1 action	90 ft	V,S,M	Concentration	
+Sword Burst	0	conjuration	1 action	Self (5-ft radius)	V		
+Synaptic Static	5	enchantment	1 action	120 ft	V,S		
+Tasha's Caustic Brew	1	evocation	1 action	Self (30-ft line)	V,S,M	Concentration	
+Tasha's Mind Whip	2	enchantment	1 action	90 ft	V		
+Tasha's Otherworldly Guise	6	transmutation	1 bonus action	Self	V,S,M	Concentration	
+Temple of the Gods	7	conjuration	1 hour	120 ft	V,S,M		
+Tenser's Transformation	6	transmutation	1 action	Self	V,S,M	Concentration	
+Thunder Step	3	conjuration	1 action	90 ft	V		
+Thunderclap	0	evocation	1 action	5 ft	S		
+Tidal Wave	3	conjuration	1 action	120 ft	V,S,M		
+Tiny Servant	3	transmutation	1 minute	Touch	V,S		
+Toll the Dead	0	necromancy	1 action	60 ft	V,S		
+Transmute Rock	5	transmutation	1 action	120 ft	V,S,M		
+Vitriolic Sphere	4	evocation	1 action	150 ft	V,S,M		
+Wall of Light	5	evocation	1 action	120 ft	V,S,M	Concentration	
+Wall of Sand	3	evocation	1 action	90 ft	V,S,M	Concentration	
+Wall of Water	3	evocation	1 action	60 ft	V,S,M	Concentration	
+Warding Wind	2	evocation	1 action	Self	V	Concentration	
+Watery Sphere	4	conjuration	1 action	90 ft	V,S,M	Concentration	
+Whirlwind	7	evocation	1 action	300 ft	V,M	Concentration	
+Word of Radiance	0	evocation	1 action	5 ft	V,M		
+Wrath of Nature	5	evocation	1 action	120 ft	V,S	Concentration	
+Zephyr Strike	1	transmutation	1 bonus action	Self	V	Concentration	

@@ -1,0 +1,392 @@
+Spell 	Lvl 	School 	Casting Time 	Range 	Duration 	V,S,M 	Concentration 	Ritual 
+Acid Splash	0	Evocation	Action	60 ft	Instantaneous	V,S		
+Aid	2	Abjuration	Action	30 ft	8 hours	V,S,M		
+Alarm	1	Abjuration	1 minute	30 ft	8 hours	V,S,M		Ritual
+Alter Self	2	Transmutation	Action	Self	1 hour	V,S	Concentration	
+Animal Friendship	1	Enchantment	Action	30 ft	24 hours	V,S,M		
+Animal Messenger	2	Enchantment	Action	30 ft	24 hours	V,S,M		Ritual
+Animal Shapes	8	Transmutation	Action	30 ft	24 hours	V,S		
+Animate Dead	3	Necromancy	1 minute	10 ft	Instantaneous	V,S,M		
+Animate Objects	5	Transmutation	Action	120 ft	1 minute		Concentration	
+Antilife Shell	5	Abjuration	Action	Self	1 hour		Concentration	
+Antimagic Field	8	Abjuration	Action	Self	1 hour	V,S,M	Concentration	
+Antipathy/Sympathy	8	Enchantment	1 hour	60 ft	10 days	V,S,M		
+Arcane Eye	4	Divination	Action	30 ft	1 hour	V,S,M	Concentration	
+Arcane Gate	6	Conjuration	Action	500 ft	10 minutes		Concentration	
+Arcane Lock	2	Abjuration	Action	Touch	Dispelled	V,S,M		
+Arcane Vigor	2	Abjuration	Bonus Action	Self	Instantaneous	V,S		
+Armor of Agathys	1	Abjuration	Bonus Action	Self	1 hour	V,S,M		
+Arms of Hadar	1	Conjuration	Action	Self	Instantaneous	V,S		
+Astral Projection	9	Necromancy	1 hour	10 ft	Dispelled	V,S,M		
+Augury	2	Divination	1 minute	Self	Instantaneous	V,S,M		Ritual
+Aura of Life	4	Abjuration	Action	Self	10 minutes	V	Concentration	
+Aura of Purity	4	Abjuration	Action	Self	10 minutes	V	Concentration	
+Aura of Vitality	3	Abjuration	Action	Self	1 minute	V	Concentration	
+Awaken	5	Transmutation	8 hours	Touch	Instantaneous			
+Bane	1	Enchantment	Action	30 ft	1 minute	V,S,M	Concentration	
+Banishing Smite	5	Conjuration	Bonus Action	Self	1 minute		Concentration	
+Banishment	4	Abjuration	Action	30 ft	1 minute	V,S,M	Concentration	
+Barkskin	2	Transmutation	Bonus Action	Touch	1 hour	V,S,M		
+Beacon of Hope	3	Abjuration	Action	30 ft	1 minute	V,S	Concentration	
+Beast Sense	2	Divination	Action	Touch	1 hour	S	Concentration	Ritual
+Befuddlement	8	Enchantment	Action	150 ft	Instantaneous	V,S,M		
+Bestow Curse	3	Necromancy	Action	Touch	1 minute	V,S	Concentration	
+Bigby's Hand	5	Evocation	Action	120 ft	1 minute		Concentration	
+Blade Barrier	6	Evocation	Action	90 ft	10 minutes		Concentration	
+Blade Ward	0	Abjuration	Action	Self	1 minute	V,S	Concentration	
+Bless	1	Enchantment	Action	30 ft	1 minute	V,S,M	Concentration	
+Blight	4	Necromancy	Action	30 ft	Instantaneous	V,S		
+Blinding Smite	3	Evocation	Bonus Action	Self	1 minute	V		
+Blindness/Deafness	2	Transmutation	Action	120 ft	1 minute	V		
+Blink	3	Transmutation	Action	Self	1 minute	V,S		
+Blur	2	Illusion	Action	Self	1 minute	V	Concentration	
+Burning Hands	1	Evocation	Action	Self	Instantaneous	V,S		
+Call Lightning	3	Conjuration	Action	120 ft	10 minutes	V,S	Concentration	
+Calm Emotions	2	Enchantment	Action	60 ft	1 minute	V,S	Concentration	
+Chain Lightning	6	Evocation	Action	150 ft	Instantaneous			
+Charm Monster	4	Enchantment	Action	30 ft	1 hour	V,S		
+Charm Person	1	Enchantment	Action	30 ft	1 hour	V,S		
+Chill Touch	0	Necromancy	Action	Touch	Instantaneous	V,S		
+Chromatic Orb	1	Evocation	Action	90 ft	Instantaneous	V,S,M		
+Circle of Death	6	Necromancy	Action	150 ft	Instantaneous			
+Circle of Power	5	Abjuration	Action	Self	10 minutes		Concentration	
+Clairvoyance	3	Divination	10 minutes	1 mile	10 minutes	V,S,M	Concentration	
+Clone	8	Necromancy	1 hour	Touch	Instantaneous	V,S,M		
+Cloud of Daggers	2	Conjuration	Action	60 ft	1 minute	V,S,M	Concentration	
+Cloudkill	5	Conjuration	Action	120 ft	10 minutes		Concentration	
+Color Spray	1	Illusion	Action	Self	Instantaneous	V,S,M		
+Command	1	Enchantment	Action	60 ft	Instantaneous	V		
+Commune	5	Divination	1 minute	Self	1 minute			Ritual
+Commune with Nature	5	Divination	1 minute	Self	Instantaneous			Ritual
+Compelled Duel	1	Enchantment	Bonus Action	30 ft	1 minute	V	Concentration	
+Comprehend Languages	1	Divination	Action	Self	1 hour	V,S,M		Ritual
+Compulsion	4	Enchantment	Action	30 ft	1 minute	V,S	Concentration	
+Cone of Cold	5	Evocation	Action	Self	Instantaneous			
+Confusion	4	Enchantment	Action	90 ft	1 minute	V,S,M	Concentration	
+Conjure Animals	3	Conjuration	Action	60 ft	10 minutes	V,S	Concentration	
+Conjure Barrage	3	Conjuration	Action	Self	Instantaneous	V,S,M		
+Conjure Celestial	7	Conjuration	Action	90 ft	10 minutes	V,S	Concentration	
+Conjure Elemental	5	Conjuration	Action	60 ft	10 minutes		Concentration	
+Conjure Fey	6	Conjuration	Action	60 ft	10 minutes		Concentration	
+Conjure Minor Elementals	4	Conjuration	Action	Self	10 minutes	V,S	Concentration	
+Conjure Volley	5	Conjuration	Action	150 ft	Instantaneous			
+Conjure Woodland Beings	4	Conjuration	Action	Self	10 minutes	V,S	Concentration	
+Contact Other Plane	5	Divination	1 minute	Self	1 minute			Ritual
+Contagion	5	Necromancy	Action	Touch	7 days			
+Contingency	6	Abjuration	10 minutes	Self	10 days			
+Continual Flame	2	Evocation	Action	Touch	Dispelled	V,S,M		
+Control Water	4	Transmutation	Action	300 ft	10 minutes	V,S,M	Concentration	
+Control Weather	8	Transmutation	10 minutes	Self	8 hours	V,S,M	Concentration	
+Cordon of Arrows	2	Transmutation	Action	Touch	8 hours	V,S,M		
+Counterspell	3	Abjuration	Reaction	60 ft	Instantaneous	S		
+Create Food and Water	3	Conjuration	Action	30 ft	Instantaneous	V,S		
+Create or Destroy Water	1	Transmutation	Action	30 ft	Instantaneous	V,S,M		
+Create Undead	6	Necromancy	1 minute	10 ft	Instantaneous			
+Creation	5	Illusion	1 minute	30 ft	Special			
+Crown of Madness	2	Enchantment	Action	120 ft	1 minute	V,S	Concentration	
+Crusader's Mantle	3	Evocation	Action	Self	1 minute	V	Concentration	
+Cure Wounds	1	Abjuration	Action	Touch	Instantaneous	V,S		
+Dancing Lights	0	Illusion	Action	120 ft	1 minute	V,S,M	Concentration	
+Darkness	2	Evocation	Action	60 ft	10 minutes	V,M	Concentration	
+Darkvision	2	Transmutation	Action	Touch	8 hours	V,S,M		
+Daylight	3	Evocation	Action	60 ft	1 hour	V,S		
+Death Ward	4	Abjuration	Action	Touch	8 hours	V,S		
+Delayed Blast Fireball	7	Evocation	Action	150 ft	1 minute	V,S,M	Concentration	
+Demiplane	8	Conjuration	Action	60 ft	1 hour	S		
+Destructive Wave	5	Evocation	Action	Self	Instantaneous	V		
+Detect Evil and Good	1	Divination	Action	Self	10 minutes	V,S	Concentration	
+Detect Magic	1	Divination	Action	Self	10 minutes	V,S	Concentration	Ritual
+Detect Poison and Disease	1	Divination	Action	Self	10 minutes	V,S,M	Concentration	Ritual
+Detect Thoughts	2	Divination	Action	Self	1 minute	V,S,M	Concentration	
+Dimension Door	4	Conjuration	Action	500 ft	Instantaneous	V		
+Disguise Self	1	Illusion	Action	Self	1 hour	V,S		
+Disintegrate	6	Transmutation	Action	60 ft	Instantaneous			
+Dispel Evil and Good	5	Abjuration	Action	Self	1 minute		Concentration	
+Dispel Magic	3	Abjuration	Action	120 ft	Instantaneous	V,S		
+Dissonant Whispers	1	Enchantment	Action	60 ft	Instantaneous	V		
+Divination	4	Divination	Action	Self	Instantaneous	V,S,M		Ritual
+Divine Favor	1	Transmutation	Bonus Action	Self	1 minute	V,S		
+Divine Smite	1	Evocation	Bonus Action	Self	Instantaneous	V		
+Divine Word	7	Evocation	Bonus Action	30 ft	Instantaneous	V		
+Dominate Beast	4	Enchantment	Action	60 ft	1 minute	V,S	Concentration	
+Dominate Monster	8	Enchantment	Action	60 ft	1 hour	V,S	Concentration	
+Dominate Person	5	Enchantment	Action	60 ft	1 minute		Concentration	
+Dragon's Breath	2	Transmutation	Bonus Action	Touch	1 minute	V,S,M	Concentration	
+Drawmij's Instant Summons	6	Conjuration	1 minute	Touch	Dispelled			Ritual
+Dream	5	Illusion	1 minute	Special	8 hours			
+Druidcraft	0	Transmutation	Action	30 ft	Instantaneous	V,S		
+Earthquake	8	Transmutation	Action	500 ft	1 minute	V,S,M	Concentration	
+Eldritch Blast	0	Evocation	Action	120 ft	Instantaneous	V,S		
+Elemental Weapon	3	Transmutation	Action	Touch	1 hour	V,S	Concentration	
+Elementalism	0	Transmutation	Action	30 ft	Instantaneous	V,S		
+Enhance Ability	2	Transmutation	Action	Touch	1 hour	V,S,M	Concentration	
+Enlarge/Reduce	2	Transmutation	Action	30 ft	1 minute	V,S,M	Concentration	
+Ensnaring Strike	1	Conjuration	Bonus Action	Self	1 minute	V	Concentration	
+Entangle	1	Conjuration	Action	90 ft	1 minute	V,S	Concentration	
+Enthrall	2	Enchantment	Action	60 ft	1 minute	V,S	Concentration	
+Etherealness	7	Conjuration	Action	Self	8 hours	V,S		
+Evard's Black Tentacles	4	Conjuration	Action	90 ft	1 minute	V,S,M	Concentration	
+Expeditious Retreat	1	Transmutation	Bonus Action	Self	10 minutes	V,S	Concentration	
+Eyebite	6	Necromancy	Action	Self	1 minute		Concentration	
+Fabricate	4	Transmutation	10 minutes	120 ft	Instantaneous	V,S		
+Faerie Fire	1	Evocation	Action	60 ft	1 minute	V	Concentration	
+False Life	1	Necromancy	Action	Self	Instantaneous	V,S,M		
+Fear	3	Illusion	Action	Self	1 minute	V,S,M	Concentration	
+Feather Fall	1	Transmutation	Reaction	60 ft	1 minute	V,M		
+Feign Death	3	Necromancy	Action	Touch	1 hour	V,S,M		Ritual
+Find Familiar	1	Conjuration	1 hour	10 ft	Instantaneous	V,S,M		Ritual
+Find Steed	2	Conjuration	Action	30 ft	Instantaneous	V,S		
+Find the Path	6	Divination	1 minute	Self	1 day		Concentration	
+Find Traps	2	Divination	Action	120 ft	Instantaneous	V,S		
+Finger of Death	7	Necromancy	Action	60 ft	Instantaneous	V,S		
+Fire Bolt	0	Evocation	Action	120 ft	Instantaneous	V,S		
+Fire Shield	4	Evocation	Action	Self	10 minutes	V,S,M		
+Fire Storm	7	Evocation	Action	150 ft	Instantaneous	V,S		
+Fireball	3	Evocation	Action	150 ft	Instantaneous	V,S,M		
+Flame Blade	2	Evocation	Bonus Action	Self	10 minutes	V,S,M	Concentration	
+Flame Strike	5	Evocation	Action	60 ft	Instantaneous			
+Flaming Sphere	2	Conjuration	Action	60 ft	1 minute	V,S,M	Concentration	
+Flesh to Stone	6	Transmutation	Action	60 ft	1 minute		Concentration	
+Fly	3	Transmutation	Action	Touch	10 minutes	V,S,M	Concentration	
+Fog Cloud	1	Conjuration	Action	120 ft	1 hour	V,S	Concentration	
+Forbiddance	6	Abjuration	10 minutes	Touch	1 day			Ritual
+Forcecage	7	Evocation	Action	100 ft	1 hour	V,S,M	Concentration	
+Foresight	9	Divination	1 minute	Touch	8 hours	V,S,M		
+Fount of Moonlight	4	Evocation	Action	Self	10 minutes	V,S	Concentration	
+Freedom of Movement	4	Abjuration	Action	Touch	1 hour	V,S,M		
+Friends	0	Enchantment	Action	10 ft	1 minute	S,M	Concentration	
+Gaseous Form	3	Transmutation	Action	Touch	1 hour	V,S,M	Concentration	
+Gate	9	Conjuration	Action	60 ft	1 minute	V,S,M	Concentration	
+Geas	5	Enchantment	1 minute	60 ft	30 days			
+Gentle Repose	2	Necromancy	Action	Touch	10 days	V,S,M		Ritual
+Giant Insect	4	Conjuration	Action	60 ft	10 minutes	V,S	Concentration	
+Glibness	8	Enchantment	Action	Self	1 hour	V		
+Globe of Invulnerability	6	Abjuration	Action	Self	1 minute		Concentration	
+Glyph of Warding	3	Abjuration	1 hour	Touch	Dispelled/Triggered	V,S,M		
+Goodberry	1	Conjuration	Action	Self	24 hours	V,S,M		
+Grasping Vine	4	Conjuration	Bonus Action	60 ft	1 minute	V,S	Concentration	
+Grease	1	Conjuration	Action	60 ft	1 minute	V,S,M		
+Greater Invisibility	4	Illusion	Action	Touch	1 minute	V,S	Concentration	
+Greater Restoration	5	Abjuration	Action	Touch	Instantaneous			
+Guardian of Faith	4	Conjuration	Action	30 ft	8 hours	V		
+Guards and Wards	6	Abjuration	1 hour	Touch	24 hours			
+Guidance	0	Divination	Action	Touch	1 minute	V,S	Concentration	
+Guiding Bolt	1	Evocation	Action	120 ft	1 round	V,S		
+Gust of Wind	2	Evocation	Action	Self	1 minute	V,S,M	Concentration	
+Hail of Thorns	1	Conjuration	Bonus Action	Self	Instantaneous	V		
+Hallow	5	Abjuration	24 hours	Touch	Dispelled			
+Hallucinatory Terrain	4	Illusion	10 minutes	300 ft	24 hours	V,S,M		
+Harm	6	Necromancy	Action	60 ft	Instantaneous			
+Haste	3	Transmutation	Action	30 ft	1 minute	V,S,M	Concentration	
+Heal	6	Abjuration	Action	60 ft	Instantaneous			
+Healing Word	1	Abjuration	Bonus Action	60 ft	Instantaneous	V		
+Heat Metal	2	Transmutation	Action	60 ft	1 minute	V,S,M	Concentration	
+Hellish Rebuke	1	Evocation	Reaction	60 ft	Instantaneous	V,S		
+Heroes' Feast	6	Conjuration	10 minutes	Self	Instantaneous			
+Heroism	1	Enchantment	Action	Touch	1 minute	V,S	Concentration	
+Hex	1	Enchantment	Bonus Action	90 ft	1 hour	V,S,M	Concentration	
+Hold Monster	5	Enchantment	Action	90 ft	1 minute		Concentration	
+Hold Person	2	Enchantment	Action	60 ft	1 minute	V,S,M	Concentration	
+Holy Aura	8	Abjuration	Action	Self	1 minute	V,S,M	Concentration	
+Hunger of Hadar	3	Conjuration	Action	150 ft	1 minute	V,S,M	Concentration	
+Hunter's Mark	1	Divination	Bonus Action	90 ft	1 hour	V	Concentration	
+Hypnotic Pattern	3	Illusion	Action	120 ft	1 minute	S,M	Concentration	
+Ice Knife	1	Conjuration	Action	60 ft	Instantaneous	S,M		
+Ice Storm	4	Evocation	Action	300 ft	Instantaneous	V,S,M		
+Identify	1	Divination	1 minute	Touch	Instantaneous	V,S,M		Ritual
+Illusory Script	1	Illusion	1 minute	Touch	10 days	S,M		Ritual
+Imprisonment	9	Abjuration	1 minute	30 ft	Dispelled	V,S,M		
+Incendiary CLoud	8	Conjuration	Action	150 ft	1 minute	V,S	Concentration	
+Inflict Wounds	1	Necromancy	Action	Touch	Instantaneous	V,S		
+Insect Plague	5	Conjuration	Action	300 ft	10 minutes		Concentration	
+Invisibility	2	Illusion	Action	Touch	1 hour	V,S,M	Concentration	
+Jallarzi's Storm of Radiance	5	Evocation	Action	120 ft	1 minute		Concentration	
+Jump	1	Transmutation	Bonus Action	Touch	1 minute	V,S,M		
+Knock	2	Transmutation	Action	60 ft	Instantaneous	V		
+Legend Lore	5	Divination	10 minutes	Self	Instantaneous			
+Leomund's Secret Chest	4	Conjuration	Action	Touch	Instantaneous	V,S,M		
+Leomund's Tiny Hut	3	Evocation	1 minute	Self	8 hours	V,S,M		Ritual
+Lesser Restoration	2	Abjuration	Bonus Action	Touch	Instantaneous	V,S		
+Levitate	2	Transmutation	Action	60 ft	10 minutes	V,S,M	Concentration	
+Light	0	Evocation	Action	Touch	1 hour	V,M		
+Lightning Arrow	3	Transmutation	Bonus Action	Self	Instantaneous	V,S		
+Lightning Bolt	3	Evocation	Action	Self	Instantaneous	V,S,M		
+Locate Animals or Plants	2	Divination	Action	Self	Instantaneous	V,S,M		Ritual
+Locate Creature	4	Divination	Action	Self	1 hour	V,S,M	Concentration	
+Locate Object	2	Divination	Action	Self	10 minutes	V,S,M	Concentration	
+Longstrider	1	Transmutation	Action	Touch	1 hour	V,S,M		
+Mage Armor	1	Abjuration	Action	Touch	8 hours	V,S,M		
+Mage Hand	0	Conjuration	Action	30 ft	1 minute	V,S		
+Magic Circle	3	Abjuration	1 minute	10 ft	1 hour	V,S,M		
+Magic Jar	6	Necromancy	1 minute	Self	Dispelled			
+Magic Missile	1	Evocation	Action	120 ft	Instantaneous	V,S		
+Magic Mouth	2	Illusion	1 minute	30 ft	Dispelled	V,S,M		Ritual
+Magic Weapon	2	Transmutation	Bonus Action	Touch	1 hour	V,S		
+Major Image	3	Illusion	Action	120 ft	10 minutes	V,S,M	Concentration	
+Mass Cure Wounds	5	Abjuration	Action	60 ft	Instantaneous			
+Mass Heal	9	Abjuration	Action	60 ft	Instantaneous	V,S		
+Mass Healing Word	3	Abjuration	Bonus Action	60 ft	Instantaneous	V		
+Mass Suggestion	6	Enchantment	Action	60 ft	24 hours			
+Maze	8	Conjuration	Action	60 ft	10 minutes	V,S	Concentration	
+Meld into Stone	3	Transmutation	Action	Touch	8 hours	V,S		Ritual
+Melf's Acid Arrow	2	Evocation	Action	90 ft	Instantaneous	V,S,M		
+Mending	0	Transmutation	1 minute	Touch	Instantaneous	V,S,M		
+Message	0	Transmutation	Action	120 ft	1 round	S,M		
+Meteor Swarm	9	Evocation	Action	1 mile	Instantaneous	V,S		
+Mind Blank	8	Abjuration	Action	Touch	24 hours	V,S		
+Mind Sliver	0	Enchantment	Action	60 ft	1 round	V		
+Mind Spike	2	Divination	Action	120 ft	1 hour	S	Concentration	
+Minor Illusion	0	Illusion	Action	30 ft	1 minute	S,M		
+Mirage Arcane	7	Illusion	10 minutes	Sight	10 days	V,S		
+Mirror Image	2	Illusion	Action	Self	1 minute	V,S		
+Mislead	5	Illusion	Action	Self	1 hour		Concentration	
+Misty Step	2	Conjuration	Bonus Action	Self	Instantaneous	V		
+Modify Memory	5	Enchantment	Action	30 ft	1 minute		Concentration	
+Moonbeam	2	Evocation	Action	120 ft	1 minute	V,S,M	Concentration	
+Mordenkainen's Faithful Hound	4	Conjuration	Action	30 ft	8 hours	V,S,M		
+Mordenkainen's Magnificent Mansion	7	Conjuration	1 minute	300 ft	24 hours	V,S,M		
+Mordenkainen's Private Sanctum	4	Abjuration	10 minutes	120 ft	24 hours	V,S,M		
+Mordenkainen's Sword	7	Evocation	Action	90 ft	1 minute	V,S,M	Concentration	
+Move Earth	6	Transmutation	Action	120 ft	2 hours		Concentration	
+Nondetection	3	Abjuration	Action	Touch	8 hours	V,S,M		
+Nystul's Magic Aura	2	Illusion	Action	Touch	24 hours	V,S,M		
+Otiluke's Freezing Sphere	6	Evocation	Action	300 ft	Instantaneous			
+Otiluke's Resilient Sphere	4	Evocation	Action	30 ft	1 minute	V,S,M	Concentration	
+Otto's Irresistible Dance	6	Enchantment	Action	30 ft	1 minute		Concentration	
+Pass without Trace	2	Abjuration	Action	Self	1 hour	V,S,M	Concentration	
+Passwall	5	Transmutation	Action	30 ft	1 hour			
+Phantasmal Force	2	Illusion	Action	60 ft	1 minute	V,S,M	Concentration	
+Phantasmal Killer	4	Illusion	Action	120 ft	1 minute	V,S	Concentration	
+Phantom Steed	3	Illusion	1 minute	30 ft	1 hour	V,S		Ritual
+Planar Ally	6	Conjuration	10 minutes	60 ft	Instantaneous			
+Planar Binding	5	Abjuration	1 hour	60 ft	24 hours			
+Plane Shift	7	Conjuration	Action	Touch	Instantaneous	V,S,M		
+Plant Growth	3	Transmutation	Action or 8 hours	150 ft	Instantaneous	V,S		
+Poison Spray	0	Necromancy	Action	30 ft	Instantaneous	V,S		
+Polymorph	4	Transmutation	Action	60 ft	1 hour	V,S,M	Concentration	
+Power Word Fortify	7	Enchantment	Action	60 ft	Instantaneous	V		
+Power Word Heal	9	Enchantment	Action	60 ft	Instantaneous	V		
+Power Word Kill	9	Enchantment	Action	60 ft	Instantaneous	V		
+Power Word Stun	8	Enchantment	Action	60 ft	Instantaneous	V		
+Prayer of Healing	2	Abjuration	10 minutes	30 ft	Instantaneous	V		
+Prestidigitation	0	Transmutation	Action	10 ft	1 hour	V,S		
+Prismatic Spray	7	Evocation	Action	Self	Instantaneous	V,S		
+Prismatic Wall	9	Abjuration	Action	60 ft	10 minutes	V,S		
+Produce Flame	0	Conjuration	Bonus Action	Self	10 minutes	V,S		
+Programmed Illusion	6	Illusion	Action	120 ft	Dispelled			
+Project Image	7	Illusion	Action	500 miles	1 day	V,S,M	Concentration	
+Protection from Energy	3	Abjuration	Action	Touch	1 hour	V,S	Concentration	
+Protection from Evil and Good	1	Abjuration	Action	Touch	10 minutes	V,S,M	Concentration	
+Protection from Poison	2	Abjuration	Action	Touch	1 hour	V,S		
+Purify Food and Drink	1	Transmutation	Action	10 ft	Instantaneous	V,S		Ritual
+Raise Dead	5	Necromancy	1 hour	Touch	Instantaneous			
+Rary's Telepathic Bond	5	Divination	Action	30 ft	1 hour			Ritual
+Ray of Enfeeblement	2	Necromancy	Action	60 ft	1 minute	V,S	Concentration	
+Ray of Frost	0	Evocation	Action	60 ft	Instantaneous	V,S		
+Ray of Sickness	1	Necromancy	Action	60 ft	Instantaneous	V,S		
+Regenerate	7	Transmutation	1 minute	Touch	1 hour	V,S,M		
+Reincarnate	5	Necromancy	1 hour	Touch	Instantaneous			
+Remove Curse	3	Abjuration	Action	Touch	Instantaneous	V,S		
+Resistance	0	Abjuration	Action	Touch	1 minute	V,S	Concentration	
+Resurrection	7	Necromancy	1 hour	Touch	Instantaneous	V,S,M		
+Reverse Gravity	7	Transmutation	Action	100 ft	1 minute	V,S,M	Concentration	
+Revivify	3	Necromancy	Action	Touch	Instantaneous	V,S,M		
+Rope Trick	2	Transmutation	Action	Touch	1 hour	V,S,M		
+Sacred Flame	0	Evocation	Action	60 ft	Instantaneous	V,S		
+Sanctuary	1	Abjuration	Bonus Action	30 ft	1 minute	V,S,M		
+Scorching Ray	2	Evocation	Action	120 ft	Instantaneous	V,S		
+Scrying	5	Divination	10 minutes	Self	10 minutes		Concentration	
+Searing Smite	1	Evocation	Bonus Action	Self	1 minute	V		
+See Invisibility	2	Divination	Action	Self	1 hour	V,S,M		
+Seeming	5	Illusion	Action	30 ft	8 hours			
+Sending	3	Divination	Action	Unlimited	Instantaneous	V,S,M		
+Sequester	7	Transmutation	Action	Touch	Dispelled	V,S,M		
+Shapechange	9	Transmutation	Action	Self	1 hour	V,S,M	Concentration	
+Shatter	2	Evocation	Action	60 ft	Instantaneous	V,S,M		
+Shield	1	Abjuration	Reaction	Self	1 round	V,S		
+Shield of Faith	1	Abjuration	Bonus Action	60 ft	10 minutes	V,S,M	Concentration	
+Shillelagh	0	Transmutation	Bonus Action	Self	1 minute	V,S,M		
+Shining Smite	2	Transmutation	Bonus Action	Self	1 minute	V	Concentration	
+Shocking Grasp	0	Evocation	Action	Touch	Instantaneous	V,S		
+Silence	2	Illusion	Action	120 ft	10 minutes	V,S	Concentration	Ritual
+Silent Image	1	Illusion	Action	60 ft	10 minutes	V,S,M	Concentration	
+Simulacrum	7	Illusion	12 hours	Touch	Dispelled	V,S,M		
+Sleep	1	Enchantment	Action	60 ft	1 minute	V,S,M	Concentration	
+Sleet Storm	3	Conjuration	Action	150 ft	1 minute	V,S,M	Concentration	
+Slow	3	Transmutation	Action	120 ft	1 minute	V,S,M	Concentration	
+Sorcerous Burst	0	Evocation	Action	120 ft	Instantaneous	V,S		
+Spare the Dying	0	Necromancy	Action	15 ft	Instantaneous	V,S		
+Speak with Animals	1	Divination	Action	Self	10 minutes	V,S		Ritual
+Speak with Dead	3	Necromancy	Action	10 ft	10 minutes	V,S,M		
+Speak with Plants	3	Transmutation	Action	Self	10 minutes	V,S		
+Spider Climb	2	Transmutation	Action	Touch	1 hour	V,S,M	Concentration	
+Spike Growth	2	Transmutation	Action	150 ft	10 minutes	V,S,M	Concentration	
+Spirit Guardians	3	Conjuration	Action	Self	10 minutes	V,S,M	Concentration	
+Spiritual Weapon	2	Evocation	Bonus Action	60 ft	1 minute	V,S	Concentration	
+Staggering Smite	4	Enchantment	Bonus Action	Self	Instantaneous	V		
+Starry Wisp	0	Evocation	Action	60 ft	Instantaneous	V,S		
+Steel Wind Strike	5	Conjuration	Action	30 ft	Instantaneous			
+Stinking Cloud	3	Conjuration	Action	90 ft	1 minute	V,S,M	Concentration	
+Stone Shape	4	Transmutation	Action	Touch	Instantaneous	V,S,M		
+Stoneskin	4	Transmutation	Action	Touch	1 hour	V,S,M	Concentration	
+Storm of Vengeance	9	Conjuration	Action	1 mile	1 minute	V,S	Concentration	
+Suggestion	2	Enchantment	Action	30 ft	8 hours	V,M	Concentration	
+Summon Aberration	4	Conjuration	Action	90 ft	1 hour	V,S,M	Concentration	
+Summon Beast	2	Conjuration	Action	90 ft	1 hour	V,S,M	Concentration	
+Summon Celestial	5	Conjuration	Action	90 ft	1 hour		Concentration	
+Summon Construct	4	Conjuration	Action	90 ft	1 hour	V,S,M	Concentration	
+Summon Dragon	5	Conjuration	Action	60 ft	1 hour		Concentration	
+Summon Elemental	4	Conjuration	Action	90 ft	1 hour	V,S,M	Concentration	
+Summon Fey	3	Conjuration	Action	90 ft	1 hour	V,S,M	Concentration	
+Summon Fiend	6	Conjuration	Action	90 ft	1 hour		Concentration	
+Summon Undead	3	Necromancy	Action	90 ft	1 hour	V,S,M	Concentration	
+Sunbeam	6	Evocation	Action	Self	1 minute		Concentration	
+Sunburst	8	Evocation	Action	150 ft	Instantaneous	V,S,M		
+Swift Quiver	5	Transmutation	Bonus Action	Self	1 minute		Concentration	
+Symbol	7	Abjuration	1 minute	Touch	Dispelled/Triggered	V,S,M		
+Synaptic Static	5	Enchantment	Action	120 ft	Instantaneous			
+Tasha's Bubbling Cauldron	6	Conjuration	Action	5 ft	10 minutes			
+Tasha's Hideous Laughter	1	Enchantment	Action	30 ft	1 minute	V,S,M	Concentration	
+Telekinesis	5	Transmutation	Action	60 ft	10 minutes		Concentration	
+Telepathy	8	Divination	Action	Unlimited	24 hours	V,S,M		
+Teleport	7	Conjuration	Action	10 ft	Instantaneous	V		
+Teleportation Circle	5	Conjuration	1 minute	10 ft	1 round			
+Tenser's Floating Disk	1	Conjuration	Action	30 ft	1 hour	V,S,M		Ritual
+Thaumaturgy	0	Transmutation	Action	30 ft	1 minute	V		
+Thorn Whip	0	Transmutation	Action	30 ft	Instantaneous	V,S,M		
+Thunderclap	0	Evocation	Action	Self	Instantaneous	S		
+Thunderous Smite	1	Evocation	Bonus Action	Self	Instantaneous	V		
+Thunderwave	1	Evocation	Action	Self	Instantaneous	V,S		
+Time Stop	9	Transmutation	Action	Self	Instantaneous	V		
+Toll the Dead	0	Necromancy	Action	60 ft	Instantaneous	V,S		
+Tongues	3	Divination	Action	Touch	1 hour	V,M		
+Transport via Plants	6	Conjuration	Action	10 ft	1 minute			
+Tree Stride	5	Conjuration	Action	Self	1 minute		Concentration	
+True Polymorph	9	Transmutation	Action	30 ft	1 hour	V,S,M	Concentration	
+True Resurrection	9	Necromancy	1 hour	Touch	Instantaneous	V,S,M		
+True Seeing	6	Divination	Action	Touch	1 hour			
+True Strike	0	Divination	Action	Self	Instantaneous	S,M		
+Tsunami	8	Conjuration	1 minute	1 mile	6 rounds	V,S	Concentration	
+Unseen Servant	1	Conjuration	Action	60 ft	1 hour	V,S,M		Ritual
+Vampiric Touch	3	Necromancy	Action	Self	1 minute	V,S	Concentration	
+Vicious Mockery	0	Enchantment	Action	60 ft	Instantaneous	V		
+Vitriolic Sphere	4	Evocation	Action	150 ft	Instantaneous	V,S,M		
+Wall of Fire	4	Evocation	Action	120 ft	1 minute	V,S,M	Concentration	
+Wall of Force	5	Evocation	Action	120 ft	10 minutes		Concentration	
+Wall of Ice	6	Evocation	Action	120 ft	10 minutes		Concentration	
+Wall of Stone	5	Evocation	Action	120 ft	10 minutes		Concentration	
+Wall of Thorns	6	Conjuration	Action	120 ft	10 minutes		Concentration	
+Warding Bond	2	Abjuration	Action	Touch	1 hour	V,S,M		
+Water Breathing	3	Transmutation	Action	30 ft	24 hours	V,S,M		Ritual
+Water Walk	3	Transmutation	Action	30 ft	1 hour	V,S,M		Ritual
+Web	2	Conjuration	Action	60 ft	1 hour	V,S,M	Concentration	
+Weird	9	Illusion	Action	120 ft	1 minute	V,S	Concentration	
+Wind Walk	6	Transmutation	1 minute	30 ft	8 hours			
+Wind Wall	3	Evocation	Action	120 ft	1 minute	V,S,M	Concentration	
+Wish	9	Conjuration	Action	Self	Instantaneous	V		
+Witch Bolt	1	Evocation	Action	60 ft	1 minute	V,S,M	Concentration	
+Word of Radiance	0	Evocation	Action	Self	Instantaneous	V,M		
+Word of Recall	6	Conjuration	Action	5 ft	Instantaneous			
+Wrathful Smite	1	Necromancy	Bonus Action	Self	1 minute	V		
+Yolande's Regal Presence	5	Enchantment	Action	Self	1 minute		Concentration	
+Zone of Truth	2	Enchantment	Action	60 ft	10 minutes	V,S		

@@ -1,0 +1,7696 @@
+[
+  {
+    "name": "Abi-Dalzim's Horrid Wilting",
+    "description": "",
+    "level": 8,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 150"
+  },
+  {
+    "name": "Absorb Elements",
+    "description": "",
+    "level": 1,
+    "castingTime": "Reaction",
+    "concentration": false,
+    "school": "abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 150"
+  },
+  {
+    "name": "Acid Splash",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 239"
+  },
+  {
+    "name": "Aganazzar's Scorcher",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 150"
+  },
+  {
+    "name": "Aid",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "PHB 239"
+  },
+  {
+    "name": "Alarm",
+    "description": "",
+    "level": 1,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "PHB 239"
+  },
+  {
+    "name": "Alter Self",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 239"
+  },
+  {
+    "name": "Animal Friendship",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 239"
+  },
+  {
+    "name": "Animal Messenger",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 240"
+  },
+  {
+    "name": "Animal Shapes",
+    "description": "",
+    "level": 8,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "PHB 240"
+  },
+  {
+    "name": "Animate Dead",
+    "description": "",
+    "level": 3,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "PHB 240"
+  },
+  {
+    "name": "Animate Objects",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 240"
+  },
+  {
+    "name": "Antilife Shell",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "PHB 241"
+  },
+  {
+    "name": "Antimagic Field",
+    "description": "",
+    "level": 8,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "PHB 241"
+  },
+  {
+    "name": "Antipathy/Sympathy",
+    "description": "",
+    "level": 8,
+    "castingTime": "1 hour",
+    "concentration": false,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "PHB 242"
+  },
+  {
+    "name": "Arcane Eye",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Wizard"
+    ],
+    "source": "PHB 242"
+  },
+  {
+    "name": "Arcane Gate",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 242"
+  },
+  {
+    "name": "Arcane Lock",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Wizard"
+    ],
+    "source": "PHB 242"
+  },
+  {
+    "name": "Arcane Vigor",
+    "description": "",
+    "level": 2,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 242"
+  },
+  {
+    "name": "Armor of Agathys",
+    "description": "",
+    "level": 1,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock"
+    ],
+    "source": "PHB 243"
+  },
+  {
+    "name": "Arms of Hadar",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock"
+    ],
+    "source": "PHB 243"
+  },
+  {
+    "name": "Astral Projection",
+    "description": "",
+    "level": 9,
+    "castingTime": "1 hour",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 243"
+  },
+  {
+    "name": "Augury",
+    "description": "",
+    "level": 2,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "PHB 244"
+  },
+  {
+    "name": "Aura of Life",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "PHB 244"
+  },
+  {
+    "name": "Aura of Purity",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "PHB 244"
+  },
+  {
+    "name": "Aura of Vitality",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid",
+      "Paladin"
+    ],
+    "source": "PHB 244"
+  },
+  {
+    "name": "Awaken",
+    "description": "",
+    "level": 5,
+    "castingTime": "8 hours",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid"
+    ],
+    "source": "PHB 244"
+  },
+  {
+    "name": "Bane",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Warlock"
+    ],
+    "source": "PHB 245"
+  },
+  {
+    "name": "Banishing Smite",
+    "description": "",
+    "level": 5,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Paladin"
+    ],
+    "source": "PHB 245"
+  },
+  {
+    "name": "Banishment",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Paladin",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 245"
+  },
+  {
+    "name": "Barkskin",
+    "description": "",
+    "level": 2,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 245"
+  },
+  {
+    "name": "Beacon of Hope",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 245"
+  },
+  {
+    "name": "Beast Bond",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "XGE 150"
+  },
+  {
+    "name": "Beast Sense",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 245"
+  },
+  {
+    "name": "Befuddlement",
+    "description": "",
+    "level": 8,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 245"
+  },
+  {
+    "name": "Bestow Curse",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "PHB 246"
+  },
+  {
+    "name": "Bigby's Hand",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 246"
+  },
+  {
+    "name": "Blade Barrier",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 247"
+  },
+  {
+    "name": "Blade of Disaster",
+    "description": "",
+    "level": 9,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "TCE 106"
+  },
+  {
+    "name": "Blade Ward",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 247"
+  },
+  {
+    "name": "Bless",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "PHB 247"
+  },
+  {
+    "name": "Blight",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 247"
+  },
+  {
+    "name": "Blinding Smite",
+    "description": "",
+    "level": 3,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Paladin"
+    ],
+    "source": "PHB 247"
+  },
+  {
+    "name": "Blindness/Deafness",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 248"
+  },
+  {
+    "name": "Blink",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 248"
+  },
+  {
+    "name": "Blur",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 248"
+  },
+  {
+    "name": "Bones of the Earth",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "XGE 151"
+  },
+  {
+    "name": "Booming Blade",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "TCE 106"
+  },
+  {
+    "name": "Branding Smite",
+    "description": "",
+    "level": 2,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Paladin"
+    ],
+    "source": "PHB2014 219"
+  },
+  {
+    "name": "Burning Hands",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 248"
+  },
+  {
+    "name": "Call Lightning",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "PHB 248"
+  },
+  {
+    "name": "Calm Emotions",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric"
+    ],
+    "source": "PHB 249"
+  },
+  {
+    "name": "Catapult",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 150"
+  },
+  {
+    "name": "Catnap",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 151"
+  },
+  {
+    "name": "Cause Fear",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 151"
+  },
+  {
+    "name": "Ceremony",
+    "description": "",
+    "level": 1,
+    "castingTime": "1 hour",
+    "concentration": false,
+    "school": "abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "XGE 151"
+  },
+  {
+    "name": "Chain Lightning",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 249"
+  },
+  {
+    "name": "Chaos Bolt",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer"
+    ],
+    "source": "XGE 151"
+  },
+  {
+    "name": "Charm Monster",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 249"
+  },
+  {
+    "name": "Charm Person",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 249"
+  },
+  {
+    "name": "Chill Touch",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 249"
+  },
+  {
+    "name": "Chromatic Orb",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 249"
+  },
+  {
+    "name": "Circle of Death",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 250"
+  },
+  {
+    "name": "Circle of Power",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Paladin",
+      "Wizard"
+    ],
+    "source": "PHB 250"
+  },
+  {
+    "name": "Clairvoyance",
+    "description": "",
+    "level": 3,
+    "castingTime": "10 minutes",
+    "concentration": true,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 250"
+  },
+  {
+    "name": "Clone",
+    "description": "",
+    "level": 8,
+    "castingTime": "1 hour",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "PHB 251"
+  },
+  {
+    "name": "Cloud of Daggers",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 251"
+  },
+  {
+    "name": "Cloudkill",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 251"
+  },
+  {
+    "name": "Color Spray",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 251"
+  },
+  {
+    "name": "Command",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "PHB 251"
+  },
+  {
+    "name": "Commune",
+    "description": "",
+    "level": 5,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 252"
+  },
+  {
+    "name": "Commune with Nature",
+    "description": "",
+    "level": 5,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 252"
+  },
+  {
+    "name": "Compelled Duel",
+    "description": "",
+    "level": 1,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Paladin"
+    ],
+    "source": "PHB 252"
+  },
+  {
+    "name": "Comprehend Languages",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 252"
+  },
+  {
+    "name": "Compulsion",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard"
+    ],
+    "source": "PHB 252"
+  },
+  {
+    "name": "Cone of Cold",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 253"
+  },
+  {
+    "name": "Confusion",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 253"
+  },
+  {
+    "name": "Conjure Animals",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 225"
+  },
+  {
+    "name": "Conjure Barrage",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Ranger"
+    ],
+    "source": "PHB 225"
+  },
+  {
+    "name": "Conjure Celestial",
+    "description": "",
+    "level": 7,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 254"
+  },
+  {
+    "name": "Conjure Elemental",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Wizard"
+    ],
+    "source": "PHB 254"
+  },
+  {
+    "name": "Conjure Fey",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "PHB 255"
+  },
+  {
+    "name": "Conjure Minor Elementals",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Wizard"
+    ],
+    "source": "PHB 255"
+  },
+  {
+    "name": "Conjure Volley",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Ranger"
+    ],
+    "source": "PHB 255"
+  },
+  {
+    "name": "Conjure Woodland Beings",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 255"
+  },
+  {
+    "name": "Contact Other Plane",
+    "description": "",
+    "level": 5,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 255"
+  },
+  {
+    "name": "Contagion",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid"
+    ],
+    "source": "PHB 256"
+  },
+  {
+    "name": "Contingency",
+    "description": "",
+    "level": 6,
+    "castingTime": "10 minutes",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "PHB 256"
+  },
+  {
+    "name": "Continual Flame",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "PHB 256"
+  },
+  {
+    "name": "Control Flames",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 152"
+  },
+  {
+    "name": "Control Water",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "PHB 256"
+  },
+  {
+    "name": "Control Weather",
+    "description": "",
+    "level": 8,
+    "castingTime": "10 minutes",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "PHB 257"
+  },
+  {
+    "name": "Control Winds",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 152"
+  },
+  {
+    "name": "Cordon of Arrows",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Ranger"
+    ],
+    "source": "PHB 258"
+  },
+  {
+    "name": "Counterspell",
+    "description": "",
+    "level": 3,
+    "castingTime": "Reaction",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 258"
+  },
+  {
+    "name": "Create Bonfire",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 152"
+  },
+  {
+    "name": "Create Food and Water",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "PHB 258"
+  },
+  {
+    "name": "Create Homunculus",
+    "description": "",
+    "level": 6,
+    "castingTime": "1 hour",
+    "concentration": false,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "XGE 152"
+  },
+  {
+    "name": "Create or Destroy Water",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid"
+    ],
+    "source": "PHB 258"
+  },
+  {
+    "name": "Create Undead",
+    "description": "",
+    "level": 6,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 258"
+  },
+  {
+    "name": "Creation",
+    "description": "",
+    "level": 5,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 259"
+  },
+  {
+    "name": "Crown of Madness",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 259"
+  },
+  {
+    "name": "Crown of Stars",
+    "description": "",
+    "level": 7,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 152"
+  },
+  {
+    "name": "Crusader's Mantle",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Paladin"
+    ],
+    "source": "PHB 259"
+  },
+  {
+    "name": "Cure Wounds",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "PHB 259"
+  },
+  {
+    "name": "Dancing Lights",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 259"
+  },
+  {
+    "name": "Danse Macabre",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 153"
+  },
+  {
+    "name": "Darkness",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 260"
+  },
+  {
+    "name": "Darkvision",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 260"
+  },
+  {
+    "name": "Dawn",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "XGE 153"
+  },
+  {
+    "name": "Daylight",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger",
+      "Sorcerer"
+    ],
+    "source": "PHB 260"
+  },
+  {
+    "name": "Death Ward",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "PHB 261"
+  },
+  {
+    "name": "Delayed Blast Fireball",
+    "description": "",
+    "level": 7,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 261"
+  },
+  {
+    "name": "Demiplane",
+    "description": "",
+    "level": 8,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 261"
+  },
+  {
+    "name": "Destructive Wave",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Paladin"
+    ],
+    "source": "PHB 261"
+  },
+  {
+    "name": "Detect Evil and Good",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "PHB 261"
+  },
+  {
+    "name": "Detect Magic",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 262"
+  },
+  {
+    "name": "Detect Poison and Disease",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "PHB 262"
+  },
+  {
+    "name": "Detect Thoughts",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 262"
+  },
+  {
+    "name": "Dimension Door",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 262"
+  },
+  {
+    "name": "Disguise Self",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 262"
+  },
+  {
+    "name": "Disintegrate",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 263"
+  },
+  {
+    "name": "Dispel Evil and Good",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "PHB 263"
+  },
+  {
+    "name": "Dispel Magic",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 264"
+  },
+  {
+    "name": "Dissonant Whispers",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard"
+    ],
+    "source": "PHB 264"
+  },
+  {
+    "name": "Divination",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "PHB 264"
+  },
+  {
+    "name": "Divine Favor",
+    "description": "",
+    "level": 1,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Paladin"
+    ],
+    "source": "PHB 265"
+  },
+  {
+    "name": "Divine Smite",
+    "description": "",
+    "level": 1,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Paladin"
+    ],
+    "source": "PHB 234"
+  },
+  {
+    "name": "Divine Word",
+    "description": "",
+    "level": 7,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 265"
+  },
+  {
+    "name": "Dominate Beast",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger",
+      "Sorcerer"
+    ],
+    "source": "PHB 265"
+  },
+  {
+    "name": "Dominate Monster",
+    "description": "",
+    "level": 8,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 265"
+  },
+  {
+    "name": "Dominate Person",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 266"
+  },
+  {
+    "name": "Dragon's Breath",
+    "description": "",
+    "level": 2,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 266"
+  },
+  {
+    "name": "Drawmij's Instant Summons",
+    "description": "",
+    "level": 6,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "PHB 266"
+  },
+  {
+    "name": "Dream",
+    "description": "",
+    "level": 5,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 266"
+  },
+  {
+    "name": "Dream of the Blue Veil",
+    "description": "",
+    "level": 7,
+    "castingTime": "10 minutes",
+    "concentration": false,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "TCE 106"
+  },
+  {
+    "name": "Druid Grove",
+    "description": "",
+    "level": 6,
+    "castingTime": "10 minutes",
+    "concentration": false,
+    "school": "abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "XGE 154"
+  },
+  {
+    "name": "Druidcraft",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "PHB 236"
+  },
+  {
+    "name": "Dust Devil",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 154"
+  },
+  {
+    "name": "Earth Tremor",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 155"
+  },
+  {
+    "name": "Earthbind",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 154"
+  },
+  {
+    "name": "Earthquake",
+    "description": "",
+    "level": 8,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid",
+      "Sorcerer"
+    ],
+    "source": "PHB 267"
+  },
+  {
+    "name": "Eldritch Blast",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock"
+    ],
+    "source": "PHB 237"
+  },
+  {
+    "name": "Elemental Bane",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 157"
+  },
+  {
+    "name": "Elemental Weapon",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "PHB 268"
+  },
+  {
+    "name": "Elementalism",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 267"
+  },
+  {
+    "name": "Enemies Abound",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 155"
+  },
+  {
+    "name": "Enervation",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 155"
+  },
+  {
+    "name": "Enhance Ability",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 268"
+  },
+  {
+    "name": "Enlarge/Reduce",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 268"
+  },
+  {
+    "name": "Ensnaring Strike",
+    "description": "",
+    "level": 1,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Ranger"
+    ],
+    "source": "PHB 268"
+  },
+  {
+    "name": "Entangle",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 268"
+  },
+  {
+    "name": "Enthrall",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Warlock"
+    ],
+    "source": "PHB 269"
+  },
+  {
+    "name": "Erupting Earth",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 155"
+  },
+  {
+    "name": "Etherealness",
+    "description": "",
+    "level": 7,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 269"
+  },
+  {
+    "name": "Evard's Black Tentacles",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "PHB 270"
+  },
+  {
+    "name": "Expeditious Retreat",
+    "description": "",
+    "level": 1,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 270"
+  },
+  {
+    "name": "Eyebite",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 270"
+  },
+  {
+    "name": "Fabricate",
+    "description": "",
+    "level": 4,
+    "castingTime": "10 minutes",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Wizard"
+    ],
+    "source": "PHB 271"
+  },
+  {
+    "name": "Faerie Fire",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Druid"
+    ],
+    "source": "PHB 271"
+  },
+  {
+    "name": "False Life",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 271"
+  },
+  {
+    "name": "Far Step",
+    "description": "",
+    "level": 5,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 155"
+  },
+  {
+    "name": "Fear",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 271"
+  },
+  {
+    "name": "Feather Fall",
+    "description": "",
+    "level": 1,
+    "castingTime": "Reaction",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 271"
+  },
+  {
+    "name": "Feeblemind",
+    "description": "",
+    "level": 8,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB2014 239"
+  },
+  {
+    "name": "Feign Death",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "PHB 271"
+  },
+  {
+    "name": "Find Familiar",
+    "description": "",
+    "level": 1,
+    "castingTime": "1 hour",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "PHB 272"
+  },
+  {
+    "name": "Find Greater Steed",
+    "description": "",
+    "level": 4,
+    "castingTime": "10 minutes",
+    "concentration": false,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Paladin"
+    ],
+    "source": "XGE 156"
+  },
+  {
+    "name": "Find Steed",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Paladin"
+    ],
+    "source": "PHB 272"
+  },
+  {
+    "name": "Find the Path",
+    "description": "",
+    "level": 6,
+    "castingTime": "1 minute",
+    "concentration": true,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "source": "PHB 273"
+  },
+  {
+    "name": "Find Traps",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 253"
+  },
+  {
+    "name": "Finger of Death",
+    "description": "",
+    "level": 7,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 273"
+  },
+  {
+    "name": "Fire Bolt",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 274"
+  },
+  {
+    "name": "Fire Shield",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 274"
+  },
+  {
+    "name": "Fire Storm",
+    "description": "",
+    "level": 7,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid",
+      "Sorcerer"
+    ],
+    "source": "PHB 275"
+  },
+  {
+    "name": "Fireball",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 274"
+  },
+  {
+    "name": "Flame Arrows",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 156"
+  },
+  {
+    "name": "Flame Blade",
+    "description": "",
+    "level": 2,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "source": "PHB 242"
+  },
+  {
+    "name": "Flame Strike",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 275"
+  },
+  {
+    "name": "Flaming Sphere",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 275"
+  },
+  {
+    "name": "Flesh to Stone",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 275"
+  },
+  {
+    "name": "Fly",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 276"
+  },
+  {
+    "name": "Fog Cloud",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 276"
+  },
+  {
+    "name": "Forbiddance",
+    "description": "",
+    "level": 6,
+    "castingTime": "10 minutes",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 276"
+  },
+  {
+    "name": "Forcecage",
+    "description": "",
+    "level": 7,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 276"
+  },
+  {
+    "name": "Foresight",
+    "description": "",
+    "level": 9,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 276"
+  },
+  {
+    "name": "Fount of Moonlight",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid"
+    ],
+    "source": "PHB 277"
+  },
+  {
+    "name": "Freedom of Movement",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "source": "PHB 277"
+  },
+  {
+    "name": "Friends",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard"
+    ],
+    "source": "PHB 277"
+  },
+  {
+    "name": "Frostbite",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Druid",
+      "Warlock"
+    ],
+    "source": "XGE 156"
+  },
+  {
+    "name": "Gaseous Form",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 277"
+  },
+  {
+    "name": "Gate",
+    "description": "",
+    "level": 9,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 277"
+  },
+  {
+    "name": "Geas",
+    "description": "",
+    "level": 5,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Wizard"
+    ],
+    "source": "PHB 278"
+  },
+  {
+    "name": "Gentle Repose",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Paladin",
+      "Wizard"
+    ],
+    "source": "PHB 278"
+  },
+  {
+    "name": "Giant Insect",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "PHB 279"
+  },
+  {
+    "name": "Glibness",
+    "description": "",
+    "level": 8,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Warlock"
+    ],
+    "source": "PHB 279"
+  },
+  {
+    "name": "Globe of Invulnerability",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 279"
+  },
+  {
+    "name": "Glyph of Warding",
+    "description": "",
+    "level": 3,
+    "castingTime": "1 hour",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "PHB 279"
+  },
+  {
+    "name": "Goodberry",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 280"
+  },
+  {
+    "name": "Grasping Vine",
+    "description": "",
+    "level": 4,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 246"
+  },
+  {
+    "name": "Grease",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 280"
+  },
+  {
+    "name": "Greater Invisibility",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 281"
+  },
+  {
+    "name": "Greater Restoration",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "PHB 281"
+  },
+  {
+    "name": "Green-Flame Blade",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "TCE 107"
+  },
+  {
+    "name": "Guardian of Faith",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 281"
+  },
+  {
+    "name": "Guardian of Nature",
+    "description": "",
+    "level": 4,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "XGE 157"
+  },
+  {
+    "name": "Guards and Wards",
+    "description": "",
+    "level": 6,
+    "castingTime": "1 hour",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "PHB 282"
+  },
+  {
+    "name": "Guidance",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Cleric",
+      "Druid"
+    ],
+    "source": "PHB 282"
+  },
+  {
+    "name": "Guiding Bolt",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 282"
+  },
+  {
+    "name": "Gust",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 157"
+  },
+  {
+    "name": "Gust of Wind",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 282"
+  },
+  {
+    "name": "Hail of Thorns",
+    "description": "",
+    "level": 1,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Ranger"
+    ],
+    "source": "PHB 283"
+  },
+  {
+    "name": "Hallow",
+    "description": "",
+    "level": 5,
+    "castingTime": "24 hours",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 283"
+  },
+  {
+    "name": "Hallucinatory Terrain",
+    "description": "",
+    "level": 4,
+    "castingTime": "10 minutes",
+    "concentration": false,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 283"
+  },
+  {
+    "name": "Harm",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 283"
+  },
+  {
+    "name": "Haste",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 284"
+  },
+  {
+    "name": "Heal",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid"
+    ],
+    "source": "PHB 284"
+  },
+  {
+    "name": "Healing Spirit",
+    "description": "",
+    "level": 2,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "XGE 157"
+  },
+  {
+    "name": "Healing Word",
+    "description": "",
+    "level": 1,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "source": "PHB 284"
+  },
+  {
+    "name": "Heat Metal",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Druid"
+    ],
+    "source": "PHB 284"
+  },
+  {
+    "name": "Hellish Rebuke",
+    "description": "",
+    "level": 1,
+    "castingTime": "Reaction",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock"
+    ],
+    "source": "PHB 284"
+  },
+  {
+    "name": "Heroes' Feast",
+    "description": "",
+    "level": 6,
+    "castingTime": "10 minutes",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "source": "PHB 284"
+  },
+  {
+    "name": "Heroism",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Paladin"
+    ],
+    "source": "PHB 285"
+  },
+  {
+    "name": "Hex",
+    "description": "",
+    "level": 1,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock"
+    ],
+    "source": "PHB 285"
+  },
+  {
+    "name": "Hold Monster",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 285"
+  },
+  {
+    "name": "Hold Person",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 286"
+  },
+  {
+    "name": "Holy Aura",
+    "description": "",
+    "level": 8,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 286"
+  },
+  {
+    "name": "Holy Weapon",
+    "description": "",
+    "level": 5,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "XGE 157"
+  },
+  {
+    "name": "Hunger of Hadar",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock"
+    ],
+    "source": "PHB 286"
+  },
+  {
+    "name": "Hunter's Mark",
+    "description": "",
+    "level": 1,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Ranger"
+    ],
+    "source": "PHB 287"
+  },
+  {
+    "name": "Hypnotic Pattern",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 287"
+  },
+  {
+    "name": "Ice Knife",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 287"
+  },
+  {
+    "name": "Ice Storm",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 287"
+  },
+  {
+    "name": "Identify",
+    "description": "",
+    "level": 1,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Wizard"
+    ],
+    "source": "PHB 287"
+  },
+  {
+    "name": "Illusory Dragon",
+    "description": "",
+    "level": 8,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "XGE 157"
+  },
+  {
+    "name": "Illusory Script",
+    "description": "",
+    "level": 1,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 288"
+  },
+  {
+    "name": "Immolation",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 158"
+  },
+  {
+    "name": "Imprisonment",
+    "description": "",
+    "level": 9,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 288"
+  },
+  {
+    "name": "Incendiary Cloud",
+    "description": "",
+    "level": 8,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 288"
+  },
+  {
+    "name": "Infernal Calling",
+    "description": "",
+    "level": 5,
+    "castingTime": "1 minute",
+    "concentration": true,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 158"
+  },
+  {
+    "name": "Infestation",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 158"
+  },
+  {
+    "name": "Inflict Wounds",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 288"
+  },
+  {
+    "name": "Insect Plague",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid",
+      "Sorcerer"
+    ],
+    "source": "PHB 289"
+  },
+  {
+    "name": "Intellect Fortress",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "TCE 108"
+  },
+  {
+    "name": "Investiture of Flame",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 159"
+  },
+  {
+    "name": "Investiture of Ice",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 159"
+  },
+  {
+    "name": "Investiture of Stone",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 159"
+  },
+  {
+    "name": "Investiture of Wind",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 160"
+  },
+  {
+    "name": "Invisibility",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 289"
+  },
+  {
+    "name": "Invulnerability",
+    "description": "",
+    "level": 9,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "XGE 160"
+  },
+  {
+    "name": "Jallarzi's Storm of Radiance",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 289"
+  },
+  {
+    "name": "Jump",
+    "description": "",
+    "level": 1,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 290"
+  },
+  {
+    "name": "Knock",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 290"
+  },
+  {
+    "name": "Legend Lore",
+    "description": "",
+    "level": 5,
+    "castingTime": "10 minutes",
+    "concentration": false,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "PHB 290"
+  },
+  {
+    "name": "Leomund's Secret Chest",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Wizard"
+    ],
+    "source": "PHB 290"
+  },
+  {
+    "name": "Leomund's Tiny Hut",
+    "description": "",
+    "level": 3,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "PHB 291"
+  },
+  {
+    "name": "Lesser Restoration",
+    "description": "",
+    "level": 2,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "PHB 255"
+  },
+  {
+    "name": "Levitate",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 291"
+  },
+  {
+    "name": "Life Transference",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "XGE 160"
+  },
+  {
+    "name": "Light",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 292"
+  },
+  {
+    "name": "Lightning Arrow",
+    "description": "",
+    "level": 3,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Ranger"
+    ],
+    "source": "PHB 255"
+  },
+  {
+    "name": "Lightning Bolt",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 292"
+  },
+  {
+    "name": "Lightning Lure",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "TCE 108"
+  },
+  {
+    "name": "Locate Animals or Plants",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 292"
+  },
+  {
+    "name": "Locate Creature",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "PHB 292"
+  },
+  {
+    "name": "Locate Object",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "PHB 293"
+  },
+  {
+    "name": "Longstrider",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Druid",
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "PHB 293"
+  },
+  {
+    "name": "Maddening Darkness",
+    "description": "",
+    "level": 8,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 160"
+  },
+  {
+    "name": "Maelstrom",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "XGE 161"
+  },
+  {
+    "name": "Mage Armor",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 293"
+  },
+  {
+    "name": "Mage Hand",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 293"
+  },
+  {
+    "name": "Magic Circle",
+    "description": "",
+    "level": 3,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Paladin",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 293"
+  },
+  {
+    "name": "Magic Jar",
+    "description": "",
+    "level": 6,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "PHB 294"
+  },
+  {
+    "name": "Magic Missile",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 295"
+  },
+  {
+    "name": "Magic Mouth",
+    "description": "",
+    "level": 2,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Wizard"
+    ],
+    "source": "PHB 295"
+  },
+  {
+    "name": "Magic Stone",
+    "description": "",
+    "level": 0,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Druid",
+      "Warlock"
+    ],
+    "source": "XGE 160"
+  },
+  {
+    "name": "Magic Weapon",
+    "description": "",
+    "level": 2,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Paladin",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 295"
+  },
+  {
+    "name": "Major Image",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 295"
+  },
+  {
+    "name": "Mass Cure Wounds",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "source": "PHB 296"
+  },
+  {
+    "name": "Mass Heal",
+    "description": "",
+    "level": 9,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 296"
+  },
+  {
+    "name": "Mass Healing Word",
+    "description": "",
+    "level": 3,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric"
+    ],
+    "source": "PHB 296"
+  },
+  {
+    "name": "Mass Polymorph",
+    "description": "",
+    "level": 9,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 160"
+  },
+  {
+    "name": "Mass Suggestion",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 296"
+  },
+  {
+    "name": "Maximilian's Earthen Grasp",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 161"
+  },
+  {
+    "name": "Maze",
+    "description": "",
+    "level": 8,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "PHB 296"
+  },
+  {
+    "name": "Meld into Stone",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 296"
+  },
+  {
+    "name": "Melf's Acid Arrow",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "PHB 259"
+  },
+  {
+    "name": "Melf's Minute Meteors",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 161"
+  },
+  {
+    "name": "Mending",
+    "description": "",
+    "level": 0,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 297"
+  },
+  {
+    "name": "Mental Prison",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 161"
+  },
+  {
+    "name": "Message",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 298"
+  },
+  {
+    "name": "Meteor Swarm",
+    "description": "",
+    "level": 9,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 298"
+  },
+  {
+    "name": "Mighty Fortress",
+    "description": "",
+    "level": 8,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "XGE 161"
+  },
+  {
+    "name": "Mind Blank",
+    "description": "",
+    "level": 8,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "PHB 298"
+  },
+  {
+    "name": "Mind Sliver",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "TCE 108"
+  },
+  {
+    "name": "Mind Spike",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 298"
+  },
+  {
+    "name": "Minor Illusion",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 298"
+  },
+  {
+    "name": "Mirage Arcane",
+    "description": "",
+    "level": 7,
+    "castingTime": "10 minutes",
+    "concentration": false,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "PHB 299"
+  },
+  {
+    "name": "Mirror Image",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 299"
+  },
+  {
+    "name": "Mislead",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 299"
+  },
+  {
+    "name": "Misty Step",
+    "description": "",
+    "level": 2,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 299"
+  },
+  {
+    "name": "Modify Memory",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "PHB 299"
+  },
+  {
+    "name": "Mold Earth",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 162"
+  },
+  {
+    "name": "Moonbeam",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "PHB 300"
+  },
+  {
+    "name": "Mordenkainen's Faithful Hound",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Wizard"
+    ],
+    "source": "PHB 300"
+  },
+  {
+    "name": "Mordenkainen's Magnificent Mansion",
+    "description": "",
+    "level": 7,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "PHB 300"
+  },
+  {
+    "name": "Mordenkainen's Private Sanctum",
+    "description": "",
+    "level": 4,
+    "castingTime": "10 minutes",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Wizard"
+    ],
+    "source": "PHB 301"
+  },
+  {
+    "name": "Mordenkainen's Sword",
+    "description": "",
+    "level": 7,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "PHB 302"
+  },
+  {
+    "name": "Move Earth",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 302"
+  },
+  {
+    "name": "Negative Energy Flood",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 163"
+  },
+  {
+    "name": "Nondetection",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "PHB 302"
+  },
+  {
+    "name": "Nystul's Magic Aura",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "PHB 302"
+  },
+  {
+    "name": "Otiluke's Freezing Sphere",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 264"
+  },
+  {
+    "name": "Otiluke's Resilient Sphere",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Wizard"
+    ],
+    "source": "PHB 303"
+  },
+  {
+    "name": "Otto's Irresistible Dance",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "PHB 303"
+  },
+  {
+    "name": "Pass without Trace",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 303"
+  },
+  {
+    "name": "Passwall",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "PHB 303"
+  },
+  {
+    "name": "Phantasmal Force",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 304"
+  },
+  {
+    "name": "Phantasmal Killer",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "PHB 304"
+  },
+  {
+    "name": "Phantom Steed",
+    "description": "",
+    "level": 3,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "PHB 304"
+  },
+  {
+    "name": "Planar Ally",
+    "description": "",
+    "level": 6,
+    "castingTime": "10 minutes",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 304"
+  },
+  {
+    "name": "Planar Binding",
+    "description": "",
+    "level": 5,
+    "castingTime": "1 hour",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 305"
+  },
+  {
+    "name": "Plane Shift",
+    "description": "",
+    "level": 7,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 305"
+  },
+  {
+    "name": "Plant Growth",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action or 8 hours",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 305"
+  },
+  {
+    "name": "Poison Spray",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 306"
+  },
+  {
+    "name": "Polymorph",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 306"
+  },
+  {
+    "name": "Power Word Fortify",
+    "description": "",
+    "level": 7,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric"
+    ],
+    "source": "PHB 306"
+  },
+  {
+    "name": "Power Word Heal",
+    "description": "",
+    "level": 9,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric"
+    ],
+    "source": "PHB 306"
+  },
+  {
+    "name": "Power Word Kill",
+    "description": "",
+    "level": 9,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 306"
+  },
+  {
+    "name": "Power Word Pain",
+    "description": "",
+    "level": 7,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 163"
+  },
+  {
+    "name": "Power Word Stun",
+    "description": "",
+    "level": 8,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 306"
+  },
+  {
+    "name": "Prayer of Healing",
+    "description": "",
+    "level": 2,
+    "castingTime": "10 minutes",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "PHB 307"
+  },
+  {
+    "name": "Prestidigitation",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 307"
+  },
+  {
+    "name": "Primal Savagery",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "XGE 163"
+  },
+  {
+    "name": "Primordial Ward",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "XGE 163"
+  },
+  {
+    "name": "Prismatic Spray",
+    "description": "",
+    "level": 7,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 307"
+  },
+  {
+    "name": "Prismatic Wall",
+    "description": "",
+    "level": 9,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "PHB 308"
+  },
+  {
+    "name": "Produce Flame",
+    "description": "",
+    "level": 0,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "PHB 308"
+  },
+  {
+    "name": "Programmed Illusion",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "PHB 309"
+  },
+  {
+    "name": "Project Image",
+    "description": "",
+    "level": 7,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "PHB 309"
+  },
+  {
+    "name": "Protection from Energy",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Cleric",
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 309"
+  },
+  {
+    "name": "Protection from Evil and Good",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 309"
+  },
+  {
+    "name": "Protection from Poison",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "PHB 310"
+  },
+  {
+    "name": "Psychic Scream",
+    "description": "",
+    "level": 9,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 163"
+  },
+  {
+    "name": "Purify Food and Drink",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Cleric",
+      "Druid",
+      "Paladin"
+    ],
+    "source": "PHB 310"
+  },
+  {
+    "name": "Pyrotechnics",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 163"
+  },
+  {
+    "name": "Raise Dead",
+    "description": "",
+    "level": 5,
+    "castingTime": "1 hour",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "PHB 310"
+  },
+  {
+    "name": "Rary's Telepathic Bond",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "PHB 311"
+  },
+  {
+    "name": "Ray of Enfeeblement",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 311"
+  },
+  {
+    "name": "Ray of Frost",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 311"
+  },
+  {
+    "name": "Ray of Sickness",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 311"
+  },
+  {
+    "name": "Regenerate",
+    "description": "",
+    "level": 7,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "source": "PHB 311"
+  },
+  {
+    "name": "Reincarnate",
+    "description": "",
+    "level": 5,
+    "castingTime": "1 hour",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "PHB 311"
+  },
+  {
+    "name": "Remove Curse",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Paladin",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 312"
+  },
+  {
+    "name": "Resistance",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Cleric",
+      "Druid"
+    ],
+    "source": "PHB 312"
+  },
+  {
+    "name": "Resurrection",
+    "description": "",
+    "level": 7,
+    "castingTime": "1 hour",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric"
+    ],
+    "source": "PHB 312"
+  },
+  {
+    "name": "Reverse Gravity",
+    "description": "",
+    "level": 7,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 312"
+  },
+  {
+    "name": "Revivify",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "PHB 312"
+  },
+  {
+    "name": "Rope Trick",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Wizard"
+    ],
+    "source": "PHB 312"
+  },
+  {
+    "name": "Sacred Flame",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 313"
+  },
+  {
+    "name": "Sanctuary",
+    "description": "",
+    "level": 1,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Cleric"
+    ],
+    "source": "PHB 313"
+  },
+  {
+    "name": "Scatter",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 164"
+  },
+  {
+    "name": "Scorching Ray",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 313"
+  },
+  {
+    "name": "Scrying",
+    "description": "",
+    "level": 5,
+    "castingTime": "10 minutes",
+    "concentration": true,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 313"
+  },
+  {
+    "name": "Searing Smite",
+    "description": "",
+    "level": 1,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Paladin"
+    ],
+    "source": "PHB 314"
+  },
+  {
+    "name": "See Invisibility",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 314"
+  },
+  {
+    "name": "Seeming",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 314"
+  },
+  {
+    "name": "Sending",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "PHB 314"
+  },
+  {
+    "name": "Sequester",
+    "description": "",
+    "level": 7,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "PHB 315"
+  },
+  {
+    "name": "Shadow Blade",
+    "description": "",
+    "level": 2,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 164"
+  },
+  {
+    "name": "Shadow of Moil",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock"
+    ],
+    "source": "XGE 164"
+  },
+  {
+    "name": "Shape Water",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 164"
+  },
+  {
+    "name": "Shapechange",
+    "description": "",
+    "level": 9,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Wizard"
+    ],
+    "source": "PHB 315"
+  },
+  {
+    "name": "Shatter",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 316"
+  },
+  {
+    "name": "Shield",
+    "description": "",
+    "level": 1,
+    "castingTime": "Reaction",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 316"
+  },
+  {
+    "name": "Shield of Faith",
+    "description": "",
+    "level": 1,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "PHB 316"
+  },
+  {
+    "name": "Shillelagh",
+    "description": "",
+    "level": 0,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "PHB 316"
+  },
+  {
+    "name": "Shining Smite",
+    "description": "",
+    "level": 2,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Paladin"
+    ],
+    "source": "PHB 316"
+  },
+  {
+    "name": "Shocking Grasp",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 316"
+  },
+  {
+    "name": "Sickening Radiance",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 164"
+  },
+  {
+    "name": "Silence",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Ranger"
+    ],
+    "source": "PHB 316"
+  },
+  {
+    "name": "Silent Image",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 317"
+  },
+  {
+    "name": "Simulacrum",
+    "description": "",
+    "level": 7,
+    "castingTime": "12 hours",
+    "concentration": false,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "PHB 317"
+  },
+  {
+    "name": "Skill Empowerment",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 165"
+  },
+  {
+    "name": "Skywrite",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "XGE 165"
+  },
+  {
+    "name": "Sleep",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 317"
+  },
+  {
+    "name": "Sleet Storm",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 317"
+  },
+  {
+    "name": "Slow",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 318"
+  },
+  {
+    "name": "Snare",
+    "description": "",
+    "level": 1,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Druid",
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "XGE 165"
+  },
+  {
+    "name": "Snilloc's Snowball Swarm",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 165"
+  },
+  {
+    "name": "Sorcerous Burst",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer"
+    ],
+    "source": "PHB 318"
+  },
+  {
+    "name": "Soul Cage",
+    "description": "",
+    "level": 6,
+    "castingTime": "Reaction",
+    "concentration": false,
+    "school": "necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 165"
+  },
+  {
+    "name": "Spare the Dying",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Cleric",
+      "Druid"
+    ],
+    "source": "PHB 318"
+  },
+  {
+    "name": "Speak with Animals",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid",
+      "Ranger",
+      "Warlock"
+    ],
+    "source": "PHB 318"
+  },
+  {
+    "name": "Speak with Dead",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "PHB 318"
+  },
+  {
+    "name": "Speak with Plants",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 319"
+  },
+  {
+    "name": "Spider Climb",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 319"
+  },
+  {
+    "name": "Spike Growth",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 319"
+  },
+  {
+    "name": "Spirit Guardians",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 319"
+  },
+  {
+    "name": "Spirit Shroud",
+    "description": "",
+    "level": 3,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Paladin",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "TCE 115"
+  },
+  {
+    "name": "Spiritual Weapon",
+    "description": "",
+    "level": 2,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 319"
+  },
+  {
+    "name": "Staggering Smite",
+    "description": "",
+    "level": 4,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Paladin"
+    ],
+    "source": "PHB 278"
+  },
+  {
+    "name": "Starry Wisp",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid"
+    ],
+    "source": "PHB 320"
+  },
+  {
+    "name": "Steel Wind Strike",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "PHB 320"
+  },
+  {
+    "name": "Stinking Cloud",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 321"
+  },
+  {
+    "name": "Stone Shape",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "PHB 321"
+  },
+  {
+    "name": "Stoneskin",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 321"
+  },
+  {
+    "name": "Storm of Vengeance",
+    "description": "",
+    "level": 9,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "PHB 321"
+  },
+  {
+    "name": "Storm Sphere",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 166"
+  },
+  {
+    "name": "Suggestion",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 321"
+  },
+  {
+    "name": "Summon Aberration",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 322"
+  },
+  {
+    "name": "Summon Beast",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 322"
+  },
+  {
+    "name": "Summon Celestial",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "PHB 323"
+  },
+  {
+    "name": "Summon Construct",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Wizard"
+    ],
+    "source": "PHB 324"
+  },
+  {
+    "name": "Summon Dragon",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "PHB 324"
+  },
+  {
+    "name": "Summon Elemental",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "PHB 325"
+  },
+  {
+    "name": "Summon Fey",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 326"
+  },
+  {
+    "name": "Summon Fiend",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 326"
+  },
+  {
+    "name": "Summon Greater Demon",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 166"
+  },
+  {
+    "name": "Summon Lesser Demons",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 166"
+  },
+  {
+    "name": "Summon Shadowspawn",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "TCE 113"
+  },
+  {
+    "name": "Summon Undead",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 328"
+  },
+  {
+    "name": "Sunbeam",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 329"
+  },
+  {
+    "name": "Sunburst",
+    "description": "",
+    "level": 8,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 329"
+  },
+  {
+    "name": "Swift Quiver",
+    "description": "",
+    "level": 5,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Ranger"
+    ],
+    "source": "PHB 329"
+  },
+  {
+    "name": "Sword Burst",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "TCE 115"
+  },
+  {
+    "name": "Symbol",
+    "description": "",
+    "level": 7,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "PHB 329"
+  },
+  {
+    "name": "Synaptic Static",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 330"
+  },
+  {
+    "name": "Tasha's Bubbling Cauldron",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 330"
+  },
+  {
+    "name": "Tasha's Caustic Brew",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "TCE 115"
+  },
+  {
+    "name": "Tasha's Hideous Laughter",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 331"
+  },
+  {
+    "name": "Tasha's Mind Whip",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "TCE 115"
+  },
+  {
+    "name": "Tasha's Otherworldly Guise",
+    "description": "",
+    "level": 6,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "TCE 115"
+  },
+  {
+    "name": "Telekinesis",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 331"
+  },
+  {
+    "name": "Telepathy",
+    "description": "",
+    "level": 8,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "PHB 331"
+  },
+  {
+    "name": "Teleport",
+    "description": "",
+    "level": 7,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 331"
+  },
+  {
+    "name": "Teleportation Circle",
+    "description": "",
+    "level": 5,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 332"
+  },
+  {
+    "name": "Temple of the Gods",
+    "description": "",
+    "level": 7,
+    "castingTime": "1 hour",
+    "concentration": false,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "XGE 167"
+  },
+  {
+    "name": "Tenser's Floating Disk",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "PHB 332"
+  },
+  {
+    "name": "Tenser's Transformation",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "XGE 168"
+  },
+  {
+    "name": "Thaumaturgy",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 333"
+  },
+  {
+    "name": "Thorn Whip",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Druid"
+    ],
+    "source": "PHB 333"
+  },
+  {
+    "name": "Thunder Step",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 168"
+  },
+  {
+    "name": "Thunderclap",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 333"
+  },
+  {
+    "name": "Thunderous Smite",
+    "description": "",
+    "level": 1,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Paladin"
+    ],
+    "source": "PHB 282"
+  },
+  {
+    "name": "Thunderwave",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 334"
+  },
+  {
+    "name": "Tidal Wave",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 168"
+  },
+  {
+    "name": "Time Stop",
+    "description": "",
+    "level": 9,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 334"
+  },
+  {
+    "name": "Tiny Servant",
+    "description": "",
+    "level": 3,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Wizard"
+    ],
+    "source": "XGE 168"
+  },
+  {
+    "name": "Toll the Dead",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 334"
+  },
+  {
+    "name": "Tongues",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 334"
+  },
+  {
+    "name": "Transmute Rock",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "XGE 169"
+  },
+  {
+    "name": "Transport via Plants",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "PHB 283"
+  },
+  {
+    "name": "Tree Stride",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 335"
+  },
+  {
+    "name": "True Polymorph",
+    "description": "",
+    "level": 9,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 335"
+  },
+  {
+    "name": "True Resurrection",
+    "description": "",
+    "level": 9,
+    "castingTime": "1 hour",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Druid"
+    ],
+    "source": "PHB 336"
+  },
+  {
+    "name": "True Seeing",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 336"
+  },
+  {
+    "name": "True Strike",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Divination",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 336"
+  },
+  {
+    "name": "Tsunami",
+    "description": "",
+    "level": 8,
+    "castingTime": "1 minute",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "PHB 336"
+  },
+  {
+    "name": "Unseen Servant",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 336"
+  },
+  {
+    "name": "Vampiric Touch",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 337"
+  },
+  {
+    "name": "Vicious Mockery",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard"
+    ],
+    "source": "PHB 337"
+  },
+  {
+    "name": "Vitriolic Sphere",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 337"
+  },
+  {
+    "name": "Wall of Fire",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 338"
+  },
+  {
+    "name": "Wall of Force",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "PHB 338"
+  },
+  {
+    "name": "Wall of Ice",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "PHB 339"
+  },
+  {
+    "name": "Wall of Light",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "XGE 170"
+  },
+  {
+    "name": "Wall of Sand",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Wizard"
+    ],
+    "source": "XGE 170"
+  },
+  {
+    "name": "Wall of Stone",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 339"
+  },
+  {
+    "name": "Wall of Thorns",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "PHB 339"
+  },
+  {
+    "name": "Wall of Water",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 170"
+  },
+  {
+    "name": "Warding Bond",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Abjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "PHB 340"
+  },
+  {
+    "name": "Warding Wind",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 170"
+  },
+  {
+    "name": "Water Breathing",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 340"
+  },
+  {
+    "name": "Water Walk",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Cleric",
+      "Druid",
+      "Ranger",
+      "Sorcerer"
+    ],
+    "source": "PHB 340"
+  },
+  {
+    "name": "Watery Sphere",
+    "description": "",
+    "level": 4,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 170"
+  },
+  {
+    "name": "Web",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 340"
+  },
+  {
+    "name": "Weird",
+    "description": "",
+    "level": 9,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Illusion",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 341"
+  },
+  {
+    "name": "Whirlwind",
+    "description": "",
+    "level": 7,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "XGE 171"
+  },
+  {
+    "name": "Wind Walk",
+    "description": "",
+    "level": 6,
+    "castingTime": "1 minute",
+    "concentration": false,
+    "school": "Transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid"
+    ],
+    "source": "PHB 341"
+  },
+  {
+    "name": "Wind Wall",
+    "description": "",
+    "level": 3,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "PHB 341"
+  },
+  {
+    "name": "Wish",
+    "description": "",
+    "level": 9,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "PHB 341"
+  },
+  {
+    "name": "Witch Bolt",
+    "description": "",
+    "level": 1,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "PHB 343"
+  },
+  {
+    "name": "Word of Radiance",
+    "description": "",
+    "level": 0,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 343"
+  },
+  {
+    "name": "Word of Recall",
+    "description": "",
+    "level": 6,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Conjuration",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Cleric"
+    ],
+    "source": "PHB 343"
+  },
+  {
+    "name": "Wrath of Nature",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "evocation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "XGE 171"
+  },
+  {
+    "name": "Wrathful Smite",
+    "description": "",
+    "level": 1,
+    "castingTime": "Bonus Action",
+    "concentration": false,
+    "school": "Necromancy",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Paladin"
+    ],
+    "source": "PHB 343"
+  },
+  {
+    "name": "Yolande's Regal Presence",
+    "description": "",
+    "level": 5,
+    "castingTime": "Action",
+    "concentration": true,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "PHB 343"
+  },
+  {
+    "name": "Zephyr Strike",
+    "description": "",
+    "level": 1,
+    "castingTime": "Bonus Action",
+    "concentration": true,
+    "school": "transmutation",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Ranger"
+    ],
+    "source": "XGE 171"
+  },
+  {
+    "name": "Zone of Truth",
+    "description": "",
+    "level": 2,
+    "castingTime": "Action",
+    "concentration": false,
+    "school": "Enchantment",
+    "spellComponentsNotConsumed": [],
+    "spellComponentsConsumed": [],
+    "spellLists": [
+      "Bard",
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "PHB 343"
+  }
+]

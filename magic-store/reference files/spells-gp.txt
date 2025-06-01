@@ -1,0 +1,73 @@
+Name   ◇	Level   ◇	School   ◇	Ritual   ◇	Casting Time   ◇	Components   ▼	Concentration   ◇	Source   ◇
+Bless	1st	Enchantment		Action	VSMgp	yes	phb 247
+Chromatic Orb	1st	Evocation		Action	VSMgp		phb 249
+Find Familiar	1st	Conjuration	yes	1 hour	VSMgp		phb 272
+Identify	1st	Divination	yes	1 minute	VSMgp		phb 287
+Protection from Evil and Good	1st	Abjuration		Action	VSMgp	yes	phb 309
+Arcane Lock	2nd	Abjuration		Action	VSMgp		phb 242
+Augury	2nd	Divination	yes	1 minute	VSMgp		phb 244
+Continual Flame	2nd	Evocation		Action	VSMgp		phb 256
+Detect Thoughts	2nd	Divination		Action	VSMgp	yes	phb 262
+Gentle Repose	2nd	Necromancy	yes	Action	VSMgp		phb 278
+Magic Mouth	2nd	Illusion	yes	1 minute	VSMgp		phb 295
+Summon Beast	2nd	Conjuration		Action	VSMgp	yes	phb 322
+Warding Bond	2nd	Abjuration		Action	VSMgp		phb 340
+Clairvoyance	3rd	Divination		10 minutes	VSMgp	yes	phb 250
+Conjure Barrage	3rd	Conjuration		Action	VSMgp		phb 254
+Glyph of Warding	3rd	Abjuration		1 hour	VSMgp		phb 279
+Magic Circle	3rd	Abjuration		1 minute	VSMgp		phb 293
+Nondetection	3rd	Abjuration		Action	VSMgp		phb 302
+Revivify	3rd	Necromancy		Action	VSMgp		phb 312
+Summon Fey	3rd	Conjuration		Action	VSMgp	yes	phb 326
+Summon Undead	3rd	Necromancy		Action	VSMgp	yes	phb 328
+Divination	4th	Divination	yes	Action	VSMgp		phb 264
+Leomund's Secret Chest	4th	Conjuration		Action	VSMgp		phb 290
+Stoneskin	4th	Transmutation		Action	VSMgp	yes	phb 321
+Summon Aberration	4th	Conjuration		Action	VSMgp	yes	phb 322
+Summon Construct	4th	Conjuration		Action	VSMgp	yes	phb 324
+Summon Elemental	4th	Conjuration		Action	VSMgp	yes	phb 325
+Awaken	5th	Transmutation		8 hours	VSMgp		phb 244
+Conjure Volley	5th	Conjuration		Action	VSMgp		phb 255
+Greater Restoration	5th	Abjuration		Action	VSMgp		phb 281
+Hallow	5th	Abjuration		24 hours	VSMgp		phb 283
+Legend Lore	5th	Divination		10 minutes	VSMgp		phb 290
+Planar Binding	5th	Abjuration		1 hour	VSMgp		phb 305
+Raise Dead	5th	Necromancy		1 hour	VSMgp		phb 310
+Reincarnate	5th	Necromancy		1 hour	VSMgp		phb 311
+Scrying	5th	Divination		10 minutes	VSMgp	yes	phb 313
+Summon Celestial	5th	Conjuration		Action	VSMgp	yes	phb 323
+Summon Dragon	5th	Conjuration		Action	VSMgp	yes	phb 324
+Swift Quiver	5th	Transmutation		Bonus Action	VSMgp	yes	phb 329
+Circle of Death	6th	Necromancy		Action	VSMgp		phb 250
+Contingency	6th	Abjuration		10 minutes	VSMgp		phb 256
+Create Undead	6th	Necromancy		1 minute	VSMgp		phb 258
+Drawmij's Instant Summons	6th	Conjuration	yes	1 minute	VSMgp		phb 266
+Find the Path	6th	Divination		1 minute	VSMgp	yes	phb 273
+Forbiddance	6th	Abjuration	yes	10 minutes	VSMgp		phb 276
+Guards and Wards	6th	Abjuration		1 hour	VSMgp		phb 282
+Heroes' Feast	6th	Conjuration		10 minutes	VSMgp		phb 284
+Magic Jar	6th	Necromancy		1 minute	VSMgp		phb 294
+Programmed Illusion	6th	Illusion		Action	VSMgp		phb 309
+Summon Fiend	6th	Conjuration		Action	VSMgp	yes	phb 326
+Tasha's Bubbling Cauldron	6th	Conjuration		Action	VSMgp		phb 330
+True Seeing	6th	Divination		Action	VSMgp		phb 336
+Forcecage	7th	Evocation		Action	VSMgp	yes	phb 276
+Mordenkainen's Magnificent Mansion	7th	Conjuration		1 minute	VSMgp		phb 300
+Mordenkainen's Sword	7th	Evocation		Action	VSMgp	yes	phb 302
+Plane Shift	7th	Conjuration		Action	VSMgp		phb 305
+Project Image	7th	Illusion		Action	VSMgp	yes	phb 309
+Resurrection	7th	Necromancy		1 hour	VSMgp		phb 312
+Sequester	7th	Transmutation		Action	VSMgp		phb 315
+Simulacrum	7th	Illusion		12 hours	VSMgp		phb 317
+Symbol	7th	Abjuration		1 minute	VSMgp		phb 329
+Clone	8th	Necromancy		1 hour	VSMgp		phb 251
+Holy Aura	8th	Abjuration		Action	VSMgp	yes	phb 286
+Astral Projection	9th	Necromancy		1 hour	VSMgp		phb 243
+Gate	9th	Conjuration		Action	VSMgp	yes	phb 277
+Imprisonment	9th	Abjuration		1 minute	VSMgp		phb 288
+Shapechange	9th	Transmutation		Action	VSMgp	yes	phb 315
+True Resurrection	9th	Necromancy		1 hour	VSMgp		phb 336
+Teleportation Circle	5th	Conjuration		1 minute	VMgp		phb 332
+True Strike	Cantrip	Divination		Action	SMgp		phb 336
+Illusory Script	1st	Illusion	yes	1 minute	SMgp		phb 288
+Steel Wind Strike	5th	Conjuration		Action	SMgp		phb 320

@@ -1,0 +1,4727 @@
+[
+  {
+    "name": "Adamantine Armor",
+    "description": "Armor that negates critical hits.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "armor",
+    "source": "DMG 227"
+  },
+  {
+    "name": "Adamantine Weapon",
+    "description": "A weapon made from adamantine, bypassing resistance and immunity to nonmagical attacks and critical hits.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 227"
+  },
+  {
+    "name": "Alchemy Jug",
+    "description": "A ceramic jug that can produce various liquids.",
+    "rarity": "uncommon",
+    "likability": 0.45,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 227"
+  },
+  {
+    "name": "Ammunition of Slaying",
+    "description": "Special ammunition that deals extra damage to a specific creature type.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "weapon",
+    "source": "DMG 228"
+  },
+  {
+    "name": "Ammunition +1",
+    "description": "Magical ammunition that grants a +1 bonus to attack and damage rolls.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "weapon",
+    "source": "DMG 228"
+  },
+  {
+    "name": "Ammunition +2",
+    "description": "Magical ammunition that grants a +2 bonus to attack and damage rolls.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "weapon",
+    "source": "DMG 228"
+  },
+  {
+    "name": "Ammunition +3",
+    "description": "Magical ammunition that grants a +3 bonus to attack and damage rolls.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "weapon",
+    "source": "DMG 228"
+  },
+  {
+    "name": "Amulet of Health",
+    "description": "Sets Constitution to 19.",
+    "rarity": "rare",
+    "likability": 0.9,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 228"
+  },
+  {
+    "name": "Amulet of Proof Against Detection and Location",
+    "description": "Prevents magical detection and location.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 228"
+  },
+  {
+    "name": "Amulet of the Devout +1",
+    "description": "A holy symbol that boosts spell attacks and DCs for clerics and paladins.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "TCE 119"
+  },
+  {
+    "name": "Amulet of the Devout +2",
+    "description": "A holy symbol that boosts spell attacks and DCs for clerics and paladins.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "TCE 119"
+  },
+  {
+    "name": "Amulet of the Devout +3",
+    "description": "A holy symbol that boosts spell attacks and DCs for clerics and paladins.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "TCE 119"
+  },
+  {
+    "name": "Amulet of the Planes",
+    "description": "Allows the wearer to travel to other planes of existence.",
+    "rarity": "very rare",
+    "likability": 0.7,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 229"
+  },
+  {
+    "name": "Animated Shield",
+    "description": "A shield that protects you on its own.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 229"
+  },
+  {
+    "name": "Antitoxin",
+    "description": "(Herbal/Non-magical potion.) Advantage on poison condition (avoid or end) for 1 hour.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "PHB 222"
+  },
+  {
+    "name": "Apparatus of Kwalish",
+    "description": "A large mechanical vehicle shaped like a lobster.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 229"
+  },
+  {
+    "name": "Arcane Grimoire +1",
+    "description": "A spellbook that boosts spell attacks and DCs for wizards.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "TCE 120"
+  },
+  {
+    "name": "Arcane Grimoire +2",
+    "description": "A spellbook that boosts spell attacks and DCs for wizards.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "TCE 120"
+  },
+  {
+    "name": "Arcane Grimoire +3",
+    "description": "A spellbook that boosts spell attacks and DCs for wizards.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "TCE 120"
+  },
+  {
+    "name": "Armor of Gleaming",
+    "description": "This armor never gets dirty.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "armor",
+    "source": "XGE 136"
+  },
+  {
+    "name": "Armor of Invulnerability",
+    "description": "Heavy armor. Resistance to nonmagical damage. Immunity to nonmagical 10 mins 1x/day.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 230"
+  },
+  {
+    "name": "Armor of Resistance (Acid)",
+    "description": "Armor that grants resistance to acid damage.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 231"
+  },
+  {
+    "name": "Armor of Resistance (Cold)",
+    "description": "Armor that grants resistance to cold damage.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 231"
+  },
+  {
+    "name": "Armor of Resistance (Fire)",
+    "description": "Armor that grants resistance to fire damage.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 231"
+  },
+  {
+    "name": "Armor of Resistance (Force)",
+    "description": "Armor that grants resistance to force damage.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 231"
+  },
+  {
+    "name": "Armor of Resistance (Lightning)",
+    "description": "Armor that grants resistance to lightning damage.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 231"
+  },
+  {
+    "name": "Armor of Resistance (Necrotic)",
+    "description": "Armor that grants resistance to necrotic damage.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 231"
+  },
+  {
+    "name": "Armor of Resistance (Poison)",
+    "description": "Armor that grants resistance to poison damage.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 231"
+  },
+  {
+    "name": "Armor of Resistance (Psychic)",
+    "description": "Armor that grants resistance to psychic damage.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 231"
+  },
+  {
+    "name": "Armor of Resistance (Radiant)",
+    "description": "Armor that grants resistance to radiant damage.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 231"
+  },
+  {
+    "name": "Armor of Resistance (Thunder)",
+    "description": "Armor that grants resistance to thunder damage.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 231"
+  },
+  {
+    "name": "Armor of Vulnerability",
+    "description": "Resistance to one damage types: Bludgeoning, Piercing, or Slashing; Cursed with vulnerability to the other two until armor removed and Remove Curse is cast.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 231"
+  },
+  {
+    "name": "Armor +1",
+    "description": "Armor with a +1 bonus to AC.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 230"
+  },
+  {
+    "name": "Armor +2",
+    "description": "Armor with a +2 bonus to AC.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 230"
+  },
+  {
+    "name": "Armor +3",
+    "description": "Armor with a +3 bonus to AC.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 230"
+  },
+  {
+    "name": "Arrow-Catching Shield",
+    "description": "A shield that draws missiles to itself.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 231"
+  },
+  {
+    "name": "Axe of the Dwarvish Lords",
+    "description": "A legendary battleaxe that grants powerful abilities and is tied to dwarven heritage.",
+    "rarity": "artifact",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 231"
+  },
+  {
+    "name": "Baba Yaga's Dancing Broom",
+    "description": "A magical broom that can fly and fight on its own.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 232"
+  },
+  {
+    "name": "Bag of Beans",
+    "description": "A bag of magical beans with unpredictable effects.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 233"
+  },
+  {
+    "name": "Bag of Devouring",
+    "description": "A bag that consumes objects placed inside.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 234"
+  },
+  {
+    "name": "Bag of Holding",
+    "description": "Stores items in an extra-dimensional space.",
+    "rarity": "uncommon",
+    "likability": 0.45,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 234"
+  },
+  {
+    "name": "Bag of Tricks (Gray)",
+    "description": "Summons random animals.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 234"
+  },
+  {
+    "name": "Bag of Tricks (Rust)",
+    "description": "Summons random animals.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 234"
+  },
+  {
+    "name": "Bag of Tricks (Tan)",
+    "description": "Summons random animals.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 234"
+  },
+  {
+    "name": "Barrier Tattoo",
+    "description": "A magical tattoo that increases AC.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "TCE 122"
+  },
+  {
+    "name": "Bead of Force",
+    "description": "A bead that explodes and traps creatures inside a force sphere.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 234"
+  },
+  {
+    "name": "Bead of Nourishment",
+    "description": "A tiny bead that provides as much nourishment as 1 day of rations.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "XGE 136"
+  },
+  {
+    "name": "Bead of Refreshment",
+    "description": "A tiny bead that can turn into enough water to sustain a creature for 1 day.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "XGE 136"
+  },
+  {
+    "name": "Bell Branch",
+    "description": "A druidic focus that helps detect fey, fiends, or undead.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "TCE 122"
+  },
+  {
+    "name": "Belt of Dwarvenkind",
+    "description": "Grants advantages related to dwarves and increases Constitution.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 235"
+  },
+  {
+    "name": "Belt of Giant Strength (cloud)",
+    "description": "A belt that sets your Strength score to 27 while worn.",
+    "rarity": "legendary",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 236"
+  },
+  {
+    "name": "Belt of Giant Strength (fire)",
+    "description": "A belt that sets your Strength score to 25 while worn.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 236"
+  },
+  {
+    "name": "Belt of Giant Strength (frost)",
+    "description": "A belt that sets your Strength score to 23 while worn.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 236"
+  },
+  {
+    "name": "Belt of Giant Strength (hill)",
+    "description": "A belt that sets your Strength score to 21 while worn.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 236"
+  },
+  {
+    "name": "Belt of Giant Strength (stone)",
+    "description": "A belt that sets your Strength score to 23 while worn.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 236"
+  },
+  {
+    "name": "Belt of Giant Strength (storm)",
+    "description": "A belt that sets your Strength score to 29 while worn.",
+    "rarity": "legendary",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 236"
+  },
+  {
+    "name": "Berserker Axe",
+    "description": "A magic axe that grants a bonus to attack and damage rolls, but can curse its wielder with berserk rage.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 236"
+  },
+  {
+    "name": "Blackrazor",
+    "description": "A sentient greatsword that devours souls and grants its wielder life-draining powers.",
+    "rarity": "artifact",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 236"
+  },
+  {
+    "name": "Bloodwell Vial +1",
+    "description": "A focus for sorcerers that boosts spell attacks and DCs.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "TCE 122"
+  },
+  {
+    "name": "Bloodwell Vial +2",
+    "description": "A focus for sorcerers that boosts spell attacks and DCs.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "TCE 122"
+  },
+  {
+    "name": "Bloodwell Vial +3",
+    "description": "A focus for sorcerers that boosts spell attacks and DCs.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "TCE 122"
+  },
+  {
+    "name": "Book of Exalted Deeds",
+    "description": "A legendary tome of good, granting powerful boons to those of pure heart.",
+    "rarity": "artifact",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 237"
+  },
+  {
+    "name": "Book of Vile Darkness",
+    "description": "A legendary tome of evil, granting dark powers to those who dare read it.",
+    "rarity": "artifact",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 238"
+  },
+  {
+    "name": "Boots of Elvenkind",
+    "description": "Wearer moves silently.",
+    "rarity": "uncommon",
+    "likability": 0.45,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 239"
+  },
+  {
+    "name": "Boots of False Tracks",
+    "description": "These boots leave tracks of a different kind of humanoid.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "XGE 136"
+  },
+  {
+    "name": "Boots of Levitation",
+    "description": "Allows the wearer to levitate at will.",
+    "rarity": "rare",
+    "likability": 0.45,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 239"
+  },
+  {
+    "name": "Boots of Speed",
+    "description": "Doubles movement speed.",
+    "rarity": "rare",
+    "likability": 0.7,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 240"
+  },
+  {
+    "name": "Boots of Striding and Springing",
+    "description": "Increases speed and jumping.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 240"
+  },
+  {
+    "name": "Boots of the Winterlands",
+    "description": "Protects the wearer from cold and snow.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 240"
+  },
+  {
+    "name": "Bowl of Commanding Water Elementals",
+    "description": "A magical bowl that can summon and control water elementals when filled with water.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 240"
+  },
+  {
+    "name": "Bracers of Archery",
+    "description": "Bracers that grant proficiency and bonus damage with longbows and shortbows.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 240"
+  },
+  {
+    "name": "Bracers of Defense",
+    "description": "Increases AC when not wearing armor.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 241"
+  },
+  {
+    "name": "Brazier of Commanding Fire Elementals",
+    "description": "Controls fire elementals.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 241"
+  },
+  {
+    "name": "Brooch of Shielding",
+    "description": "Grants resistance to force damage and immunity to Magic Missile.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 241"
+  },
+  {
+    "name": "Broom of Flying",
+    "description": "A broom that can be ridden and flown.",
+    "rarity": "uncommon",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 241"
+  },
+  {
+    "name": "Candle of Invocation",
+    "description": "A candle that aids in summoning and spellcasting.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 241"
+  },
+  {
+    "name": "Candle of the Deep",
+    "description": "This candle stays lit even in strong wind and underwater.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "XGE 136"
+  },
+  {
+    "name": "Cap of Water Breathing",
+    "description": "A cap that allows the wearer to breathe underwater.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 242"
+  },
+  {
+    "name": "Cape of the Mountebank",
+    "description": "Allows the wearer to teleport in a puff of smoke.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 242"
+  },
+  {
+    "name": "Carpet of Flying (3'x5')",
+    "description": "A magical carpet that can fly. (3'x5' 200# 80')",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 242"
+  },
+  {
+    "name": "Carpet of Flying (4'x6')",
+    "description": "A magical carpet that can fly. (4'x6' 400# 60')",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 242"
+  },
+  {
+    "name": "Carpet of Flying (5'x7')",
+    "description": "A magical carpet that can fly. (5'x7' 600# 40')",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 242"
+  },
+  {
+    "name": "Carpet of Flying (6'x9')",
+    "description": "A magical carpet that can fly. (6'x9' 800# 30')",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 242"
+  },
+  {
+    "name": "Cast-Off Armor",
+    "description": "You can doff this armor as an action.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "armor",
+    "source": "XGE 136"
+  },
+  {
+    "name": "Cauldron of Rebirth",
+    "description": "A magical cauldron that can bring the dead back to life and serves as a spellcasting focus for druids and warlocks.",
+    "rarity": "very rare",
+    "likability": 1.2,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 243"
+  },
+  {
+    "name": "Censer of Controlling Air Elementals",
+    "description": "Summons an air elementals up to 1 hour. Obeys your commands.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 243"
+  },
+  {
+    "name": "Charlatan's Die",
+    "description": "A weighted die that always rolls the number you wish.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "XGE 136"
+  },
+  {
+    "name": "Chime of Opening",
+    "description": "Opens locked doors or containers when struck.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 244"
+  },
+  {
+    "name": "Circlet of Blasting",
+    "description": "A circlet that lets you cast the Scorching Ray spell.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 244"
+  },
+  {
+    "name": "Cloak of Arachnida",
+    "description": "Grants spider climb and resistance to poison.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 244"
+  },
+  {
+    "name": "Cloak of Billowing",
+    "description": "As a bonus action, make this cloak billow dramatically.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "XGE 136"
+  },
+  {
+    "name": "Cloak of Displacement",
+    "description": "Makes wearer harder to hit.",
+    "rarity": "rare",
+    "likability": 0.8,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 244"
+  },
+  {
+    "name": "Cloak of Elvenkind",
+    "description": "Grants advantage on Stealth checks.",
+    "rarity": "uncommon",
+    "likability": 0.45,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 244"
+  },
+  {
+    "name": "Cloak of Invisibility",
+    "description": "Grants invisibility to the wearer.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 244"
+  },
+  {
+    "name": "Cloak of Many Fashions",
+    "description": "Change the style, color, and apparent quality of this cloak as a bonus action.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "XGE 136"
+  },
+  {
+    "name": "Cloak of Protection",
+    "description": "A cloak that grants a bonus to AC and saving throws.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 245"
+  },
+  {
+    "name": "Cloak of the Bat",
+    "description": "Allows you to fly in dim light or darkness and turn into a bat.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 245"
+  },
+  {
+    "name": "Cloak of the Manta Ray",
+    "description": "Lets you breathe underwater and swim speed 60 ft.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 245"
+  },
+  {
+    "name": "Clockwork Amulet",
+    "description": "Once per day, forgo rolling a d20 for an attack roll and take a 10 instead.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 245"
+  },
+  {
+    "name": "Clothes of Mending",
+    "description": "If torn or damaged, these clothes mend themselves at dawn.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 245"
+  },
+  {
+    "name": "Crystal Ball",
+    "description": "A legendary scrying device used to see distant places or creatures.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 245"
+  },
+  {
+    "name": "Crystal Ball of Mind Reading",
+    "description": "A crystal ball that allows scrying and reading the thoughts of creatures.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 246"
+  },
+  {
+    "name": "Crystal Ball of Telepathy",
+    "description": "A crystal ball that allows scrying and telepathic communication with creatures.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 246"
+  },
+  {
+    "name": "Crystal Ball of True Seeing",
+    "description": "A crystal ball that allows scrying and seeing through illusions and invisibility.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 246"
+  },
+  {
+    "name": "Cube of Force",
+    "description": "A cube that can create a protective barrier against various types of attacks.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 246"
+  },
+  {
+    "name": "Cube of Summoning",
+    "description": "A cube that can summon extraplanar creatures to aid the user.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 247"
+  },
+  {
+    "name": "Cubic Gate",
+    "description": "A cube that can open portals to other planes of existence.",
+    "rarity": "legendary",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 247"
+  },
+  {
+    "name": "Daern's Instant Fortress",
+    "description": "A small cube that transforms into a massive, indestructible fortress.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 247"
+  },
+  {
+    "name": "Dagger of Venom",
+    "description": "A dagger that can poison its target.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 248"
+  },
+  {
+    "name": "Dancing Sword",
+    "description": "A sword that can fight on its own.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 248"
+  },
+  {
+    "name": "Dark Shard Amulet",
+    "description": "A magical amulet that serves as a spellcasting focus for warlocks and can be used to try to cast a cantrip (1x/day. DC 10 skillcheck)",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 248"
+  },
+  {
+    "name": "Decanter of Endless Water",
+    "description": "Produces an endless supply of fresh water.",
+    "rarity": "uncommon",
+    "likability": 0.45,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 249"
+  },
+  {
+    "name": "Deck of Illusions",
+    "description": "Creates illusions when cards are drawn.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 249"
+  },
+  {
+    "name": "Deck of Many Things",
+    "description": "A deck of magical cards with unpredictable and powerful effects.",
+    "rarity": "legendary",
+    "likability": 0.6,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 250"
+  },
+  {
+    "name": "Defender",
+    "description": "A weapon that can transfer its bonus to AC.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 252"
+  },
+  {
+    "name": "Demon Armor",
+    "description": "A suit of armor that grants resistance to certain damage types and enhances melee attacks.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 252"
+  },
+  {
+    "name": "Demonomicon of Iggwilv",
+    "description": "A legendary tome containing secrets of demons and powerful spells.",
+    "rarity": "artifact",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 252"
+  },
+  {
+    "name": "Dimensional Shackles",
+    "description": "Prevents teleportation and planar travel.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 254"
+  },
+  {
+    "name": "Dragon Scale Mail",
+    "description": "Magical scale mail made from dragon scales, granting resistance and enhanced senses.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 254"
+  },
+  {
+    "name": "Dragon Slayer",
+    "description": "A weapon that deals extra damage to dragons.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 254"
+  },
+  {
+    "name": "Dread Helm",
+    "description": "A helm that causes your eyes to glow red when worn.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 254"
+  },
+  {
+    "name": "Driftglobe",
+    "description": "A small sphere that sheds light and can cast Daylight.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 254"
+  },
+  {
+    "name": "Dust of Disappearance",
+    "description": "Makes creatures invisible.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 255"
+  },
+  {
+    "name": "Dust of Dryness",
+    "description": "Absorbs large amounts of water.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 255"
+  },
+  {
+    "name": "Dust of Sneezing and Choking",
+    "description": "Causes sneezing and choking.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 255"
+  },
+  {
+    "name": "Dwarven Plate",
+    "description": "Heavy armor that increases AC and resists forced movement.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 255"
+  },
+  {
+    "name": "Dwarven Thrower",
+    "description": "A +3 warhammer that returns when thrown.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 256"
+  },
+  {
+    "name": "Ear Horn of Hearing",
+    "description": "A horn that amplifies sound, granting advantage on Perception checks involving hearing.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 256"
+  },
+  {
+    "name": "Efreeti Bottle",
+    "description": "Contains an efreeti that can grant wishes.",
+    "rarity": "legendary",
+    "likability": 0.6,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 256"
+  },
+  {
+    "name": "Efreeti Chain",
+    "description": "Legendary chainmail with fire resistance and other powers.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 257"
+  },
+  {
+    "name": "Elemental Gem",
+    "description": "Summons an elemental.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 257"
+  },
+  {
+    "name": "Elemental Gem (blue sapphire)",
+    "description": "A gem that can summon a water elemental.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 257"
+  },
+  {
+    "name": "Elemental Gem (emerald)",
+    "description": "A gem that can summon an air elemental.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 257"
+  },
+  {
+    "name": "Elemental Gem (red corundum)",
+    "description": "A gem that can summon a fire elemental.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 257"
+  },
+  {
+    "name": "Elemental Gem (yellow diamond)",
+    "description": "A gem that can summon an earth elemental.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 257"
+  },
+  {
+    "name": "Elixir of Health",
+    "description": "A potion that cures all magical contagions and removes conditions.",
+    "rarity": "rare",
+    "likability": 0.7,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 257"
+  },
+  {
+    "name": "Elven Chain",
+    "description": "Light chainmail that doesn't require proficiency.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 257"
+  },
+  {
+    "name": "Enduring Spellbook",
+    "description": "A spellbook that is immune to fire and water damage.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 257"
+  },
+  {
+    "name": "Energy Bow",
+    "description": "A magical bow (longbow or shortbow) that fires arrows of pure energy.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 257"
+  },
+  {
+    "name": "Enspelled Armor (1st Level)",
+    "description": "Armor that can cast a particular 1st-level spell.",
+    "rarity": "uncommon",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Armor (2nd Level)",
+    "description": "Armor that can cast a particular 2nd-level spell.",
+    "rarity": "rare",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Armor (3rd Level)",
+    "description": "Armor that can cast a particular 3rd-level spell.",
+    "rarity": "rare",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Armor (4th Level)",
+    "description": "Armor that can cast a particular 4th-level spell.",
+    "rarity": "very rare",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Armor (5th Level)",
+    "description": "Armor that can cast a particular 5th-level spell.",
+    "rarity": "very rare",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Armor (6th Level)",
+    "description": "Armor that can cast a particular 6th-level spell.",
+    "rarity": "legendary",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Armor (7th Level)",
+    "description": "Armor that can cast a particular 7th-level spell.",
+    "rarity": "legendary",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Armor (8th Level)",
+    "description": "Armor that can cast a particular 8th-level spell.",
+    "rarity": "legendary",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Staff (Cantrip)",
+    "description": "A staff that can cast a particular cantrip-level spell.",
+    "rarity": "uncommon",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Staff (level 1 spell)",
+    "description": "Casts a spell 6x/day",
+    "rarity": "uncommon",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Staff (level 2 spell)",
+    "description": "Casts a spell 6x/day",
+    "rarity": "rare",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Staff (level 3 spell)",
+    "description": "Casts a spell 6x/day",
+    "rarity": "rare",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Staff (level 4 spell)",
+    "description": "Casts a spell 6x/day",
+    "rarity": "very rare",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Staff (level 5 spell)",
+    "description": "Casts a spell 6x/day",
+    "rarity": "very rare",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Staff (level 6 spell)",
+    "description": "Casts a spell 6x/day",
+    "rarity": "legendary",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Staff (level 7 spell)",
+    "description": "Casts a spell 6x/day",
+    "rarity": "legendary",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Staff (level 8 spell)",
+    "description": "Casts a spell 6x/day",
+    "rarity": "legendary",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Weapon (Cantrip)",
+    "description": "Casts a spell 6x/day",
+    "rarity": "uncommon",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Weapon (level 1 spell)",
+    "description": "Casts a spell 6x/day",
+    "rarity": "uncommon",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Weapon (level 2 spell)",
+    "description": "Casts a spell 6x/day",
+    "rarity": "rare",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Weapon (level 3 spell)",
+    "description": "Casts a spell 6x/day",
+    "rarity": "rare",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Weapon (level 4 spell)",
+    "description": "Casts a spell 6x/day",
+    "rarity": "very rare",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Weapon (level 5 spell)",
+    "description": "Casts a spell 6x/day",
+    "rarity": "very rare",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Weapon (level 6 spell)",
+    "description": "Casts a spell 6x/day",
+    "rarity": "legendary",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Weapon (level 7 spell)",
+    "description": "Casts a spell 6x/day",
+    "rarity": "legendary",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Enspelled Weapon (level 8 spell)",
+    "description": "Casts a spell 6x/day",
+    "rarity": "legendary",
+    "likability": 0.65,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 258"
+  },
+  {
+    "name": "Ersatz Eye",
+    "description": "Prosthetic eye that functions as a normal eye. Can't be removed against your will while you're alive",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 259"
+  },
+  {
+    "name": "Eversmoking Bottle",
+    "description": "Produces a cloud of smoke.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 259"
+  },
+  {
+    "name": "Executioner's Axe",
+    "description": "A heavy axe designed for executions, often with magical properties.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 259"
+  },
+  {
+    "name": "Eye and Hand of Vecna",
+    "description": "Legendary artifacts that grant immense power but corrupt the user.",
+    "rarity": "artifact",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 259"
+  },
+  {
+    "name": "Eyes of Charming",
+    "description": "Lets you cast Charm Person.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 261"
+  },
+  {
+    "name": "Eyes of Minute Seeing",
+    "description": "Grants advantage on Investigation checks for small details.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 261"
+  },
+  {
+    "name": "Eyes of the Eagle",
+    "description": "Grants advantage on Perception checks involving sight.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 261"
+  },
+  {
+    "name": "Figurine of Wondrous Power (Bronze Griffon)",
+    "description": "Transforms into a griffon for up to 6 hours.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 261"
+  },
+  {
+    "name": "Figurine of Wondrous Power (Ebony Fly)",
+    "description": "Transforms into a giant fly for up to 12 hours.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 261"
+  },
+  {
+    "name": "Figurine of Wondrous Power (Golden Lions)",
+    "description": "Transforms into two lions for up to 1 hour.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 261"
+  },
+  {
+    "name": "Figurine of Wondrous Power (Ivory Goats)",
+    "description": "Transforms into three different goats: Travail, Travel, and Terror.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 261"
+  },
+  {
+    "name": "Figurine of Wondrous Power (Marble Elephant)",
+    "description": "Transforms into an elephant for up to 24 hours.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 261"
+  },
+  {
+    "name": "Figurine of Wondrous Power (Obsidian Steed)",
+    "description": "Transforms into a nightmare for up to 24 hours.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 261"
+  },
+  {
+    "name": "Figurine of Wondrous Power (Onyx Dog)",
+    "description": "Transforms into a mastiff for up to 6 hours.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 261"
+  },
+  {
+    "name": "Figurine of Wondrous Power (Serpentine Owl)",
+    "description": "Transforms into a giant owl for up to 8 hours.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 261"
+  },
+  {
+    "name": "Figurine of Wondrous Power (Silver Raven)",
+    "description": "Transforms into a raven for up to 12 hours.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 261"
+  },
+  {
+    "name": "Flame Tongue",
+    "description": "A sword that bursts into flame.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 263"
+  },
+  {
+    "name": "Folding Boat",
+    "description": "A boat that folds into a small box.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 263"
+  },
+  {
+    "name": "Frost Brand",
+    "description": "A sword that deals cold damage and sheds light.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 263"
+  },
+  {
+    "name": "Gauntlets of Ogre Power",
+    "description": "Sets Strength to 19.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 264"
+  },
+  {
+    "name": "Gem of Brightness",
+    "description": "A gem that emits bright light and can blind.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 264"
+  },
+  {
+    "name": "Gem of Seeing",
+    "description": "Lets you see invisible creatures and objects.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 264"
+  },
+  {
+    "name": "Giant Slayer",
+    "description": "A weapon that deals extra damage to giants.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 264"
+  },
+  {
+    "name": "Glamoured Studded Leather",
+    "description": "Studded leather armor that can magically change its appearance at will.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 264"
+  },
+  {
+    "name": "Gloves of Missile Snaring",
+    "description": "Lets you catch missiles.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 265"
+  },
+  {
+    "name": "Gloves of Swimming and Climbing",
+    "description": "Grants advantage on Athletics checks for swimming and climbing.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 265"
+  },
+  {
+    "name": "Gloves of Thievery",
+    "description": "Grants bonus to Sleight of Hand and Stealth.",
+    "rarity": "uncommon",
+    "likability": 0.45,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 265"
+  },
+  {
+    "name": "Goggles of Night",
+    "description": "Grants darkvision.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 265"
+  },
+  {
+    "name": "Guardian Emblem",
+    "description": "A holy symbol that can prevent critical hits. 3x/day.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "TCE 128"
+  },
+  {
+    "name": "Hag Eye",
+    "description": "A magical eye used by hags to spy on others.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 265"
+  },
+  {
+    "name": "Hammer of Thunderbolts",
+    "description": "A legendary warhammer with thunder powers.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 265"
+  },
+  {
+    "name": "Hat of Disguise",
+    "description": "Lets you cast Disguise Self at will.",
+    "rarity": "uncommon",
+    "likability": 0.45,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 266"
+  },
+  {
+    "name": "Hat of Many Spells",
+    "description": "A wizard's hat that can store and cast spells.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 266"
+  },
+  {
+    "name": "Hat of Vermin",
+    "description": "Can produce harmless bats, frogs, or rats.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 267"
+  },
+  {
+    "name": "Hat of Wizardry",
+    "description": "Attunement by wizard. Spell focus for your wizard spells. Can try to cast a wizard cantrip you don't know 1x/day (DC 10 Arcana). Cantrip must have casting time of 1 action.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 267"
+  },
+  {
+    "name": "Headband of Intellect",
+    "description": "A headband that sets your Intelligence score to 19.",
+    "rarity": "uncommon",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 268"
+  },
+  {
+    "name": "Helm of Brilliance",
+    "description": "A helm studded with gems that can cast spells.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 268"
+  },
+  {
+    "name": "Helm of Comprehending Languages",
+    "description": "Lets you understand any spoken language.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 268"
+  },
+  {
+    "name": "Helm of Telepathy",
+    "description": "Lets you read minds and communicate telepathically.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 268"
+  },
+  {
+    "name": "Helm of Teleportation",
+    "description": "A magical helm that allows the wearer to cast the Teleport spell.",
+    "rarity": "rare",
+    "likability": 0.4,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 268"
+  },
+  {
+    "name": "Heward's Handy Haversack",
+    "description": "A backpack with extra-dimensional storage.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 269"
+  },
+  {
+    "name": "Heward's Handy Spice Pouch",
+    "description": "A magical pouch that produces a variety of spices on command.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 269"
+  },
+  {
+    "name": "Holy Avenger",
+    "description": "A legendary sword for paladins.",
+    "rarity": "legendary",
+    "likability": 0.6,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 269"
+  },
+  {
+    "name": "Horn of Blasting",
+    "description": "Emits a destructive blast of sound.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 270"
+  },
+  {
+    "name": "Horn of Silent Alarm",
+    "description": "A horn that can be blown to alert a chosen creature without making a sound to others.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 270"
+  },
+  {
+    "name": "Horn of Valhalla (brass)",
+    "description": "A horn that summons warrior spirits to fight for you.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 270"
+  },
+  {
+    "name": "Horn of Valhalla (bronze)",
+    "description": "A horn that summons powerful warrior spirits to fight for you.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 270"
+  },
+  {
+    "name": "Horn of Valhalla (iron)",
+    "description": "A horn that summons the most powerful warrior spirits to fight for you.",
+    "rarity": "legendary",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 270"
+  },
+  {
+    "name": "Horn of Valhalla (silver)",
+    "description": "A horn that summons skilled warrior spirits to fight for you.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 270"
+  },
+  {
+    "name": "Horseshoes of a Zephyr",
+    "description": "Allows a horse to move above the ground and never leave tracks.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 270"
+  },
+  {
+    "name": "Horseshoes of Speed",
+    "description": "Increases a horse's speed.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 270"
+  },
+  {
+    "name": "Immovable Rod",
+    "description": "A rod that becomes fixed in space when activated. 8000 lb limit.",
+    "rarity": "uncommon",
+    "likability": 0.45,
+    "magicType": "minor",
+    "category": "rod",
+    "source": "DMG 270"
+  },
+  {
+    "name": "Instrument of Illusions",
+    "description": "A musical instrument that can create minor illusions.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 271"
+  },
+  {
+    "name": "Instrument of Scribing",
+    "description": "A musical instrument that can magically scribe messages.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 271"
+  },
+  {
+    "name": "Instrument of the Bards (Anstruth Harp)",
+    "description": "A legendary bardic instrument with powerful magic.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 272"
+  },
+  {
+    "name": "Instrument of the Bards (Canaith Mandolin)",
+    "description": "A rare bardic instrument with magical properties.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 272"
+  },
+  {
+    "name": "Instrument of the Bards (Cli Lyre)",
+    "description": "A rare bardic instrument with magical properties.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 272"
+  },
+  {
+    "name": "Instrument of the Bards (Doss Lute)",
+    "description": "An uncommon bardic instrument with magical properties.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 272"
+  },
+  {
+    "name": "Instrument of the Bards (Fochlucan Bandore)",
+    "description": "An uncommon bardic instrument with magical properties.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 272"
+  },
+  {
+    "name": "Instrument of the Bards (Mac-Fuirmidh Cittern)",
+    "description": "An uncommon bardic instrument with magical properties.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 272"
+  },
+  {
+    "name": "Instrument of the Bards (Ollamh Harp)",
+    "description": "A legendary bardic instrument with powerful magic.",
+    "rarity": "legendary",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 272"
+  },
+  {
+    "name": "Ioun Stone (Absorption)",
+    "description": "Marbled lavender and green ellipsoid. Absorbs spells targeted at you.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 273"
+  },
+  {
+    "name": "Ioun Stone (Agility)",
+    "description": "Deep red sphere. Increases Dexterity score.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 273"
+  },
+  {
+    "name": "Ioun Stone (Awareness)",
+    "description": "Dark blue rhomboid. Prevents you from being surprised.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 273"
+  },
+  {
+    "name": "Ioun Stone (Fortitude)",
+    "description": "Pink rhomboid. Increases Constitution score.",
+    "rarity": "very rare",
+    "likability": 0.9,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 273"
+  },
+  {
+    "name": "Ioun Stone (Greater Absorption)",
+    "description": "Marbled lavender and green ellipsoid. Absorbs higher-level spells targeted at you.",
+    "rarity": "legendary",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 273"
+  },
+  {
+    "name": "Ioun Stone (Insight)",
+    "description": "Incandescent blue sphere. Increases Wisdom score.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 273"
+  },
+  {
+    "name": "Ioun Stone (Intellect)",
+    "description": "Marbled scarlet and blue sphere. Increases Intelligence score.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 273"
+  },
+  {
+    "name": "Ioun Stone (Leadership)",
+    "description": "Marbled pink and green sphere. Increases Charisma score.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 273"
+  },
+  {
+    "name": "Ioun Stone (Mastery)",
+    "description": "Pale green prism. Increases proficiency bonus.",
+    "rarity": "legendary",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 273"
+  },
+  {
+    "name": "Ioun Stone (Protection)",
+    "description": "Dusty rose prism. Increases AC.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 273"
+  },
+  {
+    "name": "Ioun Stone (Regeneration)",
+    "description": "Pearly white spindle. Regenerates hit points over time.",
+    "rarity": "legendary",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 273"
+  },
+  {
+    "name": "Ioun Stone (Reserve)",
+    "description": "Vibrant violet prism. Stores spells.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 273"
+  },
+  {
+    "name": "Ioun Stone (Strength)",
+    "description": "Pale blue rhomboid. Increases Strength score.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 273"
+  },
+  {
+    "name": "Ioun Stone (Sustenance)",
+    "description": "Clear spindle. No need to eat or drink.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 273"
+  },
+  {
+    "name": "Iron Bands of Bilarro",
+    "description": "A set of iron bands that can restrain a creature when thrown.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 274"
+  },
+  {
+    "name": "Iron Flask",
+    "description": "Can trap extraplanar creatures.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 274"
+  },
+  {
+    "name": "Javelin of Lightning",
+    "description": "A javelin that transforms into a bolt of lightning when thrown.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 275"
+  },
+  {
+    "name": "Keoghtom's Ointment",
+    "description": "A magical ointment that heals wounds and cures diseases.",
+    "rarity": "uncommon",
+    "likability": 0.7,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 275"
+  },
+  {
+    "name": "Lantern of Revealing",
+    "description": "Reveals invisible creatures and objects.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 275"
+  },
+  {
+    "name": "Lock of Trickery",
+    "description": "A lock that is difficult to pick and can magically relock itself.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 275"
+  },
+  {
+    "name": "Luck Blade",
+    "description": "A magical sword that grants luck and can even grant wishes.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 275"
+  },
+  {
+    "name": "Lute of Thunderous Thumping",
+    "description": "A magical club that produces thunderous sounds when struck.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 275"
+  },
+  {
+    "name": "Lyre of Building",
+    "description": "When played, this magical lyre can prevent damage to an object/structure until your next turn. Cast fabricate, move earth, passwall, or summon construct 1x/day.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "TCE 131"
+  },
+  {
+    "name": "Mace of Disruption",
+    "description": "A mace that deals extra damage to undead and fiends.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 276"
+  },
+  {
+    "name": "Mace of Smiting",
+    "description": "A mace that deals extra damage to constructs.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 276"
+  },
+  {
+    "name": "Mace of Terror",
+    "description": "A mace that can instill fear.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 276"
+  },
+  {
+    "name": "Mantle of Spell Resistance",
+    "description": "Grants advantage on saving throws against spells.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 276"
+  },
+  {
+    "name": "Manual of Bodily Health",
+    "description": "Increases Constitution permanently.",
+    "rarity": "legendary",
+    "likability": 1.2,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 277"
+  },
+  {
+    "name": "Manual of Gainful Exercise",
+    "description": "Increases Strength permanently.",
+    "rarity": "legendary",
+    "likability": 0.8,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 277"
+  },
+  {
+    "name": "Manual of Golems (clay)",
+    "description": "A manual describing how to create a clay golem.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 277"
+  },
+  {
+    "name": "Manual of Golems (flesh)",
+    "description": "A manual describing how to create a flesh golem.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 277"
+  },
+  {
+    "name": "Manual of Golems (iron)",
+    "description": "A manual describing how to create an iron golem.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 277"
+  },
+  {
+    "name": "Manual of Golems (stone)",
+    "description": "A manual describing how to create a stone golem.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 277"
+  },
+  {
+    "name": "Manual of Quickness of Action",
+    "description": "Increases Dexterity permanently.",
+    "rarity": "legendary",
+    "likability": 0.8,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 278"
+  },
+  {
+    "name": "Mariner's Armor",
+    "description": "Grants swimming speed and water breathing.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "armor",
+    "source": "DMG 278"
+  },
+  {
+    "name": "Medallion of Thoughts",
+    "description": "Lets you read surface thoughts.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 278"
+  },
+  {
+    "name": "Mirror of Life Trapping",
+    "description": "Traps creatures inside extra-dimensional cells.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 278"
+  },
+  {
+    "name": "Mithral Armor",
+    "description": "Lightweight armor made from mithral, never imposing disadvantage on Stealth checks.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 279"
+  },
+  {
+    "name": "Moon Sickle +1",
+    "description": "A druidic or ranger focus that boosts melee attack and damange, spell attack and DC, and +1d4 to healing spells cast.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "TCE 133"
+  },
+  {
+    "name": "Moon Sickle +2",
+    "description": "A druidic or ranger focus that boosts melee attack and damange, spell attack and DC, and +1d4 to healing spells cast.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "TCE 133"
+  },
+  {
+    "name": "Moon Sickle +3",
+    "description": "A druidic or ranger focus that boosts melee attack and damange, spell attack and DC, and +1d4 to healing spells cast.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "TCE 133"
+  },
+  {
+    "name": "Moon-Touched Sword",
+    "description": "A sword that emits bright moonlight when drawn, effective against creatures vulnerable to light.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "weapon",
+    "source": "DMG 280"
+  },
+  {
+    "name": "Moonblade",
+    "description": "A sentient weapon (greatsword, longsword, rapier, scimitar, or shortsword). The Moonblade grows in power with each new owner, gaining magical properties and abilities. It is famed for its connection to elven heritage.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 279"
+  },
+  {
+    "name": "Mystery Key",
+    "description": "5% chance to open any lock. On success, the key disappears.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 280"
+  },
+  {
+    "name": "Nature's Mantle",
+    "description": "A cloak and spellcasting focus for Druid/Ranger spells. Can hide in lightly obscured as bonus action.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 280"
+  },
+  {
+    "name": "Necklace of Adaptation",
+    "description": "Allows you to breathe in any environment.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 280"
+  },
+  {
+    "name": "Necklace of Fireballs",
+    "description": "Contains beads that can be thrown to cast Fireball.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 280"
+  },
+  {
+    "name": "Necklace of Prayer Beads",
+    "description": "A necklace with beads that can cast spells.",
+    "rarity": "rare",
+    "likability": 0.9,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 281"
+  },
+  {
+    "name": "Nine Lives Stealer",
+    "description": "A weapon that can slay creatures instantly on a critical hit.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 281"
+  },
+  {
+    "name": "Nolzur's Marvelous Pigments",
+    "description": "Paint that creates real, nonmagical objects.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 281"
+  },
+  {
+    "name": "Oathbow",
+    "description": "A bow that deals extra damage to a sworn enemy.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 282"
+  },
+  {
+    "name": "Oil of Etherealness",
+    "description": "Lets you become ethereal for 1 hour.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 282"
+  },
+  {
+    "name": "Oil of Sharpness",
+    "description": "A magical oil that makes a weapon extremely sharp, granting a bonus to attack and damage.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 282"
+  },
+  {
+    "name": "Oil of Slipperiness",
+    "description": "Grants freedom of movement or makes surfaces slippery for 8 hours.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 283"
+  },
+  {
+    "name": "Orb of Direction",
+    "description": "A magical orb that always points north.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 283"
+  },
+  {
+    "name": "Orb of Dragonkind",
+    "description": "A legendary orb that can control dragons and cast powerful spells.",
+    "rarity": "artifact",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 283"
+  },
+  {
+    "name": "Orb of Time",
+    "description": "A magical orb that can manipulate time in minor ways.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 284"
+  },
+  {
+    "name": "Pearl of Power",
+    "description": "Lets you regain a spell slot.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 284"
+  },
+  {
+    "name": "Perfume of Bewitching",
+    "description": "A perfume that makes the wearer more charming for a short time.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 284"
+  },
+  {
+    "name": "Periapt of Health",
+    "description": "Prevents disease.",
+    "rarity": "uncommon",
+    "likability": 0.7,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 284"
+  },
+  {
+    "name": "Periapt of Proof Against Poison",
+    "description": "Grants immunity to poison.",
+    "rarity": "rare",
+    "likability": 0.7,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 284"
+  },
+  {
+    "name": "Periapt of Wound Closure",
+    "description": "Stabilizes you when dying and doubles healing from hit dice.",
+    "rarity": "uncommon",
+    "likability": 0.7,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 284"
+  },
+  {
+    "name": "Philter of Love",
+    "description": "Causes the drinker to become charmed for 1 hour.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 285"
+  },
+  {
+    "name": "Pipe of Smoke Monsters",
+    "description": "A pipe that creates smoke in the shape of monsters.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 285"
+  },
+  {
+    "name": "Pipes of Haunting",
+    "description": "Pipes that can instill fear in creatures that hear them.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 285"
+  },
+  {
+    "name": "Pipes of the Sewers",
+    "description": "Pipes that can summon and control swarms of rats.",
+    "rarity": "uncommon",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 285"
+  },
+  {
+    "name": "Plate Armor of Etherealness",
+    "description": "Plate armor that allows the wearer to become ethereal.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 286"
+  },
+  {
+    "name": "Pole of Angling",
+    "description": "A fishing pole that guarantees a catch.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 286"
+  },
+  {
+    "name": "Pole of Collapsing",
+    "description": "A pole that can collapse into a small rod for easy transport.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 286"
+  },
+  {
+    "name": "Portable Hole",
+    "description": "A cloth that creates an extradimensional hole when spread out.",
+    "rarity": "rare",
+    "likability": 0.45,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 286"
+  },
+  {
+    "name": "Pot of Awakening",
+    "description": "A pot that grows a sentient awakened shrub.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 289"
+  },
+  {
+    "name": "Potion of Animal Friendship",
+    "description": "As if you cast Animal Friendship on yourself. 1 hour duration.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 287"
+  },
+  {
+    "name": "Potion of Clairvoyance",
+    "description": "A potion that lets you cast the Clairvoyance spell.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 287"
+  },
+  {
+    "name": "Potion of Climbing",
+    "description": "Grants climbing speed for 1 hour.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 287"
+  },
+  {
+    "name": "Potion of Comprehension",
+    "description": "A potion that lets you understand any spoken or written language.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 287"
+  },
+  {
+    "name": "Potion of Diminution",
+    "description": "As if you cast Reduce on yourself. 1 hour duration.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 287"
+  },
+  {
+    "name": "Potion of Fire Breath",
+    "description": "Lets you breathe fire for 1 hour.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 287"
+  },
+  {
+    "name": "Potion of Flying",
+    "description": "A potion that grants the ability to fly for a limited time.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 287"
+  },
+  {
+    "name": "Potion of Gaseous Form",
+    "description": "Lets you become a gas for 1 hour.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 287"
+  },
+  {
+    "name": "Potion of Giant Strength (Cloud)",
+    "description": "Your Strength score changes to 27 for 1 hour.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 288"
+  },
+  {
+    "name": "Potion of Giant Strength (Fire)",
+    "description": "Your Strength score changes to 25 for 1 hour.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 288"
+  },
+  {
+    "name": "Potion of Giant Strength (Frost)",
+    "description": "Your Strength score changes to 23 for 1 hour.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 288"
+  },
+  {
+    "name": "Potion of Giant Strength (Hill)",
+    "description": "Your Strength score changes to 21 for 1 hour.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 288"
+  },
+  {
+    "name": "Potion of Giant Strength (Stone)",
+    "description": "Your Strength score changes to 23 for 1 hour.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 288"
+  },
+  {
+    "name": "Potion of Giant Strength (Storm)",
+    "description": "Your Strength score changes to 29 for 1 hour.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 288"
+  },
+  {
+    "name": "Potion of Greater Invisibility",
+    "description": "Has the invisible condition for 1 hour.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 288"
+  },
+  {
+    "name": "Potion of Growth",
+    "description": "As if you cast Enlarge on yourself. 1 hour duration.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 288"
+  },
+  {
+    "name": "Potion of Healing",
+    "description": "Heals 2d4+2 hit points.",
+    "rarity": "common",
+    "likability": 0.7,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 288"
+  },
+  {
+    "name": "Potion of Healing (Greater)",
+    "description": "Heals 4d4+4 hit points.",
+    "rarity": "uncommon",
+    "likability": 0.7,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 288"
+  },
+  {
+    "name": "Potion of Healing (Superior)",
+    "description": "Heals 8d4+8 hit points.",
+    "rarity": "rare",
+    "likability": 0.7,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 288"
+  },
+  {
+    "name": "Potion of Healing (Supreme)",
+    "description": "Heals 10d4+20 hit points.",
+    "rarity": "very rare",
+    "likability": 0.7,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 288"
+  },
+  {
+    "name": "Potion of Heroism",
+    "description": "Grants temporary hit points and bless for 1 hour.",
+    "rarity": "rare",
+    "likability": 0.9,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 288"
+  },
+  {
+    "name": "Potion of Invisibility",
+    "description": "Lets you become invisible for 1 hour. Ends early: make attack roll, deal damage, cast spell.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 288"
+  },
+  {
+    "name": "Potion of Invulnerability",
+    "description": "Resistance to all damage for 1 minute.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 288"
+  },
+  {
+    "name": "Potion of Levitation",
+    "description": "A potion that reduces the drinker's age.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "Homebrew"
+  },
+  {
+    "name": "Potion of Longevity",
+    "description": "A potion that reduces the drinker's age.",
+    "rarity": "very rare",
+    "likability": 0.7,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 288"
+  },
+  {
+    "name": "Potion of Mind Reading",
+    "description": "As if you cast Detect Thoughts on yourself. 1 hour duration.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 288"
+  },
+  {
+    "name": "Potion of Poison",
+    "description": "A poison disguised as a healing potion.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 288"
+  },
+  {
+    "name": "Potion of Pugilism",
+    "description": "A potion that enhances unarmed strikes for a short time.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 289"
+  },
+  {
+    "name": "Potion of Resistance (Acid)",
+    "description": "Grants resistance to acid damage for 1 hour.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 289"
+  },
+  {
+    "name": "Potion of Resistance (Cold)",
+    "description": "Grants resistance to cold damage for 1 hour.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 289"
+  },
+  {
+    "name": "Potion of Resistance (Fire)",
+    "description": "Grants resistance to fire damage for 1 hour.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 289"
+  },
+  {
+    "name": "Potion of Resistance (Force)",
+    "description": "Grants resistance to force damage for 1 hour.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 289"
+  },
+  {
+    "name": "Potion of Resistance (Lightning)",
+    "description": "Grants resistance to lightning damage for 1 hour.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 289"
+  },
+  {
+    "name": "Potion of Resistance (Necrotic)",
+    "description": "Grants resistance to necrotic damage for 1 hour.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 289"
+  },
+  {
+    "name": "Potion of Resistance (Poison)",
+    "description": "Grants resistance to poison damage for 1 hour.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 289"
+  },
+  {
+    "name": "Potion of Resistance (Psychic)",
+    "description": "Grants resistance to psychic damage for 1 hour.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 289"
+  },
+  {
+    "name": "Potion of Resistance (Radiant)",
+    "description": "Grants resistance to radiant damage for 1 hour.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 289"
+  },
+  {
+    "name": "Potion of Resistance (Thunder)",
+    "description": "Grants resistance to thunder damage for 1 hour.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 289"
+  },
+  {
+    "name": "Potion of Speed",
+    "description": "As if you cast Haste on yourself. 1 minute duration.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 289"
+  },
+  {
+    "name": "Potion of Vitality",
+    "description": "Removes exhaustion and cures diseases.",
+    "rarity": "very rare",
+    "likability": 0.7,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 289"
+  },
+  {
+    "name": "Potion of Water Breathing",
+    "description": "Lets you breathe underwater for 1 hour.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "potion",
+    "source": "DMG 289"
+  },
+  {
+    "name": "Prosthetic Limb",
+    "description": "A magical limb that functions as a real arm or leg.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 290"
+  },
+  {
+    "name": "Quaal's Feather Token (Anchor)",
+    "description": "Prevents a boat or ship from moving.",
+    "rarity": "uncommon",
+    "likability": 0.45,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 290"
+  },
+  {
+    "name": "Quaal's Feather Token (Bird)",
+    "description": "Sends a message to a specified recipient.",
+    "rarity": "rare",
+    "likability": 0.45,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 290"
+  },
+  {
+    "name": "Quaal's Feather Token (Fan)",
+    "description": "Creates a strong wind.",
+    "rarity": "uncommon",
+    "likability": 0.45,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 290"
+  },
+  {
+    "name": "Quaal's Feather Token (Swan Boat)",
+    "description": "Creates a large swan-shaped boat.",
+    "rarity": "rare",
+    "likability": 0.45,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 290"
+  },
+  {
+    "name": "Quaal's Feather Token (Tree)",
+    "description": "Creates a 60-foot-tall oak tree.",
+    "rarity": "uncommon",
+    "likability": 0.45,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 290"
+  },
+  {
+    "name": "Quaal's Feather Token (Whip)",
+    "description": "Creates a floating whip that attacks a creature you choose.",
+    "rarity": "rare",
+    "likability": 0.45,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 290"
+  },
+  {
+    "name": "Quarterstaff of the Acrobat",
+    "description": "A magical quarterstaff that enhances agility and acrobatics.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 291"
+  },
+  {
+    "name": "Quiver of Ehlonna",
+    "description": "A quiver that can hold numerous arrows, bolts, or javelins.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 291"
+  },
+  {
+    "name": "Ring of Animal Influence",
+    "description": "Lets you influence animals.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 292"
+  },
+  {
+    "name": "Ring of Djinni Summoning",
+    "description": "A ring that can summon a djinni to serve the wearer.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 292"
+  },
+  {
+    "name": "Ring of Elemental Command (air)",
+    "description": "A ring that grants control over air elementals and related powers.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 292"
+  },
+  {
+    "name": "Ring of Elemental Command (earth)",
+    "description": "A ring that grants control over earth elementals and related powers.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 292"
+  },
+  {
+    "name": "Ring of Elemental Command (fire)",
+    "description": "A ring that grants control over fire elementals and related powers.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 292"
+  },
+  {
+    "name": "Ring of Elemental Command (water)",
+    "description": "A ring that grants control over water elementals and related powers.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 292"
+  },
+  {
+    "name": "Ring of Evasion",
+    "description": "Lets you evade area effects.",
+    "rarity": "rare",
+    "likability": 0.6,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 293"
+  },
+  {
+    "name": "Ring of Feather Falling",
+    "description": "Prevents falling damage.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 293"
+  },
+  {
+    "name": "Ring of Free Action",
+    "description": "Prevents movement restrictions.",
+    "rarity": "rare",
+    "likability": 0.6,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 293"
+  },
+  {
+    "name": "Ring of Invisibility",
+    "description": "A ring that allows the wearer to turn invisible.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 293"
+  },
+  {
+    "name": "Ring of Jumping",
+    "description": "Lets you jump great distances.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "ring",
+    "source": "DMG 293"
+  },
+  {
+    "name": "Ring of Mind Shielding",
+    "description": "Protects your thoughts from being read.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "ring",
+    "source": "DMG 293"
+  },
+  {
+    "name": "Ring of Protection",
+    "description": "Increases AC and saving throws.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 294"
+  },
+  {
+    "name": "Ring of Regeneration",
+    "description": "Regenerates hit points over time.",
+    "rarity": "very rare",
+    "likability": 0.7,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 294"
+  },
+  {
+    "name": "Ring of Resistance",
+    "description": "Grants resistance to a damage type.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 294"
+  },
+  {
+    "name": "Ring of Shooting Stars",
+    "description": "Can cast Faerie Fire, Ball Lightning, and Shooting Stars.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 294"
+  },
+  {
+    "name": "Ring of Spell Storing",
+    "description": "Stores spells for later use.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 295"
+  },
+  {
+    "name": "Ring of Spell Turning",
+    "description": "Reflects spells back at the caster.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 295"
+  },
+  {
+    "name": "Ring of Swimming",
+    "description": "Grants a swimming speed.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "ring",
+    "source": "DMG 295"
+  },
+  {
+    "name": "Ring of Telekinesis",
+    "description": "Lets you cast Telekinesis.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 295"
+  },
+  {
+    "name": "Ring of the Ram",
+    "description": "A ring that can unleash a forceful magical ram's head.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 296"
+  },
+  {
+    "name": "Ring of Three Wishes",
+    "description": "Contains 3 wishes.",
+    "rarity": "legendary",
+    "likability": 0.6,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 296"
+  },
+  {
+    "name": "Ring of Warmth",
+    "description": "Grants resistance to cold and prevents freezing.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "ring",
+    "source": "DMG 296"
+  },
+  {
+    "name": "Ring of Water Walking",
+    "description": "Lets you walk on water.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "ring",
+    "source": "DMG 296"
+  },
+  {
+    "name": "Ring of X-ray Vision",
+    "description": "Lets you see through solid objects.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "ring",
+    "source": "DMG 296"
+  },
+  {
+    "name": "Rival Coin",
+    "description": "A magical coin that always lands on the side you choose.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 296"
+  },
+  {
+    "name": "Robe of Eyes",
+    "description": "Grants vision in all directions and darkvision.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 297"
+  },
+  {
+    "name": "Robe of Scintillating Colors",
+    "description": "Dazzles and confuses creatures.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 297"
+  },
+  {
+    "name": "Robe of Stars",
+    "description": "Lets you cast Magic Missile and travel to the Astral Plane.",
+    "rarity": "very rare",
+    "likability": 0.6,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 297"
+  },
+  {
+    "name": "Robe of the Archmagi",
+    "description": "A powerful robe for spellcasters.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 298"
+  },
+  {
+    "name": "Robe of Useful Items",
+    "description": "A robe with patches that become useful items.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 298"
+  },
+  {
+    "name": "Rod of Absorption",
+    "description": "Absorbs spells and converts them to spell slots.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "rod",
+    "source": "DMG 299"
+  },
+  {
+    "name": "Rod of Alertness",
+    "description": "Grants bonuses to initiative and perception.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "rod",
+    "source": "DMG 299"
+  },
+  {
+    "name": "Rod of Lordly Might",
+    "description": "A versatile magical rod with multiple powerful abilities.",
+    "rarity": "legendary",
+    "likability": 0.75,
+    "magicType": "major",
+    "category": "rod",
+    "source": "DMG 300"
+  },
+  {
+    "name": "Rod of Resurrection",
+    "description": "A rod that can cast powerful healing and resurrection spells.",
+    "rarity": "legendary",
+    "likability": 1.1,
+    "magicType": "major",
+    "category": "rod",
+    "source": "DMG 301"
+  },
+  {
+    "name": "Rod of Rulership",
+    "description": "A rod that can charm and command creatures.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "rod",
+    "source": "DMG 301"
+  },
+  {
+    "name": "Rod of Security",
+    "description": "Creates a safe extradimensional paradise.",
+    "rarity": "very rare",
+    "likability": 1.2,
+    "magicType": "major",
+    "category": "rod",
+    "source": "DMG 301"
+  },
+  {
+    "name": "Rod of the Pact Keeper +1",
+    "description": "A warlock focus that boosts spell attacks and DCs.",
+    "rarity": "uncommon",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "rod",
+    "source": "DMG 301"
+  },
+  {
+    "name": "Rod of the Pact Keeper +2",
+    "description": "A warlock focus that boosts spell attacks and DCs.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "rod",
+    "source": "DMG 301"
+  },
+  {
+    "name": "Rod of the Pact Keeper +3",
+    "description": "A warlock focus that boosts spell attacks and DCs.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "rod",
+    "source": "DMG 301"
+  },
+  {
+    "name": "Rope of Climbing",
+    "description": "A rope that moves and knots itself.",
+    "rarity": "uncommon",
+    "likability": 0.45,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 301"
+  },
+  {
+    "name": "Rope of Entanglement",
+    "description": "A rope that can entangle creatures.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 301"
+  },
+  {
+    "name": "Rope of Mending",
+    "description": "A rope that repairs itself when broken.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 302"
+  },
+  {
+    "name": "Ruby of the War Mage",
+    "description": "A ruby that allows a spellcaster to use a weapon as a spellcasting focus.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 302"
+  },
+  {
+    "name": "Saddle of the Cavalier",
+    "description": "Prevents you from being dismounted.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 302"
+  },
+  {
+    "name": "Scarab of Protection",
+    "description": "Grants advantage on saving throws against spells.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 302"
+  },
+  {
+    "name": "Scimitar of Speed",
+    "description": "A magical scimitar that allows for extra attacks.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 302"
+  },
+  {
+    "name": "Scroll of Protection (Aberrations)",
+    "description": "This scroll protects you from aberrations as per the Scroll of Protection rules.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 302"
+  },
+  {
+    "name": "Scroll of Protection (Beasts)",
+    "description": "This scroll protects you from beasts as per the Scroll of Protection rules.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 302"
+  },
+  {
+    "name": "Scroll of Protection (Celestials)",
+    "description": "This scroll protects you from celestials as per the Scroll of Protection rules.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 302"
+  },
+  {
+    "name": "Scroll of Protection (Constructs)",
+    "description": "This scroll protects you from constructs as per the Scroll of Protection rules.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 302"
+  },
+  {
+    "name": "Scroll of Protection (Dragons)",
+    "description": "This scroll protects you from dragons as per the Scroll of Protection rules.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 302"
+  },
+  {
+    "name": "Scroll of Protection (Elementals)",
+    "description": "This scroll protects you from elementals as per the Scroll of Protection rules.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 302"
+  },
+  {
+    "name": "Scroll of Protection (Fey)",
+    "description": "This scroll protects you from fey as per the Scroll of Protection rules.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 302"
+  },
+  {
+    "name": "Scroll of Protection (Fiends)",
+    "description": "This scroll protects you from fiends as per the Scroll of Protection rules.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 302"
+  },
+  {
+    "name": "Scroll of Protection (Giants)",
+    "description": "This scroll protects you from giants as per the Scroll of Protection rules.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 302"
+  },
+  {
+    "name": "Scroll of Protection (Humanoids)",
+    "description": "This scroll protects you from humanoids as per the Scroll of Protection rules.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 302"
+  },
+  {
+    "name": "Scroll of Protection (Monstrosities)",
+    "description": "This scroll protects you from monstrosities as per the Scroll of Protection rules.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 302"
+  },
+  {
+    "name": "Scroll of Protection (Oozes)",
+    "description": "This scroll protects you from oozes as per the Scroll of Protection rules.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 302"
+  },
+  {
+    "name": "Scroll of Protection (Plants)",
+    "description": "This scroll protects you from plants as per the Scroll of Protection rules.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 302"
+  },
+  {
+    "name": "Scroll of Protection (Undead)",
+    "description": "This scroll protects you from undead as per the Scroll of Protection rules.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 302"
+  },
+  {
+    "name": "Scroll of Titan Summoning (Animal Lord)",
+    "description": "This scroll allows you to summon an Animal Lord to aid you, as per the Scroll of Titan Summoning rules.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 303"
+  },
+  {
+    "name": "Scroll of Titan Summoning (Blob of Annihilation)",
+    "description": "This scroll allows you to summon a Blob of Annihilation to aid you, as per the Scroll of Titan Summoning rules.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 303"
+  },
+  {
+    "name": "Scroll of Titan Summoning (Colossus)",
+    "description": "This scroll allows you to summon a Colossus to aid you, as per the Scroll of Titan Summoning rules.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 303"
+  },
+  {
+    "name": "Scroll of Titan Summoning (Elemental Cataclysm)",
+    "description": "This scroll allows you to summon an Elemental Cataclysm to aid you, as per the Scroll of Titan Summoning rules.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 303"
+  },
+  {
+    "name": "Scroll of Titan Summoning (Empyrean)",
+    "description": "This scroll allows you to summon an Empyrean to aid you, as per the Scroll of Titan Summoning rules.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 303"
+  },
+  {
+    "name": "Scroll of Titan Summoning (Kraken)",
+    "description": "This scroll allows you to summon a Kraken to aid you, as per the Scroll of Titan Summoning rules.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 303"
+  },
+  {
+    "name": "Scroll of Titan Summoning (Tarrasque)",
+    "description": "This scroll allows you to summon a Tarrasque to aid you, as per the Scroll of Titan Summoning rules.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 303"
+  },
+  {
+    "name": "Sending Stones",
+    "description": "Paired stones that allow communication over any distance.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 303"
+  },
+  {
+    "name": "Sentinel Shield",
+    "description": "A shield that grants advantage on initiative rolls and Perception checks.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 303"
+  },
+  {
+    "name": "Shadowfell Brand Tattoo",
+    "description": "Darkvision 60', advantage on Stealth checks, reaction 1/2 dmg 1x/day.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "TCE 134"
+  },
+  {
+    "name": "Shield of Expression",
+    "description": "A shield that can display a variety of facial expressions.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "armor",
+    "source": "DMG 303"
+  },
+  {
+    "name": "Shield of Missile Attraction",
+    "description": "A shield that draws missiles to itself, protecting the wielder.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 304"
+  },
+  {
+    "name": "Shield of the Cavalier",
+    "description": "A shield that prevents the wielder from being dismounted.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 304"
+  },
+  {
+    "name": "Shield +1",
+    "description": "A shield with a +1 bonus to AC.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "armor",
+    "source": "DMG 303"
+  },
+  {
+    "name": "Shield +2",
+    "description": "A shield with a +2 bonus to AC.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 303"
+  },
+  {
+    "name": "Shield +3",
+    "description": "A shield with a +3 bonus to AC.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 303"
+  },
+  {
+    "name": "Silvered Weapon",
+    "description": "A weapon coated with silver, effective against certain creatures.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "weapon",
+    "source": "DMG 304"
+  },
+  {
+    "name": "Slippers of Spider Climbing",
+    "description": "Lets you walk on walls and ceilings.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 304"
+  },
+  {
+    "name": "Smoldering Armor",
+    "description": "Armor that emits harmless smoke.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "armor",
+    "source": "DMG 305"
+  },
+  {
+    "name": "Sovereign Glue",
+    "description": "An incredibly strong adhesive.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 305"
+  },
+  {
+    "name": "Spell Scroll (cantrip)",
+    "description": "A scroll that allows the casting of a cantrip.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 305"
+  },
+  {
+    "name": "Spell Scroll (level 1 spell)",
+    "description": "A scroll that allows the casting of a 1st-level spell.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 305"
+  },
+  {
+    "name": "Spell Scroll (level 2 spell)",
+    "description": "A scroll that allows the casting of a 2nd-level spell.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 305"
+  },
+  {
+    "name": "Spell Scroll (level 3 spell)",
+    "description": "A scroll that allows the casting of a 3rd-level spell.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 305"
+  },
+  {
+    "name": "Spell Scroll (level 4 spell)",
+    "description": "A scroll that allows the casting of a 4th-level spell.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 305"
+  },
+  {
+    "name": "Spell Scroll (level 5 spell)",
+    "description": "A scroll that allows the casting of a 5th-level spell.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 305"
+  },
+  {
+    "name": "Spell Scroll (level 6 spell)",
+    "description": "A scroll that allows the casting of a 6th-level spell.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 305"
+  },
+  {
+    "name": "Spell Scroll (level 7 spell)",
+    "description": "A scroll that allows the casting of a 7th-level spell.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 305"
+  },
+  {
+    "name": "Spell Scroll (level 8 spell)",
+    "description": "A scroll that allows the casting of a 8th-level spell.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 305"
+  },
+  {
+    "name": "Spell Scroll (level 9 spell)",
+    "description": "A scroll that allows the casting of a 9th-level spell.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "scroll",
+    "source": "DMG 305"
+  },
+  {
+    "name": "Spellguard Shield",
+    "description": "A shield that grants advantage on saving throws against spells.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "armor",
+    "source": "DMG 305"
+  },
+  {
+    "name": "Spellwrought Tattoo (0)",
+    "description": "A tattoo that lets you cast a Cantrip once.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "TCE 135"
+  },
+  {
+    "name": "Spellwrought Tattoo (1)",
+    "description": "A tattoo that lets you cast a level 1 spell once.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "TCE 135"
+  },
+  {
+    "name": "Spellwrought Tattoo (2)",
+    "description": "A tattoo that lets you cast a level 2 spell once.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "TCE 135"
+  },
+  {
+    "name": "Spellwrought Tattoo (3)",
+    "description": "A tattoo that lets you cast a level 3 spell once.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "TCE 135"
+  },
+  {
+    "name": "Spellwrought Tattoo (4)",
+    "description": "A tattoo that lets you cast a level 4 spell once.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "TCE 135"
+  },
+  {
+    "name": "Spellwrought Tattoo (5)",
+    "description": "A tattoo that lets you cast a level 5 spell once.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "TCE 135"
+  },
+  {
+    "name": "Sphere of Annihilation",
+    "description": "A floating black sphere that disintegrates anything it touches.",
+    "rarity": "legendary",
+    "likability": 0.6,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 306"
+  },
+  {
+    "name": "Spirit Board",
+    "description": "A magical board used to communicate with spirits.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 306"
+  },
+  {
+    "name": "Staff of Adornment",
+    "description": "A staff that can display a small object floating above its tip.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "staff",
+    "source": "DMG 306"
+  },
+  {
+    "name": "Staff of Birdcalls",
+    "description": "Lets you create bird sounds.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "staff",
+    "source": "DMG 307"
+  },
+  {
+    "name": "Staff of Charming",
+    "description": "Lets you cast charm spells.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 307"
+  },
+  {
+    "name": "Staff of Defense",
+    "description": "A staff that grants a bonus to AC.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG"
+  },
+  {
+    "name": "Staff of Fire",
+    "description": "A staff that can cast fire spells.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 307"
+  },
+  {
+    "name": "Staff of Flowers",
+    "description": "Lets you make flowers bloom.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "staff",
+    "source": "DMG 308"
+  },
+  {
+    "name": "Staff of Frost",
+    "description": "A staff that can cast cold spells.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 308"
+  },
+  {
+    "name": "Staff of Healing",
+    "description": "A staff that can cast healing spells.",
+    "rarity": "rare",
+    "likability": 1.1,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 308"
+  },
+  {
+    "name": "Staff of Power",
+    "description": "A powerful staff for spellcasters.",
+    "rarity": "very rare",
+    "likability": 0.8,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 308"
+  },
+  {
+    "name": "Staff of Striking",
+    "description": "A staff that deals extra force damage.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 309"
+  },
+  {
+    "name": "Staff of Swarming Insects",
+    "description": "Lets you summon a swarm of insects.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 309"
+  },
+  {
+    "name": "Staff of the Adder",
+    "description": "A staff that can transform into a venomous snake.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 309"
+  },
+  {
+    "name": "Staff of the Magi",
+    "description": "A legendary staff for spellcasters.",
+    "rarity": "legendary",
+    "likability": 0.7,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 310"
+  },
+  {
+    "name": "Staff of the Python",
+    "description": "Transforms into a giant constrictor snake.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 311"
+  },
+  {
+    "name": "Staff of the Woodlands",
+    "description": "A druid staff with many nature-based powers.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 311"
+  },
+  {
+    "name": "Staff of Thunder and Lightning",
+    "description": "A staff that can unleash thunder and lightning attacks.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 311"
+  },
+  {
+    "name": "Staff of Withering",
+    "description": "A staff that deals necrotic damage.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "staff",
+    "source": "DMG 312"
+  },
+  {
+    "name": "Stone of Controlling Earth Elementals",
+    "description": "Controls earth elementals.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 312"
+  },
+  {
+    "name": "Stone of Good Luck (Luckstone)",
+    "description": "Grants a bonus to ability checks and saving throws.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 312"
+  },
+  {
+    "name": "Sun Blade",
+    "description": "A radiant sword effective against undead.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 312"
+  },
+  {
+    "name": "Sword of Answering",
+    "description": "A sword that can parry attacks and strike back.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 313"
+  },
+  {
+    "name": "Sword of Kas",
+    "description": "A legendary longsword with vampiric powers, once wielded by Kas the Bloody-Handed.",
+    "rarity": "artifact",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 313"
+  },
+  {
+    "name": "Sword of Life Stealing",
+    "description": "A sword that drains life on a critical hit.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 314"
+  },
+  {
+    "name": "Sword of Sharpness",
+    "description": "A sword that can sever limbs.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 314"
+  },
+  {
+    "name": "Sword of Vengeance",
+    "description": "A magical sword that seeks retribution against its foes.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 314"
+  },
+  {
+    "name": "Sword of Wounding",
+    "description": "A sword that inflicts wounds that are hard to heal.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 314"
+  },
+  {
+    "name": "Sylvan Talon",
+    "description": "A magical weapon favored by druids and rangers, often shaped like a claw or talon.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "weapon",
+    "source": "DMG 314"
+  },
+  {
+    "name": "Talisman of Pure Good",
+    "description": "A holy symbol for good-aligned clerics and paladins.",
+    "rarity": "legendary",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 314"
+  },
+  {
+    "name": "Talisman of the Sphere",
+    "description": "Controls a Sphere of Annihilation.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 315"
+  },
+  {
+    "name": "Talisman of Ultimate Evil",
+    "description": "A holy symbol for evil-aligned clerics and paladins.",
+    "rarity": "legendary",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 315"
+  },
+  {
+    "name": "Talking Doll",
+    "description": "A doll that can record and repeat phrases.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 315"
+  },
+  {
+    "name": "Tankard of Sobriety",
+    "description": "Prevents the drinker from becoming intoxicated.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 315"
+  },
+  {
+    "name": "Tentacle Rod",
+    "description": "A rod with tentacles that can restrain and weaken foes.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "rod",
+    "source": "DMG 316"
+  },
+  {
+    "name": "Thunderous Greatclub",
+    "description": "A greatclub that creates thunderous booms when it strikes.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 316"
+  },
+  {
+    "name": "Tome of Clear Thought",
+    "description": "A tome that increases your Intelligence permanently.",
+    "rarity": "legendary",
+    "likability": 0.8,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 317"
+  },
+  {
+    "name": "Tome of Leadership and Influence",
+    "description": "A tome that increases your Charisma permanently.",
+    "rarity": "legendary",
+    "likability": 0.8,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 317"
+  },
+  {
+    "name": "Tome of the Stilled Tongue",
+    "description": "A wizard's spellbook that can silence foes and store powerful spells.",
+    "rarity": "legendary",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 317"
+  },
+  {
+    "name": "Tome of Understanding",
+    "description": "A tome that increases your Wisdom permanently.",
+    "rarity": "legendary",
+    "likability": 0.8,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 317"
+  },
+  {
+    "name": "Trident of Fish Command",
+    "description": "Lets you command aquatic creatures.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 317"
+  },
+  {
+    "name": "Unbreakable Arrow",
+    "description": "This arrow can't be broken, except by magic.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "weapon",
+    "source": "XGE 139"
+  },
+  {
+    "name": "Universal Solvent",
+    "description": "Dissolves Sovereign Glue and similar substances.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 318"
+  },
+  {
+    "name": "Veteran's Cane",
+    "description": "A cane that can transform into a sword.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 318"
+  },
+  {
+    "name": "Vicious Weapon",
+    "description": "Deals extra damage on a critical hit.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 318"
+  },
+  {
+    "name": "Vorpal Sword",
+    "description": "A sword that can decapitate on a critical hit.",
+    "rarity": "legendary",
+    "likability": 0.6,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 318"
+  },
+  {
+    "name": "Walloping Ammunition",
+    "description": "Ammunition that can knock targets prone on a hit.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "weapon",
+    "source": "DMG 318"
+  },
+  {
+    "name": "Wand of Binding",
+    "description": "Can cast spells that restrain or paralyze.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wand",
+    "source": "DMG 318"
+  },
+  {
+    "name": "Wand of Conducting",
+    "description": "A wand that can conduct music with magical flair.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wand",
+    "source": "DMG 319"
+  },
+  {
+    "name": "Wand of Enemy Detection",
+    "description": "Detects hostile creatures.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wand",
+    "source": "DMG 319"
+  },
+  {
+    "name": "Wand of Fear",
+    "description": "Can cast the Fear spell.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wand",
+    "source": "DMG 319"
+  },
+  {
+    "name": "Wand of Fireballs",
+    "description": "Can cast the Fireball spell.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wand",
+    "source": "DMG 319"
+  },
+  {
+    "name": "Wand of Lightning Bolts",
+    "description": "Can cast the Lightning Bolt spell.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wand",
+    "source": "DMG 320"
+  },
+  {
+    "name": "Wand of Magic Detection",
+    "description": "Can detect magic.",
+    "rarity": "uncommon",
+    "likability": 0.45,
+    "magicType": "minor",
+    "category": "wand",
+    "source": "DMG 320"
+  },
+  {
+    "name": "Wand of Magic Missiles",
+    "description": "Can cast the Magic Missile spell.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wand",
+    "source": "DMG 320"
+  },
+  {
+    "name": "Wand of Orcus",
+    "description": "A legendary wand wielded by the demon lord Orcus, with necromantic powers.",
+    "rarity": "artifact",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wand",
+    "source": "DMG 320"
+  },
+  {
+    "name": "Wand of Paralysis",
+    "description": "Can paralyze creatures.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wand",
+    "source": "DMG 321"
+  },
+  {
+    "name": "Wand of Polymorph",
+    "description": "Can cast the Polymorph spell.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wand",
+    "source": "DMG 321"
+  },
+  {
+    "name": "Wand of Pyrotechnics",
+    "description": "A wand that can create harmless bursts of magical fireworks.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wand",
+    "source": "DMG 321"
+  },
+  {
+    "name": "Wand of Scowls",
+    "description": "This wand can cause a creature to scowl for 1 minute.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wand",
+    "source": "XGE 140"
+  },
+  {
+    "name": "Wand of Secrets",
+    "description": "Reveals secret doors and traps.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wand",
+    "source": "DMG 322"
+  },
+  {
+    "name": "Wand of Smiles",
+    "description": "This wand can cause a creature to smile for 1 minute.",
+    "rarity": "common",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wand",
+    "source": "XGE 140"
+  },
+  {
+    "name": "Wand of the War Mage +1",
+    "description": "A wand that grants a +1 bonus to spell attack rolls for spellcasters. Ignore 1/2 cover.",
+    "rarity": "uncommon",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wand",
+    "source": "DMG 322"
+  },
+  {
+    "name": "Wand of the War Mage +2",
+    "description": "A wand that grants a +2 bonus to spell attack rolls for spellcasters. Ignore 1/2 cover.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wand",
+    "source": "DMG 322"
+  },
+  {
+    "name": "Wand of the War Mage +3",
+    "description": "A wand that grants a +3 bonus to spell attack rolls for spellcasters. Ignore 1/2 cover.",
+    "rarity": "very rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wand",
+    "source": "DMG 322"
+  },
+  {
+    "name": "Wand of Web",
+    "description": "Can cast the Web spell.",
+    "rarity": "rare",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wand",
+    "source": "DMG 322"
+  },
+  {
+    "name": "Wand of Wonder",
+    "description": "Produces random magical effects.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wand",
+    "source": "DMG 322"
+  },
+  {
+    "name": "Wave",
+    "description": "A legendary trident that grants control over water and aquatic creatures.",
+    "rarity": "artifact",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 323"
+  },
+  {
+    "name": "Weapon of Warning",
+    "description": "A weapon that warns its wielder of danger, preventing surprise.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 324"
+  },
+  {
+    "name": "Weapon +1",
+    "description": "A weapon with a +1 bonus to attack and damage rolls.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 324"
+  },
+  {
+    "name": "Weapon +2",
+    "description": "A weapon with a +2 bonus to attack and damage rolls.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 324"
+  },
+  {
+    "name": "Weapon +3",
+    "description": "A weapon with a +3 bonus to attack and damage rolls.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 324"
+  },
+  {
+    "name": "Well of Many Worlds",
+    "description": "A portable gateway to other worlds.",
+    "rarity": "legendary",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 324"
+  },
+  {
+    "name": "Whelm",
+    "description": "A legendary warhammer with powers against giants and the ability to return when thrown.",
+    "rarity": "artifact",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "weapon",
+    "source": "DMG 324"
+  },
+  {
+    "name": "Wind Fan",
+    "description": "A fan that casts Gust of Wind.",
+    "rarity": "uncommon",
+    "likability": 0.5,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 325"
+  },
+  {
+    "name": "Winged Boots",
+    "description": "Grants a flying speed.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "minor",
+    "category": "wondrous item",
+    "source": "DMG 325"
+  },
+  {
+    "name": "Wings of Flying",
+    "description": "Grants a flying speed.",
+    "rarity": "rare",
+    "likability": 0.7,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 325"
+  },
+  {
+    "name": "Wraps of Unarmed Power +1",
+    "description": "Magical wraps that increase the power of unarmed strikes.",
+    "rarity": "uncommon",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 325"
+  },
+  {
+    "name": "Wraps of Unarmed Power +2",
+    "description": "Magical wraps that further increase the power of unarmed strikes.",
+    "rarity": "rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 325"
+  },
+  {
+    "name": "Wraps of Unarmed Power +3",
+    "description": "Magical wraps that greatly increase the power of unarmed strikes.",
+    "rarity": "very rare",
+    "likability": 0.3,
+    "magicType": "major",
+    "category": "wondrous item",
+    "source": "DMG 325"
+  }
+]
