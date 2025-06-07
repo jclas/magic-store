@@ -1,0 +1,707 @@
+[
+  {
+    "name": "Arcane Lock",
+    "components": [
+      {
+        "description": "Gold dust worth 25+ gp",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Astral Projection",
+    "components": [
+      {
+        "description": "for each of the spell's targets, one jacinth worth 1,000+ GP",
+        "consumed": true
+      },
+      {
+        "description": "for each of the spell's targets, one silver bar worth 100+ GP",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Augury",
+    "components": [
+      {
+        "description": "Specially marked sticks, bones, or similar divinatory tokens worth 25+ gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Awaken",
+    "components": [
+      {
+        "description": "Agate worth 5,000+ gp",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Bless",
+    "components": [
+      {
+        "description": "A holy symbol worth 5+ gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Chromatic Orb",
+    "components": [
+      {
+        "description": "a diamond worth 50+ gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Clairvoyance",
+    "components": [
+      {
+        "description": "A focus worth 100+ gp, gpGlass eye (seeing) or jeweled horn (hearing)",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Clone",
+    "components": [
+      {
+        "description": "A diamond worth 1,000+ gp",
+        "consumed": true
+      },
+      {
+        "description": "a sealable vessel worth 2,000+ gp",
+        "gpCost": "",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Contingency",
+    "components": [
+      {
+        "description": "a gem-encrusted statuette of yourself worth 1,500+ GP",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Continual Flame",
+    "components": [
+      {
+        "description": "ruby dust worth 50+ GP",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Create Undead",
+    "components": [
+      {
+        "description": "one 150+ GP black onyx stone for each corpse (up to 3 corpses)",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Circle of Death",
+    "components": [
+      {
+        "description": "the powder of a crushed black pearl worth 500+ GP",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Divination",
+    "components": [
+      {
+        "description": "incense worth 25+ GP",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Drawmij's Instant Summons",
+    "components": [
+      {
+        "description": "Sapphire worth 1,000+ gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Find Familiar",
+    "components": [
+      {
+        "description": "burning incense worth 10+ GP",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Find the Path",
+    "components": [
+      {
+        "description": "a set of divination tools, such as cards or runes, worth 100+ GP",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Forbiddance",
+    "components": [
+      {
+        "description": "ruby dust worth 1,000+ GP",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Forcecage",
+    "components": [
+      {
+        "description": "ruby dust worth 1,500+ GP",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Gate",
+    "components": [
+      {
+        "description": "a diamond worth 5,000+ GP",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Glyph of Warding",
+    "components": [
+      {
+        "description": "Powdered diamond worth 200+ gp",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Greater Restoration",
+    "components": [
+      {
+        "description": "diamond dust worth 100+ GP",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Guards and Wards",
+    "components": [
+      {
+        "description": "Silver rod worth 10+ gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Hallow",
+    "components": [
+      {
+        "description": "incense worth l,000+ GP",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Heroes' Feast",
+    "components": [
+      {
+        "description": "a gem-encrusted bowl worth l,000+ GP",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Holy Aura",
+    "components": [
+      {
+        "description": "a reliquary worth 1,000+ GP",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Identify",
+    "components": [
+      {
+        "description": "A pearl worth 100+ gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Illusory Script",
+    "components": [
+      {
+        "description": "ink worth 10+ GP, which the spell consumes",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Imprisonment",
+    "components": [
+      {
+        "description": "a statuette of the target worth 5,000+ GP",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Legend Lore",
+    "components": [
+      {
+        "description": "Incense worth 250+ GP",
+        "consumed": true
+      },
+      {
+        "description": "Four ivory strips worth 50+ GP each",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Leomund's Secret Chest",
+    "components": [
+      {
+        "description": "a chest, 3 feet by 2 feet by 2 feet, constructed from rare materials worth 5,000+ GP",
+        "consumed": false
+      },
+      {
+        "description": "Tiny replica of the chest made from the same materials worth 50+ GP",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Magic Circle",
+    "components": [
+      {
+        "description": "salt and powdered silver worth 100+ GP",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Magic Jar",
+    "components": [
+      {
+        "description": "Gem, crystal, or reliquary worth 500+ gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Magic Mouth",
+    "components": [
+      {
+        "description": "Jade dust worth 10+ gp",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Mordenkainen's Magnificent Mansion",
+    "components": [
+      {
+        "description": "a miniature door worth 15+ GP",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Mordenkainen's Sword",
+    "components": [
+      {
+        "description": "a miniature sword worth 250+ GP",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Nondetection",
+    "components": [
+      {
+        "description": "a pinch of diamond dust worth 25+ GP",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Planar Binding",
+    "components": [
+      {
+        "description": "a jewel worth 1,000+ GP",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Plane Shift",
+    "components": [
+      {
+        "description": "Forked rod attuned to particular plane worth 250+ gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Programmed Illusion",
+    "components": [
+      {
+        "description": "Jade dust worth 25+ gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Project Image",
+    "components": [
+      {
+        "description": "a statuette of yourself worth 5+ GP",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Protection from Evil and Good",
+    "components": [
+      {
+        "description": "a flask of Holy Water worth 25+ GP",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Raise Dead",
+    "components": [
+      {
+        "description": "a diamond worth 500+ GP",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Reincarnate",
+    "components": [
+      {
+        "description": "rare oils worth 1,000+ GP",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Resurrection",
+    "components": [
+      {
+        "description": "a diamond worth 1,000+ GP",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Revivify",
+    "components": [
+      {
+        "description": "Diamonds worth 300+ gp",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Scrying",
+    "components": [
+      {
+        "description": "Reflective spell focus worth 1,000+ gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Sequester",
+    "components": [
+      {
+        "description": "gem dust worth 5,000+ GP",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Shapechange",
+    "components": [
+      {
+        "description": "Jade circlet worth 1,500+ gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Simulacrum",
+    "components": [
+      {
+        "description": "Powdered Ruby worth 1,500+ gp",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Stoneskin",
+    "components": [
+      {
+        "description": "diamond dust worth 100+ GP",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Symbol",
+    "components": [
+      {
+        "description": "Powdered diamond worth 1,000+ gp",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Tasha's Bubbling Cauldron",
+    "components": [
+      {
+        "description": "A gilded laddle worth 500+ GP",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Teleportation Circle",
+    "components": [
+      {
+        "description": "rare inks worth 50+ GP",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "True Resurrection",
+    "components": [
+      {
+        "description": "Diamonds worth 25,000+ gp",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "True Seeing",
+    "components": [
+      {
+        "description": "mushroom powder worth 25+ GP",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Warding Bond",
+    "components": [
+      {
+        "description": "a pair of platinum rmgs worth 50+ GP each, which you and the target must wear for the duration",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Ceremony",
+    "components": [
+      {
+        "description": "25 gp worth of powdered silver",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Create Homunculus",
+    "components": [
+      {
+        "description": "clay, ash, and mandrake root",
+        "consumed": true
+      },
+      {
+        "description": "A jewel-encrusted dagger worth at least 1,000 gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Dawn",
+    "components": [
+      {
+        "description": "a sunburst pendant worth at least 100 gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Infernal Calling",
+    "components": [
+      {
+        "description": "a ruby worth at least 999 gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Invulnerability",
+    "components": [
+      {
+        "description": "(a small piece of adamantine worth at least 500 gp",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Mighty Fortress",
+    "components": [
+      {
+        "description": "a diamond worth at least 500 gp",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Shadow of Moil",
+    "components": [
+      {
+        "description": "An undead eyeball encased in a gem worth at least 150 gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Snare",
+    "components": [
+      {
+        "description": "25 feet of rope",
+        "consumed": true
+      }
+    ]
+  },
+  {
+    "name": "Soul Cage",
+    "components": [
+      {
+        "description": "A tiny silver cage worth 100gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Summon Aberration",
+    "components": [
+      {
+        "description": "a pickled tentacle and an eyeball in a platinum-inlaid vial worth 400+ gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Summon Beast",
+    "components": [
+      {
+        "description": "a feather, tuft of fur, and fish tail inside a gilded acorn worth 200+ gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Summon Celestial",
+    "components": [
+      {
+        "description": "a reliquary worth  500+ gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Summon Construct",
+    "components": [
+      {
+        "description": "a lockbox worth 400+ GP",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Summon Dragon",
+    "components": [
+      {
+        "description": "an object with the image of a dragon engraved on it worth 500+ GP",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Summon Elemental",
+    "components": [
+      {
+        "description": "air, a pebble, ash, and water inside a gold-inlaid vial worth 400+ gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Summon Fey",
+    "components": [
+      {
+        "description": "a gilded flower worth 300+ gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Summon Fiend",
+    "components": [
+      {
+        "description": "A bloody vial worth 600+ gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Summon Shadowspawn",
+    "components": [
+      {
+        "description": "tears inside a gem worth at least 300 gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Summon Undead",
+    "components": [
+      {
+        "description": "a gilded skull worth 300+ gp",
+        "consumed": false
+      }
+    ]
+  },
+  {
+    "name": "Tasha's Otherworldly Guise",
+    "components": [
+      {
+        "description": "an object engraved with a symbol of the Outer Planes, worth at least 500 gp",
+        "consumed": false
+      }
+    ]
+  }
+]

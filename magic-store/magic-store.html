@@ -4,60 +4,110 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 18 18'><text x='0' y='14'>🔮</text></svg>" />
-    <link href="./bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css" />
     <link href="magic-store.css" rel="stylesheet" />
     <script src="./bootstrap/bootstrap.min.js"></script>
     <script src="magic-store.js"></script>
+    <script src="navbar.js"></script>
     <!-- The following scripts update likability scores -->
     <script src="likability.js"></script>
-    <script src="update-spell-likability.js"></script>
     <script src="update-scroll-likability.js"></script>
     <script src="update-magic-item-likability.js"></script>
     <title>Magic Store Inventory</title>
 </head>
 <body>
 <main>
-    <!-- 🧙🏻🧙🏻‍♀️🔮🪄 -->
-    <h1>🧙🏻Welcome to the Magic Store</h1>
+    <!-- 🧙🏻‍♂️🧙🏻🔮🪄 -->
+    <h1>🧙🏻‍♂️Welcome to the Magic Store</h1>
     <div class="mb-2 d-flex align-items-center gap-2">
         <input type="file" id="inventoryFileInput" accept=".json" style="display:none;" />
         <label for="inventoryFileInput" class="btn btn-outline-primary mb-0" id="inventoryFileLabel" tabindex="0" style="cursor:pointer;">Load Inventory File 🪄</label>
         <button id="btnTodaysUpdates" class="btn btn-outline-primary">Today's Updates 🪄</button>
     </div>
 
-<div id="updatePopup" class="popup" style="display:none;">
-    <div class="popup-content">
-        <span class="close" id="closePopup" aria-label="Close">&times;</span>
-        <h2>Inventory Updates</h2>
-        <div id="inventoryUpdates">
-            <div class="mb-2">
-                <label>
-                    Number of new magic items from suppliers: 
-                    <input type="number" id="arrivalsInput" min="1" max="100" value="10" style="width:60px;">
-                </label>
+    <div id="updatePopup" class="popup" style="display:none;">
+        <div class="popup-content">
+            <span class="close" id="closePopup" aria-label="Close">&times;</span>
+            <h2>Inventory Updates</h2>
+            <div id="inventoryUpdateFields" class="pt-4 px-4 border border-3 border-info rounded">
+                <div class="mb-2">
+                    <label>
+                        Number of new magic items from suppliers: 
+                        <input type="number" id="arrivalsInput" min="1" max="100" value="10" style="width:60px;">
+                    </label>
+                </div>
+                <div class="mb-2">
+                    <label class="fw-bold">New items by category:</label>
+                    <div class="row g-2 mt-1">
+                        <div class="col-6">
+                            <div class="d-flex align-items-center mb-2">
+                                <label for="percentScrolls" style="width:110px; margin: 0 15px 0 0;">Scrolls</label>
+                                <input type="number" id="percentScrolls" min="0" max="100" value="55" style="width:50px; margin-left:4px;">%
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <label for="percentPotion" style="width:110px; margin: 0 15px 0 0;">Potions</label>
+                                <input type="number" id="percentPotion" min="0" max="100" value="30" style="width:50px; margin-left:4px;">%
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <label for="percentRing" style="width:110px; margin: 0 15px 0 0;">Rings</label>
+                                <input type="number" id="percentRing" min="0" max="100" value="5" style="width:50px; margin-left:4px;">%
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <label for="percentRodStaffWand" style="width:110px; margin: 0 15px 0 0;">Rod/Staff/Wands</label>
+                                <input type="number" id="percentRodStaffWand" min="0" max="100" value="5" style="width:50px; margin-left:4px;">%
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-center mb-2">
+                                <label for="percentWondrous" style="width:120px; margin: 0 15px 0 0;">Wondrous Items</label>
+                                <input type="number" id="percentWondrous" min="0" max="100" value="5" style="width:50px; margin-left:4px;">%
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <label for="percentArmor" style="width:120px; margin: 0 15px 0 0;">Armor</label>
+                                <input type="number" id="percentArmor" min="0" max="100" value="0" style="width:50px; margin-left:4px;">%
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <label for="percentWeapon" style="width:120px; margin: 0 15px 0 0;">Weapons</label>
+                                <input type="number" id="percentWeapon" min="0" max="100" value="0" style="width:50px; margin-left:4px;">%
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <label for="percentTattoos" style="width:120px; margin: 0 15px 0 0;">Tattoos</label>
+                                <input type="number" id="percentTattoos" min="0" max="100" value="0" style="width:50px; margin-left:4px;">%
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Total should be 100%</small>
+                </div>
+                <hr />
+                <div class="">
+                    <label>
+                        Number of random magic items sold: 
+                        <input type="number" id="salesInput" min="0" max="100" value="8" style="width:60px;">
+                    </label>
+                </div>
+                <div class="d-flex mt-3">
+                    <div id="boxCollapseMe" role="button" class="d-inline w-100 mx-auto text-secondary text-center">⇑ collapse ⇑</div>
+                </div>
             </div>
-            <div class="mb-2">
-                <label>
-                    Number of random magic items sold: 
-                    <input type="number" id="salesInput" min="0" max="100" value="9" style="width:60px;">
-                </label>
+            <!-- <div id="boxExpandMe" style="cursor: pointer;" class="p-2 border border-info border-3 rounded"> -->
+            <div id="boxExpandMe" style="cursor: pointer;" class="d-flex container p-2 border border-info border-3 rounded">
+                <div class="d-inline text-primary">⇕</div>
+                <div class="d-inline text-secondary mx-auto">⇕ expand options ⇕</div>
+                <div class="d-inline float-end text-primary">⇕</div>
             </div>
+            <br>
             <button id="btnGenerateUpdates" class="btn btn-secondary mb-2">Generate Today's Updates</button>
             <div id="todaysUpdatesTable"></div>
+            <button id="btnSaveTodaysUpdates">Save Updates</button>
         </div>
-        <button id="btnSaveTodaysUpdates">Save Updates</button>
     </div>
-</div>
 
 </main>
 
 <script>
-// updateSpellLikability();
+
 // updateScrollLikability();
 // updateMagicItemLikability();
-
-
-
 
 
 </script>

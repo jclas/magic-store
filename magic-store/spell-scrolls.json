@@ -11,7 +11,7 @@
     "name": "Scroll: Absorb Elements",
     "description": "",
     "rarity": "common",
-    "likability": 0.8,
+    "likability": 1.2,
     "category": "scroll",
     "source": "XGE 150"
   },
@@ -35,7 +35,7 @@
     "name": "Scroll: Aid",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.5,
+    "likability": 0.8,
     "category": "scroll",
     "source": "PHB 239"
   },
@@ -139,7 +139,7 @@
     "name": "Scroll: Arcane Lock",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.15,
+    "likability": 1.2,
     "category": "scroll",
     "source": "PHB 242"
   },
@@ -155,7 +155,7 @@
     "name": "Scroll: Armor of Agathys",
     "description": "",
     "rarity": "common",
-    "likability": 1.15,
+    "likability": 2.25,
     "category": "scroll",
     "source": "PHB 243"
   },
@@ -171,7 +171,7 @@
     "name": "Scroll: Astral Projection",
     "description": "",
     "rarity": "legendary",
-    "likability": 0.7,
+    "likability": 0.65,
     "category": "scroll",
     "source": "PHB 243"
   },
@@ -187,7 +187,7 @@
     "name": "Scroll: Aura of Life",
     "description": "",
     "rarity": "rare",
-    "likability": 0.35,
+    "likability": 0.4,
     "category": "scroll",
     "source": "PHB 244"
   },
@@ -195,7 +195,7 @@
     "name": "Scroll: Aura of Purity",
     "description": "",
     "rarity": "rare",
-    "likability": 0.35,
+    "likability": 0.4,
     "category": "scroll",
     "source": "PHB 244"
   },
@@ -203,7 +203,7 @@
     "name": "Scroll: Aura of Vitality",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.35,
+    "likability": 0.4,
     "category": "scroll",
     "source": "PHB 244"
   },
@@ -211,7 +211,7 @@
     "name": "Scroll: Awaken",
     "description": "",
     "rarity": "rare",
-    "likability": 0.15,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 244"
   },
@@ -227,7 +227,7 @@
     "name": "Scroll: Banishing Smite",
     "description": "",
     "rarity": "rare",
-    "likability": 0.3,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 245"
   },
@@ -235,7 +235,7 @@
     "name": "Scroll: Banishment",
     "description": "",
     "rarity": "rare",
-    "likability": 0.55,
+    "likability": 0.9,
     "category": "scroll",
     "source": "PHB 245"
   },
@@ -243,7 +243,7 @@
     "name": "Scroll: Barkskin",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.3,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 245"
   },
@@ -251,7 +251,7 @@
     "name": "Scroll: Beacon of Hope",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.35,
+    "likability": 0.4,
     "category": "scroll",
     "source": "PHB 245"
   },
@@ -291,7 +291,7 @@
     "name": "Scroll: Bigby's Hand",
     "description": "",
     "rarity": "rare",
-    "likability": 0.45,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 246"
   },
@@ -307,7 +307,7 @@
     "name": "Scroll: Blade of Disaster",
     "description": "",
     "rarity": "legendary",
-    "likability": 0.3,
+    "likability": 0.35,
     "category": "scroll",
     "source": "TCE 106"
   },
@@ -323,7 +323,7 @@
     "name": "Scroll: Bless",
     "description": "",
     "rarity": "common",
-    "likability": 0.55,
+    "likability": 0.9,
     "category": "scroll",
     "source": "PHB 247"
   },
@@ -339,7 +339,7 @@
     "name": "Scroll: Blinding Smite",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.7,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 247"
   },
@@ -387,7 +387,7 @@
     "name": "Scroll: Branding Smite",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.55,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB2014 219"
   },
@@ -427,7 +427,7 @@
     "name": "Scroll: Catnap",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.4,
+    "likability": 0.5,
     "category": "scroll",
     "source": "XGE 151"
   },
@@ -459,7 +459,7 @@
     "name": "Scroll: Chaos Bolt",
     "description": "",
     "rarity": "common",
-    "likability": 0.3,
+    "likability": 0.45,
     "category": "scroll",
     "source": "XGE 151"
   },
@@ -491,7 +491,7 @@
     "name": "Scroll: Chromatic Orb",
     "description": "",
     "rarity": "common",
-    "likability": 0.6,
+    "likability": 0.45,
     "category": "scroll",
     "source": "PHB 249"
   },
@@ -523,7 +523,7 @@
     "name": "Scroll: Clone",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.7,
+    "likability": 0.65,
     "category": "scroll",
     "source": "PHB 251"
   },
@@ -571,7 +571,7 @@
     "name": "Scroll: Commune with Nature",
     "description": "",
     "rarity": "rare",
-    "likability": 0.3,
+    "likability": 0.55,
     "category": "scroll",
     "source": "PHB 252"
   },
@@ -579,7 +579,7 @@
     "name": "Scroll: Compelled Duel",
     "description": "",
     "rarity": "common",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 252"
   },
@@ -587,7 +587,7 @@
     "name": "Scroll: Comprehend Languages",
     "description": "",
     "rarity": "common",
-    "likability": 0.45,
+    "likability": 0.55,
     "category": "scroll",
     "source": "PHB 252"
   },
@@ -619,7 +619,7 @@
     "name": "Scroll: Conjure Animals",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 225"
   },
@@ -635,7 +635,7 @@
     "name": "Scroll: Conjure Celestial",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.55,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 254"
   },
@@ -643,7 +643,7 @@
     "name": "Scroll: Conjure Elemental",
     "description": "",
     "rarity": "rare",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 254"
   },
@@ -651,7 +651,7 @@
     "name": "Scroll: Conjure Fey",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 255"
   },
@@ -659,7 +659,7 @@
     "name": "Scroll: Conjure Minor Elementals",
     "description": "",
     "rarity": "rare",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 255"
   },
@@ -675,7 +675,7 @@
     "name": "Scroll: Conjure Woodland Beings",
     "description": "",
     "rarity": "rare",
-    "likability": 0.55,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 255"
   },
@@ -699,7 +699,7 @@
     "name": "Scroll: Contingency",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.7,
+    "likability": 0.65,
     "category": "scroll",
     "source": "PHB 256"
   },
@@ -707,7 +707,7 @@
     "name": "Scroll: Continual Flame",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.15,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 256"
   },
@@ -755,7 +755,7 @@
     "name": "Scroll: Counterspell",
     "description": "",
     "rarity": "uncommon",
-    "likability": 1.1,
+    "likability": 1.8,
     "category": "scroll",
     "source": "PHB 258"
   },
@@ -779,7 +779,7 @@
     "name": "Scroll: Create Homunculus",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.15,
+    "likability": 0.3,
     "category": "scroll",
     "source": "XGE 152"
   },
@@ -795,7 +795,7 @@
     "name": "Scroll: Create Undead",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.15,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 258"
   },
@@ -835,7 +835,7 @@
     "name": "Scroll: Cure Wounds",
     "description": "",
     "rarity": "common",
-    "likability": 0.9,
+    "likability": 3.2,
     "category": "scroll",
     "source": "PHB 259"
   },
@@ -843,7 +843,7 @@
     "name": "Scroll: Dancing Lights",
     "description": "",
     "rarity": "common",
-    "likability": 0.1375,
+    "likability": 0.1,
     "category": "scroll",
     "source": "PHB 259"
   },
@@ -891,7 +891,7 @@
     "name": "Scroll: Death Ward",
     "description": "",
     "rarity": "rare",
-    "likability": 0.5,
+    "likability": 0.55,
     "category": "scroll",
     "source": "PHB 261"
   },
@@ -907,7 +907,7 @@
     "name": "Scroll: Demiplane",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.55,
+    "likability": 0.65,
     "category": "scroll",
     "source": "PHB 261"
   },
@@ -915,7 +915,7 @@
     "name": "Scroll: Destructive Wave",
     "description": "",
     "rarity": "rare",
-    "likability": 0.45,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 261"
   },
@@ -923,7 +923,7 @@
     "name": "Scroll: Detect Evil and Good",
     "description": "",
     "rarity": "common",
-    "likability": 0.55,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 261"
   },
@@ -931,7 +931,7 @@
     "name": "Scroll: Detect Magic",
     "description": "",
     "rarity": "common",
-    "likability": 0.7,
+    "likability": 0.4,
     "category": "scroll",
     "source": "PHB 262"
   },
@@ -955,7 +955,7 @@
     "name": "Scroll: Dimension Door",
     "description": "",
     "rarity": "rare",
-    "likability": 0.3,
+    "likability": 0.45,
     "category": "scroll",
     "source": "PHB 262"
   },
@@ -971,7 +971,7 @@
     "name": "Scroll: Disintegrate",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.7,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 263"
   },
@@ -987,7 +987,7 @@
     "name": "Scroll: Dispel Magic",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.85,
+    "likability": 0.45,
     "category": "scroll",
     "source": "PHB 264"
   },
@@ -1011,7 +1011,7 @@
     "name": "Scroll: Divine Favor",
     "description": "",
     "rarity": "common",
-    "likability": 0.7,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 265"
   },
@@ -1019,7 +1019,7 @@
     "name": "Scroll: Divine Smite",
     "description": "",
     "rarity": "common",
-    "likability": 0.45,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 234"
   },
@@ -1027,7 +1027,7 @@
     "name": "Scroll: Divine Word",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.55,
+    "likability": 0.7,
     "category": "scroll",
     "source": "PHB 265"
   },
@@ -1059,7 +1059,7 @@
     "name": "Scroll: Dragon's Breath",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.3,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 266"
   },
@@ -1091,7 +1091,7 @@
     "name": "Scroll: Druid Grove",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.3,
+    "likability": 0.45,
     "category": "scroll",
     "source": "XGE 154"
   },
@@ -1139,7 +1139,7 @@
     "name": "Scroll: Eldritch Blast",
     "description": "",
     "rarity": "common",
-    "likability": 0.1125,
+    "likability": 0.1,
     "category": "scroll",
     "source": "PHB 237"
   },
@@ -1203,7 +1203,7 @@
     "name": "Scroll: Ensnaring Strike",
     "description": "",
     "rarity": "common",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 268"
   },
@@ -1251,7 +1251,7 @@
     "name": "Scroll: Expeditious Retreat",
     "description": "",
     "rarity": "common",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 270"
   },
@@ -1275,7 +1275,7 @@
     "name": "Scroll: Faerie Fire",
     "description": "",
     "rarity": "common",
-    "likability": 0.3,
+    "likability": 0.9,
     "category": "scroll",
     "source": "PHB 271"
   },
@@ -1283,7 +1283,7 @@
     "name": "Scroll: False Life",
     "description": "",
     "rarity": "common",
-    "likability": 0.5,
+    "likability": 0.55,
     "category": "scroll",
     "source": "PHB 271"
   },
@@ -1291,7 +1291,7 @@
     "name": "Scroll: Far Step",
     "description": "",
     "rarity": "rare",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "XGE 155"
   },
@@ -1307,7 +1307,7 @@
     "name": "Scroll: Feather Fall",
     "description": "",
     "rarity": "common",
-    "likability": 0.55,
+    "likability": 0.6,
     "category": "scroll",
     "source": "PHB 271"
   },
@@ -1331,7 +1331,7 @@
     "name": "Scroll: Find Familiar",
     "description": "",
     "rarity": "common",
-    "likability": 1,
+    "likability": 0.7,
     "category": "scroll",
     "source": "PHB 272"
   },
@@ -1339,7 +1339,7 @@
     "name": "Scroll: Find Greater Steed",
     "description": "",
     "rarity": "rare",
-    "likability": 0.3,
+    "likability": 0.9,
     "category": "scroll",
     "source": "XGE 156"
   },
@@ -1347,7 +1347,7 @@
     "name": "Scroll: Find Steed",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.45,
+    "likability": 0.9,
     "category": "scroll",
     "source": "PHB 272"
   },
@@ -1403,7 +1403,7 @@
     "name": "Scroll: Fireball",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.55,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 274"
   },
@@ -1411,7 +1411,7 @@
     "name": "Scroll: Flame Arrows",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.4,
+    "likability": 0.3,
     "category": "scroll",
     "source": "XGE 156"
   },
@@ -1419,7 +1419,7 @@
     "name": "Scroll: Flame Blade",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 242"
   },
@@ -1427,7 +1427,7 @@
     "name": "Scroll: Flame Strike",
     "description": "",
     "rarity": "rare",
-    "likability": 0.45,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 275"
   },
@@ -1451,7 +1451,7 @@
     "name": "Scroll: Fly",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.7,
+    "likability": 0.6,
     "category": "scroll",
     "source": "PHB 276"
   },
@@ -1467,7 +1467,7 @@
     "name": "Scroll: Forbiddance",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.85,
+    "likability": 0.6,
     "category": "scroll",
     "source": "PHB 276"
   },
@@ -1475,7 +1475,7 @@
     "name": "Scroll: Forcecage",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.15,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 276"
   },
@@ -1483,7 +1483,7 @@
     "name": "Scroll: Foresight",
     "description": "",
     "rarity": "legendary",
-    "likability": 0.4,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 276"
   },
@@ -1531,7 +1531,7 @@
     "name": "Scroll: Gate",
     "description": "",
     "rarity": "legendary",
-    "likability": 0.55,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 277"
   },
@@ -1579,7 +1579,7 @@
     "name": "Scroll: Glyph of Warding",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.15,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 279"
   },
@@ -1587,7 +1587,7 @@
     "name": "Scroll: Goodberry",
     "description": "",
     "rarity": "common",
-    "likability": 0.9,
+    "likability": 1.1,
     "category": "scroll",
     "source": "PHB 280"
   },
@@ -1595,7 +1595,7 @@
     "name": "Scroll: Grasping Vine",
     "description": "",
     "rarity": "rare",
-    "likability": 0.3,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 246"
   },
@@ -1611,7 +1611,7 @@
     "name": "Scroll: Greater Invisibility",
     "description": "",
     "rarity": "rare",
-    "likability": 0.7,
+    "likability": 0.9,
     "category": "scroll",
     "source": "PHB 281"
   },
@@ -1619,7 +1619,7 @@
     "name": "Scroll: Greater Restoration",
     "description": "",
     "rarity": "rare",
-    "likability": 0.5,
+    "likability": 0.95,
     "category": "scroll",
     "source": "PHB 281"
   },
@@ -1635,7 +1635,7 @@
     "name": "Scroll: Guardian of Faith",
     "description": "",
     "rarity": "rare",
-    "likability": 0.45,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 281"
   },
@@ -1643,7 +1643,7 @@
     "name": "Scroll: Guardian of Nature",
     "description": "",
     "rarity": "rare",
-    "likability": 0.3,
+    "likability": 0.35,
     "category": "scroll",
     "source": "XGE 157"
   },
@@ -1659,7 +1659,7 @@
     "name": "Scroll: Guidance",
     "description": "",
     "rarity": "common",
-    "likability": 0.2125,
+    "likability": 0.1,
     "category": "scroll",
     "source": "PHB 282"
   },
@@ -1667,7 +1667,7 @@
     "name": "Scroll: Guiding Bolt",
     "description": "",
     "rarity": "common",
-    "likability": 0.85,
+    "likability": 0.6,
     "category": "scroll",
     "source": "PHB 282"
   },
@@ -1691,7 +1691,7 @@
     "name": "Scroll: Hail of Thorns",
     "description": "",
     "rarity": "common",
-    "likability": 0.55,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 283"
   },
@@ -1699,7 +1699,7 @@
     "name": "Scroll: Hallow",
     "description": "",
     "rarity": "rare",
-    "likability": 0.15,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 283"
   },
@@ -1723,7 +1723,7 @@
     "name": "Scroll: Haste",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.55,
+    "likability": 0.9,
     "category": "scroll",
     "source": "PHB 284"
   },
@@ -1731,7 +1731,7 @@
     "name": "Scroll: Heal",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.5,
+    "likability": 0.55,
     "category": "scroll",
     "source": "PHB 284"
   },
@@ -1747,7 +1747,7 @@
     "name": "Scroll: Healing Word",
     "description": "",
     "rarity": "common",
-    "likability": 1.15,
+    "likability": 4,
     "category": "scroll",
     "source": "PHB 284"
   },
@@ -1755,7 +1755,7 @@
     "name": "Scroll: Heat Metal",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.3,
+    "likability": 0.6,
     "category": "scroll",
     "source": "PHB 284"
   },
@@ -1763,7 +1763,7 @@
     "name": "Scroll: Hellish Rebuke",
     "description": "",
     "rarity": "common",
-    "likability": 0.55,
+    "likability": 0.6,
     "category": "scroll",
     "source": "PHB 284"
   },
@@ -1771,7 +1771,7 @@
     "name": "Scroll: Heroes' Feast",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.9,
+    "likability": 2.3,
     "category": "scroll",
     "source": "PHB 284"
   },
@@ -1779,7 +1779,7 @@
     "name": "Scroll: Heroism",
     "description": "",
     "rarity": "common",
-    "likability": 0.35,
+    "likability": 1.3,
     "category": "scroll",
     "source": "PHB 285"
   },
@@ -1787,7 +1787,7 @@
     "name": "Scroll: Hex",
     "description": "",
     "rarity": "common",
-    "likability": 0.8,
+    "likability": 1.05,
     "category": "scroll",
     "source": "PHB 285"
   },
@@ -1803,7 +1803,7 @@
     "name": "Scroll: Hold Person",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.55,
+    "likability": 0.6,
     "category": "scroll",
     "source": "PHB 286"
   },
@@ -1819,7 +1819,7 @@
     "name": "Scroll: Holy Weapon",
     "description": "",
     "rarity": "rare",
-    "likability": 0.55,
+    "likability": 0.35,
     "category": "scroll",
     "source": "XGE 157"
   },
@@ -1835,7 +1835,7 @@
     "name": "Scroll: Hunter's Mark",
     "description": "",
     "rarity": "common",
-    "likability": 0.95,
+    "likability": 1.05,
     "category": "scroll",
     "source": "PHB 287"
   },
@@ -1867,7 +1867,7 @@
     "name": "Scroll: Identify",
     "description": "",
     "rarity": "common",
-    "likability": 0.85,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 287"
   },
@@ -1899,7 +1899,7 @@
     "name": "Scroll: Imprisonment",
     "description": "",
     "rarity": "legendary",
-    "likability": 0.7,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 288"
   },
@@ -1987,7 +1987,7 @@
     "name": "Scroll: Invisibility",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.7,
+    "likability": 0.9,
     "category": "scroll",
     "source": "PHB 289"
   },
@@ -1995,7 +1995,7 @@
     "name": "Scroll: Invulnerability",
     "description": "",
     "rarity": "legendary",
-    "likability": 0.4,
+    "likability": 0.5,
     "category": "scroll",
     "source": "XGE 160"
   },
@@ -2011,7 +2011,7 @@
     "name": "Scroll: Jump",
     "description": "",
     "rarity": "common",
-    "likability": 0.3,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 290"
   },
@@ -2019,7 +2019,7 @@
     "name": "Scroll: Knock",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.45,
+    "likability": 0.9,
     "category": "scroll",
     "source": "PHB 290"
   },
@@ -2027,7 +2027,7 @@
     "name": "Scroll: Legend Lore",
     "description": "",
     "rarity": "rare",
-    "likability": 0.15,
+    "likability": 0.6,
     "category": "scroll",
     "source": "PHB 290"
   },
@@ -2035,7 +2035,7 @@
     "name": "Scroll: Leomund's Secret Chest",
     "description": "",
     "rarity": "rare",
-    "likability": 0.6,
+    "likability": 0.45,
     "category": "scroll",
     "source": "PHB 290"
   },
@@ -2043,7 +2043,7 @@
     "name": "Scroll: Leomund's Tiny Hut",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.45,
+    "likability": 0.55,
     "category": "scroll",
     "source": "PHB 291"
   },
@@ -2051,7 +2051,7 @@
     "name": "Scroll: Lesser Restoration",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.5,
+    "likability": 1,
     "category": "scroll",
     "source": "PHB 255"
   },
@@ -2067,7 +2067,7 @@
     "name": "Scroll: Life Transference",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.35,
+    "likability": 0.55,
     "category": "scroll",
     "source": "XGE 160"
   },
@@ -2075,7 +2075,7 @@
     "name": "Scroll: Light",
     "description": "",
     "rarity": "common",
-    "likability": 0.2125,
+    "likability": 0.1,
     "category": "scroll",
     "source": "PHB 292"
   },
@@ -2083,7 +2083,7 @@
     "name": "Scroll: Lightning Arrow",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.3,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 255"
   },
@@ -2123,7 +2123,7 @@
     "name": "Scroll: Locate Object",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.45,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 293"
   },
@@ -2155,7 +2155,7 @@
     "name": "Scroll: Mage Armor",
     "description": "",
     "rarity": "common",
-    "likability": 0.7,
+    "likability": 0.9,
     "category": "scroll",
     "source": "PHB 293"
   },
@@ -2163,7 +2163,7 @@
     "name": "Scroll: Mage Hand",
     "description": "",
     "rarity": "common",
-    "likability": 0.1125,
+    "likability": 0.1,
     "category": "scroll",
     "source": "PHB 293"
   },
@@ -2171,7 +2171,7 @@
     "name": "Scroll: Magic Circle",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.15,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 293"
   },
@@ -2179,7 +2179,7 @@
     "name": "Scroll: Magic Jar",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.15,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 294"
   },
@@ -2187,7 +2187,7 @@
     "name": "Scroll: Magic Missile",
     "description": "",
     "rarity": "common",
-    "likability": 0.7,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 295"
   },
@@ -2195,7 +2195,7 @@
     "name": "Scroll: Magic Mouth",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.45,
+    "likability": 0.7,
     "category": "scroll",
     "source": "PHB 295"
   },
@@ -2211,7 +2211,7 @@
     "name": "Scroll: Magic Weapon",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.55,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 295"
   },
@@ -2227,7 +2227,7 @@
     "name": "Scroll: Mass Cure Wounds",
     "description": "",
     "rarity": "rare",
-    "likability": 0.5,
+    "likability": 0.8,
     "category": "scroll",
     "source": "PHB 296"
   },
@@ -2243,7 +2243,7 @@
     "name": "Scroll: Mass Healing Word",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.5,
+    "likability": 1,
     "category": "scroll",
     "source": "PHB 296"
   },
@@ -2251,7 +2251,7 @@
     "name": "Scroll: Mass Polymorph",
     "description": "",
     "rarity": "legendary",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "XGE 160"
   },
@@ -2259,7 +2259,7 @@
     "name": "Scroll: Mass Suggestion",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.55,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 296"
   },
@@ -2275,7 +2275,7 @@
     "name": "Scroll: Maze",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 296"
   },
@@ -2299,7 +2299,7 @@
     "name": "Scroll: Melf's Minute Meteors",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "XGE 161"
   },
@@ -2307,7 +2307,7 @@
     "name": "Scroll: Mending",
     "description": "",
     "rarity": "common",
-    "likability": 0.1125,
+    "likability": 0.1,
     "category": "scroll",
     "source": "PHB 297"
   },
@@ -2323,7 +2323,7 @@
     "name": "Scroll: Message",
     "description": "",
     "rarity": "common",
-    "likability": 0.1125,
+    "likability": 0.1,
     "category": "scroll",
     "source": "PHB 298"
   },
@@ -2331,7 +2331,7 @@
     "name": "Scroll: Meteor Swarm",
     "description": "",
     "rarity": "legendary",
-    "likability": 0.55,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 298"
   },
@@ -2339,7 +2339,7 @@
     "name": "Scroll: Mighty Fortress",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.3,
+    "likability": 0.6,
     "category": "scroll",
     "source": "XGE 161"
   },
@@ -2355,7 +2355,7 @@
     "name": "Scroll: Mind Sliver",
     "description": "",
     "rarity": "common",
-    "likability": 0.1125,
+    "likability": 0.1,
     "category": "scroll",
     "source": "TCE 108"
   },
@@ -2371,7 +2371,7 @@
     "name": "Scroll: Minor Illusion",
     "description": "",
     "rarity": "common",
-    "likability": 0.2125,
+    "likability": 0.1,
     "category": "scroll",
     "source": "PHB 298"
   },
@@ -2387,7 +2387,7 @@
     "name": "Scroll: Mirror Image",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.7,
+    "likability": 0.6,
     "category": "scroll",
     "source": "PHB 299"
   },
@@ -2403,7 +2403,7 @@
     "name": "Scroll: Misty Step",
     "description": "",
     "rarity": "uncommon",
-    "likability": 1.1,
+    "likability": 2.6,
     "category": "scroll",
     "source": "PHB 299"
   },
@@ -2435,7 +2435,7 @@
     "name": "Scroll: Mordenkainen's Faithful Hound",
     "description": "",
     "rarity": "rare",
-    "likability": 0.6,
+    "likability": 0.45,
     "category": "scroll",
     "source": "PHB 300"
   },
@@ -2443,7 +2443,7 @@
     "name": "Scroll: Mordenkainen's Magnificent Mansion",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.7,
+    "likability": 1.3,
     "category": "scroll",
     "source": "PHB 300"
   },
@@ -2459,7 +2459,7 @@
     "name": "Scroll: Mordenkainen's Sword",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 302"
   },
@@ -2483,7 +2483,7 @@
     "name": "Scroll: Nondetection",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.15,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 302"
   },
@@ -2523,7 +2523,7 @@
     "name": "Scroll: Pass without Trace",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.7,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 303"
   },
@@ -2555,7 +2555,7 @@
     "name": "Scroll: Phantom Steed",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.45,
+    "likability": 0.55,
     "category": "scroll",
     "source": "PHB 304"
   },
@@ -2571,7 +2571,7 @@
     "name": "Scroll: Planar Binding",
     "description": "",
     "rarity": "rare",
-    "likability": 0.15,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 305"
   },
@@ -2579,7 +2579,7 @@
     "name": "Scroll: Plane Shift",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.7,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 305"
   },
@@ -2587,7 +2587,7 @@
     "name": "Scroll: Plant Growth",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.7,
+    "likability": 0.65,
     "category": "scroll",
     "source": "PHB 305"
   },
@@ -2603,7 +2603,7 @@
     "name": "Scroll: Polymorph",
     "description": "",
     "rarity": "rare",
-    "likability": 0.7,
+    "likability": 0.6,
     "category": "scroll",
     "source": "PHB 306"
   },
@@ -2611,7 +2611,7 @@
     "name": "Scroll: Power Word Fortify",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.5,
+    "likability": 0.8,
     "category": "scroll",
     "source": "PHB 306"
   },
@@ -2619,7 +2619,7 @@
     "name": "Scroll: Power Word Heal",
     "description": "",
     "rarity": "legendary",
-    "likability": 0.75,
+    "likability": 1,
     "category": "scroll",
     "source": "PHB 306"
   },
@@ -2627,7 +2627,7 @@
     "name": "Scroll: Power Word Kill",
     "description": "",
     "rarity": "legendary",
-    "likability": 0.55,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 306"
   },
@@ -2651,7 +2651,7 @@
     "name": "Scroll: Prayer of Healing",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.5,
+    "likability": 0.55,
     "category": "scroll",
     "source": "PHB 307"
   },
@@ -2659,7 +2659,7 @@
     "name": "Scroll: Prestidigitation",
     "description": "",
     "rarity": "common",
-    "likability": 0.2125,
+    "likability": 0.1,
     "category": "scroll",
     "source": "PHB 307"
   },
@@ -2691,7 +2691,7 @@
     "name": "Scroll: Prismatic Wall",
     "description": "",
     "rarity": "legendary",
-    "likability": 0.55,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 308"
   },
@@ -2731,7 +2731,7 @@
     "name": "Scroll: Protection from Evil and Good",
     "description": "",
     "rarity": "common",
-    "likability": 0.55,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 309"
   },
@@ -2739,7 +2739,7 @@
     "name": "Scroll: Protection from Poison",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.5,
+    "likability": 0.55,
     "category": "scroll",
     "source": "PHB 310"
   },
@@ -2755,7 +2755,7 @@
     "name": "Scroll: Purify Food and Drink",
     "description": "",
     "rarity": "common",
-    "likability": 0.3,
+    "likability": 0.55,
     "category": "scroll",
     "source": "PHB 310"
   },
@@ -2771,7 +2771,7 @@
     "name": "Scroll: Raise Dead",
     "description": "",
     "rarity": "rare",
-    "likability": 0.9,
+    "likability": 3.45,
     "category": "scroll",
     "source": "PHB 310"
   },
@@ -2779,7 +2779,7 @@
     "name": "Scroll: Rary's Telepathic Bond",
     "description": "",
     "rarity": "rare",
-    "likability": 0.45,
+    "likability": 0.55,
     "category": "scroll",
     "source": "PHB 311"
   },
@@ -2811,7 +2811,7 @@
     "name": "Scroll: Regenerate",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.5,
+    "likability": 0.8,
     "category": "scroll",
     "source": "PHB 311"
   },
@@ -2819,7 +2819,7 @@
     "name": "Scroll: Reincarnate",
     "description": "",
     "rarity": "rare",
-    "likability": 0.65,
+    "likability": 0.7,
     "category": "scroll",
     "source": "PHB 311"
   },
@@ -2827,7 +2827,7 @@
     "name": "Scroll: Remove Curse",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.5,
+    "likability": 0.55,
     "category": "scroll",
     "source": "PHB 312"
   },
@@ -2843,7 +2843,7 @@
     "name": "Scroll: Resurrection",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.65,
+    "likability": 0.95,
     "category": "scroll",
     "source": "PHB 312"
   },
@@ -2851,7 +2851,7 @@
     "name": "Scroll: Reverse Gravity",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 312"
   },
@@ -2859,7 +2859,7 @@
     "name": "Scroll: Revivify",
     "description": "",
     "rarity": "uncommon",
-    "likability": 1.05,
+    "likability": 2.1,
     "category": "scroll",
     "source": "PHB 312"
   },
@@ -2875,7 +2875,7 @@
     "name": "Scroll: Sacred Flame",
     "description": "",
     "rarity": "common",
-    "likability": 0.1125,
+    "likability": 0.1,
     "category": "scroll",
     "source": "PHB 313"
   },
@@ -2883,7 +2883,7 @@
     "name": "Scroll: Sanctuary",
     "description": "",
     "rarity": "common",
-    "likability": 0.95,
+    "likability": 1.5,
     "category": "scroll",
     "source": "PHB 313"
   },
@@ -2907,7 +2907,7 @@
     "name": "Scroll: Scrying",
     "description": "",
     "rarity": "rare",
-    "likability": 0.15,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 313"
   },
@@ -2915,7 +2915,7 @@
     "name": "Scroll: Searing Smite",
     "description": "",
     "rarity": "common",
-    "likability": 0.4,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 314"
   },
@@ -2923,7 +2923,7 @@
     "name": "Scroll: See Invisibility",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.55,
+    "likability": 0.6,
     "category": "scroll",
     "source": "PHB 314"
   },
@@ -2947,7 +2947,7 @@
     "name": "Scroll: Sequester",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.7,
+    "likability": 0.65,
     "category": "scroll",
     "source": "PHB 315"
   },
@@ -2955,7 +2955,7 @@
     "name": "Scroll: Shadow Blade",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "XGE 164"
   },
@@ -2979,7 +2979,7 @@
     "name": "Scroll: Shapechange",
     "description": "",
     "rarity": "legendary",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 315"
   },
@@ -2995,7 +2995,7 @@
     "name": "Scroll: Shield",
     "description": "",
     "rarity": "common",
-    "likability": 0.95,
+    "likability": 2.4,
     "category": "scroll",
     "source": "PHB 316"
   },
@@ -3003,7 +3003,7 @@
     "name": "Scroll: Shield of Faith",
     "description": "",
     "rarity": "common",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 316"
   },
@@ -3011,7 +3011,7 @@
     "name": "Scroll: Shillelagh",
     "description": "",
     "rarity": "common",
-    "likability": 0.2125,
+    "likability": 0.1,
     "category": "scroll",
     "source": "PHB 316"
   },
@@ -3019,7 +3019,7 @@
     "name": "Scroll: Shining Smite",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.3,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 316"
   },
@@ -3043,7 +3043,7 @@
     "name": "Scroll: Silence",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.4,
+    "likability": 0.9,
     "category": "scroll",
     "source": "PHB 316"
   },
@@ -3059,7 +3059,7 @@
     "name": "Scroll: Simulacrum",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.7,
+    "likability": 0.65,
     "category": "scroll",
     "source": "PHB 317"
   },
@@ -3083,7 +3083,7 @@
     "name": "Scroll: Sleep",
     "description": "",
     "rarity": "common",
-    "likability": 0.7,
+    "likability": 0.6,
     "category": "scroll",
     "source": "PHB 317"
   },
@@ -3131,7 +3131,7 @@
     "name": "Scroll: Soul Cage",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.3,
+    "likability": 1,
     "category": "scroll",
     "source": "XGE 165"
   },
@@ -3139,7 +3139,7 @@
     "name": "Scroll: Spare the Dying",
     "description": "",
     "rarity": "common",
-    "likability": 0.225,
+    "likability": 0.11,
     "category": "scroll",
     "source": "PHB 318"
   },
@@ -3147,7 +3147,7 @@
     "name": "Scroll: Speak with Animals",
     "description": "",
     "rarity": "common",
-    "likability": 0.45,
+    "likability": 0.55,
     "category": "scroll",
     "source": "PHB 318"
   },
@@ -3195,7 +3195,7 @@
     "name": "Scroll: Spirit Shroud",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.55,
+    "likability": 0.35,
     "category": "scroll",
     "source": "TCE 115"
   },
@@ -3203,7 +3203,7 @@
     "name": "Scroll: Spiritual Weapon",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.95,
+    "likability": 1.05,
     "category": "scroll",
     "source": "PHB 319"
   },
@@ -3211,7 +3211,7 @@
     "name": "Scroll: Staggering Smite",
     "description": "",
     "rarity": "rare",
-    "likability": 0.55,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 278"
   },
@@ -3219,7 +3219,7 @@
     "name": "Scroll: Starry Wisp",
     "description": "",
     "rarity": "common",
-    "likability": 0.1125,
+    "likability": 0.1,
     "category": "scroll",
     "source": "PHB 320"
   },
@@ -3227,7 +3227,7 @@
     "name": "Scroll: Steel Wind Strike",
     "description": "",
     "rarity": "rare",
-    "likability": 0.95,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 320"
   },
@@ -3251,7 +3251,7 @@
     "name": "Scroll: Stoneskin",
     "description": "",
     "rarity": "rare",
-    "likability": 0.15,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 321"
   },
@@ -3259,7 +3259,7 @@
     "name": "Scroll: Storm of Vengeance",
     "description": "",
     "rarity": "legendary",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 321"
   },
@@ -3275,7 +3275,7 @@
     "name": "Scroll: Suggestion",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.55,
+    "likability": 0.6,
     "category": "scroll",
     "source": "PHB 321"
   },
@@ -3283,7 +3283,7 @@
     "name": "Scroll: Summon Aberration",
     "description": "",
     "rarity": "rare",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 322"
   },
@@ -3291,7 +3291,7 @@
     "name": "Scroll: Summon Beast",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 322"
   },
@@ -3299,7 +3299,7 @@
     "name": "Scroll: Summon Celestial",
     "description": "",
     "rarity": "rare",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 323"
   },
@@ -3307,7 +3307,7 @@
     "name": "Scroll: Summon Construct",
     "description": "",
     "rarity": "rare",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 324"
   },
@@ -3315,7 +3315,7 @@
     "name": "Scroll: Summon Dragon",
     "description": "",
     "rarity": "rare",
-    "likability": 0.55,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 324"
   },
@@ -3323,7 +3323,7 @@
     "name": "Scroll: Summon Elemental",
     "description": "",
     "rarity": "rare",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 325"
   },
@@ -3331,7 +3331,7 @@
     "name": "Scroll: Summon Fey",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 326"
   },
@@ -3339,7 +3339,7 @@
     "name": "Scroll: Summon Fiend",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 326"
   },
@@ -3347,7 +3347,7 @@
     "name": "Scroll: Summon Greater Demon",
     "description": "",
     "rarity": "rare",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "XGE 166"
   },
@@ -3355,7 +3355,7 @@
     "name": "Scroll: Summon Lesser Demons",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "XGE 166"
   },
@@ -3363,7 +3363,7 @@
     "name": "Scroll: Summon Shadowspawn",
     "description": "",
     "rarity": "rare",
-    "likability": 0.55,
+    "likability": 0.35,
     "category": "scroll",
     "source": "TCE 113"
   },
@@ -3371,7 +3371,7 @@
     "name": "Scroll: Summon Undead",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 328"
   },
@@ -3387,7 +3387,7 @@
     "name": "Scroll: Sunburst",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.7,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 329"
   },
@@ -3395,7 +3395,7 @@
     "name": "Scroll: Swift Quiver",
     "description": "",
     "rarity": "rare",
-    "likability": 0.3,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 329"
   },
@@ -3411,7 +3411,7 @@
     "name": "Scroll: Symbol",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.15,
+    "likability": 0.3,
     "category": "scroll",
     "source": "PHB 329"
   },
@@ -3419,7 +3419,7 @@
     "name": "Scroll: Synaptic Static",
     "description": "",
     "rarity": "rare",
-    "likability": 0.55,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 330"
   },
@@ -3427,7 +3427,7 @@
     "name": "Scroll: Tasha's Bubbling Cauldron",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.45,
+    "likability": 0.9,
     "category": "scroll",
     "source": "PHB 330"
   },
@@ -3443,7 +3443,7 @@
     "name": "Scroll: Tasha's Hideous Laughter",
     "description": "",
     "rarity": "common",
-    "likability": 0.3,
+    "likability": 0.6,
     "category": "scroll",
     "source": "PHB 331"
   },
@@ -3451,7 +3451,7 @@
     "name": "Scroll: Tasha's Mind Whip",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.55,
+    "likability": 0.65,
     "category": "scroll",
     "source": "TCE 115"
   },
@@ -3459,7 +3459,7 @@
     "name": "Scroll: Tasha's Otherworldly Guise",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "TCE 115"
   },
@@ -3483,7 +3483,7 @@
     "name": "Scroll: Teleport",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.55,
+    "likability": 0.65,
     "category": "scroll",
     "source": "PHB 331"
   },
@@ -3491,7 +3491,7 @@
     "name": "Scroll: Teleportation Circle",
     "description": "",
     "rarity": "rare",
-    "likability": 0.85,
+    "likability": 0.8,
     "category": "scroll",
     "source": "PHB 332"
   },
@@ -3507,7 +3507,7 @@
     "name": "Scroll: Tenser's Floating Disk",
     "description": "",
     "rarity": "common",
-    "likability": 0.3,
+    "likability": 0.55,
     "category": "scroll",
     "source": "PHB 332"
   },
@@ -3523,7 +3523,7 @@
     "name": "Scroll: Thaumaturgy",
     "description": "",
     "rarity": "common",
-    "likability": 0.175,
+    "likability": 0.1,
     "category": "scroll",
     "source": "PHB 333"
   },
@@ -3555,7 +3555,7 @@
     "name": "Scroll: Thunderous Smite",
     "description": "",
     "rarity": "common",
-    "likability": 0.55,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 282"
   },
@@ -3579,7 +3579,7 @@
     "name": "Scroll: Time Stop",
     "description": "",
     "rarity": "legendary",
-    "likability": 0.55,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 334"
   },
@@ -3587,7 +3587,7 @@
     "name": "Scroll: Tiny Servant",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.3,
+    "likability": 0.45,
     "category": "scroll",
     "source": "XGE 168"
   },
@@ -3635,7 +3635,7 @@
     "name": "Scroll: True Polymorph",
     "description": "",
     "rarity": "legendary",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 335"
   },
@@ -3651,7 +3651,7 @@
     "name": "Scroll: True Seeing",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.15,
+    "likability": 0.6,
     "category": "scroll",
     "source": "PHB 336"
   },
@@ -3659,7 +3659,7 @@
     "name": "Scroll: True Strike",
     "description": "",
     "rarity": "common",
-    "likability": 0.1125,
+    "likability": 0.1,
     "category": "scroll",
     "source": "PHB 336"
   },
@@ -3667,7 +3667,7 @@
     "name": "Scroll: Tsunami",
     "description": "",
     "rarity": "very rare",
-    "likability": 0.4,
+    "likability": 0.35,
     "category": "scroll",
     "source": "PHB 336"
   },
@@ -3675,7 +3675,7 @@
     "name": "Scroll: Unseen Servant",
     "description": "",
     "rarity": "common",
-    "likability": 0.45,
+    "likability": 0.55,
     "category": "scroll",
     "source": "PHB 336"
   },
@@ -3683,7 +3683,7 @@
     "name": "Scroll: Vampiric Touch",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.35,
+    "likability": 0.4,
     "category": "scroll",
     "source": "PHB 337"
   },
@@ -3691,7 +3691,7 @@
     "name": "Scroll: Vicious Mockery",
     "description": "",
     "rarity": "common",
-    "likability": 0.175,
+    "likability": 0.12,
     "category": "scroll",
     "source": "PHB 337"
   },
@@ -3771,7 +3771,7 @@
     "name": "Scroll: Warding Bond",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.5,
+    "likability": 0.55,
     "category": "scroll",
     "source": "PHB 340"
   },
@@ -3787,7 +3787,7 @@
     "name": "Scroll: Water Breathing",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.45,
+    "likability": 0.55,
     "category": "scroll",
     "source": "PHB 340"
   },
@@ -3795,7 +3795,7 @@
     "name": "Scroll: Water Walk",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.45,
+    "likability": 0.55,
     "category": "scroll",
     "source": "PHB 340"
   },
@@ -3811,7 +3811,7 @@
     "name": "Scroll: Web",
     "description": "",
     "rarity": "uncommon",
-    "likability": 0.7,
+    "likability": 0.6,
     "category": "scroll",
     "source": "PHB 340"
   },
@@ -3851,7 +3851,7 @@
     "name": "Scroll: Wish",
     "description": "",
     "rarity": "legendary",
-    "likability": 0.7,
+    "likability": 0.9,
     "category": "scroll",
     "source": "PHB 341"
   },
@@ -3867,7 +3867,7 @@
     "name": "Scroll: Word of Radiance",
     "description": "",
     "rarity": "common",
-    "likability": 0.1125,
+    "likability": 0.1,
     "category": "scroll",
     "source": "PHB 343"
   },
@@ -3891,7 +3891,7 @@
     "name": "Scroll: Wrathful Smite",
     "description": "",
     "rarity": "common",
-    "likability": 0.4,
+    "likability": 0.5,
     "category": "scroll",
     "source": "PHB 343"
   },
@@ -3907,7 +3907,7 @@
     "name": "Scroll: Zephyr Strike",
     "description": "",
     "rarity": "common",
-    "likability": 0.55,
+    "likability": 0.35,
     "category": "scroll",
     "source": "XGE 171"
   },

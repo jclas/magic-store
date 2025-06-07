@@ -1,26 +1,43 @@
-// Spells listed in these const arrays are sourced from: PHB2024, XGE, TCE
-// Various spell lists grouped by various notable aspects
+//spells and magic items sourced from: PHB2024, XGE, TCE
 
 /**
- * Based on frequent use within its level
+ * The MOST frequently used spell scrolls, within its level. (Top tier)
+ * No cantrips. No rituals (unless it has consumable components)
  */
-const frequentUse = [
-    "Armor of Agathys", "Absorb Elements", "Banishment", "Bless", "Counterspell", "Cure Wounds",
-    "Dancing Lights", "Detect Evil and Good", "Detect Magic", "Dispel Magic", "Eldritch Blast",
-    "Find Familiar", "Find Greater Steed", "Find Steed", 
-    "Fly", "Goodberry", "Greater Invisibility", "Guidance", "Guiding Bolt", "Healing Word", "Hex",
-    "Haste", "Hold Person", "Hunter's Mark", "Identify", "Invisibility", "Light", "Mage Armor",
-    "Magic Missile", "Misty Step", "Mirror Image", "Minor Illusion", "Pass without Trace",
-    "Phantom Steed", "Polymorph", "Prestidigitation", "Protection from Evil and Good",
-    "Revivify", "Sanctuary",
-    "See Invisibility", "Shillelagh", "Shield", "Sleep", "Spare the Dying", "Spiritual Weapon",
-    "Suggestion", "Thaumaturgy", "Vicious Mockery", "Web"
+const topScrolls1 = [
+    "Shield", "Healing Word", "Cure Wounds", "Misty Step"
 ];
+
+/**
+ * Frequently used spell scrolls and super-clutch situational spells best used via spell scrolls.
+ * No cantrips. No rituals (unless it has consumable components)
+ */
+const topScrolls2 = [
+    "Armor of Agathys", "Banishment", "Bless", "Counterspell", "Faerie Fire",
+    "Greater Invisibility", "Haste", "Hex", "Hunter's Mark", "Invisibility",
+    "Mage Armor", "Raise Dead", "Revivify", "Sanctuary", "Spiritual Weapon"
+];
+
+/**
+ * Tertiary spell usage or clutch situational spells best used via spell scrolls.
+ * No cantrips. No rituals (unless it has consumable components)
+ */
+const topScrolls3 = [
+    "Absorb Elements", "Arcane Lock", "Control Water", "Dispel Magic", "Featherfall",
+    "Find Greater Steed", "Find Steed", "Fly", "Goodberry",
+    "Guiding Bolt", "Heat Metal", "Heroes' Feast", "Heroism",
+    "Hold Person", "Knock", "Mirror Image",
+    "Mordenkainen's Magnificent Mansion", "Polymorph", "Protection from Evil", 
+    "See Invisibility", "Silence", "Sleep", "Suggestion",
+    "Tasha's Hideous Laughter", "Tasha's Bubbling Cauldron", "True Seeing",
+    "Vicious Mockery", "Web"
+];
+
 
 /**
  * Spells that generally have a high impact when they are used properly.
  */
-const highImpact = [
+const highImpactSpells = [
     "Astral Projection", "Catnap", "Clone", "Conjure Animals", "Conjure Celestial", "Conjure Elemental",
     "Conjure Fey", "Conjure Minor Elementals", "Conjure Woodland Beings", "Contingency", "Demiplane",
     "Disintegrate", "Divine Word", "Fireball", "Foresight", "Forbiddance", "Gate", "Heroes' Feast",
@@ -39,7 +56,7 @@ const highImpact = [
 /**
  * Any healing related, hp increasing, or body-restorative spells
  */
-const healingRelated = [
+const healingRelatedSpells = [
     "Aid", "Arcane Vigor", "Armor of Agathys", "Aura of Life", "Aura of Purity", "Aura of Vitality",
     "Beacon of Hope", "Cure Wounds", "Death Ward", "False Life", "Gentle Repose", "Goodberry",
     "Greater Restoration", "Heal", "Healing Spirit", "Healing Word", "Heroism", "Heroes' Feast",
@@ -50,12 +67,15 @@ const healingRelated = [
     "Vampiric Touch", "Warding Bond", "Wish"
 ];
 
-const utility = [
+/**
+ * 
+ */
+const utilitySpells = [
     "Alter Self", "Arcane Eye", "Arcane Lock", "Bigby's Hand", "Chaos Bolt", "Chromatic Orb",
     "Commune with Nature", "Comprehend Languages", "Contingency", "Control Water",
     "Control Weather", "Dancing Lights", "Demiplane", "Detect Magic", "Detect Thoughts",
     "Dimension Door", "Disguise Self", "Dispel Magic", "Druid Grove", "Druidcraft",
-    "Enlarge/Reduce", "Fabricate", "Faerie Fire", "Featherfall",
+    "Enhance Ability", "Enlarge/Reduce", "Fabricate", "Faerie Fire", "Featherfall",
     "Find Familiar", "Find Greater Steed", "Find Steed", 
     "Fly", "Gaseous Form", "Greater Invisibility", "Guidance", "Invisibility",
     "Knock", "Legend Lore", "Leomund's Secret Chest", "Leomund's Tiny Hut",
@@ -63,13 +83,15 @@ const utility = [
     "Mending", "Message", "Mighty Fortress", "Mind Sliver", "Minor Illusion", "Misty Step",
     "Mold Earth", "Mordenkainen's Faithful Hound", "Mordenkainen's Magnificent Mansion",
     "Pass without Trace", "Phantom Steed", "Plant Growth", "Polymorph", "Prestidigitation",
-    "Purify Food and Drink", "Rary's Telepathic Bond",
-    "Rope Trick", "Sending", "Silent Image", "Soul Cage", "Speak with Animals", "Speak with Dead",
-    "Speak with Plants", "Stone Shape", "Tasha's Bubbling Cauldron", "Tasha's Mind Whip",
+    "Purify Food and Drink", "Rary's Telepathic Bond", "Rope Trick", "Sending", 
+    "Silent Image", "Soul Cage", "Speak with Animals", "Speak with Dead",
+    "Speak with Plants", "Stone Shape", "Sorcerous Burst", "Tasha's Bubbling Cauldron",
+    "Tasha's Mind Whip",
     "Teleport", "Teleportation Circle", "Tenser's Floating Disk", "Tongues", "Tiny Servant",
     "Unseen Servant", "Water Breathing", "Water Walk", "Wish", "Web"
 ];
 
+//ToDo: move to spell.castingTime
 const ritualSpells = [
     "Alarm", "Animal Messenger", "Augury", "Beast Sense", "Ceremony", "Commune", "Commune with Nature",
     "Comprehend Languages", "Contact Other Plane", "Detect Magic", "Detect Poison and Disease",
@@ -84,7 +106,7 @@ const ritualSpells = [
  * Spells that do force damage. (rare resistance type)
  * Blade barrier is now force in 2024? weird!
  */
-const forceDamage = [
+const forceDamageSpells = [
     "Bigby's Hand", "Magic Missle", "Blade Barrier",
     "Conjure Barrage", "Conjure Volley", "Conjure Woodland Beings",
     "Disintegrate", "Draconic Transformation", "Eldritch Blast", "Hunter's Mark",
@@ -95,7 +117,7 @@ const forceDamage = [
 /**
  * Spells that do radiant damage. (rare resistance type)
  */
-const radiantDamage = [
+const radiantDamageSpells = [
     "Blinding Smite", "Branding Smite", "Conjure Celestial", "Crusader's Mantle",
     "Dawn", "Destructive Wave", "Divine Favor", "Divine Smite", "Flame Strike",
     "Forbiddance", "Fount of Moonlight", "Guardian of Faith", "Guiding Bolt",
@@ -108,57 +130,132 @@ const radiantDamage = [
 /**
  * Spells that do psychic damage. (rare resistance type)
  */
-const psychicDamage = [
+const psychicDamageSpells = [
     "Maddening Darkness", "Mental Prison", "Mind Sliver", "Mind Spike", "Psychic Scream",
     "Shadow Blade", "Synaptic Static", "Tasha's Mind Whip"
 ];
 
-// Spells with gp-cost components (consumed or not)
-const componentCost = [
-    "Arcane Lock", // gold dust worth 25 gp, consumed
-    "Astral Projection", // one jacinth worth 1,000 gp and one silver bar worth 100 gp per creature, consumed
-    "Awaken", // agate worth 1,000 gp, consumed
-    "Chromatic Orb", // diamond worth 50 gp, not consumed
-    "Clone", // diamond worth 1,000 gp + vessel worth 2,000 gp, both consumed
-    "Commune", // incense and ivory strips worth 250 gp, consumed
-    "Contingency", // ivory statuette worth 1,500 gp, consumed
-    "Contact Other Plane", // incense and ivory strips worth 250 gp, consumed
-    "Nondetection", // powdered diamond worth 25 gp, consumed  
-    "Continual Flame", // ruby dust worth 50 gp, consumed
-    "Create Homunculus", // jewel worth 1,000 gp, consumed (XGE)
-    "Create Undead", // onyx gems worth 150 gp per corpse, consumed
-    "Drawmij's Instant Summons", // sapphire worth 1,000 gp, consumed
-    "Find Familiar", // charcoal, incense, herbs worth 10 gp, consumed
-    "Forcecage", // ruby dust worth 1,500 gp, consumed
-    "Forbiddance", // incense, rare oils, holy water worth 1,000 gp/60-ft cube, consumed
-    "Gate", // diamond worth 5,000 gp, consumed
-    "Glyph of Warding", // incense and powdered diamond worth 200 gp, consumed
-    "Hallow", // herbs, oils, and incense worth 1,000 gp, consumed
-    "Heroes' Feast", // jeweled bowl worth 1,000 gp, consumed
-    "Identify", // pearl worth 100 gp, not consumed
-    "Imprisonment", // special item worth ≥ 500 gp, consumed
-    "Legend Lore", // incense worth 250 gp + four ivory strips worth 50 gp each, all consumed
-    "Leomund's Secret Chest", // chest worth 5,000 gp, not consumed
-    "Magic Circle", // powdered silver and iron worth 100 gp, consumed
-    "Magic Jar", // container worth 500 gp, not consumed
-    "Mordenkainen's Magnificent Mansion", // miniature door worth ~15 gp, not consumed
-    "Nondetection", //pinch of diamond dust worth 25gp+, consumed
-    "Planar Binding", // jewel worth 1,000 gp, not consumed
-    "Plane Shift", // forked metal rod worth 250 gp, not consumed
-    "Private Sanctum", // silver powder worth 100 gp, consumed
-    "Raise Dead", // diamond worth 500 gp, consumed
-    "Reincarnate", // rare oils and unguents worth 1,000 gp, consumed
-    "Resurrection", // diamond worth 1,000 gp, consumed
-    "Revivify", // diamond worth 300 gp, consumed
-    "Scrying", // focus worth 1,000 gp, not consumed
-    "Sequester", // powdered diamond worth 5,000 gp, consumed
-    "Simulacrum", // powdered ruby worth 1,500 gp (plus snow, etc.), consumed
-    "Stoneskin", // diamond dust worth 100 gp, consumed
-    "Summon Dragon", //an object with the image of a dragon engraved on it worth 500+ GP, not consumed
-    "Summon Shadowspawn", //tears inside a gem worth at least 300 gp, not consumed
-    "Symbol", // mercury, phosphorus, powdered diamond, opal worth 1,000 gp, consumed
-    "Teleportation Circle", // rare chalks/inks with gems worth 50 gp, consumed
-    "Trap the Soul", // gem worth 1,000 gp or more, consumed
-    "True Resurrection", // holy water + diamonds worth 25,000 gp, consumed
-    "True Seeing" // ointment worth 25 gp, consumed
+
+//***************************************************************************************/
+//***************************************************************************************/
+//***************************************************************************************/
+
+
+const frequentUseMagicItems = [
+    "potion of healing", "enspelled"
 ];
+
+/**
+ * Items that should get an extra rating boost just because of how great they are.
+ */
+const highImpactMagicItems = [
+    "Cauldron of Rebirth", "Cloak of Displacement", "Deck of Many Things", "Ghost Step Tattoo",
+    "Holy Avenger", "Manual of Bodily Health", "Manual of Gainful Exercise",
+    "Manual of Quickness of Action", "Ring of Three Wishes",
+    "Ring of Evasion", "Ring of Free Action", "Ring of Spell Storing",
+    "Rod of Lordly Might", "Rod of Security", "Sphere of Annihilation", "Staff of Power",
+    "Tome of Clear Thought", "Tome of Leadership and Influence", "Tome of Stilled Tongue",
+    "Tome of Understanding", "Vorpal Sword"
+];
+
+const statBoosterMagicItems = [
+    "Amulet of Health", "Belt of Giant Strength", "Headband of Intellect", "Ioun Stone",
+    "Manual of Bodily Health", "Manual of Gainful Exercise", "Manual of Quickness of Action",
+    "Tome of Clear Thought", "Tome of Leadership and Influence", "Tome of Understanding",
+    "Wand of the War Mage"
+];
+
+const healingRelatedMagicItems = [
+    "Amulet of Health", "Blood Fury Tattoo", "Cauldron of Rebirth", "Elixir of Health",
+    "Ioun Stone (Fortitude)", "Keoghtom's Ointment", "Lifewell Tattoo", "Manual of Bodily Health", "Necklace of Prayer Beads",
+    "Periapt of Health", "Periapt of Proof Against Poison", "Periapt of Wound Closure", "Potion of Greater Healing",
+    "Potion of Healing", "Potion of Heroism", "Potion of Longevity", "Potion of Superior Healing", "Potion of Supreme Healing",
+    "Potion of Vitality", "Ring of Regeneration", "Rod of Resurrection", "Rod of Security", "Staff of Healing"
+];
+
+const highUtilityMagicItems = [
+    "Alchemy Jug", "Bag of Holding", "Boots of Elvenkind", "Boots of False Tracks", "Boots of Levitation",
+    "Broom of Flying", "Cloak of Elvenkind", "Decanter of Endless Water", 
+    "Feather Token", "Gloves of Thievery", "Hat of Disguise",
+    "Immovable Rod", "Portable Hole", "Rod of Lordly Might", "Rope of Climbing",
+    "Wand of Magic Detection"
+];
+
+/**
+ * Consumable magic item identifying key words and phrases.
+ * Purposefully leaving out: Ring of Three Wishes (too epic!), Rod of Absorption
+ */
+const consumableMagicItems = [
+    "Ammunition", "Arrow of ", "Bag of Beans", "Bead of ", "Bolt of ", "Bullet of ", "Candle of ",
+    "Chime of Opening", "Dust of ", "Elemental Gem", "Elixir", "Feather Token",
+    "Marvelous Pigments", "Keoghtom's Ointment", "Oil of ", "Philter of ", "Potion",
+    "Robe of Useful Items", "Scroll of ", "Sovereign Glue", "Tattoo", "Universal Solvent",
+    "powder"
+];
+
+/**
+ * Items used with Bonus Action.
+ * Note: potions are not listed here and are noted as bonus action via category type elsewhere in code.
+ */
+const bonusActionMagicItems = [
+    "dancing sword", "boots of speed", "bag of tricks", "necklace of prayer beads", "quaal's feather token",
+    "scimitar of speed",
+]
+
+/**
+ * Item has a power, that is similar to a spell, and that spell would normally require concentration,
+ * but the item does not.
+ */
+const foregoConcentrationMagicItems = [
+    "Blackrazor", "Boots of Speed", "Broom of Flying", "Cloak of Displacement",
+    "Cloak of Invisibility", "Coiling Grasp Tattoo",
+    "Potion of Clairvoyance", "Potion of Diminution", "Potion of Flying", "Potion of Gaseous Form",
+    "Potion of Greater Invisibility", "Potion of Growth", "Potion of Heroism", "Potion of Invisibility",
+    "Potion of Levitation", "Potion of Mind Reading", "Potion of Speed", "Ring of Invisibility",
+    "Winged Boots", "Wings of Flying"
+];
+
+/**
+ * An item that has a feature similar to a spell that would expend material components.
+ */
+const foregoConsumedComponentMagicItems = [
+    "rod of resurrection", "Amulet of the Planes", "Robe of Stars", "Staff of Healing", "Staff of the Magi",
+];
+/**
+ * Note: Efreeti Bottle--even though only partially true, this item is so powerful I kept it in the list for a bump up.
+ * Leaving out Crystal Ball because IT IS the expensive component for Scrying, so it doesn't remove the need for a component.
+ */
+const foregoExpensiveComponentMagicItems = [
+    "rod of resurrection", "Amulet of the Planes", "Efreeti Bottle", "Staff of Healing", "Staff of the Magi",
+];
+
+/**
+ * There's a lot of lame common items, some ok ones, and some good ones.
+ * Here are some of the more useful ones.
+ * I left some out even if they're useful, just because I think they're stupid.
+ */
+const usefulCommonMagicItems = [
+    "Bead of Nourishment", "Bead of Refreshment", "Boots of False Tracks", "Cast-Off Armor", "Clockwork Amulet",
+    "Dark Shard Amulet", "Enduring Spellbook", "Hat of Wizardry", "Heward's Handy Spice Pouch",
+    "Horn of Silent Alarm", "Lock of Trickery", "Moon-Touched Sword", "Mystery Key",
+    "Pot of Awakening", "Potion of Climbing", "Potion of Comprehension", "Potion of Healing", "Ruby of the War Mage",
+    "Silvered Weapon", "Sylvan Talon", "Unbreakable Arrow", "Walloping Ammunition"
+];
+
+//***************************************************************************************/
+//***************************************************************************************/
+//***************************************************************************************/
+
+
+// Helper: checks if any name is in the list
+function matchesList(searchName, list) {
+    const normalizedSearchName = normalizeSpellName(searchName);
+    return list.some(n => normalizeSpellName(n) === normalizedSearchName);  //exact match of one in the list
+}
+
+// Helper: checks if any keyword/phrase in arr is found in str (case-insensitive)
+function keywordInListMatches(str, arr) {
+    if (!str) return false;
+    const lowerStr = str.toLowerCase();
+    return arr.some(keyword => lowerStr.includes(keyword.toLowerCase()));
+}

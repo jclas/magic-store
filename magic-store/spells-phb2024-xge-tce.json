@@ -6,8 +6,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -21,8 +21,8 @@
     "castingTime": "Reaction",
     "concentration": false,
     "school": "abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Druid",
@@ -39,8 +39,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -55,8 +55,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -70,8 +70,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -86,11 +86,11 @@
     "name": "Alarm",
     "description": "",
     "level": 1,
-    "castingTime": "1 minute",
+    "castingTime": "1 minute or Ritual",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Ranger",
@@ -105,8 +105,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -121,8 +121,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid",
@@ -134,11 +134,11 @@
     "name": "Animal Messenger",
     "description": "",
     "level": 2,
-    "castingTime": "Action",
+    "castingTime": "Action or Ritual",
     "concentration": false,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid",
@@ -153,8 +153,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid"
     ],
@@ -167,8 +167,8 @@
     "castingTime": "1 minute",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Wizard"
@@ -182,8 +182,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -199,8 +199,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid"
     ],
@@ -213,8 +213,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Wizard"
@@ -228,8 +228,8 @@
     "castingTime": "1 hour",
     "concentration": false,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid",
@@ -244,8 +244,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Wizard"
@@ -259,8 +259,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -275,8 +275,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "25",
     "spellLists": [
       "Artificer",
       "Wizard"
@@ -290,8 +290,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -305,8 +305,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock"
     ],
@@ -319,8 +319,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock"
     ],
@@ -333,8 +333,8 @@
     "castingTime": "1 hour",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "per person, up to 8 people",
+    "componentConsumptionExpense": "1100",
     "spellLists": [
       "Cleric",
       "Warlock",
@@ -346,11 +346,11 @@
     "name": "Augury",
     "description": "",
     "level": 2,
-    "castingTime": "1 minute",
+    "castingTime": "1 minute or Ritual",
     "concentration": false,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Druid",
@@ -365,8 +365,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Paladin"
@@ -380,8 +380,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Paladin"
@@ -395,8 +395,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Druid",
@@ -411,8 +411,8 @@
     "castingTime": "8 hours",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "1000",
     "spellLists": [
       "Bard",
       "Druid"
@@ -426,8 +426,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -442,8 +442,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Paladin"
     ],
@@ -456,8 +456,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Paladin",
@@ -474,8 +474,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger"
@@ -489,8 +489,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -503,8 +503,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger"
@@ -515,11 +515,11 @@
     "name": "Beast Sense",
     "description": "",
     "level": 2,
-    "castingTime": "Action",
+    "castingTime": "Action or Ritual",
     "concentration": true,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger"
@@ -533,8 +533,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid",
@@ -550,8 +550,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -566,8 +566,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -582,8 +582,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -596,8 +596,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -612,8 +612,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -629,8 +629,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Paladin"
@@ -644,8 +644,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -661,8 +661,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Paladin"
     ],
@@ -675,8 +675,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -692,8 +692,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -708,8 +708,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -724,8 +724,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid"
     ],
@@ -738,8 +738,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -755,8 +755,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Paladin"
     ],
@@ -769,8 +769,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -784,8 +784,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid"
     ],
@@ -798,8 +798,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric"
@@ -813,8 +813,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -829,8 +829,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -846,8 +846,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock",
       "Wizard"
@@ -858,11 +858,11 @@
     "name": "Ceremony",
     "description": "",
     "level": 1,
-    "castingTime": "1 hour",
+    "castingTime": "1 hour or Ritual",
     "concentration": false,
     "school": "abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "25",
     "spellLists": [
       "Cleric",
       "Paladin"
@@ -876,8 +876,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -891,8 +891,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer"
     ],
@@ -905,8 +905,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid",
@@ -923,8 +923,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid",
@@ -941,8 +941,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -957,8 +957,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -972,8 +972,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -988,8 +988,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Paladin",
@@ -1004,8 +1004,8 @@
     "castingTime": "10 minutes",
     "concentration": true,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -1021,8 +1021,8 @@
     "castingTime": "1 hour",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "1000",
     "spellLists": [
       "Wizard"
     ],
@@ -1035,8 +1035,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -1052,8 +1052,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -1067,8 +1067,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -1083,8 +1083,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -1096,11 +1096,11 @@
     "name": "Commune",
     "description": "",
     "level": 5,
-    "castingTime": "1 minute",
+    "castingTime": "1 minute or Ritual",
     "concentration": false,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -1110,11 +1110,11 @@
     "name": "Commune with Nature",
     "description": "",
     "level": 5,
-    "castingTime": "1 minute",
+    "castingTime": "1 minute or Ritual",
     "concentration": false,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger"
@@ -1128,8 +1128,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Paladin"
     ],
@@ -1139,11 +1139,11 @@
     "name": "Comprehend Languages",
     "description": "",
     "level": 1,
-    "castingTime": "Action",
+    "castingTime": "Action or Ritual",
     "concentration": false,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -1159,8 +1159,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard"
     ],
@@ -1173,8 +1173,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -1189,8 +1189,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid",
@@ -1206,8 +1206,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger"
@@ -1221,8 +1221,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Ranger"
     ],
@@ -1235,8 +1235,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -1249,8 +1249,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Wizard"
@@ -1264,8 +1264,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid"
     ],
@@ -1278,8 +1278,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Wizard"
@@ -1293,8 +1293,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Ranger"
     ],
@@ -1307,8 +1307,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger"
@@ -1319,11 +1319,11 @@
     "name": "Contact Other Plane",
     "description": "",
     "level": 5,
-    "castingTime": "1 minute",
+    "castingTime": "1 minute or Ritual",
     "concentration": false,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock",
       "Wizard"
@@ -1337,8 +1337,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Druid"
@@ -1352,8 +1352,8 @@
     "castingTime": "10 minutes",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Wizard"
     ],
@@ -1366,8 +1366,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "50",
     "spellLists": [
       "Artificer",
       "Cleric",
@@ -1383,8 +1383,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -1399,8 +1399,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Druid",
@@ -1415,8 +1415,8 @@
     "castingTime": "10 minutes",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Druid",
@@ -1431,8 +1431,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -1447,8 +1447,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Ranger"
     ],
@@ -1461,8 +1461,8 @@
     "castingTime": "Reaction",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -1477,8 +1477,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Druid",
@@ -1495,8 +1495,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Cleric",
@@ -1511,8 +1511,8 @@
     "castingTime": "1 hour",
     "concentration": false,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "0",
     "spellLists": [
       "Wizard"
     ],
@@ -1525,8 +1525,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Druid"
@@ -1540,8 +1540,8 @@
     "castingTime": "1 minute",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Warlock",
@@ -1556,8 +1556,8 @@
     "castingTime": "1 minute",
     "concentration": false,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -1572,8 +1572,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -1589,8 +1589,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -1605,8 +1605,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Paladin"
     ],
@@ -1619,8 +1619,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -1638,8 +1638,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -1655,8 +1655,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock",
       "Wizard"
@@ -1670,8 +1670,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -1686,8 +1686,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Druid",
@@ -1704,8 +1704,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Wizard"
@@ -1719,8 +1719,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Druid",
@@ -1737,8 +1737,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Paladin"
@@ -1752,8 +1752,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -1767,8 +1767,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -1783,8 +1783,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Paladin"
     ],
@@ -1797,8 +1797,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Paladin"
@@ -1809,11 +1809,11 @@
     "name": "Detect Magic",
     "description": "",
     "level": 1,
-    "castingTime": "Action",
+    "castingTime": "Action or Ritual",
     "concentration": true,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -1831,11 +1831,11 @@
     "name": "Detect Poison and Disease",
     "description": "",
     "level": 1,
-    "castingTime": "Action",
+    "castingTime": "Action or Ritual",
     "concentration": true,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Druid",
@@ -1851,8 +1851,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -1867,8 +1867,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -1884,8 +1884,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -1901,8 +1901,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -1916,8 +1916,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Paladin"
@@ -1931,8 +1931,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -1953,8 +1953,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard"
     ],
@@ -1964,11 +1964,11 @@
     "name": "Divination",
     "description": "",
     "level": 4,
-    "castingTime": "Action",
+    "castingTime": "Action or Ritual",
     "concentration": false,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "25",
     "spellLists": [
       "Cleric",
       "Druid",
@@ -1983,8 +1983,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Paladin"
     ],
@@ -1997,8 +1997,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Paladin"
     ],
@@ -2011,8 +2011,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -2025,8 +2025,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger",
@@ -2041,8 +2041,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -2058,8 +2058,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -2074,8 +2074,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -2086,11 +2086,11 @@
     "name": "Drawmij's Instant Summons",
     "description": "",
     "level": 6,
-    "castingTime": "1 minute",
+    "castingTime": "1 minute or Ritual",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Wizard"
     ],
@@ -2103,8 +2103,8 @@
     "castingTime": "1 minute",
     "concentration": false,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Warlock",
@@ -2119,8 +2119,8 @@
     "castingTime": "10 minutes",
     "concentration": false,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -2136,8 +2136,8 @@
     "castingTime": "10 minutes",
     "concentration": false,
     "school": "abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid"
     ],
@@ -2150,8 +2150,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid"
     ],
@@ -2164,8 +2164,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -2180,8 +2180,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid",
@@ -2197,8 +2197,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -2214,8 +2214,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Druid",
@@ -2230,8 +2230,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock"
     ],
@@ -2244,8 +2244,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Druid",
@@ -2261,8 +2261,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Druid",
@@ -2278,8 +2278,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -2294,8 +2294,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -2311,8 +2311,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -2327,8 +2327,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -2347,8 +2347,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -2365,8 +2365,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Ranger"
     ],
@@ -2379,8 +2379,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger"
@@ -2394,8 +2394,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Warlock"
@@ -2409,8 +2409,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -2425,8 +2425,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -2443,8 +2443,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Wizard"
     ],
@@ -2457,8 +2457,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -2474,8 +2474,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -2491,8 +2491,8 @@
     "castingTime": "10 minutes",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Wizard"
@@ -2506,8 +2506,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -2522,8 +2522,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -2538,8 +2538,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -2554,8 +2554,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -2571,8 +2571,8 @@
     "castingTime": "Reaction",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -2588,8 +2588,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock",
       "Wizard"
@@ -2600,11 +2600,11 @@
     "name": "Feign Death",
     "description": "",
     "level": 3,
-    "castingTime": "Action",
+    "castingTime": "Action or Ritual",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -2617,11 +2617,11 @@
     "name": "Find Familiar",
     "description": "",
     "level": 1,
-    "castingTime": "1 hour",
+    "castingTime": "1 hour or Ritual",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "10",
     "spellLists": [
       "Wizard"
     ],
@@ -2634,8 +2634,8 @@
     "castingTime": "10 minutes",
     "concentration": false,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Paladin"
     ],
@@ -2648,8 +2648,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Paladin"
     ],
@@ -2662,8 +2662,8 @@
     "castingTime": "1 minute",
     "concentration": true,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -2678,8 +2678,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Druid",
@@ -2694,8 +2694,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -2710,8 +2710,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -2726,8 +2726,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -2742,8 +2742,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Druid",
@@ -2758,8 +2758,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -2773,8 +2773,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Druid",
@@ -2791,8 +2791,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer"
@@ -2806,8 +2806,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -2820,8 +2820,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -2836,8 +2836,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -2852,8 +2852,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -2869,8 +2869,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger",
@@ -2883,11 +2883,11 @@
     "name": "Forbiddance",
     "description": "",
     "level": 6,
-    "castingTime": "10 minutes",
+    "castingTime": "10 minutes or Ritual",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -2900,8 +2900,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "1500",
     "spellLists": [
       "Bard",
       "Warlock",
@@ -2916,8 +2916,8 @@
     "castingTime": "1 minute",
     "concentration": false,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid",
@@ -2933,8 +2933,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid"
@@ -2948,8 +2948,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -2965,8 +2965,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard"
     ],
@@ -2979,8 +2979,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Druid",
@@ -2995,8 +2995,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -3011,8 +3011,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Sorcerer",
@@ -3028,8 +3028,8 @@
     "castingTime": "1 minute",
     "concentration": false,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -3043,11 +3043,11 @@
     "name": "Gentle Repose",
     "description": "",
     "level": 2,
-    "castingTime": "Action",
+    "castingTime": "Action or Ritual",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Paladin",
@@ -3062,8 +3062,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid"
     ],
@@ -3076,8 +3076,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Warlock"
@@ -3091,8 +3091,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -3106,8 +3106,8 @@
     "castingTime": "1 hour",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "200",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -3123,8 +3123,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger"
@@ -3138,8 +3138,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger"
@@ -3153,8 +3153,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -3169,8 +3169,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -3185,8 +3185,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "100",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -3204,8 +3204,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -3221,8 +3221,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -3235,8 +3235,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger"
@@ -3250,8 +3250,8 @@
     "castingTime": "1 hour",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Wizard"
@@ -3265,8 +3265,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Cleric",
@@ -3281,8 +3281,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -3295,8 +3295,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -3311,8 +3311,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger",
@@ -3328,8 +3328,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Ranger"
     ],
@@ -3342,8 +3342,8 @@
     "castingTime": "24 hours",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "1000",
     "spellLists": [
       "Cleric"
     ],
@@ -3356,8 +3356,8 @@
     "castingTime": "10 minutes",
     "concentration": false,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid",
@@ -3373,8 +3373,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -3387,8 +3387,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -3403,8 +3403,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Druid"
@@ -3418,8 +3418,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger"
@@ -3433,8 +3433,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -3449,8 +3449,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -3465,8 +3465,8 @@
     "castingTime": "Reaction",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock"
     ],
@@ -3479,8 +3479,8 @@
     "castingTime": "10 minutes",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "1000",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -3495,8 +3495,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Paladin"
@@ -3510,8 +3510,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock"
     ],
@@ -3524,8 +3524,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -3541,8 +3541,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -3560,8 +3560,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -3574,8 +3574,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Paladin"
@@ -3589,8 +3589,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock"
     ],
@@ -3603,8 +3603,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Ranger"
     ],
@@ -3617,8 +3617,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -3634,8 +3634,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -3650,8 +3650,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -3663,11 +3663,11 @@
     "name": "Identify",
     "description": "",
     "level": 1,
-    "castingTime": "1 minute",
+    "castingTime": "1 minute or Ritual",
     "concentration": false,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -3682,8 +3682,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Wizard"
     ],
@@ -3693,11 +3693,11 @@
     "name": "Illusory Script",
     "description": "",
     "level": 1,
-    "castingTime": "1 minute",
+    "castingTime": "1 minute or Ritual",
     "concentration": false,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "10",
     "spellLists": [
       "Bard",
       "Warlock",
@@ -3712,8 +3712,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -3727,8 +3727,8 @@
     "castingTime": "1 minute",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock",
       "Wizard"
@@ -3742,8 +3742,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -3758,8 +3758,8 @@
     "castingTime": "1 minute",
     "concentration": true,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock",
       "Wizard"
@@ -3773,8 +3773,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -3790,8 +3790,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -3804,8 +3804,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Druid",
@@ -3820,8 +3820,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -3838,8 +3838,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -3855,8 +3855,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -3872,8 +3872,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -3889,8 +3889,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -3906,8 +3906,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -3924,8 +3924,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "500",
     "spellLists": [
       "Wizard"
     ],
@@ -3938,8 +3938,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock",
       "Wizard"
@@ -3953,8 +3953,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Druid",
@@ -3971,8 +3971,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -3987,8 +3987,8 @@
     "castingTime": "10 minutes",
     "concentration": false,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "250",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -4003,8 +4003,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Wizard"
@@ -4015,11 +4015,11 @@
     "name": "Leomund's Tiny Hut",
     "description": "",
     "level": 3,
-    "castingTime": "1 minute",
+    "castingTime": "1 minute or Ritual",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Wizard"
@@ -4033,8 +4033,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -4052,8 +4052,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -4068,8 +4068,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Wizard"
@@ -4083,8 +4083,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -4101,8 +4101,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Ranger"
     ],
@@ -4115,8 +4115,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -4130,8 +4130,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -4144,11 +4144,11 @@
     "name": "Locate Animals or Plants",
     "description": "",
     "level": 2,
-    "castingTime": "Action",
+    "castingTime": "Action or Ritual",
     "concentration": false,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid",
@@ -4163,8 +4163,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -4182,8 +4182,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -4201,8 +4201,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -4219,8 +4219,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock",
       "Wizard"
@@ -4234,8 +4234,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid"
     ],
@@ -4248,8 +4248,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -4263,8 +4263,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -4281,8 +4281,8 @@
     "castingTime": "1 minute",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "100",
     "spellLists": [
       "Cleric",
       "Paladin",
@@ -4298,8 +4298,8 @@
     "castingTime": "1 minute",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Wizard"
     ],
@@ -4312,8 +4312,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -4324,11 +4324,11 @@
     "name": "Magic Mouth",
     "description": "",
     "level": 2,
-    "castingTime": "1 minute",
+    "castingTime": "1 minute or Ritual",
     "concentration": false,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "10",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -4343,8 +4343,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Druid",
@@ -4359,8 +4359,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Paladin",
@@ -4377,8 +4377,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -4394,8 +4394,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -4410,8 +4410,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -4424,8 +4424,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric"
@@ -4439,8 +4439,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -4455,8 +4455,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -4471,8 +4471,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -4486,8 +4486,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Wizard"
     ],
@@ -4497,11 +4497,11 @@
     "name": "Meld into Stone",
     "description": "",
     "level": 3,
-    "castingTime": "Action",
+    "castingTime": "Action or Ritual",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Druid",
@@ -4516,8 +4516,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Wizard"
     ],
@@ -4530,8 +4530,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -4545,8 +4545,8 @@
     "castingTime": "1 minute",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -4564,8 +4564,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -4580,8 +4580,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -4598,8 +4598,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -4613,8 +4613,8 @@
     "castingTime": "1 minute",
     "concentration": false,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "500",
     "spellLists": [
       "Wizard"
     ],
@@ -4627,8 +4627,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Wizard"
@@ -4642,8 +4642,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -4658,8 +4658,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -4674,8 +4674,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -4691,8 +4691,8 @@
     "castingTime": "10 minutes",
     "concentration": false,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid",
@@ -4707,8 +4707,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -4724,8 +4724,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Warlock",
@@ -4740,8 +4740,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -4756,8 +4756,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Wizard"
@@ -4771,8 +4771,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -4787,8 +4787,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid"
     ],
@@ -4801,8 +4801,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Wizard"
@@ -4816,8 +4816,8 @@
     "castingTime": "1 minute",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Wizard"
@@ -4831,8 +4831,8 @@
     "castingTime": "10 minutes",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Wizard"
@@ -4846,8 +4846,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Wizard"
@@ -4861,8 +4861,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -4877,8 +4877,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock",
       "Wizard"
@@ -4892,8 +4892,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "25",
     "spellLists": [
       "Bard",
       "Ranger",
@@ -4908,8 +4908,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Wizard"
     ],
@@ -4922,8 +4922,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -4937,8 +4937,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Wizard"
@@ -4952,8 +4952,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Wizard"
@@ -4967,8 +4967,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger"
@@ -4982,8 +4982,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Wizard"
     ],
@@ -4996,8 +4996,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -5012,8 +5012,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Wizard"
@@ -5024,11 +5024,11 @@
     "name": "Phantom Steed",
     "description": "",
     "level": 3,
-    "castingTime": "1 minute",
+    "castingTime": "1 minute or Ritual",
     "concentration": false,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Wizard"
     ],
@@ -5041,8 +5041,8 @@
     "castingTime": "10 minutes",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -5055,8 +5055,8 @@
     "castingTime": "1 hour",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "1000",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -5073,8 +5073,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Druid",
@@ -5091,8 +5091,8 @@
     "castingTime": "Action or 8 hours",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid",
@@ -5107,8 +5107,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Druid",
@@ -5125,8 +5125,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid",
@@ -5142,8 +5142,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric"
@@ -5157,8 +5157,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric"
@@ -5172,8 +5172,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -5189,8 +5189,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -5205,8 +5205,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -5222,8 +5222,8 @@
     "castingTime": "10 minutes",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Paladin"
@@ -5237,8 +5237,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -5255,8 +5255,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid"
     ],
@@ -5269,8 +5269,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid"
     ],
@@ -5283,8 +5283,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -5299,8 +5299,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Wizard"
@@ -5314,8 +5314,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid"
     ],
@@ -5328,8 +5328,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Wizard"
@@ -5343,8 +5343,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Wizard"
@@ -5358,8 +5358,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Cleric",
@@ -5377,8 +5377,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "25",
     "spellLists": [
       "Cleric",
       "Druid",
@@ -5395,8 +5395,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Cleric",
@@ -5413,8 +5413,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -5427,11 +5427,11 @@
     "name": "Purify Food and Drink",
     "description": "",
     "level": 1,
-    "castingTime": "Action",
+    "castingTime": "Action or Ritual",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Cleric",
@@ -5447,8 +5447,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -5464,8 +5464,8 @@
     "castingTime": "1 hour",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "500",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -5477,11 +5477,11 @@
     "name": "Rary's Telepathic Bond",
     "description": "",
     "level": 5,
-    "castingTime": "Action",
+    "castingTime": "Action or Ritual",
     "concentration": false,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Wizard"
@@ -5495,8 +5495,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock",
       "Wizard"
@@ -5510,8 +5510,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -5526,8 +5526,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -5541,8 +5541,8 @@
     "castingTime": "1 minute",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -5557,8 +5557,8 @@
     "castingTime": "1 hour",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "1000",
     "spellLists": [
       "Druid"
     ],
@@ -5571,8 +5571,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Paladin",
@@ -5588,8 +5588,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Cleric",
@@ -5604,8 +5604,8 @@
     "castingTime": "1 hour",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "1000",
     "spellLists": [
       "Bard",
       "Cleric"
@@ -5619,8 +5619,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -5635,8 +5635,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "300",
     "spellLists": [
       "Artificer",
       "Cleric",
@@ -5653,8 +5653,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Wizard"
@@ -5668,8 +5668,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -5682,8 +5682,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Cleric"
@@ -5697,8 +5697,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -5713,8 +5713,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -5728,8 +5728,8 @@
     "castingTime": "10 minutes",
     "concentration": true,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -5746,8 +5746,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Paladin"
     ],
@@ -5760,8 +5760,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -5777,8 +5777,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -5793,8 +5793,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -5809,8 +5809,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "5000",
     "spellLists": [
       "Wizard"
     ],
@@ -5823,8 +5823,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -5839,8 +5839,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock"
     ],
@@ -5853,8 +5853,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -5869,8 +5869,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Wizard"
@@ -5884,8 +5884,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -5900,8 +5900,8 @@
     "castingTime": "Reaction",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -5915,8 +5915,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Paladin"
@@ -5930,8 +5930,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid"
     ],
@@ -5944,8 +5944,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Paladin"
     ],
@@ -5958,8 +5958,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -5974,8 +5974,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -5987,11 +5987,11 @@
     "name": "Silence",
     "description": "",
     "level": 2,
-    "castingTime": "Action",
+    "castingTime": "Action or Ritual",
     "concentration": true,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -6006,8 +6006,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -6022,8 +6022,8 @@
     "castingTime": "12 hours",
     "concentration": false,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "1500",
     "spellLists": [
       "Wizard"
     ],
@@ -6036,8 +6036,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -6050,11 +6050,11 @@
     "name": "Skywrite",
     "description": "",
     "level": 2,
-    "castingTime": "Action",
+    "castingTime": "Action or Ritual",
     "concentration": true,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -6070,8 +6070,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -6086,8 +6086,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -6102,8 +6102,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -6118,8 +6118,8 @@
     "castingTime": "1 minute",
     "concentration": false,
     "school": "abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "0",
     "spellLists": [
       "Artificer",
       "Druid",
@@ -6135,8 +6135,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -6150,8 +6150,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer"
     ],
@@ -6164,8 +6164,8 @@
     "castingTime": "Reaction",
     "concentration": false,
     "school": "necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock",
       "Wizard"
@@ -6179,8 +6179,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Cleric",
@@ -6192,11 +6192,11 @@
     "name": "Speak with Animals",
     "description": "",
     "level": 1,
-    "castingTime": "Action",
+    "castingTime": "Action or Ritual",
     "concentration": false,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid",
@@ -6212,8 +6212,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -6228,8 +6228,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid",
@@ -6244,8 +6244,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -6261,8 +6261,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger"
@@ -6276,8 +6276,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -6290,8 +6290,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Paladin",
@@ -6307,8 +6307,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -6321,8 +6321,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Paladin"
     ],
@@ -6335,8 +6335,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid"
@@ -6350,8 +6350,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Ranger",
       "Wizard"
@@ -6365,8 +6365,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -6381,8 +6381,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Cleric",
@@ -6398,8 +6398,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "100",
     "spellLists": [
       "Artificer",
       "Druid",
@@ -6416,8 +6416,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid"
     ],
@@ -6430,8 +6430,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -6445,8 +6445,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -6462,8 +6462,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock",
       "Wizard"
@@ -6477,8 +6477,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger"
@@ -6492,8 +6492,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Paladin"
@@ -6507,8 +6507,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Wizard"
@@ -6522,8 +6522,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Wizard"
     ],
@@ -6536,8 +6536,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger",
@@ -6552,8 +6552,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger",
@@ -6569,8 +6569,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock",
       "Wizard"
@@ -6584,8 +6584,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock",
       "Wizard"
@@ -6599,8 +6599,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock",
       "Wizard"
@@ -6614,8 +6614,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock",
       "Wizard"
@@ -6629,8 +6629,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock",
       "Wizard"
@@ -6644,8 +6644,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Druid",
@@ -6661,8 +6661,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Druid",
@@ -6678,8 +6678,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Ranger"
     ],
@@ -6692,8 +6692,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -6709,8 +6709,8 @@
     "castingTime": "1 minute",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "1000",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -6726,8 +6726,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -6743,8 +6743,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock",
       "Wizard"
@@ -6758,8 +6758,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -6774,8 +6774,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Warlock",
@@ -6790,8 +6790,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -6805,8 +6805,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -6821,8 +6821,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -6836,8 +6836,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Wizard"
     ],
@@ -6850,8 +6850,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -6866,8 +6866,8 @@
     "castingTime": "1 minute",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "50",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -6883,8 +6883,8 @@
     "castingTime": "1 hour",
     "concentration": false,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -6894,11 +6894,11 @@
     "name": "Tenser's Floating Disk",
     "description": "",
     "level": 1,
-    "castingTime": "Action",
+    "castingTime": "Action or Ritual",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Wizard"
     ],
@@ -6911,8 +6911,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Wizard"
     ],
@@ -6925,8 +6925,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -6939,8 +6939,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Druid"
@@ -6954,8 +6954,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -6970,8 +6970,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Bard",
@@ -6989,8 +6989,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Paladin"
     ],
@@ -7003,8 +7003,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid",
@@ -7020,8 +7020,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -7036,8 +7036,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -7051,8 +7051,8 @@
     "castingTime": "1 minute",
     "concentration": false,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Wizard"
@@ -7066,8 +7066,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Warlock",
@@ -7082,8 +7082,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -7100,8 +7100,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Druid",
@@ -7116,8 +7116,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid"
     ],
@@ -7130,8 +7130,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger"
@@ -7145,8 +7145,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Warlock",
@@ -7161,8 +7161,8 @@
     "castingTime": "1 hour",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "25000",
     "spellLists": [
       "Cleric",
       "Druid"
@@ -7176,8 +7176,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "25",
     "spellLists": [
       "Bard",
       "Cleric",
@@ -7194,8 +7194,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Divination",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Sorcerer",
@@ -7211,8 +7211,8 @@
     "castingTime": "1 minute",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid"
     ],
@@ -7222,11 +7222,11 @@
     "name": "Unseen Servant",
     "description": "",
     "level": 1,
-    "castingTime": "Action",
+    "castingTime": "Action or Ritual",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Warlock",
@@ -7241,8 +7241,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -7257,8 +7257,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard"
     ],
@@ -7271,8 +7271,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -7286,8 +7286,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -7302,8 +7302,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Wizard"
     ],
@@ -7316,8 +7316,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Wizard"
     ],
@@ -7330,8 +7330,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -7346,8 +7346,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Wizard"
     ],
@@ -7360,8 +7360,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Druid",
@@ -7377,8 +7377,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid"
     ],
@@ -7391,8 +7391,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -7407,8 +7407,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Abjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric",
       "Paladin"
@@ -7422,8 +7422,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Druid",
@@ -7436,11 +7436,11 @@
     "name": "Water Breathing",
     "description": "",
     "level": 3,
-    "castingTime": "Action",
+    "castingTime": "Action or Ritual",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Druid",
@@ -7454,11 +7454,11 @@
     "name": "Water Walk",
     "description": "",
     "level": 3,
-    "castingTime": "Action",
+    "castingTime": "Action or Ritual",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Cleric",
@@ -7475,8 +7475,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -7491,8 +7491,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Artificer",
       "Sorcerer",
@@ -7507,8 +7507,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Illusion",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Warlock",
       "Wizard"
@@ -7522,8 +7522,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Sorcerer",
@@ -7538,8 +7538,8 @@
     "castingTime": "1 minute",
     "concentration": false,
     "school": "Transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid"
     ],
@@ -7552,8 +7552,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger"
@@ -7567,8 +7567,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Wizard"
@@ -7582,8 +7582,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Sorcerer",
       "Warlock",
@@ -7598,8 +7598,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -7612,8 +7612,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Conjuration",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Cleric"
     ],
@@ -7626,8 +7626,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "evocation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Druid",
       "Ranger"
@@ -7641,8 +7641,8 @@
     "castingTime": "Bonus Action",
     "concentration": false,
     "school": "Necromancy",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Paladin"
     ],
@@ -7655,8 +7655,8 @@
     "castingTime": "Action",
     "concentration": true,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Wizard"
@@ -7670,8 +7670,8 @@
     "castingTime": "Bonus Action",
     "concentration": true,
     "school": "transmutation",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Ranger"
     ],
@@ -7684,8 +7684,8 @@
     "castingTime": "Action",
     "concentration": false,
     "school": "Enchantment",
-    "spellComponentsNotConsumed": [],
-    "spellComponentsConsumed": [],
+    "componentConsumptionNote": "",
+    "componentConsumptionExpense": "",
     "spellLists": [
       "Bard",
       "Cleric",
