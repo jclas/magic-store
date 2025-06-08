@@ -19,7 +19,8 @@ const topScrolls2 = [
 ];
 
 /**
- * Tertiary spell usage or clutch situational spells best used via spell scrolls.
+ * Tertiary spell usage, or clutch situational spells best used via spell scrolls,
+ * or I super-duper really wanna learn this spell.
  * No cantrips. No rituals (unless it has consumable components)
  */
 const topScrolls3 = [
@@ -159,17 +160,20 @@ const highImpactMagicItems = [
 ];
 
 const statBoosterMagicItems = [
-    "Amulet of Health", "Belt of Giant Strength", "Headband of Intellect", "Ioun Stone",
+    "Amulet of Health", "Amulet of the Devout", "Arcane Grimoire", "Belt of Giant Strength", "Bloodwell Vial",
+    "Headband of Intellect", "Gauntlets of Ogre Power", "Ioun Stone",
     "Manual of Bodily Health", "Manual of Gainful Exercise", "Manual of Quickness of Action",
+    "Moon Sickle", "Rod of the Pact Keeper",
     "Tome of Clear Thought", "Tome of Leadership and Influence", "Tome of Understanding",
-    "Wand of the War Mage"
+    "Wand of the War Mage",  "Wraps of Unarmed Power"
 ];
 
 const healingRelatedMagicItems = [
     "Amulet of Health", "Blood Fury Tattoo", "Cauldron of Rebirth", "Elixir of Health",
-    "Ioun Stone (Fortitude)", "Keoghtom's Ointment", "Lifewell Tattoo", "Manual of Bodily Health", "Necklace of Prayer Beads",
-    "Periapt of Health", "Periapt of Proof Against Poison", "Periapt of Wound Closure", "Potion of Greater Healing",
-    "Potion of Healing", "Potion of Heroism", "Potion of Longevity", "Potion of Superior Healing", "Potion of Supreme Healing",
+    "Ioun Stone (Fortitude)", "Keoghtom's Ointment", "Lifewell Tattoo", "Manual of Bodily Health",
+    "Moon Sickle", "Necklace of Prayer Beads",
+    "Periapt of Health", "Periapt of Proof Against Poison", "Periapt of Wound Closure",
+    "Potion of Healing", "Potion of Heroism", "Potion of Longevity",
     "Potion of Vitality", "Ring of Regeneration", "Rod of Resurrection", "Rod of Security", "Staff of Healing"
 ];
 

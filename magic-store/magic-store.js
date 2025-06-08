@@ -1,5 +1,6 @@
 // ToDo: Apply user-entered item category %s to random picks.
-// ToDo: finish getVariantName(name)
+// ToDo: finish getVariantName(name).
+//       "Enspelled" should be fun: use scroll likability; filter by school(s) based on armor, weapon, or staff.
 // ToDo: Finish adding the rest of TCE magic items.
 //
 // ToDo: ? Create an magicitemsDailyExpectedSales array, which gets plugged into the bellCurveRandomInt. 
@@ -15,7 +16,8 @@ const sourceAbbreviationKey = {
     XGE: "Xanathar's Guide to Everything",
     TCE: "Tasha's Cauldron of Everything",
 };
-const allowedRarities = ["common", "uncommon", "rare", "very rare"];
+const allowedRaritiesConsumables = ["common", "uncommon", "rare", "very rare"];
+const allowedRaritiesNonConsumables = ["common", "uncommon", "rare"];
 const basePrices = {
     common: 100,
     uncommon: 400,
@@ -32,7 +34,6 @@ const magicStore = {
 
     inventory: [],
     pendingInventory: [], //temp inventory until save
-    todaysUpdates: [],
 
     magicItems: [],    //all magic items
     scrolls: [],       //all scrolls
@@ -48,24 +49,26 @@ const magicStore = {
         const allScrolls = await this.loadScrollsFile();
 
         //*****  filter out rarities
-        // Only include items with allowed rarities
-        this.magicItems = allMagicItems.filter(item =>
-            item.rarity && allowedRarities.includes(item.rarity.toLowerCase())
-        )
+        // Only include items with allowed rarities - different for consumables vs non-consumables
+        this.magicItems = allMagicItems.filter(item => item.rarity && (
+            (allowedRaritiesConsumables.includes(item.rarity.toLowerCase()) && this.isConsumable(item))
+            || (allowedRaritiesNonConsumables.includes(item.rarity.toLowerCase()) && !this.isConsumable(item))
+
+        ));
         this. magicItems.forEach(item => {
             item.price = this.calculateMagicItemBasePrice(item);
-            item.rarityScore = this.getRarityScore(item);
+            item.rarityScore = this.calcRarityScore(item);
             // console.log(item.name, item.price, item.rarityScore);
         });
 
         // Only include scrolls with allowed rarities
         this.scrolls = allScrolls.filter(item =>
-            item.rarity && allowedRarities.includes(item.rarity.toLowerCase())
+            item.rarity && allowedRaritiesConsumables.includes(item.rarity.toLowerCase())
         );
 
         this.scrolls.forEach(item => {
             item.price = this.calcSpecificScrollPrice(item);
-            item.rarityScore = this.getRarityScore(item);
+            item.rarityScore = this.calcRarityScore(item);
             // console.log(item.name, item.price, item.rarityScore);
         });
 
@@ -77,8 +80,8 @@ const magicStore = {
                 const tattoo = { ...item };
                 tattoo.name = tattoo.name.replace(/Scroll:/gi, "Spellwrought Tattoo:");
                 tattoo.category = "tattoo";
-                tattoo.price = this.calcSpecificTattooPrice(tattoo);
-                tattoo.rarityScore = this.getRarityScore(tattoo);
+                tattoo.price = this.calcSpecificTattooPrice(item);
+                tattoo.rarityScore = this.calcRarityScore(item);
                 
                 return tattoo;
             });
@@ -116,6 +119,9 @@ const magicStore = {
         document.getElementById('btnSaveTodaysUpdates').addEventListener('click',() => magicStore.saveTodaysUpdates());
         document.getElementById('closePopup').addEventListener('click', () => {
             document.getElementById('updatePopup').style.display = 'none';
+        });
+        document.querySelectorAll('#updatePopup #categories input').forEach(input => {
+            input.addEventListener('input', () => this.updatePopupPercentTotal());
         });
     },
 
@@ -193,7 +199,7 @@ const magicStore = {
         table.innerHTML = `
             <thead>
             <tr>
-                <th style="cursor:pointer" onclick="magicStore.sortInventoryTable(0)">Item</th>
+                <th style="cursor:pointer;" onclick="magicStore.sortInventoryTable(0)">Item</th>
                 <th class="text-end" style="width:100px; cursor:pointer" onclick="magicStore.sortInventoryTable(1)">Price (gp)</th>
                 <th style="width:110px; cursor:pointer" onclick="magicStore.sortInventoryTable(2)">Rarity</th>
                 <th class="text-end" style="width:130px; cursor:pointer" onclick="magicStore.sortInventoryTable(3)">Rarity Score</th>
@@ -243,9 +249,8 @@ const magicStore = {
     },
 
     showUpdatesPopup: function () {
-        let suggestedArrivals = 10;
-        let suggestedSales = 9;
-        pendingInventory = JSON.parse(JSON.stringify(this.inventory)); //make a copy
+
+        // pendingInventory = JSON.parse(JSON.stringify(this.inventory)); //make a copy
 
         const boxExpandMe = document.getElementById('boxExpandMe');
         const boxCollapseMe = document.getElementById('boxCollapseMe');
@@ -261,10 +266,6 @@ const magicStore = {
         boxExpandMe.classList.add('d-none');  //hide
         boxExpandMe.classList.remove('d-flex');
 
-        suggestedSales = this.inventory.length < suggestedSales ? this.inventory.length : suggestedSales;
-
-        document.getElementById('arrivalsInput').value = suggestedArrivals;
-        document.getElementById('salesInput').value = suggestedSales;
 
         boxExpandMe.addEventListener('click', function() {
             fields.style.display =  ''; //show
@@ -277,6 +278,8 @@ const magicStore = {
             boxExpandMe.classList.remove('d-none');
         });
 
+        this.updatePopupPercentTotal();
+
         document.getElementById('btnGenerateUpdates').onclick = () => {
             // Collapse the fields between the title and the generate button
             fields.style.display = 'none'; //hide
@@ -284,7 +287,7 @@ const magicStore = {
             boxExpandMe.classList.remove('d-none');
 
 
-            todaysUpdates = this.generateTodaysUpdates();
+            const todaysUpdates = this.generateTodaysUpdates();
             this.displayTodaysUpdates(todaysUpdates);
 
             document.getElementById('boxExpandMe').style.display = '';
@@ -297,15 +300,25 @@ const magicStore = {
     generateTodaysUpdates: function () {
         const arrivalsCount = parseInt(document.getElementById('arrivalsInput').value) || 0;
         const salesCount = parseInt(document.getElementById('salesInput').value) || 0;
-        todaysUpdates = [];
+        const categoryPercentages = [];
+        let todaysUpdates = [];
 
+        pendingInventory = structuredClone(this.inventory); //make a copy
+
+        document.querySelectorAll('#updatePopup #categories input').forEach(input => {
+            categoryPercentages.push(Number((Number(input.value) /100).toFixed(6)) || 0);
+        });
+        
+
+        //*****************************************************
         //*****  Customer bought
+        //*****************************************************
         let salesMade = 0;
         let attempts = 0;
         const maxAttempts = salesCount * 10;
 
         if (pendingInventory.length > 0) {
-            const rarityScores = pendingInventory.map(obj => obj.rarityScore);
+            const rarityScores = structuredClone(pendingInventory).map(item => item.rarityScore);
 
             while (salesMade < salesCount && attempts < maxAttempts) {
                 const idx = getWeightedRandomIndex(rarityScores);
@@ -314,7 +327,8 @@ const magicStore = {
                     pendingInventory[idx].quantity--;
                     
                     insertObjectAlphabetically(todaysUpdates, {
-                        action: 'Customer bought',
+                        // action: 'Customer bought',
+                        action: 'Sold (-1)',
                         change: -1,
                         ...pendingInventory[idx]
                     });
@@ -327,20 +341,48 @@ const magicStore = {
 
 
         //****************************************************************** */
-        //** REFACTOR:
-        //  - combine all 3 types (magicitems, scrolls, tattoos) into one array of naughtiness
-        //  - Come up with an incoming number of items. For now, it's manually set by user (later we offer randomish)
-        //  - Have user set percentages for each item category (armor, potion, etc) for incoming items
+        // ToDo:
+        //  - separate weighted/random item searches into categories searches
+        //  - refactor to do (arrivalsCount/categoryPercentages[x]) number of picks in each category
+        //  - ? Come up with an incoming number of items.  For now, it's manually set by user (later we offer randomish)
         //****************************************************************** */
 
-        //*****  Supplier delivered
-        for (let i = 0; i < arrivalsCount; i++) {
-            if (this.allItems.length === 0) continue;
-            
-            let rarityScores = this.allItems.map(obj => obj.rarityScore);
-            let allItemsIndex = getWeightedRandomIndex(rarityScores);
 
-            let magicItem = structuredClone(this.allItems[allItemsIndex]); //makes a copy (doesn't reference)
+        //*****************************************************
+        //*****  Supplier delivered
+        //*****************************************************
+        console.log("categoryPercentages: " + categoryPercentages.toString());
+
+        let categoryItems = []; //ToDo: move this to globals
+        categoryItems.push(this.allItems.filter(item => item.category == 'scroll'));
+        categoryItems.push(this.allItems.filter(item => item.category == 'potion'));
+        categoryItems.push(this.allItems.filter(item => item.category == 'ring'));
+        categoryItems.push(this.allItems.filter(item => ['rod','staff','wand'].includes(item.category)));
+        categoryItems.push(this.allItems.filter(item => item.category == 'wondrous item'));
+        categoryItems.push(this.allItems.filter(item => item.category == 'armor'));
+        categoryItems.push(this.allItems.filter(item => item.category == 'weapon'));
+        categoryItems.push(this.allItems.filter(item => item.category == 'tattoo'));
+
+        let categoryRarityScores = []; //An array of item rarityScores for each category
+        categoryRarityScores.push(structuredClone(categoryItems[0].map(item => item.rarityScore)));
+        categoryRarityScores.push(structuredClone(categoryItems[1].map(item => item.rarityScore)));
+        categoryRarityScores.push(structuredClone(categoryItems[2].map(item => item.rarityScore)));
+        categoryRarityScores.push(structuredClone(categoryItems[3].map(item => item.rarityScore)));
+        categoryRarityScores.push(structuredClone(categoryItems[4].map(item => item.rarityScore)));
+        categoryRarityScores.push(structuredClone(categoryItems[5].map(item => item.rarityScore)));
+        categoryRarityScores.push(structuredClone(categoryItems[6].map(item => item.rarityScore)));
+        categoryRarityScores.push(structuredClone(categoryItems[7].map(item => item.rarityScore)));
+
+        for (let i = 0; i < arrivalsCount; i++) {
+            if (categoryItems.length === 0) continue;
+            
+            let randomCategoryIndex = getWeightedRandomIndex(categoryPercentages);  //pick category
+
+            if (categoryItems[randomCategoryIndex].length === 0) continue;
+
+            let itemsIndex = getWeightedRandomIndex(categoryRarityScores[randomCategoryIndex]);
+
+            let magicItem = structuredClone(categoryItems[randomCategoryIndex][itemsIndex]); //makes a copy (doesn't reference)
             magicItem.name = this.getVariantName(magicItem.name) || magicItem.name;
 
             let inventoryIndex = pendingInventory.findIndex(item => item.name === magicItem.name);
@@ -358,53 +400,106 @@ const magicStore = {
 
             //array for visual log
             todaysUpdates.push({
-                action: 'Supplier delivered',
+                //action: 'Supplier delivered',
+                action: 'Supplied (+1)',
                 change: +1,
                 ...magicItem
             });
         }
 
-        // Sort todaysUpdates by action, then by name
+        // Sort todaysUpdates by action, then by category, then by name
         todaysUpdates.sort((a, b) => {
-            if (a.action === b.action) {
-                return a.name.localeCompare(b.name);
+            // Sort by action first
+            if (a.action !== b.action) {
+                return a.action.localeCompare(b.action);
             }
-            return a.action.localeCompare(b.action);
+            // // Then by category
+            // if (a.category !== b.category) {
+            //     return a.category.localeCompare(b.category);
+            // }
+            // Then by name
+            return a.name.localeCompare(b.name);
         });
 
         return todaysUpdates;
     },
 
+    /**
+     * Returns the category percentage, given a category name
+     * @param {*} categoryName 
+     * @param {*} categoryPercentages 
+     * @returns 
+     */
+    getCategoryPercentage(categoryName, categoryPercentages) {
+        // The order of categoryPercentages must match this order:
+        // [Scrolls, Potions, Rings, Rod/Staff/Wands, Wondrous Items, Armor, Weapons, Tattoos]
+        // We'll match by normalized category name.
+        const norm = (categoryName || '').toLowerCase().trim();
+
+        if (norm === "scroll") return categoryPercentages[0] || 0;
+        if (norm === "potion") return categoryPercentages[1] || 0;
+        if (norm === "ring") return categoryPercentages[2] || 0;
+        // For rod, staff, or wand, match any of those
+        if (norm === "rod" || norm === "staff" || norm === "wand") return categoryPercentages[3] || 0;
+        if (norm === "wondrous item") return categoryPercentages[4] || 0;
+        if (norm === "armor") return categoryPercentages[5] || 0;
+        if (norm === "weapon") return categoryPercentages[6] || 0;
+        if (norm === "tattoo") return categoryPercentages[7] || 0;
+
+        return 0;
+    },
+
     displayTodaysUpdates: function (todaysUpdates) {
+
         document.getElementById('todaysUpdatesTable').innerHTML =
-            `<table class="table table-bordered">
-                <thead>
-                    <tr>
-                        <th>Action</th>
-                        <th>Change</th>
-                        <th>Item</th>
-                        <th>Price</th>
-                        <th>Rarity</th>
-                        <th>Rarity Score</th>
-                        <th>Delete</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    ${todaysUpdates.map((u, idx) => `
-                        <tr data-update-idx="${idx}">
-                            <td>${u.action}</td>
-                            <td>${u.change > 0 ? '+' : ''}${u.change}</td>
-                            <td>${u.name}</td>
-                            <td>${u.price}</td>
-                            <td>${u.rarity}</td>
-                            <td>${u.rarityScore}</td>
-                            <td>
-                                <button class="btn btn-danger btn-sm btn-delete-update" title="Delete this update">&times;</button>
-                            </td>
-                        </tr>
-                    `).join('')}
-                </tbody>
-            </table>`;
+            `
+            <div style="display: flex; flex-direction: row;">
+                <!-- Table column -->
+                <div style="flex: 1; display: flex; flex-direction: column;">
+                    <div id="updatesTableContainer">
+                        <table id='updatesTable' class="table table-bordered">
+                            <thead>
+                                <tr>
+                                <th style="cursor:pointer" onclick="magicStore.sortUpdatesTable(0)">Action</th>
+                                <th style="cursor:pointer" onclick="magicStore.sortUpdatesTable(1)">Category</th>
+                                <th style="cursor:pointer" onclick="magicStore.sortUpdatesTable(2)">Item</th>
+                                <th style="cursor:pointer" onclick="magicStore.sortUpdatesTable(3)">Price</th>
+                                <th style="cursor:pointer" onclick="magicStore.sortUpdatesTable(4)">Rarity</th>
+                                <th style="cursor:pointer" onclick="magicStore.sortUpdatesTable(5)">Rarity Score</th>
+                                <th>Delete</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${todaysUpdates.map((u, idx) => `
+                                    <tr data-update-idx="${idx}">
+                                        <td>${u.action}</td>
+                                        <!--td>${u.change > 0 ? '+' : ''}${u.change}</td-->
+                                        <td>${u.category}</td>
+                                        <td>${stripItemNamePrefix(u.name)}</td>
+                                        <td>${u.price}</td>
+                                        <td>${u.rarity}</td>
+                                        <td>${u.rarityScore}</td>
+                                        <td>
+                                            <button class="btn btn-secondary btn-sm btn-delete-update" title="Delete this update">&times;</button>
+                                        </td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- Button column -->
+                <div style="display: flex; flex-direction: column; justify-content: space-between; align-items: flex-end; margin-left: 8px;">
+                    <button id="scrollDownUpdatesTable" class="btn btn-primary btn-sm" title="Scroll to bottom" style="margin-bottom: 8px;">
+                        <span style="font-size: 1.2em;">&#8595;</span>
+                    </button>
+                    <div style="flex:1"></div>
+                    <button id="scrollUpUpdatesTable" class="btn btn-primary btn-sm mb-3" title="Scroll to top" style="margin-top: 8px;">
+                        <span style="font-size: 1.2em;">&#8593;</span>
+                    </button>
+                </div>
+            </div>
+        `;
 
         // Add delete event listeners
         document.querySelectorAll('.btn-delete-update').forEach(btn => {
@@ -430,6 +525,103 @@ const magicStore = {
                 magicStore.displayTodaysUpdates(todaysUpdates);
             });
         });
+
+        // Scroll up/down buttons
+        setTimeout(() => {
+            const scrollDownBtn = document.getElementById('scrollDownUpdatesTable');
+            const scrollUpBtn = document.getElementById('scrollUpUpdatesTable');
+            // Find the popup container that actually scrolls
+            let popup = document.getElementById('updatePopup');
+            // If updatePopup doesn't scroll, try its first child with overflow
+            if (popup) {
+                // If the popup itself doesn't scroll, try to find a scrollable child
+                if (popup.scrollHeight <= popup.clientHeight) {
+                    // Try to find a scrollable child
+                    const scrollable = Array.from(popup.querySelectorAll('*')).find(
+                        el => el.scrollHeight > el.clientHeight
+                    );
+                    if (scrollable) popup = scrollable;
+                }
+            }
+            if (scrollDownBtn && popup) {
+                scrollDownBtn.onclick = () => {
+                    popup.scrollTop = popup.scrollHeight;
+                };
+            }
+            if (scrollUpBtn && popup) {
+                scrollUpBtn.onclick = () => {
+                    popup.scrollTop = 0;
+                };
+            }
+        }, 0);
+    },
+
+    sortUpdatesTable(colIndex) {
+        const table = document.getElementById('updatesTable');
+        if (!table) return;
+        const tbody = table.tBodies[0];
+        const rows = Array.from(tbody.rows);
+        const isAsc = table.getAttribute('data-sort-col') == colIndex && table.getAttribute('data-sort-dir') == 'asc';
+
+        rows.sort((a, b) => {
+            // Helper to get cell text
+            const getCell = (row, idx) => row.cells[idx]?.textContent.trim() || "";
+
+            // Special handling for Rarity column (colIndex 4)
+            if (colIndex === 4) {
+                const rarityOrder = { "common": 1, "uncommon": 2, "rare": 3, "very rare": 4, "legendary": 5, "artifact": 6 };
+                let aVal = rarityOrder[getCell(a, 4).toLowerCase()] || 99;
+                let bVal = rarityOrder[getCell(b, 4).toLowerCase()] || 99;
+                return isAsc ? aVal - bVal : bVal - aVal;
+            }
+
+            // If sorting by Action (col 0), do secondary sort on Item (col 1), tertiary on Category (col 2)
+            if (colIndex === 0) {
+                let cmp = isAsc
+                    ? getCell(a, 0).localeCompare(getCell(b, 0))
+                    : getCell(b, 0).localeCompare(getCell(a, 0));
+                if (cmp !== 0) return cmp;
+
+                cmp = isAsc
+                    ? getCell(a, 1).localeCompare(getCell(b, 1))
+                    : getCell(b, 1).localeCompare(getCell(a, 1));
+                if (cmp !== 0) return cmp;
+
+                return isAsc
+                    ? getCell(a, 2).localeCompare(getCell(b, 2))
+                    : getCell(b, 2).localeCompare(getCell(a, 2));
+            }
+
+            // If sorting by Category (col 2), do secondary sort on Item (col 1)
+            if (colIndex === 2) {
+                let cmp = isAsc
+                    ? getCell(a, 2).localeCompare(getCell(b, 2))
+                    : getCell(b, 2).localeCompare(getCell(a, 2));
+                if (cmp !== 0) return cmp;
+
+                return isAsc
+                    ? getCell(a, 1).localeCompare(getCell(b, 1))
+                    : getCell(b, 1).localeCompare(getCell(a, 1));
+            }
+
+            // For Price, Rarity Score, etc., try numeric sort
+            if (colIndex === 3 || colIndex === 5) {
+                let aNum = parseFloat(getCell(a, colIndex).replace(/[^0-9.\-]+/g,""));
+                let bNum = parseFloat(getCell(b, colIndex).replace(/[^0-9.\-]+/g,""));
+                if (!isNaN(aNum) && !isNaN(bNum)) {
+                    return isAsc ? aNum - bNum : bNum - aNum;
+                }
+            }
+
+            // Default: simple text sort
+            return isAsc
+                ? getCell(a, colIndex).localeCompare(getCell(b, colIndex))
+                : getCell(b, colIndex).localeCompare(getCell(a, colIndex));
+        });
+
+        rows.forEach(row => tbody.appendChild(row));
+        table.setAttribute('data-sort-col', colIndex);
+        table.setAttribute('data-sort-dir', isAsc ? 'desc' : 'asc');
     },
 
     saveTodaysUpdates: function () {
@@ -447,6 +639,23 @@ const magicStore = {
 
         document.getElementById('inventoryFileLabel').textContent = "Load Inventory File 🪄";
         this.updateInventoryDisplay();
+    },
+
+    updatePopupPercentTotal() {
+
+        const percentInputs = document.querySelectorAll('#updatePopup #categories input');
+        const totalMsg = document.getElementById('totalPercentMessage');
+        let total = Array.from(percentInputs).reduce((sum, input) => sum + (Number(input.value) || 0), 0);
+        // total = ((total * 10) + (total * 10)) / 2 / 10;
+        totalMsg.textContent = `Total: ${total.toFixed(2)}%`;
+
+        if (total !== 100) {
+            totalMsg.classList.remove('text-muted');
+            totalMsg.classList.add('text-danger');
+        } else {
+            totalMsg.classList.remove('text-danger');
+            totalMsg.classList.add('text-muted');
+        }
     },
 
     // --- Utility methods that are specific to this app ---
@@ -473,7 +682,7 @@ const magicStore = {
      * @param {*} item 
      * @returns 
      */
-    getRarityScore(item) {
+    calcRarityScore(item) {
 
         let rareFactor1 = this.calculateMagicItemBasePrice(item);
         // if (item.rarity.toLowerCase() == "common" && !item.name.toLowerCase().startsWith("potion of healing")) rareFactor1 *= 5; //not more copious. most common junk is not as high in demand as the price would normally dictate.
@@ -532,7 +741,8 @@ const magicStore = {
      */
     calcSpecificScrollPrice(scrollObject) {
 
-        let price = this.calculateMagicItemBasePrice(scrollObject);
+        const spell = this.getSpell(scrollObject.name);
+        let price = scrollBasePrices[spell.level];
         price += this.getAddedConsumedComponentCost(scrollObject.name) || 0;
 
         return price;
@@ -545,10 +755,8 @@ const magicStore = {
      * @returns number
      */
     calcSpecificTattooPrice(tattoo) {
-
-        let price = this.calculateMagicItemBasePrice(tattoo);
-        price *= 2;  //In my opinion, rarity level of tattoos should be a level more than a scroll.
-        price += this.getAddedConsumedComponentCost(tattoo.name) || 0;
+        let price = this.calcSpecificScrollPrice(tattoo);
+        price *= 2; //In my opinion, tattoo prices should be more than a scroll, so use double.
 
         return price;
     },
@@ -784,14 +992,27 @@ const magicStore = {
 function normalizeSpellName(name) {
     return name
         .toLowerCase()
-        .replace(/^scroll:\s*/, '') // Remove "Scroll:" prefix
-        .replace(/^spellwrought\btattoo:\s*/, '') // Remove "Scroll:" prefix
+        .replace(/^scroll:\s*/i, '') // Remove "Scroll:" prefix
+        .replace(/^spellwrought\btattoo:\s*/i, '') // Remove "Scroll:" prefix
         .replace(/[’‘]/g, "'") // Normalize curly apostrophes to straight
         .replace(/[“”]/g, '"') // Normalize curly quotes to straight
         .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // Remove accents
         .replace(/\s+/g, ' ') // Collapse multiple spaces
         .trim();
 }
+
+function stripItemNamePrefix(name) {
+    return name
+        // .toLowerCase()
+        .replace(/^scroll:\s*/i, '') // Remove "Scroll:" prefix
+        .replace(/^spellwrought\btattoo:\s*/i, '') // Remove "Scroll:" prefix
+        // .replace(/[’‘]/g, "'") // Normalize curly apostrophes to straight
+        // .replace(/[“”]/g, '"') // Normalize curly quotes to straight
+        // .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // Remove accents
+        // .replace(/\s+/g, ' ') // Collapse multiple spaces
+        .trim();
+}
+
 
 /**
  * An array's index is chosen based on a random "raffle",

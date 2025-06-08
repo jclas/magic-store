@@ -23,7 +23,6 @@ async function updateScrollLikability() {
             const spell = getSpellByName(scroll.name);
             let likability = baseLikability;
 
-            // if (matchesList(scroll.name, frequentSpells)) likability += 0.20;
             if (matchesList(scroll.name, highImpactSpells)) likability += 0.20;
             if (spell.castingTime.toLowerCase().includes("bonus action")) likability += 0.20;
             if (spell.castingTime.toLowerCase().includes("reaction")) likability += 0.30;
@@ -33,9 +32,6 @@ async function updateScrollLikability() {
                 if (spell.spellLists.some(list => list.toLowerCase() == "bard")) likability += 0.25;
             }
             if (matchesList(scroll.name, utilitySpells)) likability += 0.15;
-            // if (matchesList(scroll.name, forceDamageSpells)) likability += 0.10;
-            // if (matchesList(scroll.name, radiantDamageSpells)) likability += 0.10;
-            // if (matchesList(scroll.name, psychicDamageSpells)) likability += 0.10;
             if (likability > baseLikability) {
                 if (spell.concentration) likability -= 0.15; //downgrade
                 if (spell.componentConsumptionExpense) likability += 0.15; //upgrade for scrolls
@@ -45,20 +41,23 @@ async function updateScrollLikability() {
                 if (matchesList(scroll.name, ritualSpells)) likability += 0.10; //small bump
             }
             if (matchesList(scroll.name, ritualSpells) && likability < baseLikability) likability = baseLikability;
-            if (isCantrip(spell)) likability *= 0.20; // Cantrip - major downgrade
 
-            //massive bumpage
+            //massive bumpages
             if (topScrolls1.some(s => s.toLowerCase() === spell.name.toLowerCase())) {
-                likability *= 4;
+                likability *= 2.5;
             } 
             if (topScrolls2.some(s => s.toLowerCase() === spell.name.toLowerCase())) {
-                likability *= 3;
-            }
-            if (topScrolls3.some(s => s.toLowerCase() === spell.name.toLowerCase())) {
                 likability *= 2;
             }
+            if (topScrolls3.some(s => s.toLowerCase() === spell.name.toLowerCase())) {
+                likability *= 1.5;
+            }
+
+            // if (isCantrip(spell)) likability *= 0.20; // Cantrip - major downgrade
 
             if (likability < 0.1) likability = 0.1; //min
+            if (isCantrip(spell)) likability = 0.05; // Cantrip - major downgrade
+
             scroll.likability = Number(likability.toFixed(6));
         }
         return scrolls;

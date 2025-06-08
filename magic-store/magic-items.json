@@ -5,7 +5,7 @@
     "rarity": "very rare",
     "likability": 0.4,
     "magicType": "major",
-    "category": "wondrous item",
+    "category": "tattoo",
     "source": "TCE 119"
   },
   {
@@ -93,7 +93,7 @@
     "name": "Amulet of the Devout +1",
     "description": "A holy symbol that boosts spell attacks and DCs for clerics and paladins.",
     "rarity": "uncommon",
-    "likability": 0.4,
+    "likability": 0.6,
     "magicType": "major",
     "category": "wondrous item",
     "source": "TCE 119"
@@ -102,7 +102,7 @@
     "name": "Amulet of the Devout +2",
     "description": "A holy symbol that boosts spell attacks and DCs for clerics and paladins.",
     "rarity": "rare",
-    "likability": 0.4,
+    "likability": 0.6,
     "magicType": "major",
     "category": "wondrous item",
     "source": "TCE 119"
@@ -111,7 +111,7 @@
     "name": "Amulet of the Devout +3",
     "description": "A holy symbol that boosts spell attacks and DCs for clerics and paladins.",
     "rarity": "very rare",
-    "likability": 0.4,
+    "likability": 0.6,
     "magicType": "major",
     "category": "wondrous item",
     "source": "TCE 119"
@@ -147,7 +147,7 @@
     "name": "Arcane Grimoire +1",
     "description": "A spellbook that boosts spell attacks and DCs for wizards.",
     "rarity": "uncommon",
-    "likability": 0.4,
+    "likability": 0.6,
     "magicType": "major",
     "category": "wondrous item",
     "source": "TCE 120"
@@ -156,7 +156,7 @@
     "name": "Arcane Grimoire +2",
     "description": "A spellbook that boosts spell attacks and DCs for wizards.",
     "rarity": "rare",
-    "likability": 0.4,
+    "likability": 0.6,
     "magicType": "major",
     "category": "wondrous item",
     "source": "TCE 120"
@@ -165,7 +165,7 @@
     "name": "Arcane Grimoire +3",
     "description": "A spellbook that boosts spell attacks and DCs for wizards.",
     "rarity": "very rare",
-    "likability": 0.4,
+    "likability": 0.6,
     "magicType": "major",
     "category": "wondrous item",
     "source": "TCE 120"
@@ -401,7 +401,7 @@
     "rarity": "uncommon",
     "likability": 0.4,
     "magicType": "major",
-    "category": "wondrous item",
+    "category": "tattoo",
     "source": "TCE 122"
   },
   {
@@ -410,7 +410,7 @@
     "rarity": "rare",
     "likability": 0.4,
     "magicType": "major",
-    "category": "wondrous item",
+    "category": "tattoo",
     "source": "TCE 122"
   },
   {
@@ -419,7 +419,7 @@
     "rarity": "very rare",
     "likability": 0.4,
     "magicType": "major",
-    "category": "wondrous item",
+    "category": "tattoo",
     "source": "TCE 122"
   },
   {
@@ -543,7 +543,7 @@
     "name": "Bloodwell Vial +1",
     "description": "A focus for sorcerers that boosts spell attacks and DCs.",
     "rarity": "uncommon",
-    "likability": 0.4,
+    "likability": 0.6,
     "magicType": "major",
     "category": "wondrous item",
     "source": "TCE 122"
@@ -552,7 +552,7 @@
     "name": "Bloodwell Vial +2",
     "description": "A focus for sorcerers that boosts spell attacks and DCs.",
     "rarity": "rare",
-    "likability": 0.4,
+    "likability": 0.6,
     "magicType": "major",
     "category": "wondrous item",
     "source": "TCE 122"
@@ -561,7 +561,7 @@
     "name": "Bloodwell Vial +3",
     "description": "A focus for sorcerers that boosts spell attacks and DCs.",
     "rarity": "very rare",
-    "likability": 0.4,
+    "likability": 0.6,
     "magicType": "major",
     "category": "wondrous item",
     "source": "TCE 122"
@@ -1668,7 +1668,7 @@
     "name": "Gauntlets of Ogre Power",
     "description": "Sets Strength to 19.",
     "rarity": "uncommon",
-    "likability": 0.4,
+    "likability": 0.6,
     "magicType": "minor",
     "category": "wondrous item",
     "source": "DMG 264"
@@ -2388,7 +2388,7 @@
     "name": "Moon Sickle +1",
     "description": "A druidic or ranger focus that boosts melee attack and damange, spell attack and DC, and +1d4 to healing spells cast.",
     "rarity": "uncommon",
-    "likability": 0.4,
+    "likability": 0.9,
     "magicType": "major",
     "category": "wondrous item",
     "source": "TCE 133"
@@ -2397,7 +2397,7 @@
     "name": "Moon Sickle +2",
     "description": "A druidic or ranger focus that boosts melee attack and damange, spell attack and DC, and +1d4 to healing spells cast.",
     "rarity": "rare",
-    "likability": 0.4,
+    "likability": 0.9,
     "magicType": "major",
     "category": "wondrous item",
     "source": "TCE 133"
@@ -2406,7 +2406,7 @@
     "name": "Moon Sickle +3",
     "description": "A druidic or ranger focus that boosts melee attack and damange, spell attack and DC, and +1d4 to healing spells cast.",
     "rarity": "very rare",
-    "likability": 0.4,
+    "likability": 0.9,
     "magicType": "major",
     "category": "wondrous item",
     "source": "TCE 133"
@@ -3468,7 +3468,7 @@
     "name": "Rod of the Pact Keeper +1",
     "description": "A warlock focus that boosts spell attacks and DCs.",
     "rarity": "uncommon",
-    "likability": 0.4,
+    "likability": 0.6,
     "magicType": "major",
     "category": "rod",
     "source": "DMG 301"
@@ -3477,7 +3477,7 @@
     "name": "Rod of the Pact Keeper +2",
     "description": "A warlock focus that boosts spell attacks and DCs.",
     "rarity": "rare",
-    "likability": 0.4,
+    "likability": 0.6,
     "magicType": "major",
     "category": "rod",
     "source": "DMG 301"
@@ -3486,7 +3486,7 @@
     "name": "Rod of the Pact Keeper +3",
     "description": "A warlock focus that boosts spell attacks and DCs.",
     "rarity": "very rare",
-    "likability": 0.4,
+    "likability": 0.6,
     "magicType": "major",
     "category": "rod",
     "source": "DMG 301"
@@ -3767,7 +3767,7 @@
     "rarity": "rare",
     "likability": 0.4,
     "magicType": "minor",
-    "category": "wondrous item",
+    "category": "tattoo",
     "source": "TCE 134"
   },
   {
@@ -4566,7 +4566,7 @@
     "name": "Wraps of Unarmed Power +1",
     "description": "Magical wraps that increase the power of unarmed strikes.",
     "rarity": "uncommon",
-    "likability": 0.4,
+    "likability": 0.6,
     "magicType": "major",
     "category": "wondrous item",
     "source": "DMG 325"
@@ -4575,7 +4575,7 @@
     "name": "Wraps of Unarmed Power +2",
     "description": "Magical wraps that further increase the power of unarmed strikes.",
     "rarity": "rare",
-    "likability": 0.4,
+    "likability": 0.6,
     "magicType": "major",
     "category": "wondrous item",
     "source": "DMG 325"
@@ -4584,7 +4584,7 @@
     "name": "Wraps of Unarmed Power +3",
     "description": "Magical wraps that greatly increase the power of unarmed strikes.",
     "rarity": "very rare",
-    "likability": 0.4,
+    "likability": 0.6,
     "magicType": "major",
     "category": "wondrous item",
     "source": "DMG 325"

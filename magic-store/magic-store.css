@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    font-size: 1rem;
     background-color: #f8f9fa;
     margin: 0;
     padding: 20px;
@@ -15,7 +16,7 @@ button {
     color: white;
     border: none;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 1rem;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -59,7 +60,8 @@ button:hover {
     /* Place in the top right corner of the popup-content */
     top: 12px;
     right: 12px;
-    background: #dc3545;
+    /* background: #dc3545; */
+    background: #888;
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -70,15 +72,15 @@ button:hover {
     line-height: 36px;
     text-align: center;
     cursor: pointer;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
     transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
     z-index: 1010; /* higher than .popup */
     outline: none;
 }
 
 #closePopup:hover, #closePopup:focus {
-    background: #c82333;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+    background: #777;
+    box-shadow: 0 0 6px rgba(0,0,0,0.4);
     transform: scale(1.08);
 }
 @media (max-width: 700px) {
@@ -88,6 +90,17 @@ button:hover {
     }
 }
 
-#todaysUpdatesTable tr td:nth-child(1) {
+#updatesTable tbody tr td:nth-child(1),
+#updatesTable tbody tr td:nth-child(2)
+{
     white-space: nowrap;
+}
+
+#updatesTable tbody tr td:nth-last-child(1) {
+    text-align: center;
+}
+
+#updatesTable tbody tr td {
+    font-size: .9em;
+    /* padding-top: .2rem; padding-bottom: .2rem; */
 }

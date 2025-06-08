@@ -33,50 +33,51 @@
                 <div class="mb-2">
                     <label>
                         Number of new magic items from suppliers: 
-                        <input type="number" id="arrivalsInput" min="1" max="100" value="10" style="width:60px;">
+                        <input type="number" id="arrivalsInput" min="1" max="100" value="500" style="width:60px;">
                     </label>
                 </div>
                 <div class="mb-2">
-                    <label class="fw-bold">New items by category:</label>
-                    <div class="row g-2 mt-1">
-                        <div class="col-6">
+                    <label class="fw-bold">Magic item category chance:</label>
+                    <div id="categories" class="row g-2 mt-1">
+                        <div class="col-5">
                             <div class="d-flex align-items-center mb-2">
                                 <label for="percentScrolls" style="width:110px; margin: 0 15px 0 0;">Scrolls</label>
-                                <input type="number" id="percentScrolls" min="0" max="100" value="55" style="width:50px; margin-left:4px;">%
+                                <input type="number" id="percentScrolls" min="0" max="100" value="80" style="width:65px; margin-left:4px;" novalidate>%
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <label for="percentPotion" style="width:110px; margin: 0 15px 0 0;">Potions</label>
-                                <input type="number" id="percentPotion" min="0" max="100" value="30" style="width:50px; margin-left:4px;">%
+                                <input type="number" id="percentPotion" min="0" max="100" value="19.9" style="width:65px; margin-left:4px;" novalidate>%
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <label for="percentRing" style="width:110px; margin: 0 15px 0 0;">Rings</label>
-                                <input type="number" id="percentRing" min="0" max="100" value="5" style="width:50px; margin-left:4px;">%
+                                <input type="number" id="percentRing" min="0" max="100" value=".05" style="width:65px; margin-left:4px;" novalidate>%
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <label for="percentRodStaffWand" style="width:110px; margin: 0 15px 0 0;">Rod/Staff/Wands</label>
-                                <input type="number" id="percentRodStaffWand" min="0" max="100" value="5" style="width:50px; margin-left:4px;">%
+                                <input type="number" id="percentRodStaffWand" min="0" max="100" value=".05" style="width:65px; margin-left:4px;" novalidate>%
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-7">
                             <div class="d-flex align-items-center mb-2">
                                 <label for="percentWondrous" style="width:120px; margin: 0 15px 0 0;">Wondrous Items</label>
-                                <input type="number" id="percentWondrous" min="0" max="100" value="5" style="width:50px; margin-left:4px;">%
+                                <input type="number" id="percentWondrous" min="0" max="100" value="0" style="width:65px; margin-left:4px;" novalidate>%
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <label for="percentArmor" style="width:120px; margin: 0 15px 0 0;">Armor</label>
-                                <input type="number" id="percentArmor" min="0" max="100" value="0" style="width:50px; margin-left:4px;">%
+                                <input type="number" id="percentArmor" min="0" max="100" value="0" style="width:65px; margin-left:4px;" novalidate>%
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <label for="percentWeapon" style="width:120px; margin: 0 15px 0 0;">Weapons</label>
-                                <input type="number" id="percentWeapon" min="0" max="100" value="0" style="width:50px; margin-left:4px;">%
+                                <input type="number" id="percentWeapon" min="0" max="100" value="0" style="width:65px; margin-left:4px;" novalidate>%
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <label for="percentTattoos" style="width:120px; margin: 0 15px 0 0;">Tattoos</label>
-                                <input type="number" id="percentTattoos" min="0" max="100" value="0" style="width:50px; margin-left:4px;">%
+                                <input type="number" id="percentTattoos" min="0" max="100" value="0" style="width:65px; margin-left:4px;" novalidate>%
+                                <span class="small">(not recommended)</span>
                             </div>
                         </div>
                     </div>
-                    <small class="text-muted">Total should be 100%</small>
+                    <div id="totalPercentMessage" class="text-muted">Total: ??%</div>
                 </div>
                 <hr />
                 <div class="">
@@ -96,9 +97,9 @@
                 <div class="d-inline float-end text-primary">⇕</div>
             </div>
             <br>
-            <button id="btnGenerateUpdates" class="btn btn-secondary mb-2">Generate Today's Updates</button>
+            <button id="btnGenerateUpdates" class="btn btn-primary mb-2">Generate Today's Updates</button>
             <div id="todaysUpdatesTable"></div>
-            <button id="btnSaveTodaysUpdates">Save Updates</button>
+            <button id="btnSaveTodaysUpdates" class="btn btn-primary" >Save Updates</button>
         </div>
     </div>
 

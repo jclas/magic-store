@@ -8,7 +8,7 @@ async function updateMagicItemLikability() {
 
 
     /**
-     * A utility that alculates/updates the likability scores in the magic items file
+     * A utility that calculates/updates the likability scores in the magic items file
      * Use keywordInListMatches or matchesList to find various aspects of items to give
      * likability increases or decreases.
      */
