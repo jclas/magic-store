@@ -22,32 +22,32 @@ async function updateScrollLikability() {
             const baseLikability = 0.3;
             const spell = getSpellByName(scroll.name);
             let likability = baseLikability;
-
-            if (matchesList(scroll.name, highImpactSpells)) likability += 0.20;
+            
+            if (hasListMatch(scroll.name, highImpactSpells)) likability += 0.20;
             if (spell.castingTime.toLowerCase().includes("bonus action")) likability += 0.20;
             if (spell.castingTime.toLowerCase().includes("reaction")) likability += 0.30;
-            if (matchesList(scroll.name, healingRelatedSpells)) {
+            if (hasListMatch(scroll.name, healingRelatedSpells)) {
                 likability += 0.25;
                 //healing spells that bards can cast are among the most popular -- cumulative mega bump
                 if (spell.spellLists.some(list => list.toLowerCase() == "bard")) likability += 0.25;
             }
-            if (matchesList(scroll.name, utilitySpells)) likability += 0.15;
+            if (hasListMatch(scroll.name, utilitySpells)) likability += 0.15;
             if (likability > baseLikability) {
-                if (spell.concentration) likability -= 0.15; //downgrade
+                if (spell.concentration) likability -= 0.10; //downgrade
                 if (spell.componentConsumptionExpense) likability += 0.15; //upgrade for scrolls
 
                 // Note: maybe ritual spell is upgrade AND downgrade, because mages want to learn it (upgrade)
                 //       but then won't normally cast it from a scroll as it's a waste of money (downgrade).
-                if (matchesList(scroll.name, ritualSpells)) likability += 0.10; //small bump
+                if (hasListMatch(scroll.name, ritualSpells)) likability += 0.10; //small bump
             }
-            if (matchesList(scroll.name, ritualSpells) && likability < baseLikability) likability = baseLikability;
+            if (hasListMatch(scroll.name, ritualSpells) && likability < baseLikability) likability = baseLikability;
 
             //massive bumpages
             if (topScrolls1.some(s => s.toLowerCase() === spell.name.toLowerCase())) {
-                likability *= 2.5;
+                likability *= 6;
             } 
             if (topScrolls2.some(s => s.toLowerCase() === spell.name.toLowerCase())) {
-                likability *= 2;
+                likability *= 2.5;
             }
             if (topScrolls3.some(s => s.toLowerCase() === spell.name.toLowerCase())) {
                 likability *= 1.5;
@@ -56,7 +56,13 @@ async function updateScrollLikability() {
             // if (isCantrip(spell)) likability *= 0.20; // Cantrip - major downgrade
 
             if (likability < 0.1) likability = 0.1; //min
-            if (isCantrip(spell)) likability = 0.05; // Cantrip - major downgrade
+            if (isCantrip(spell)) {
+                if (hasListMatch(scroll.name, utilitySpells)) {
+                    likability = 0.06; // Cantrip - major downgrade
+                } else {
+                    likability = 0.04; // Cantrip - major downgrade
+                }
+            }
 
             scroll.likability = Number(likability.toFixed(6));
         }
@@ -93,10 +99,7 @@ async function updateScrollLikability() {
     }
 
     function getSpellByName(name) {
-
-        name = normalizeSpellName(name);
-
-        return spells.find(spell => normalizeSpellName(spell.name) === name);
+        return spells.find(spell => normalizeSpellName(spell.name) === normalizeSpellName(name));
     }
 
 }

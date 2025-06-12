@@ -18,15 +18,6 @@
     "source": "DMG 227"
   },
   {
-    "name": "Adamantine Weapon",
-    "description": "A weapon made from adamantine, bypassing resistance and immunity to nonmagical attacks and critical hits.",
-    "rarity": "uncommon",
-    "likability": 0.4,
-    "magicType": "major",
-    "category": "weapon",
-    "source": "DMG 227"
-  },
-  {
     "name": "Alchemy Jug",
     "description": "A ceramic jug that can produce various liquids.",
     "rarity": "uncommon",
@@ -181,7 +172,7 @@
   },
   {
     "name": "Armor of Invulnerability",
-    "description": "Heavy armor. Resistance to nonmagical damage. Immunity to nonmagical 10 mins 1x/day.",
+    "description": "Plate armor. Resistance to nonmagical damage. Immunity to nonmagical 10 mins 1x/day.",
     "rarity": "legendary",
     "likability": 0.4,
     "magicType": "major",
@@ -279,7 +270,7 @@
     "source": "DMG 231"
   },
   {
-    "name": "Armor of Vulnerability",
+    "name": "Armor of Vulnerability (cursed)",
     "description": "Resistance to one damage types: Bludgeoning, Piercing, or Slashing; Cursed with vulnerability to the other two until armor removed and Remove Curse is cast.",
     "rarity": "rare",
     "likability": 0.4,
@@ -1053,7 +1044,7 @@
     "source": "DMG 252"
   },
   {
-    "name": "Demon Armor",
+    "name": "Demon Armor (cursed)",
     "description": "A suit of armor that grants resistance to certain damage types and enhances melee attacks.",
     "rarity": "very rare",
     "likability": 0.4,
@@ -1144,7 +1135,7 @@
   },
   {
     "name": "Dwarven Plate",
-    "description": "Heavy armor that increases AC and resists forced movement.",
+    "description": "Half Plate or Plate Armor that increases AC and resists forced movement.",
     "rarity": "very rare",
     "likability": 0.4,
     "magicType": "major",
@@ -1180,7 +1171,7 @@
   },
   {
     "name": "Efreeti Chain",
-    "description": "Legendary chainmail with fire resistance and other powers.",
+    "description": "Chain Mail or Chain Shirt: +3, fire immunity, know Primordal language, walk on molten rock.",
     "rarity": "legendary",
     "likability": 0.4,
     "magicType": "major",
@@ -1260,6 +1251,15 @@
     "source": "DMG 257"
   },
   {
+    "name": "Enspelled Armor (Cantrip)",
+    "description": "Armor that can cast a particular cantrip.",
+    "rarity": "uncommon",
+    "likability": 0.14,
+    "magicType": "major",
+    "category": "armor",
+    "source": "DMG 258"
+  },
+  {
     "name": "Enspelled Armor (1st Level)",
     "description": "Armor that can cast a particular 1st-level spell.",
     "rarity": "uncommon",
@@ -1333,9 +1333,9 @@
   },
   {
     "name": "Enspelled Staff (Cantrip)",
-    "description": "A staff that can cast a particular cantrip-level spell.",
+    "description": "A staff that can cast a particular cantrip.",
     "rarity": "uncommon",
-    "likability": 0.7,
+    "likability": 0.14,
     "magicType": "major",
     "category": "staff",
     "source": "DMG 258"
@@ -1416,7 +1416,7 @@
     "name": "Enspelled Weapon (Cantrip)",
     "description": "Casts a spell 6x/day",
     "rarity": "uncommon",
-    "likability": 0.7,
+    "likability": 0.14,
     "magicType": "major",
     "category": "weapon",
     "source": "DMG 258"
@@ -2829,7 +2829,7 @@
     "name": "Potion of Healing",
     "description": "Heals 2d4+2 hit points.",
     "rarity": "common",
-    "likability": 4,
+    "likability": 2,
     "magicType": "minor",
     "category": "potion",
     "source": "DMG 288"
@@ -2838,7 +2838,7 @@
     "name": "Potion of Healing (Greater)",
     "description": "Heals 4d4+4 hit points.",
     "rarity": "uncommon",
-    "likability": 2,
+    "likability": 1,
     "magicType": "minor",
     "category": "potion",
     "source": "DMG 288"
@@ -2847,7 +2847,7 @@
     "name": "Potion of Healing (Superior)",
     "description": "Heals 8d4+8 hit points.",
     "rarity": "rare",
-    "likability": 2,
+    "likability": 1,
     "magicType": "minor",
     "category": "potion",
     "source": "DMG 288"
@@ -2856,7 +2856,7 @@
     "name": "Potion of Healing (Supreme)",
     "description": "Heals 10d4+20 hit points.",
     "rarity": "very rare",
-    "likability": 2,
+    "likability": 1,
     "magicType": "minor",
     "category": "potion",
     "source": "DMG 288"
@@ -4258,7 +4258,7 @@
   },
   {
     "name": "Veteran's Cane",
-    "description": "A cane that can transform into a sword.",
+    "description": "A cane that can transform into a non-magical sword (1 time).",
     "rarity": "common",
     "likability": 0.133333,
     "magicType": "minor",

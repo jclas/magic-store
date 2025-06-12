@@ -55,6 +55,11 @@ button:hover {
     position: relative; /* <-- Add this line */
 }
 
+.popup-content #categories input {
+    width: 65px;
+    margin-left: 4px;
+}
+
 #closePopup {
     position: absolute;
     /* Place in the top right corner of the popup-content */
@@ -90,17 +95,52 @@ button:hover {
     }
 }
 
+#updatesTable tbody tr td {
+    padding: 5px 3px;
+}
+
+/* Rarity Score */
+#updatesTable tbody tr td:nth-last-child(2) {
+    width: 85px;
+    overflow: hidden;
+}
+
 #updatesTable tbody tr td:nth-child(1),
-#updatesTable tbody tr td:nth-child(2)
+#updatesTable tbody tr td:nth-child(2),
+#updatesTable tbody tr td:nth-last-child(1)
 {
     white-space: nowrap;
 }
 
 #updatesTable tbody tr td:nth-last-child(1) {
     text-align: center;
+    padding: 2px;
+    
 }
 
 #updatesTable tbody tr td {
     font-size: .9em;
     /* padding-top: .2rem; padding-bottom: .2rem; */
+}
+
+.btn-xs {
+    padding: 3px 7px !important;
+    /* width: 40% !important; */
+    font-size: 80% !important;
+}
+
+#updatePopup #categories:nth-child(1) label {
+    white-space: nowrap;
+    width: 135px;
+    margin: 0 5px 0 0;
+}
+
+#updatePopup #categories:nth-child(2) label {
+    white-space: nowrap;
+    width: 135px;
+    margin: 0 5px 0 0;
+}
+
+#totalPercentMessage {
+    width: 120px;
 }

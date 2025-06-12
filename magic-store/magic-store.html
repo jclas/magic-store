@@ -3,22 +3,23 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 18 18'><text x='0' y='14'>🔮</text></svg>" />
+    <!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 18 18'><text x='0' y='14'>🔮</text></svg>" /> -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 18 18'><text x='0' y='14'>🧙🏻‍♂️</text></svg>" />
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css" />
     <link href="magic-store.css" rel="stylesheet" />
     <script src="./bootstrap/bootstrap.min.js"></script>
+    <script src="variant-items.js"></script>
     <script src="magic-store.js"></script>
     <script src="navbar.js"></script>
-    <!-- The following scripts update likability scores -->
     <script src="likability.js"></script>
-    <script src="update-scroll-likability.js"></script>
-    <script src="update-magic-item-likability.js"></script>
+    <script src="update-scroll-likability.js"></script> <!--maintenance utility-->
+    <script src="update-magic-item-likability.js"></script> <!--maintenance utility-->
     <title>Magic Store Inventory</title>
 </head>
 <body>
 <main>
-    <!-- 🧙🏻‍♂️🧙🏻🔮🪄 -->
-    <h1>🧙🏻‍♂️Welcome to the Magic Store</h1>
+    <!-- 🧙🏻‍♂️🧙🏻🔮🪄💫✨ -->
+    <h1>Welcome to the Magic Store 🧙🏻‍♂️</h1>
     <div class="mb-2 d-flex align-items-center gap-2">
         <input type="file" id="inventoryFileInput" accept=".json" style="display:none;" />
         <label for="inventoryFileInput" class="btn btn-outline-primary mb-0" id="inventoryFileLabel" tabindex="0" style="cursor:pointer;">Load Inventory File 🪄</label>
@@ -33,57 +34,62 @@
                 <div class="mb-2">
                     <label>
                         Number of new magic items from suppliers: 
-                        <input type="number" id="arrivalsInput" min="1" max="100" value="500" style="width:60px;">
+                        <input type="number" id="arrivalsInput" min="1" max="100" value="100" style="width:60px;">
                     </label>
                 </div>
                 <div class="mb-2">
-                    <label class="fw-bold">Magic item category chance:</label>
+                    <div class="fw-bold">Magic item category chance:</div>
                     <div id="categories" class="row g-2 mt-1">
                         <div class="col-5">
                             <div class="d-flex align-items-center mb-2">
-                                <label for="percentScrolls" style="width:110px; margin: 0 15px 0 0;">Scrolls</label>
-                                <input type="number" id="percentScrolls" min="0" max="100" value="80" style="width:65px; margin-left:4px;" novalidate>%
+                                <label for="percentScrolls" class="small">Scrolls📜</label>
+                                <input type="number" id="percentScrolls" min="0" max="100" value="80" step="0.01">%
                             </div>
                             <div class="d-flex align-items-center mb-2">
-                                <label for="percentPotion" style="width:110px; margin: 0 15px 0 0;">Potions</label>
-                                <input type="number" id="percentPotion" min="0" max="100" value="19.9" style="width:65px; margin-left:4px;" novalidate>%
+                                <label for="percentPotion" class="small">Potions🧪</label>
+                                <input type="number" id="percentPotion" min="0" max="100" value="19.9" step="0.01">%
                             </div>
                             <div class="d-flex align-items-center mb-2">
-                                <label for="percentRing" style="width:110px; margin: 0 15px 0 0;">Rings</label>
-                                <input type="number" id="percentRing" min="0" max="100" value=".05" style="width:65px; margin-left:4px;" novalidate>%
+                                <label for="percentRing" class="small">Rings💍</label>
+                                <input type="number" id="percentRing" min="0" max="100" value=".05" step="0.01">%
                             </div>
                             <div class="d-flex align-items-center mb-2">
-                                <label for="percentRodStaffWand" style="width:110px; margin: 0 15px 0 0;">Rod/Staff/Wands</label>
-                                <input type="number" id="percentRodStaffWand" min="0" max="100" value=".05" style="width:65px; margin-left:4px;" novalidate>%
+                                <label for="percentRodStaffWand" class="small">Rod/Staff/Wands🪄</label>
+                                <input type="number" id="percentRodStaffWand" min="0" max="100" value=".05" step="0.01">%
                             </div>
                         </div>
                         <div class="col-7">
                             <div class="d-flex align-items-center mb-2">
-                                <label for="percentWondrous" style="width:120px; margin: 0 15px 0 0;">Wondrous Items</label>
-                                <input type="number" id="percentWondrous" min="0" max="100" value="0" style="width:65px; margin-left:4px;" novalidate>%
+                                <label for="percentWondrous" class="small">Wondrous Items🔮</label>
+                                <input type="number" id="percentWondrous" min="0" max="100" value="0" step="0.01">%
                             </div>
                             <div class="d-flex align-items-center mb-2">
-                                <label for="percentArmor" style="width:120px; margin: 0 15px 0 0;">Armor</label>
-                                <input type="number" id="percentArmor" min="0" max="100" value="0" style="width:65px; margin-left:4px;" novalidate>%
+                                <label for="percentArmor" class="small">Armor🛡️</label>
+                                <input type="number" id="percentArmor" min="0" max="100" value="0" step="0.01">%
                             </div>
                             <div class="d-flex align-items-center mb-2">
-                                <label for="percentWeapon" style="width:120px; margin: 0 15px 0 0;">Weapons</label>
-                                <input type="number" id="percentWeapon" min="0" max="100" value="0" style="width:65px; margin-left:4px;" novalidate>%
+                                <label for="percentWeapon" class="small">Weapons⚔️</label>
+                                <input type="number" id="percentWeapon" min="0" max="100" value="0" step="0.01">%
                             </div>
                             <div class="d-flex align-items-center mb-2">
-                                <label for="percentTattoos" style="width:120px; margin: 0 15px 0 0;">Tattoos</label>
-                                <input type="number" id="percentTattoos" min="0" max="100" value="0" style="width:65px; margin-left:4px;" novalidate>%
-                                <span class="small">(not recommended)</span>
+                                <label for="percentTattoos" class="small">Tattoos✒️</label>
+                                <input type="number" id="percentTattoos" min="0" max="100" value="0" step="0.01">%
+                                <sub class="ps-1">(not recommended)</sub>
                             </div>
                         </div>
                     </div>
-                    <div id="totalPercentMessage" class="text-muted">Total: ??%</div>
+                    <div id="totalPercentMessage" class="d-inline-block text-muted me-2">Total: ??%</div>
+                    <button id="btnClearPercents" class="btn btn-secondary btn-sm">Clear</button>
+                    <button id="btnPresetScriptorium" class="btn btn-outline-primary btn-xs ms-2">Scriptorium📜</button>
+                    <button id="btnPresetScriptoriumPlus" class="btn btn-outline-primary btn-xs ms-2">Scriptorium Plus📜</button>
+                    <button id="btnPresetApothecary" class="btn btn-outline-primary btn-xs ms-2">Apothecary🧪</button>
+                    <button id="btnPresetFullMix" class="btn btn-outline-primary btn-xs ms-2">Full Mix</button>
                 </div>
                 <hr />
                 <div class="">
                     <label>
                         Number of random magic items sold: 
-                        <input type="number" id="salesInput" min="0" max="100" value="8" style="width:60px;">
+                        <input type="number" id="salesInput" min="0" max="100" value="0" style="width:60px;">
                     </label>
                 </div>
                 <div class="d-flex mt-3">
@@ -106,9 +112,17 @@
 </main>
 
 <script>
+document.addEventListener('DOMContentLoaded', async() => {
+    await magicStore.initialize();
+
+    //0 scrolls, 1 potions, 2 rings, 3 rod/staff/wand, 4 wondrous, 5 is armor, 6 is weapons, 7 tattoos
+    // let sample = magicStore.categoryItems[2].filter(m => m.rarity == "rare");
+    // console.log(sample);
+});
 
 // updateScrollLikability();
 // updateMagicItemLikability();
+
 
 
 </script>

@@ -9,7 +9,7 @@ async function updateMagicItemLikability() {
 
     /**
      * A utility that calculates/updates the likability scores in the magic items file
-     * Use keywordInListMatches or matchesList to find various aspects of items to give
+     * Use hasWildcardListMatch or hasListMatch to find various aspects of items to give
      * likability increases or decreases.
      */
     for (const item of items) {
@@ -17,36 +17,37 @@ async function updateMagicItemLikability() {
         let likability = baseLikability;
         
         // Positive bumps
-        if (keywordInListMatches(item.name, frequentUseMagicItems)) likability += 0.30;
-        if (keywordInListMatches(item.name, healingRelatedMagicItems)) likability += 0.30;
-        if (keywordInListMatches(item.name, highImpactMagicItems)) likability += 0.3;
-        if (keywordInListMatches(item.name, bonusActionMagicItems)) likability += 0.20;
+        if (hasWildcardListMatch(item.name, frequentUseMagicItems)) likability += 0.30;
+        if (hasWildcardListMatch(item.name, healingRelatedMagicItems)) likability += 0.30;
+        if (hasWildcardListMatch(item.name, highImpactMagicItems)) likability += 0.3;
+        if (hasWildcardListMatch(item.name, bonusActionMagicItems)) likability += 0.20;
         if (item.category.toLowerCase() == 'potion'
             && !item.rarity.toLowerCase() == "common" //only a couple of mediocre common potions - no bump for you
             && !item.name.toLowerCase().startsWith("oil") //oils are not bonus action potions - no bump for you
         ) {
             likability += 0.20; //bonus action bump
         }
-        if (keywordInListMatches(item.name, statBoosterMagicItems)) likability += 0.20;
-        if (keywordInListMatches(item.name, highUtilityMagicItems)) likability += 0.15;
-        // if (keywordInListMatches(item.name, consumableItems)) likability += 0.0;
-        if (keywordInListMatches(item.name, foregoConsumedComponentMagicItems)) likability += 0.10;
-        if (keywordInListMatches(item.name, foregoExpensiveComponentMagicItems)) likability += 0.20;
+        if (hasWildcardListMatch(item.name, statBoosterMagicItems)) likability += 0.20;
+        if (hasWildcardListMatch(item.name, highUtilityMagicItems)) likability += 0.15;
+        // if (hasWildcardListMatch(item.name, consumableItems)) likability += 0.0;
+        if (hasWildcardListMatch(item.name, foregoConsumedComponentMagicItems)) likability += 0.10;
+        if (hasWildcardListMatch(item.name, foregoExpensiveComponentMagicItems)) likability += 0.20;
         if (likability > baseLikability) {
-            if (keywordInListMatches(item.name, foregoConcentrationMagicItems)) likability += .20;
+            if (hasWildcardListMatch(item.name, foregoConcentrationMagicItems)) likability += .20;
         }
+        if (item.name.toLowerCase().includes("cantrip")) likability *= .2; //downgrade - item with a cantrip on it, like an enspelled item
 
         if (item.name.toLowerCase().startsWith("potion of healing")) {
             //Potion of healing specific bump!
             if (item.rarity.toLowerCase() == "common") {
-                likability *= 4; //mucho grande popular! Ai ai aiiiiii!
-            } else {
+            //     likability *= 4; //mucho grande popular! Ai ai aiiiiii!
+            // } else {
                 likability *= 2; //grande popular
             }
         } 
 
         if (item.rarity.toLowerCase() == "common") {
-            if (! keywordInListMatches(item.name, usefulCommonMagicItems)) {
+            if (! hasWildcardListMatch(item.name, usefulCommonMagicItems)) {
                 likability /= 3; //downgrading (a lot!) or we get too much crap
             }
         }

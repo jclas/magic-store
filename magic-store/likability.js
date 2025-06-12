@@ -1,3 +1,6 @@
+/**
+ * These arrays are used for likability utilities, filtering, and picking
+ */
 //spells and magic items sourced from: PHB2024, XGE, TCE
 
 /**
@@ -15,7 +18,8 @@ const topScrolls1 = [
 const topScrolls2 = [
     "Armor of Agathys", "Banishment", "Bless", "Counterspell", "Faerie Fire",
     "Greater Invisibility", "Haste", "Hex", "Hunter's Mark", "Invisibility",
-    "Mage Armor", "Raise Dead", "Revivify", "Sanctuary", "Spiritual Weapon"
+    "Mage Armor", "Prayer of Healing", "Raise Dead", "Revivify",
+    "Sanctuary", "Spiritual Weapon"
 ];
 
 /**
@@ -45,8 +49,8 @@ const highImpactSpells = [
     "Imprisonment", "Invulnerability", "Mass Heal", "Mass Polymorph", "Mass Suggestion", "Maze",
     "Melf's Minute Meteors", "Meteor Swarm", "Mordenkainen's Magnificent Mansion",
     "Mordenkainen's Sword", "Plane Shift", "Plant Growth", "Power Word Heal",
-    "Power Word Kill", "Prismatic Wall", "Raise Dead", "Reverse Gravity", "Sequester",
-    "Shapechange", "Silence",
+    "Power Word Kill", "Prismatic Wall", "Raise Dead", "Reverse Gravity", "Revivify",
+    "Sequester", "Shapechange", "Silence",
     "Simulacrum", "Steel Wind Strike", "Storm of Vengeance", "Summon Aberration", "Summon Beast",
     "Summon Celestial", "Summon Construct", "Summon Draconic Spirit", "Summon Dragon", "Summon Elemental",
     "Summon Fey", "Summon Fiend", "Summon Greater Demon", "Summon Lesser Demons", "Summon Shadowspawn",
@@ -59,7 +63,8 @@ const highImpactSpells = [
  */
 const healingRelatedSpells = [
     "Aid", "Arcane Vigor", "Armor of Agathys", "Aura of Life", "Aura of Purity", "Aura of Vitality",
-    "Beacon of Hope", "Cure Wounds", "Death Ward", "False Life", "Gentle Repose", "Goodberry",
+    "Beacon of Hope", "Cure Wounds", "Death Ward", "False Life", "Freedom of Movement",
+    "Gentle Repose", "Goodberry",
     "Greater Restoration", "Heal", "Healing Spirit", "Healing Word", "Heroism", "Heroes' Feast",
     "Lesser Restoration", "Life Transference", "Mass Cure Wounds", "Mass Heal", "Mass Healing Word",
     "Power Word Fortify", "Power Word Heal",
@@ -69,27 +74,28 @@ const healingRelatedSpells = [
 ];
 
 /**
- * 
+ * Rituals and Cantrips OK in this list.
  */
 const utilitySpells = [
     "Alter Self", "Arcane Eye", "Arcane Lock", "Bigby's Hand", "Chaos Bolt", "Chromatic Orb",
     "Commune with Nature", "Comprehend Languages", "Contingency", "Control Water",
     "Control Weather", "Dancing Lights", "Demiplane", "Detect Magic", "Detect Thoughts",
-    "Dimension Door", "Disguise Self", "Dispel Magic", "Druid Grove", "Druidcraft",
-    "Enhance Ability", "Enlarge/Reduce", "Fabricate", "Faerie Fire", "Featherfall",
-    "Find Familiar", "Find Greater Steed", "Find Steed", 
-    "Fly", "Gaseous Form", "Greater Invisibility", "Guidance", "Invisibility",
-    "Knock", "Legend Lore", "Leomund's Secret Chest", "Leomund's Tiny Hut",
-    "Levitate", "Light", "Locate Object", "Longstrider", "Mage Hand", "Magic Mouth",
-    "Mending", "Message", "Mighty Fortress", "Mind Sliver", "Minor Illusion", "Misty Step",
+    "Dimension Door", "Disguise Self", "Dispel Magic",
+    "Dragon's Breath", //good for familiars
+    "Druid Grove",  "Druidcraft", "Elementalism", "Enhance Ability", "Enlarge/Reduce",
+    "Fabricate", "Faerie Fire",
+    "Featherfall", "Find Familiar", "Find Greater Steed", "Find Steed", "Fly",
+    "Gaseous Form", "Greater Invisibility", "Guidance", "Invisibility", "Jump", "Knock",
+    "Legend Lore", "Leomund's Secret Chest", "Leomund's Tiny Hut", "Levitate", "Light",
+    "Locate Object", "Longstrider", "Mage Hand", "Magic Mouth", "Mending", "Message",
+    "Mighty Fortress", "Mind Sliver", "Minor Illusion", "Misty Step",
     "Mold Earth", "Mordenkainen's Faithful Hound", "Mordenkainen's Magnificent Mansion",
     "Pass without Trace", "Phantom Steed", "Plant Growth", "Polymorph", "Prestidigitation",
     "Purify Food and Drink", "Rary's Telepathic Bond", "Rope Trick", "Sending", 
     "Silent Image", "Soul Cage", "Speak with Animals", "Speak with Dead",
     "Speak with Plants", "Stone Shape", "Sorcerous Burst", "Tasha's Bubbling Cauldron",
-    "Tasha's Mind Whip",
-    "Teleport", "Teleportation Circle", "Tenser's Floating Disk", "Tongues", "Tiny Servant",
-    "Unseen Servant", "Water Breathing", "Water Walk", "Wish", "Web"
+    "Tasha's Mind Whip", "Teleport", "Teleportation Circle", "Tenser's Floating Disk",
+    "Tongues", "Tiny Servant", "Unseen Servant", "Water Breathing", "Water Walk", "Wish", "Web"
 ];
 
 //ToDo: move to spell.castingTime
@@ -119,7 +125,7 @@ const forceDamageSpells = [
  * Spells that do radiant damage. (rare resistance type)
  */
 const radiantDamageSpells = [
-    "Blinding Smite", "Branding Smite", "Conjure Celestial", "Crusader's Mantle",
+    "Blinding Smite", "Conjure Celestial", "Crusader's Mantle",
     "Dawn", "Destructive Wave", "Divine Favor", "Divine Smite", "Flame Strike",
     "Forbiddance", "Fount of Moonlight", "Guardian of Faith", "Guiding Bolt",
     "Holy Weapon", "Jallarzi's Storm of Radiance", "Moonbeam", "Sacred Flame",
@@ -250,15 +256,46 @@ const usefulCommonMagicItems = [
 //***************************************************************************************/
 //***************************************************************************************/
 
+/**
+ * Recognizes potions, scrolls, tattoos, and other consumables.
+ * Keeping tattoo recognized as category or in name (because it normally is considered a wondrous item.)
+ * @param {*} item Can be an item or a name of an item. If an item, then it has to have the name property.
+ * @returns 
+ */
+function isConsumable(item) {
+
+    const consumables = [
+        "ammunition", "arrow of ", "bag of beans", "bead of ", "bolt of ", "bullet of ",
+        "chime of opening", "dust of ", "elemental gem", "feather token",
+        "marvelous pigments", "ointment", "robe of useful items", "sovereign glue",
+        "tattoo", "universal solvent", "powder"
+    ];
+
+    let lowerName;
+
+    if (typeof item === "string") {
+        lowerName = item.toLowerCase();
+    } else {
+        //hopefully proper item object
+        lowerName = item.name.toLowerCase();
+    }
+
+    let isConsumable = consumables.some(keyphrase => lowerName.includes(keyphrase.toLowerCase()))
+        || item.category.toLowerCase() == "potion"
+        || item.category.toLowerCase() == "scroll"
+        || item.category.toLowerCase() == "tattoo";
+
+    return isConsumable;
+}
 
 // Helper: checks if any name is in the list
-function matchesList(searchName, list) {
+function hasListMatch(searchName, list) {
     const normalizedSearchName = normalizeSpellName(searchName);
     return list.some(n => normalizeSpellName(n) === normalizedSearchName);  //exact match of one in the list
 }
 
 // Helper: checks if any keyword/phrase in arr is found in str (case-insensitive)
-function keywordInListMatches(str, arr) {
+function hasWildcardListMatch(str, arr) {
     if (!str) return false;
     const lowerStr = str.toLowerCase();
     return arr.some(keyword => lowerStr.includes(keyword.toLowerCase()));

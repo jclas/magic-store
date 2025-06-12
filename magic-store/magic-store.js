@@ -1,12 +1,10 @@
-// ToDo: Apply user-entered item category %s to random picks.
+// ToDo: 2 line-item buttons: one that rerolls the variant and one rerolls for new item
 // ToDo: finish getVariantName(name).
 //       "Enspelled" should be fun: use scroll likability; filter by school(s) based on armor, weapon, or staff.
+// ToDo: Statistics to approx supplied amounts that users can adjust. Town pop and magic presence (high/med/low)
+// ToDo: add "canUpcast" property to each spell.
+// ToDo: derived scroll properties:  scrollLevel, attackBonus, dc. Start with standard values (with small random chance for upgrades)
 // ToDo: Finish adding the rest of TCE magic items.
-//
-// ToDo: ? Create an magicitemsDailyExpectedSales array, which gets plugged into the bellCurveRandomInt. 
-//       Perhaps some predefined "templates" (expected sales change by category) the user can choose from depending on the type of store it is.
-//ToDo: possible scroll upgrades: 1) scroll creators attack/DC beyond scroll default, 2) upcasted level, example: fireball(4)
-//ToDo: derived scroll properties with small random chance for upgrade: scrollLevel, attackBonus, dc
 
 const sourceAbbreviationKey = {
     PHB: "Player's Handbook (2024)",
@@ -30,29 +28,38 @@ const basePrices = {
 const scrollBasePrices = [30, 50, 200, 300, 2000, 3000, 20000, 25000, 30000, 100000]; //RAW 2024
 //const scrollBasePrices = [30, 50, 100, 200, 1000, 2000, 10000, 15000, 20000, 100000]; //custom
 
+let spells = [];   //all spells -- reference only
+
 const magicStore = {
 
     inventory: [],
     pendingInventory: [], //temp inventory until save
 
-    magicItems: [],    //all magic items
-    scrolls: [],       //all scrolls
-    tattoos: [],       //all tattoos
-    allItems: [],      //all
 
-    spells: [],        //all spells -- reference only
+    //move these array to global area pretty preaze
+    magicItems: [],     //all magic items
+    scrolls: [],        //all scrolls
+    tattoos: [],        //all tattoos
+    allItems: [],       //all items combined in one list
+
+    categoryItems: [],          //An array of arrays. Each element is an array of items from a category
+    categoryRarityScores: [],   //An array of arrays. Each element is an array of rarityScores for a category.
+
+    riv: randomItemVariants,
 
     async initialize() {
+        // riv = randomItemVariants;
+
         this.setupEventListeners();
-        this.spells = await this.loadSpellsFile();
+        spells = await this.loadSpellsFile();
         const allMagicItems = await this.loadMagicItemsFile();
         const allScrolls = await this.loadScrollsFile();
 
         //*****  filter out rarities
         // Only include items with allowed rarities - different for consumables vs non-consumables
         this.magicItems = allMagicItems.filter(item => item.rarity && (
-            (allowedRaritiesConsumables.includes(item.rarity.toLowerCase()) && this.isConsumable(item))
-            || (allowedRaritiesNonConsumables.includes(item.rarity.toLowerCase()) && !this.isConsumable(item))
+            (allowedRaritiesConsumables.includes(item.rarity.toLowerCase()) && isConsumable(item))
+            || (allowedRaritiesNonConsumables.includes(item.rarity.toLowerCase()) && !isConsumable(item))
 
         ));
         this. magicItems.forEach(item => {
@@ -94,10 +101,32 @@ const magicStore = {
         ];
         console.log('allItems.length: ' + this.allItems.length);
 
-        // console.log('this.allItems...');
-        // console.log(this.allItems);
-        // console.log('this.tattoos...');
-        // console.log(this.tattoos);
+        this.categoryItems.push(this.scrolls);
+        this.categoryItems.push(this.allItems.filter(item => item.category == 'potion'));
+        this.categoryItems.push(this.allItems.filter(item => item.category == 'ring'));
+        this.categoryItems.push(this.allItems.filter(item => ['rod','staff','wand'].includes(item.category)));
+        this.categoryItems.push(this.allItems.filter(item => item.category == 'wondrous item'));
+        this.categoryItems.push(this.allItems.filter(item => item.category == 'armor'));
+        this.categoryItems.push(this.allItems.filter(item => item.category == 'weapon'));
+        this.categoryItems.push(this.tattoos);
+
+        // this.categoryItems.forEach(arr =>{ console.log(arr.length); });
+
+        this.categoryRarityScores.push(structuredClone(this.categoryItems[0].map(item => item.rarityScore)));
+        this.categoryRarityScores.push(structuredClone(this.categoryItems[1].map(item => item.rarityScore)));
+        this.categoryRarityScores.push(structuredClone(this.categoryItems[2].map(item => item.rarityScore)));
+        this.categoryRarityScores.push(structuredClone(this.categoryItems[3].map(item => item.rarityScore)));
+        this.categoryRarityScores.push(structuredClone(this.categoryItems[4].map(item => item.rarityScore)));
+        this.categoryRarityScores.push(structuredClone(this.categoryItems[5].map(item => item.rarityScore)));
+        this.categoryRarityScores.push(structuredClone(this.categoryItems[6].map(item => item.rarityScore)));
+        this.categoryRarityScores.push(structuredClone(this.categoryItems[7].map(item => item.rarityScore)));
+
+
+        //update total quantitiy on each category label
+        document.querySelectorAll('#updatePopup #categories label').forEach((label, index) => {
+            label.title += `${this.categoryItems[index].length}`;
+        });
+
     },
 
     setupEventListeners() {
@@ -122,6 +151,28 @@ const magicStore = {
         });
         document.querySelectorAll('#updatePopup #categories input').forEach(input => {
             input.addEventListener('input', () => this.updatePopupPercentTotal());
+        });
+
+        document.getElementById('btnClearPercents').addEventListener('click', () => {
+            document.getElementById('totalPercentMessage').innerHTML = "Total: 0%";
+            document.querySelectorAll('#updatePopup #categories input').forEach(el => {
+                el.value = "";
+            });
+            this.updatePopupPercentTotal();
+        });
+
+        document.getElementById('btnPresetScriptorium').addEventListener('click', () => {
+            this.setCategoryPercentages([100]);
+        });
+        document.getElementById('btnPresetScriptoriumPlus').addEventListener('click', () => {
+            this.setCategoryPercentages([80,19.6,.1,.1,.2]);
+        });
+        document.getElementById('btnPresetApothecary').addEventListener('click', () => {
+            this.setCategoryPercentages([0,100]);
+        });
+            document.getElementById('btnPresetFullMix').addEventListener('click', () => {
+            this.setCategoryPercentages([70, 26.2, .2, .5, 2.3, .4, .4, 0]);
+
         });
     },
 
@@ -286,7 +337,6 @@ const magicStore = {
             boxExpandMe.classList.add('d-flex');  //show
             boxExpandMe.classList.remove('d-none');
 
-
             const todaysUpdates = this.generateTodaysUpdates();
             this.displayTodaysUpdates(todaysUpdates);
 
@@ -309,6 +359,7 @@ const magicStore = {
             categoryPercentages.push(Number((Number(input.value) /100).toFixed(6)) || 0);
         });
         
+        if (categoryPercentages.every(element => element === 0)) categoryPercentages.fill(1); //fill it with some value > 0
 
         //*****************************************************
         //*****  Customer bought
@@ -351,39 +402,15 @@ const magicStore = {
         //*****************************************************
         //*****  Supplier delivered
         //*****************************************************
-        console.log("categoryPercentages: " + categoryPercentages.toString());
-
-        let categoryItems = []; //ToDo: move this to globals
-        categoryItems.push(this.allItems.filter(item => item.category == 'scroll'));
-        categoryItems.push(this.allItems.filter(item => item.category == 'potion'));
-        categoryItems.push(this.allItems.filter(item => item.category == 'ring'));
-        categoryItems.push(this.allItems.filter(item => ['rod','staff','wand'].includes(item.category)));
-        categoryItems.push(this.allItems.filter(item => item.category == 'wondrous item'));
-        categoryItems.push(this.allItems.filter(item => item.category == 'armor'));
-        categoryItems.push(this.allItems.filter(item => item.category == 'weapon'));
-        categoryItems.push(this.allItems.filter(item => item.category == 'tattoo'));
-
-        let categoryRarityScores = []; //An array of item rarityScores for each category
-        categoryRarityScores.push(structuredClone(categoryItems[0].map(item => item.rarityScore)));
-        categoryRarityScores.push(structuredClone(categoryItems[1].map(item => item.rarityScore)));
-        categoryRarityScores.push(structuredClone(categoryItems[2].map(item => item.rarityScore)));
-        categoryRarityScores.push(structuredClone(categoryItems[3].map(item => item.rarityScore)));
-        categoryRarityScores.push(structuredClone(categoryItems[4].map(item => item.rarityScore)));
-        categoryRarityScores.push(structuredClone(categoryItems[5].map(item => item.rarityScore)));
-        categoryRarityScores.push(structuredClone(categoryItems[6].map(item => item.rarityScore)));
-        categoryRarityScores.push(structuredClone(categoryItems[7].map(item => item.rarityScore)));
+        //console.log("categoryPercentages: " + categoryPercentages.toString());
 
         for (let i = 0; i < arrivalsCount; i++) {
-            if (categoryItems.length === 0) continue;
-            
             let randomCategoryIndex = getWeightedRandomIndex(categoryPercentages);  //pick category
+            let itemsIndex = getWeightedRandomIndex(this.categoryRarityScores[randomCategoryIndex]); //pick item in category
 
-            if (categoryItems[randomCategoryIndex].length === 0) continue;
-
-            let itemsIndex = getWeightedRandomIndex(categoryRarityScores[randomCategoryIndex]);
-
-            let magicItem = structuredClone(categoryItems[randomCategoryIndex][itemsIndex]); //makes a copy (doesn't reference)
-            magicItem.name = this.getVariantName(magicItem.name) || magicItem.name;
+            let magicItem = structuredClone(this.categoryItems[randomCategoryIndex][itemsIndex]); //makes a copy (doesn't reference)
+            magicItem.variantName = this.riv.getVariantName(magicItem.name);
+            // console.log("magicItem.variantName: " + magicItem.variantName);
 
             let inventoryIndex = pendingInventory.findIndex(item => item.name === magicItem.name);
 
@@ -407,49 +434,20 @@ const magicStore = {
             });
         }
 
-        // Sort todaysUpdates by action, then by category, then by name
+        // Sort todaysUpdates by action, then by name
         todaysUpdates.sort((a, b) => {
             // Sort by action first
             if (a.action !== b.action) {
                 return a.action.localeCompare(b.action);
             }
-            // // Then by category
-            // if (a.category !== b.category) {
-            //     return a.category.localeCompare(b.category);
-            // }
-            // Then by name
             return a.name.localeCompare(b.name);
         });
 
         return todaysUpdates;
     },
 
-    /**
-     * Returns the category percentage, given a category name
-     * @param {*} categoryName 
-     * @param {*} categoryPercentages 
-     * @returns 
-     */
-    getCategoryPercentage(categoryName, categoryPercentages) {
-        // The order of categoryPercentages must match this order:
-        // [Scrolls, Potions, Rings, Rod/Staff/Wands, Wondrous Items, Armor, Weapons, Tattoos]
-        // We'll match by normalized category name.
-        const norm = (categoryName || '').toLowerCase().trim();
-
-        if (norm === "scroll") return categoryPercentages[0] || 0;
-        if (norm === "potion") return categoryPercentages[1] || 0;
-        if (norm === "ring") return categoryPercentages[2] || 0;
-        // For rod, staff, or wand, match any of those
-        if (norm === "rod" || norm === "staff" || norm === "wand") return categoryPercentages[3] || 0;
-        if (norm === "wondrous item") return categoryPercentages[4] || 0;
-        if (norm === "armor") return categoryPercentages[5] || 0;
-        if (norm === "weapon") return categoryPercentages[6] || 0;
-        if (norm === "tattoo") return categoryPercentages[7] || 0;
-
-        return 0;
-    },
-
     displayTodaysUpdates: function (todaysUpdates) {
+        //console.table(todaysUpdates);
 
         document.getElementById('todaysUpdatesTable').innerHTML =
             `
@@ -475,12 +473,17 @@ const magicStore = {
                                         <td>${u.action}</td>
                                         <!--td>${u.change > 0 ? '+' : ''}${u.change}</td-->
                                         <td>${u.category}</td>
-                                        <td>${stripItemNamePrefix(u.name)}</td>
+                                        <td data-original-name="${u.name}" title="source: ${u.source}">${stripItemNamePrefix(u.variantName) || stripItemNamePrefix(u.name)}</td>
                                         <td>${u.price}</td>
                                         <td>${u.rarity}</td>
                                         <td>${u.rarityScore}</td>
                                         <td>
-                                            <button class="btn btn-secondary btn-sm btn-delete-update" title="Delete this update">&times;</button>
+                                            <button class="btn btn-secondary btn-xs btn-delete-update" title="Delete">&times;</button>
+                                            <button class="btn btn-secondary btn-xs btn-get-same-category" title="Get new from same category">C ↺</button>
+                                            ${ u.variantName && u.variantName !== u.name
+                                                ? `<button class="btn btn-secondary btn-xs btn-get-new-variant" title="Get new variant">V ↺</button>`
+                                                : ''
+                                            }
                                         </td>
                                     </tr>
                                 `).join('')}
@@ -499,13 +502,14 @@ const magicStore = {
                     </button>
                 </div>
             </div>
-        `;
+            <div id="updatesCategorySummary" class="mt-3"></div>
+            `;
 
-        // Add delete event listeners
+        // delete button event listeners
         document.querySelectorAll('.btn-delete-update').forEach(btn => {
             btn.addEventListener('click', function () {
                 const row = this.closest('tr');
-                const idx = parseInt(row.getAttribute('data-update-idx'), 10);
+                const idx = parseInt(row.getAttribute('data-update-idx'));
 
                 // Remove from todaysUpdates
                 todaysUpdates.splice(idx, 1);
@@ -525,6 +529,83 @@ const magicStore = {
                 magicStore.displayTodaysUpdates(todaysUpdates);
             });
         });
+
+        // Get new variant button
+        document.querySelectorAll('.btn-get-new-variant').forEach(btn => {
+            btn.addEventListener('click', function () {
+                const row = this.closest('tr');
+                const idx = parseInt(row.getAttribute('data-update-idx'));
+                const lineItem = todaysUpdates[idx];
+
+                let newVariant;
+                let i = 0; //loop failsafe
+                // Get a new variant name using the item's name
+                do {
+                    i++;
+                    newVariant = magicStore.riv.getVariantName(lineItem.name);
+                } while(lineItem.variantName == newVariant && i < 100);
+                
+                // Update the variantName property
+                if (newVariant) lineItem.variantName = newVariant;
+
+                row.querySelector('td[data-original-name]').textContent = stripItemNamePrefix(newVariant) || stripItemNamePrefix(lineItem.name);
+            });
+        });
+
+        // "Get new from same category" button
+        document.querySelectorAll('.btn-get-same-category').forEach(btn => {
+            let that = this;
+            btn.addEventListener('click', function () {
+                const row = this.closest('tr');
+                const idx = parseInt(row.getAttribute('data-update-idx'));
+                let lineItem = todaysUpdates[idx];
+
+                // Find the right category array
+                const catIdx = that.categoryItems.findIndex(
+                    //peek to see if the first one in the list is the right category
+                    arr => arr.length && arr[0].category === lineItem.category
+                );
+
+                let pickIdx;
+                do {
+                    pickIdx = getWeightedRandomIndex(that.categoryRarityScores[catIdx]);
+                } while(that.categoryItems[catIdx][pickIdx].name === lineItem.name && that.categoryItems[catIdx].length > 1);
+
+                const picked = that.categoryItems[catIdx][pickIdx];
+
+                // Update the line item with the new item's properties
+                lineItem.name = picked.name;
+                lineItem.variantName = that.riv.getVariantName(picked.name);
+                lineItem.price = picked.price;
+                lineItem.rarity = picked.rarity;
+                lineItem.rarityScore = picked.rarityScore;
+                lineItem.category = picked.category;
+                lineItem.source = picked.source;
+
+                // Re-render the updates table to reflect the change
+                that.displayTodaysUpdates(todaysUpdates);
+            });
+        });
+        
+        // Show quantity summary by category
+        const summary = {};
+        todaysUpdates.forEach(u => {
+            if (!u.category) return;
+            if (!summary[u.category]) summary[u.category] = 0;
+            summary[u.category] += u.change || 0;
+        });
+        const sortedCategories = Object.keys(summary).sort();
+        const summaryHtml = `
+            <table class="table table-sm table-bordered w-auto">
+                <thead><tr><th>Category</th><th>Net Change</th></tr></thead>
+                <tbody>
+                    ${sortedCategories.map(cat =>
+                        `<tr><td>${cat}</td><td class="text-end">${summary[cat] > 0 ? "+" : ""}${summary[cat]}</td></tr>`
+                    ).join('')}
+                </tbody>
+            </table>
+        `;
+        document.getElementById('updatesCategorySummary').innerHTML = summaryHtml;
 
         // Scroll up/down buttons
         setTimeout(() => {
@@ -567,12 +648,17 @@ const magicStore = {
             // Helper to get cell text
             const getCell = (row, idx) => row.cells[idx]?.textContent.trim() || "";
 
-            // Special handling for Rarity column (colIndex 4)
-            if (colIndex === 4) {
-                const rarityOrder = { "common": 1, "uncommon": 2, "rare": 3, "very rare": 4, "legendary": 5, "artifact": 6 };
-                let aVal = rarityOrder[getCell(a, 4).toLowerCase()] || 99;
-                let bVal = rarityOrder[getCell(b, 4).toLowerCase()] || 99;
-                return isAsc ? aVal - bVal : bVal - aVal;
+            // Sort by Category (col 1), secondary by Item (col 2)
+            if (colIndex === 1) {
+                let cmp = isAsc
+                    ? getCell(a, 1).localeCompare(getCell(b, 1))
+                    : getCell(b, 1).localeCompare(getCell(a, 1));
+                if (cmp !== 0) return cmp;
+
+                // Secondary sort on Item (col 2)
+                return isAsc
+                    ? getCell(a, 2).localeCompare(getCell(b, 2))
+                    : getCell(b, 2).localeCompare(getCell(a, 2));
             }
 
             // If sorting by Action (col 0), do secondary sort on Item (col 1), tertiary on Category (col 2)
@@ -613,6 +699,14 @@ const magicStore = {
                 }
             }
 
+            // Special handling for Rarity column (colIndex 4)
+            if (colIndex === 4) {
+                const rarityOrder = { "common": 1, "uncommon": 2, "rare": 3, "very rare": 4, "legendary": 5, "artifact": 6 };
+                let aVal = rarityOrder[getCell(a, 4).toLowerCase()] || 99;
+                let bVal = rarityOrder[getCell(b, 4).toLowerCase()] || 99;
+                return isAsc ? aVal - bVal : bVal - aVal;
+            }
+
             // Default: simple text sort
             return isAsc
                 ? getCell(a, colIndex).localeCompare(getCell(b, colIndex))
@@ -641,20 +735,43 @@ const magicStore = {
         this.updateInventoryDisplay();
     },
 
+    /**
+     * index: 0 scrolls, 1 potions, 2 rings, 3 rod/staff/wands, 4 wondrous items, 5 armor, 6 weapons, 7 tattoos,  
+     * @param {[number]} percentages 
+     */
+    setCategoryPercentages(percentages = []) {
+
+        document.getElementById('totalPercentMessage').innerHTML = "Total: 0%";
+        const inputs = document.querySelectorAll('#updatePopup #categories input');
+
+        inputs.forEach(input => input.value = 0);
+
+        percentages.forEach((p, index) => {
+            inputs[index].value = p;        
+            this.updatePopupPercentTotal();  
+        });
+    },
+
     updatePopupPercentTotal() {
 
         const percentInputs = document.querySelectorAll('#updatePopup #categories input');
         const totalMsg = document.getElementById('totalPercentMessage');
-        let total = Array.from(percentInputs).reduce((sum, input) => sum + (Number(input.value) || 0), 0);
+        let total = Number(Array.from(percentInputs).reduce((sum, input) => sum + (Number(input.value) || 0), 0)).toFixed(2);
         // total = ((total * 10) + (total * 10)) / 2 / 10;
-        totalMsg.textContent = `Total: ${total.toFixed(2)}%`;
+        totalMsg.textContent = `Total: ${total}%`;
 
-        if (total !== 100) {
+        if (Number(total) == 0) {
+            totalMsg.classList.remove('text-danger');
+            totalMsg.classList.remove('text-success');
+            totalMsg.classList.add('text-muted');
+        } else if (Number(total) !== 100) {
             totalMsg.classList.remove('text-muted');
+            totalMsg.classList.remove('text-success');
             totalMsg.classList.add('text-danger');
         } else {
             totalMsg.classList.remove('text-danger');
-            totalMsg.classList.add('text-muted');
+            totalMsg.classList.remove('text-muted');
+            totalMsg.classList.add('text-success');
         }
     },
 
@@ -666,11 +783,22 @@ const magicStore = {
      */
     getSpell: function (spellName) {
         if (!spellName || typeof spellName !== "string") return null;
-        // Normalize for best match (case-insensitive, trims, ignores trailing (level))
 
-        return this.spells.find(
-            // s => s.name.replace(/\s*\(\d+\)$/, '').trim().toLowerCase() === normalizeSpellName(spellName)
-            s => s.name.trim().toLowerCase() === normalizeSpellName(spellName)
+        return spells.find(
+            s => normalizeSpellName(s.name) === normalizeSpellName(spellName)
+        ) || null;
+    },
+
+    
+    /**
+     * @param {*} name Can be a spell name, scroll name, or tattoo name
+     * @returns A scroll object
+     */
+    getScroll: function (name) {
+        if (!name || typeof name !== "string") return null;
+
+        return this.scrolls.find(
+            s => normalizeSpellName(s.name) === normalizeSpellName(name)
         ) || null;
     },
 
@@ -685,6 +813,7 @@ const magicStore = {
     calcRarityScore(item) {
 
         let rareFactor1 = this.calculateMagicItemBasePrice(item);
+
         // if (item.rarity.toLowerCase() == "common" && !item.name.toLowerCase().startsWith("potion of healing")) rareFactor1 *= 5; //not more copious. most common junk is not as high in demand as the price would normally dictate.
         if (item.rarity.toLowerCase() == "common"
             && !item.name.toLowerCase().startsWith("potion of healing")
@@ -700,7 +829,7 @@ const magicStore = {
          if (item.category.toLowerCase() == "scroll")  {
              const spell = this.getSpell(item.name);
              if (spell && spell.componentConsumptionExpense) {
-                rarityScore *= 1.5; //scroll bump: spells that consume comps.
+                rarityScore *= 1.5;  //scroll bump: spells that consume comps.
              } else {
                 rarityScore *= 2;    //bigger scroll bump: only need your regular (non-consumed) spell comps.
              }
@@ -708,7 +837,7 @@ const magicStore = {
         //potions of healing are way eaier to make than other items in their category
         //  and more crafters can make these.
          if (item.name.toLowerCase().startsWith("potion of healing")) {
-             rarityScore *= 4;  //big bump. more of these than "healing" scrolls
+             rarityScore *= 2;  //big bump. more of these than "healing" scrolls
          }
 
         //way harder to make if a "major"
@@ -719,7 +848,7 @@ const magicStore = {
         }
 
         if (item.rarity.toLowerCase() == "common" && !item.name.toLowerCase().startsWith("potion of healing")) {
-                rarityScore /= 4; //demand is not that great for most of these items
+            rarityScore /= 4; //demand is not that great for most of these items
         }
 
         return Number(rarityScore.toFixed(6));
@@ -729,7 +858,7 @@ const magicStore = {
         let rarity = (item.rarity || "unknown").toLowerCase();
         let price = basePrices[rarity] || basePrices.legendary;
 
-        if (this.isConsumable(item)) {
+        if (isConsumable(item)) {
             price = price / 2;
         }
 
@@ -782,235 +911,38 @@ const magicStore = {
         return expense;
     },
 
-    /**
-     * ToDo: should probably move this hard-coded local consumables array to somewhere more global.
-     * @param {*} item Can be an item or a name of an item. If an item, then it has to have the name property.
-     * @returns 
-     */
-    isConsumable(item) {
 
-        const consumables = [
-            "Ammunition", "Arrow of ", "Bag of Beans", "Bead of ", "Bolt of ", "Bullet of ",
-            "Chime of Opening", "Dust of ", "Elemental Gem", "Elixir", "Feather Token",
-            "Marvelous Pigments", "Ointment", "Oil of ", "Philter of ", "Potion",
-            "Robe of Useful Items", "Scroll of ", "Sovereign Glue", "Tattoo", "Universal Solvent", "powder"
-        ];
-
-        let lowerName;
-
-        if (typeof item === "string") {
-            lowerName = item.toLowerCase();
-        } else {
-            //hopefully proper item object
-            lowerName = item.name.toLowerCase();
-        }
-
-        let isConsumable = consumables.some(keyphrase => lowerName.includes(keyphrase.toLowerCase()))
-            || item.category.toLowerCase() == "potion"
-            || item.category.toLowerCase() == "scroll"
-            || item.category.toLowerCase() == "tattoo";
-
-        return isConsumable;
-    },
-
-    //ToDo: finish this
-    getVariantName(name) {
-
-        let newName = name.toLowerCase();
-        
-        if (newName == "adamantine armor") {
-            return newName + " (" + this.getRandomArmorType() + ")";
-        }
-        
-        if (newName == "adamantine weapon") {
-            if (getWeightedRandomIndex([1, 7])) {
-                return newName += " (" + this.getRandomAdamantineWeaponType() + ")";   //index 1+
-            }
-
-            return newName.replace("weapon", "Ammunition (") + this.getRandomAmmoType() + ")"; //index 0
-        }
-
-        if (newName.startsWith("ammunition +")) {
-            return newName + " (" + this.getRandomAmmoType() + ")";
-        }
-
-        if (newName == "ammunition of slaying") {
-            return this.getRandomAmmoType() + " of " + this.getRandomCreatureType() + " slaying";
-        }
-
-        if (newName.startsWith("armor +")) {
-            return newName + " (" + this.getRandomArmorType() + ")";
-        }
-        
-        if (newName.startsWith("armor of gleaming")) {
-            return newName + " (" + this.getRandomArmorType() + ")";
-        }
-        
-        if (newName.startsWith("armor of resistance")) {
-            return newName + " (" + this.getRandomArmorType() + ")";
-        }
-
-        if (newName == "cast-off armor") {
-            return newName + " (" + this.getRandomArmorType() + ")";
-        }
-
-        //ToDo: get fancy and pick a spell(?)
-        if (newName.startsWith("enspelled armor")) {
-            return newName += " (" + this.getRandomArmorType() + ")";
-        }
-
-        //ToDo: get fancy and pick a spell(?)
-        if (newName.startsWith("enspelled staff")) {
-            return newName;   //todo
-        }
-
-        //ToDo: get fancy and pick a spell(?)
-        if (newName.startsWith("enspelled weapon")) {
-            return newName += " (" + this.getRandomWeaponType() + ")";
-        }
-
-        if (newName == "flame tongue") {
-            return newName += " (" + this.getRandomWeaponType(true, false) + ")"; 
-        }
-
-        if (newName == "frost brand") {
-            const weapons = ["Glaive", "Greatsword", "Longsword", "Rapier", "Scimitar", "Shortsword"];
-            const weapon = weapons[getWeightedRandomIndex([1,1,1,1,1,1])];
-            return newName += " (" + weapon + ")";
-        }
-
-        if (newName == "giant slayer") {
-            return newName += " (" + this.getRandomWeaponType() + ")";
-        }
-
-        if (newName == "holy avenger") {
-            return newName += " (" + this.getRandomWeaponType() + ")";
-        }
-
-        if (newName == "luck blade") {
-            const weapons = ["Glaive", "Greatsword", "Longsword", "Rapier", "Scimitar", "Sickle", "Shortsword"];
-            const weapon = weapons[getWeightedRandomIndex([1,1,1,1,1,1,1])];
-            return newName += " (" + weapon + ")";
-        }
-
-        if (newName == "mariner's armor") {
-            return newName + " (" + this.getRandomArmorType() + ")";
-        }
-        
-        if (newName == "mithril armor") {
-
-            //todo:
-
-        }
-
-        return false;
-    },
-
-    getRandomAmmoType() {
-
-        const types = ["Arrow", "Bolt", "Bullet (Firearm)", "Bullet (Sling)", "Needle"]
-        const weightedArray = [.35, .35, .3, .17, .10]; //This is somewhat arbitrary. Do what you want.
-        const weightedIndex = getWeightedRandomIndex(weightedArray);
-
-        return types[weightedIndex];
-    },
-
-    getRandomArmorType() {
-
-        const types = ["Padded Armor", "Leather Armor", "Studded Leather Armor", "Hide Armor", "Chain Shirt", "Scale Mail", "Breastplate", "Half Plate Armor", "Ring Mail", "Chain Mail", "Splint Armor", "Plate Armor"];
-        const weightedArray = [1, 1, 3, 1, 3, 1, 3, 3, 1, 3, 1, 3]; //This is somewhat arbitrary. Do what you want.
-        const weightedIndex = getWeightedRandomIndex(weightedArray);
-
-        return types[weightedIndex];
-    },
-
-    getRandomAdamantineWeaponType() {
-        
-        const types = [
-            "Club", "Dagger", "Greatclub", "Handaxe", "Javelin", "Light Hammer", "Mace", "Quarterstaff", "Sickle", "Spear",
-            "Dart",
-            "Battleaxe", "Flail", "Glaive", "Greataxe", "Greatsword", "Halberd", "Lance", "Longsword", "Maul",
-            "Morningstar", "Pike", "Rapier", "Scimitar", "Shortsword", "Trident", "Warhammer", "War Pick",
-        ];
-        const weightedArray = [1, 3, 2, 3, 3, 3, 3, 3, 2, 3,   2,   3, 3, 3, 3, 3, 3, 3, 3, 3,   3, 3, 3, 3, 3, 3, 3, 3]; //This is somewhat arbitrary. Do what you want.
-        const weightedIndex = getWeightedRandomIndex(weightedArray);
-
-        return types[weightedIndex];
-    },
-
-    getRandomWeaponType(melee = true, ranged = true) {
-
-        let types = [];
-        const typesMelee = [
-            "Club", "Dagger", "Greatclub", "Handaxe", "Javelin", "Light Hammer", "Mace", "Quarterstaff", "Sickle", "Spear",
-            "Battleaxe", "Flail", "Glaive", "Greataxe", "Greatsword", "Halberd", "Lance", "Longsword", "Maul", "Morningstar",
-            "Pike", "Rapier", "Scimitar", "Shortsword", "Trident", "Warhammer", "War Pick", "Whip"
-        ];
-        const typesRanged = [
-            "Dart", "Light Crossbow", "Shortbow", "Sling",
-            "Blowgun", "Hand Crossbow", "Heavy Crossbow", "Longbow", "Musket", "Pistol"
-        ];
-        const weightedArrayMelee = [1, 3, 2, 3, 3, 3, 3, 3, 2, 3,   3, 3, 3, 3, 3, 3, 3, 3, 3, 3,   3, 3, 3, 3, 3, 3, 3, 2,]; //This is somewhat arbitrary. Do what you want.
-        const weightedArrayRanged = [2, 3, 3, 2,   2, 3, 3, 3, 1, 1]; //This is somewhat arbitrary. Do what you want.
-        let weightedArray = [];
-
-        if (melee) {
-            weightedArray = weightedArray.concat(weightedArrayMelee);
-            types = types.concat(typesMelee)
-        }
-        if (ranged) {
-            weightedArray = weightedArray.concat(weightedArrayRanged);
-            types = types.concat(typesRanged)
-        }
-
-        const weightedIndex = getWeightedRandomIndex(weightedArray);
-
-        return types[weightedIndex];
-    },
-
-    getRandomElementalDamageType() {
-
-        const types = [
-            "Acid", "Cold", "Fire", "Force", "Lightning", "Necrotic", "Poison", "Psychic", "Radiant", "Thunder"
-        ];
-        const weightedArray = [2, 3, 3, 2, 3, 2, 3, 2, 2, 2]; //This is somewhat arbitrary. Do what you want.
-        const weightedIndex = getWeightedRandomIndex(weightedArray);
-
-        return types[weightedIndex];
-    },
-
-    getRandomCreatureType() {
-        const types = ["Aberrations", "Beasts", "Celestials", "Constructs", "Dragons", "Elementals", "Humanoids", "Fey", "Fiends", "Giants", "Monstrosities", "Oozes", "Plants", "Undead"];
-        const weightedArray = [10, 5, 5, 5, 10, 10, 5, 10, 10, 5, 5, 5, 5, 10]; //This is somewhat arbitrary. Do what you want.
-        const weightedIndex = getWeightedRandomIndex(weightedArray);
-    
-        return types[weightedIndex];
-    },
 
 }; //End of magicStore
 
+
+/**
+ * Strips any prefix, converts to lower case,
+ * converts curly apostrophes to straight,
+ * ensures only single spaces, trims start/end spaces.
+ * @param {string} name 
+ * @returns 
+ */
 function normalizeSpellName(name) {
+    name = stripItemNamePrefix(name);
     return name
         .toLowerCase()
-        .replace(/^scroll:\s*/i, '') // Remove "Scroll:" prefix
-        .replace(/^spellwrought\btattoo:\s*/i, '') // Remove "Scroll:" prefix
         .replace(/[’‘]/g, "'") // Normalize curly apostrophes to straight
-        .replace(/[“”]/g, '"') // Normalize curly quotes to straight
-        .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // Remove accents
         .replace(/\s+/g, ' ') // Collapse multiple spaces
         .trim();
 }
 
+/**
+ * Removes everything up to (and including) the last colon
+ * @param {string} name 
+ * @returns string
+ */
 function stripItemNamePrefix(name) {
     return name
-        // .toLowerCase()
-        .replace(/^scroll:\s*/i, '') // Remove "Scroll:" prefix
-        .replace(/^spellwrought\btattoo:\s*/i, '') // Remove "Scroll:" prefix
-        // .replace(/[’‘]/g, "'") // Normalize curly apostrophes to straight
-        // .replace(/[“”]/g, '"') // Normalize curly quotes to straight
-        // .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // Remove accents
-        // .replace(/\s+/g, ' ') // Collapse multiple spaces
-        .trim();
+        // .replace(/^scroll:\s*/i, '') // Remove "Scroll:" prefix
+        // .replace(/^spellwrought\btattoo:\s*/i, '') // Remove "Scroll:" prefix
+        .replace(/^.*:/, '') // Remove everything up to the last colon
+        ;
 }
 
 
@@ -1076,8 +1008,3 @@ function insertObjectAlphabetically(array, newObject) {
     
     return array;
 }
-
-document.addEventListener('DOMContentLoaded', async () => {
-    //magicStore.initialize();
-    await magicStore.initialize();
-});
