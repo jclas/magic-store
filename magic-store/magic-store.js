@@ -585,10 +585,14 @@ const magicStore = {
 
                 const picked = that.categoryItems[catIdx][pickIdx];
 
-                // Update the line item with the new item's properties
-                lineItem = that.riv.getItemVariant(picked);
+                lineItem = {
+                    action: 'Supplied (+1)',
+                    change: +1,
+                    ...picked
+                };
+
+                todaysUpdates[idx] = that.riv.getItemVariant(lineItem);
                 
-                todaysUpdates[idx] = lineItem;
                 // Re-render the updates table to reflect the change
                 that.displayTodaysUpdates(todaysUpdates);
             });
