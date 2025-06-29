@@ -9,6 +9,9 @@ function createNavbar() {
                     <li class="nav-item">
                         <a class="nav-link" href="magic-store.html">View Inventory</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="supplier-settings.html">Settings</a>
+                    </li>
                 </ul>
             </div>
         </div>

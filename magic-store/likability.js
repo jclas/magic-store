@@ -5,7 +5,7 @@
 
 /**
  * The MOST frequently used spell scrolls, within its level. (Top tier)
- * No cantrips. No rituals (unless it has consumable components)
+ * No cantrips. No rituals.
  */
 const topScrolls1 = [
     "Shield", "Healing Word", "Cure Wounds", "Misty Step"
@@ -13,41 +13,85 @@ const topScrolls1 = [
 
 /**
  * Frequently used spell scrolls and super-clutch situational spells best used via spell scrolls.
+ * Usually this is the top category for the best concentration spells.
  * No cantrips. No rituals (unless it has consumable components)
  */
 const topScrolls2 = [
-    "Armor of Agathys", "Banishment", "Bless", "Counterspell", "Faerie Fire",
+    "Banishment", "Bless", "Counterspell", "Faerie Fire",
     "Greater Invisibility", "Haste", "Hex", "Hunter's Mark", "Invisibility",
     "Mage Armor", "Prayer of Healing", "Raise Dead", "Revivify",
-    "Sanctuary", "Spiritual Weapon"
+    "Sanctuary",
 ];
 
 /**
  * Tertiary spell usage, or clutch situational spells best used via spell scrolls,
- * or I super-duper really wanna learn this spell.
+ * or I super-duper really wanna learn this spell, or give a spell from another category an extra bump.
  * No cantrips. No rituals (unless it has consumable components)
  */
 const topScrolls3 = [
-    "Absorb Elements", "Arcane Lock", "Control Water", "Dispel Magic", "Featherfall",
-    "Find Greater Steed", "Find Steed", "Fly", "Goodberry",
+    "Absorb Elements", "Arcane Lock", "Armor of Agathys", "Control Water", "Dispel Magic", "Enlarge/Reduce",
+    "Featherfall", "Find Greater Steed", "Find Steed", "Fly", "Goodberry",
     "Guiding Bolt", "Heat Metal", "Heroes' Feast", "Heroism",
     "Hold Person", "Knock", "Mirror Image",
     "Mordenkainen's Magnificent Mansion", "Polymorph", "Protection from Evil", 
-    "See Invisibility", "Silence", "Sleep", "Suggestion",
-    "Tasha's Hideous Laughter", "Tasha's Bubbling Cauldron", "True Seeing",
+    "See Invisibility", "Shadow Blade", "Silence", "Sleep", "Suggestion",
+    "Tasha's Hideous Laughter", "Tasha's Bubbling Cauldron", "Tasha's Mind Whip", "True Seeing",
     "Vicious Mockery", "Web"
+
+
 ];
 
+/**
+ * ToDo: Add more spells to this.
+ * incorporate this list into scroll likability and enspelled likability. 
+ */
+const topOffenseSpells = [
+    "Chromatic Orb", "Fireball", "Lightning Bolt", "Melf's Minute Meteors", "Spirit Guardians",
+
+];
 
 /**
- * Spells that generally have a high impact when they are used properly.
+ * ToDo: incorporate this list into scroll likability and enspelled likability.
+ *       Is there too much overlap with topDefenseSpells?
+ */
+const topControlSpells = [
+    
+
+];
+
+//
+/**
+ * ToDo: incorporate this list into scroll likability and enspelled likability.
+ *       Is there too much overlap with topControlSpells?
+ */
+const topDefenseSpells = [
+    
+
+];
+
+//ToDo: use this. Consider removing them from "TopScrolls", or even remove all the TopScrolls lists
+//      if we can div those up to more meaningful categories.
+//Should I make several arrays 1 for each level they start kicking more ass? probably not;
+//  this would probably only differentiate Bestow Curse and Major Image
+const goodUpcastSpells = [
+    "Aid", "Armor of Agathys", "Bane", "Banishment", "Bestow Curse", "Bless", "Blindness/Deafness",
+    "Cause Fear", "Charm Monster", "Charm Person", "Chromatic Orb", "Counterspell",
+    "Enhance Ability", "Fly", "Heroism", "Hold Monster", "Hold Person",
+    "Invisibility", "Intellect Fortress", "Jump", "Longstrider", "Major Image", "Mass Suggestion",
+    "Planar Binding", "Spirit Guardians", "Tasha's Mind Whip",
+];
+
+/**
+ * ToDo: can this be renamed or re-organized? What kind of impacts?
+ * Spells that generally have a high impact when they are used properly. 
  */
 const highImpactSpells = [
     "Astral Projection", "Catnap", "Clone", "Conjure Animals", "Conjure Celestial", "Conjure Elemental",
     "Conjure Fey", "Conjure Minor Elementals", "Conjure Woodland Beings", "Contingency", "Demiplane",
     "Disintegrate", "Divine Word", "Fireball", "Foresight", "Forbiddance", "Gate", "Heroes' Feast",
-    "Imprisonment", "Invulnerability", "Mass Heal", "Mass Polymorph", "Mass Suggestion", "Maze",
-    "Melf's Minute Meteors", "Meteor Swarm", "Mordenkainen's Magnificent Mansion",
+    "Imprisonment", "Invulnerability",
+    "Mass Cure Wounds", "Mass Heal", "Mass Healing Word", "Mass Polymorph", "Mass Suggestion",
+    "Maze", "Melf's Minute Meteors", "Meteor Swarm", "Mordenkainen's Magnificent Mansion",
     "Mordenkainen's Sword", "Plane Shift", "Plant Growth", "Power Word Heal",
     "Power Word Kill", "Prismatic Wall", "Raise Dead", "Reverse Gravity", "Revivify",
     "Sequester", "Shapechange", "Silence",
@@ -55,47 +99,63 @@ const highImpactSpells = [
     "Summon Celestial", "Summon Construct", "Summon Draconic Spirit", "Summon Dragon", "Summon Elemental",
     "Summon Fey", "Summon Fiend", "Summon Greater Demon", "Summon Lesser Demons", "Summon Shadowspawn",
     "Summon Undead", "Sunburst", "Synaptic Static", "Tasha's Mind Whip", "Teleport", "Teleportation Circle",
-    "Time Stop", "True Polymorph", "True Resurrection", "Tsunami", "Wish"
+    "Time Stop", "True Polymorph", "True Resurrection", "Tsunami",
 ];
 
 /**
  * Any healing related, hp increasing, or body-restorative spells
+ * No Rituals.
  */
-const healingRelatedSpells = [
-    "Aid", "Arcane Vigor", "Armor of Agathys", "Aura of Life", "Aura of Purity", "Aura of Vitality",
-    "Beacon of Hope", "Cure Wounds", "Death Ward", "False Life", "Freedom of Movement",
-    "Gentle Repose", "Goodberry",
+const healingRelatedSpells1 = [
+    "Aid", "Aura of Vitality", "Cure Wounds",
     "Greater Restoration", "Heal", "Healing Spirit", "Healing Word", "Heroism", "Heroes' Feast",
-    "Lesser Restoration", "Life Transference", "Mass Cure Wounds", "Mass Heal", "Mass Healing Word",
-    "Power Word Fortify", "Power Word Heal",
-    "Prayer of Healing", "Protection from Poison", "Raise Dead", "Regenerate", "Reincarnate",
-    "Remove Curse", "Resurrection", "Revivify", "Soul Cage", "Spare the Dying", "True Resurrection",
-    "Vampiric Touch", "Warding Bond", "Wish"
+    "Lesser Restoration", "Mass Cure Wounds", "Mass Heal", "Mass Healing Word",
+    "Power Word Heal", "Power Word Fortify", "Prayer of Healing", "Revivify",
+];
+const healingRelatedSpells2 = [
+    "Arcane Vigor", "Armor of Agathys", "Aura of Life", "Aura of Purity", 
+    "Beacon of Hope", "Death Ward", "False Life", 
+    "Goodberry", "Life Transference", 
+    "Protection from Poison", "Raise Dead", "Regenerate", "Reincarnate",
+    "Remove Curse", "Resurrection",  "Soul Cage", "True Resurrection",
+    "Vampiric Touch", "Warding Bond",
 ];
 
 /**
- * Rituals and Cantrips OK in this list.
+ * No cantrips.
  */
-const utilitySpells = [
-    "Alter Self", "Arcane Eye", "Arcane Lock", "Bigby's Hand", "Chaos Bolt", "Chromatic Orb",
+const topUtilitySpells1 = [
+    "Dimension Door", "Dispel Magic", "Featherfall", "Fly", "Polymorph",
+];
+const topUtilitySpells2 = [
+    "Alter Self", "Arcane Eye", "Arcane Lock", "Bigby's Hand",
     "Commune with Nature", "Comprehend Languages", "Contingency", "Control Water",
-    "Control Weather", "Dancing Lights", "Demiplane", "Detect Magic", "Detect Thoughts",
-    "Dimension Door", "Disguise Self", "Dispel Magic",
+    "Control Weather", "Demiplane", "Detect Magic", "Detect Thoughts",
+    "Disguise Self",
     "Dragon's Breath", //good for familiars
-    "Druid Grove",  "Druidcraft", "Elementalism", "Enhance Ability", "Enlarge/Reduce",
+    "Druid Grove", "Enlarge/Reduce",
     "Fabricate", "Faerie Fire",
-    "Featherfall", "Find Familiar", "Find Greater Steed", "Find Steed", "Fly",
-    "Gaseous Form", "Greater Invisibility", "Guidance", "Invisibility", "Jump", "Knock",
-    "Legend Lore", "Leomund's Secret Chest", "Leomund's Tiny Hut", "Levitate", "Light",
-    "Locate Object", "Longstrider", "Mage Hand", "Magic Mouth", "Mending", "Message",
-    "Mighty Fortress", "Mind Sliver", "Minor Illusion", "Misty Step",
+    "Find Familiar", "Find Greater Steed", "Find Steed",
+    "Gaseous Form", "Jump", "Knock",
+    "Leomund's Secret Chest", "Leomund's Tiny Hut", "Levitate",
+    "Locate Object", "Longstrider", "Major Image", "Mending", "Message",
+    "Mighty Fortress",
     "Mold Earth", "Mordenkainen's Faithful Hound", "Mordenkainen's Magnificent Mansion",
-    "Pass without Trace", "Phantom Steed", "Plant Growth", "Polymorph", "Prestidigitation",
+    "Pass without Trace", "Phantom Steed", "Plant Growth", 
     "Purify Food and Drink", "Rary's Telepathic Bond", "Rope Trick", "Sending", 
     "Silent Image", "Soul Cage", "Speak with Animals", "Speak with Dead",
     "Speak with Plants", "Stone Shape", "Sorcerous Burst", "Tasha's Bubbling Cauldron",
     "Tasha's Mind Whip", "Teleport", "Teleportation Circle", "Tenser's Floating Disk",
-    "Tongues", "Tiny Servant", "Unseen Servant", "Water Breathing", "Water Walk", "Wish", "Web"
+    "Tongues", "Tiny Servant", "Unseen Servant", "Water Breathing", "Water Walk", "Web"
+];
+
+const nicheClutchScrolls = [
+    "Dimension Door", "Enhance Ability", 
+    "Fly", "Freedom of Movement",
+    "Invisibility",
+    "Pass Without Trace",
+    "Revivify", 
+    //"Death Ward"
 ];
 
 //ToDo: move to spell.castingTime
@@ -243,13 +303,37 @@ const foregoExpensiveComponentMagicItems = [
  * There's a lot of lame common items, some ok ones, and some good ones.
  * Here are some of the more useful ones.
  * I left some out even if they're useful, just because I think they're stupid.
+ * Scrolls/Tattoos are not in this list.
  */
-const usefulCommonMagicItems = [
-    "Bead of Nourishment", "Bead of Refreshment", "Boots of False Tracks", "Cast-Off Armor", "Clockwork Amulet",
-    "Dark Shard Amulet", "Enduring Spellbook", "Hat of Wizardry", "Heward's Handy Spice Pouch",
-    "Horn of Silent Alarm", "Lock of Trickery", "Moon-Touched Sword", "Mystery Key",
-    "Pot of Awakening", "Potion of Climbing", "Potion of Comprehension", "Potion of Healing", "Ruby of the War Mage",
+const usefulCommonMagicItems1 = [
+    "Bead of Nourishment", "Bead of Refreshment", "Boots of False Tracks",
+    "Dark Shard Amulet", "Hat of Wizardry",
+    "Horn of Silent Alarm", "Moon-Touched Sword",
+    "Potion of Climbing",  "Potion of Healing",
+    "Ruby of the War Mage",
     "Silvered Weapon", "Sylvan Talon", "Unbreakable Arrow", "Walloping Ammunition"
+];
+
+/**
+ * Tier-2 of useful common items--better than average.
+ * Scrolls/Tattoos are not in this list.
+ *
+ */
+const usefulCommonMagicItems2 = [
+    "Cast-Off Armor", "Clockwork Amulet", "Heward's Handy Spice Pouch",
+    "Lock of Trickery", "Mystery Key", "Pot of Awakening", "Potion of Comprehension"
+];
+
+/**
+ * Bottom-tier - Has little to no utility.
+ * Scrolls/Tattoos are not in this list.
+ */
+const bottomTierCommonMagicItems = [
+    'Armor of Gleaming', 'Cloak of Billowing', 'Cloak of Many Fashions', 'Clothes of Mending', 'Dread Helm',
+    "Pipe of Smoke Monsters", "Rope of Mending",
+    "Pole of Angling", "Pole of Collapsing",
+    "Shield of Expression", "Smoldering Armor", "Staff of Adornment", "Staff of Birdcalls", "Staff of Flowers",
+    "Tankard of Sobriety", "Wand of Conducting", "Wand of Pyrotechnics", "Wand of Scowls", "Wand of Smiles"
 ];
 
 //***************************************************************************************/

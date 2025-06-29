@@ -1,0 +1,78 @@
+let's add a form that asks for:
+Population (where shop resides):      (Enter button)
+overridable suggested values....
+Number of Dedicated Arcanists:          spell scrolls
+Number of Dedicated Calligraphers:      spell scrolls, writings, ink
+Number of Dedicated Arcana/Alchemists:  Any potion, Acid, Alchemist's Fire, Component Pouch, Oil, Paper, Perfume
+Number of Dedicated Alchemists:         Acid, Alchemist's Fire, Component Pouch, Oil, Paper, Perfume
+Number of Dedicated Herbalists:         Potion of Healing (Common), Antitoxin, Candle, Healer's Kit
+
+------------------------------------------------------------------------------------------------------------
+Most classes for crafting scrolls and potions tend to be:
+ - wizards trying to fund themselves
+ - bards trying to fund themselves, plus they have a lot of skills
+ - young clerics serving their church
+ - retired clerics wanting to do something useful
+
+Arcana:             Mostly mages of which mostly wizards, some bards, some misc
+Calligraphy Tools:  Acolytes and retired Clerics, misc
+Alchemists:         A little bit of misc classes, but mostly arcanists (mages)
+Herbalists:         druids, rangers, clerics, misc classes
+
+prodigy feat (XGE 75): 1 language, 1 skill, 1 tool  (Half-elf, half-orc, or human)
+
+crafting non-magical stuff (unless otherwise stated): days = price / 10gp (min 1 day) however you can do 20 x 5sp items in 1 day. (PHB 233)
+
+
+other/non-magical items to consider:
+------------------------------------
+
+Wizard Stuff
+--------------------
+Crystal focus 10
+Orb focus 20
+Rod focus 10
+Staff focus 5
+Wand focus 10
+----------
+beeswax candle .04
+beeswax candle(x6) .2
+ink, 1oz (top quality) (500 pages [PHB 226]) 10gp 
+common (gall) ink, 1oz (minimal quality) price = retail price of container (clay?) .02 x 2 = .04
+ink pen .02
+parchment .1
+paper .2
+spellbook (100 pages) 50
+spell components: powdered diamond?
+
+
+Cleric Stuff
+--------------------
+beeswax candle .04
+beeswax candle(x6) .2
+flask (clay) .02
+holy water 50
+holy symbol (amulet) 5
+ink, 1oz (top quality) (500 pages [PHB 226]) 10gp 
+ink, 1oz (minimal quality) price = retail price of container (clay?) .02
+ink pen .02
+parchment .1
+paper .2
+powdered silver
+spell components: various diamonds (300 revivify, 500 raise dead), rare oils, incense
+
+Alchemy Stuff
+--------------------
+Acid
+Alchemists Fire
+antitoxin
+alchemist supplies
+alchemist ingredients: salt, powdered iron, purified water
+flask (clay) .02
+glass bottle  (orig 2 bonk) 1
+vial (orig 1 bonk) .5
+
+
+
+
+

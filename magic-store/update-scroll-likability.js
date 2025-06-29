@@ -26,12 +26,16 @@ async function updateScrollLikability() {
             if (hasListMatch(scroll.name, highImpactSpells)) likability += 0.20;
             if (spell.castingTime.toLowerCase().includes("bonus action")) likability += 0.20;
             if (spell.castingTime.toLowerCase().includes("reaction")) likability += 0.30;
-            if (hasListMatch(scroll.name, healingRelatedSpells)) {
+            if (hasListMatch(scroll.name, healingRelatedSpells1)) {
                 likability += 0.25;
                 //healing spells that bards can cast are among the most popular -- cumulative mega bump
                 if (spell.spellLists.some(list => list.toLowerCase() == "bard")) likability += 0.25;
             }
-            if (hasListMatch(scroll.name, utilitySpells)) likability += 0.15;
+            if (hasListMatch(scroll.name, healingRelatedSpells2))  likability += 0.10;
+            if (hasListMatch(scroll.name, psychicDamageSpells)) likability += 0.10;
+            if (hasListMatch(scroll.name, radiantDamageSpells)) likability += 0.10;
+            if (hasListMatch(scroll.name, topUtilitySpells1)) likability += 0.15;
+            if (hasListMatch(scroll.name, topUtilitySpells2)) likability += 0.05;
             if (likability > baseLikability) {
                 if (spell.concentration) likability -= 0.10; //downgrade
                 if (spell.componentConsumptionExpense) likability += 0.15; //upgrade for scrolls

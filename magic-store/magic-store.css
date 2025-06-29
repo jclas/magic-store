@@ -6,6 +6,11 @@ body {
     padding: 20px;
 }
 
+main {
+    /* allow enough space for navbar too */
+    min-height: 80vh; /* so the footer doesn't ride up*/
+}
+
 h1 {
     text-align: center;
     color: #343a40;
@@ -143,4 +148,35 @@ button:hover {
 
 #totalPercentMessage {
     width: 120px;
+}
+
+#popupScrollButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 8px;
+}
+
+/* keeps button at top of visible area */
+#scrollDownUpdatesTable {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* keeps button at bottom of visible area */
+#scrollUpUpdatesTable {
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+}
+
+/* show the button(s) */
+#scrollDownUpdatesTable.overflow-y, #scrollUpUpdatesTable.overflow-y {
+    display: block;
+}
+/* hide the button(s) */
+#scrollDownUpdatesTable:not(.overflow-y), #scrollUpUpdatesTable:not(.overflow-y) {
+    display: none;
 }

@@ -29,7 +29,7 @@
     <div id="updatePopup" class="popup" style="display:none;">
         <div class="popup-content">
             <span class="close" id="closePopup" aria-label="Close">&times;</span>
-            <h2>Inventory Updates</h2>
+            <h2>Today's Updates</h2>
             <div id="inventoryUpdateFields" class="pt-4 px-4 border border-3 border-info rounded">
                 <div class="mb-2">
                     <label>
@@ -108,16 +108,27 @@
             <button id="btnSaveTodaysUpdates" class="btn btn-primary" >Save Updates</button>
         </div>
     </div>
-
 </main>
 
+<footer>
+    <hr>
+    <div class="text-center text-muted small">
+        Best viewed by tablet (768px) or larger
+    </div>
+    <div class="text-center text-muted small">
+        Author: John Classen
+    </div>
+</footer>
 <script>
 document.addEventListener('DOMContentLoaded', async() => {
     await magicStore.initialize();
 
     //0 scrolls, 1 potions, 2 rings, 3 rod/staff/wand, 4 wondrous, 5 is armor, 6 is weapons, 7 tattoos
-    // let sample = magicStore.categoryItems[2].filter(m => m.rarity == "rare");
-    // console.log(sample);
+    // let filteredItems = magicStore.categoryItems[1].filter(m => ["common", "uncommon"].includes( m.rarity));
+    // let filteredItems = magicStore.allItems.filter(m => m.rarity == "common" && !["scroll", "tattoo"].includes(m.category));
+
+    // console.log(filteredItems);
+    // filteredItems.forEach(item => console.log(item.name, "(" + item.category + ")"));
 });
 
 // updateScrollLikability();

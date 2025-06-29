@@ -1,3 +1,5 @@
+//ToDo: jack-up likability for items with variant sets
+
 /**
  * Client-side script to fetch/update likability in magic-items.json based on various factors.
  */
@@ -46,9 +48,20 @@ async function updateMagicItemLikability() {
             }
         } 
 
-        if (item.rarity.toLowerCase() == "common") {
-            if (! hasWildcardListMatch(item.name, usefulCommonMagicItems)) {
-                likability /= 3; //downgrading (a lot!) or we get too much crap
+
+        //downgrade common items or we get too much crap
+        if (item.rarity.toLowerCase() == "common"
+            && !["scroll", "tattoo"].includes(item.category.toLowerCase())
+            && !item.name.toLowerCase().startsWith("potion of healing")
+        ) {
+            if (hasWildcardListMatch(item.name, usefulCommonMagicItems1)) {
+                likability /= 1;
+            } else if (hasWildcardListMatch(item.name, usefulCommonMagicItems2)) {
+                likability /= 1.5;
+            } else if (hasWildcardListMatch(item.name, bottomTierCommonMagicItems)) {
+                likability /= 4;
+            } else {
+                likability /= 2;
             }
         }
 

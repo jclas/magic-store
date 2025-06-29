@@ -1,8 +1,5 @@
-// ToDo: 2 line-item buttons: one that rerolls the variant and one rerolls for new item
-// ToDo: finish getVariantName(name).
-//       "Enspelled" should be fun: use scroll likability; filter by school(s) based on armor, weapon, or staff.
+// ToDo: finish getItemVariant(name)
 // ToDo: Statistics to approx supplied amounts that users can adjust. Town pop and magic presence (high/med/low)
-// ToDo: add "canUpcast" property to each spell.
 // ToDo: derived scroll properties:  scrollLevel, attackBonus, dc. Start with standard values (with small random chance for upgrades)
 // ToDo: Finish adding the rest of TCE magic items.
 
@@ -14,19 +11,18 @@ const sourceAbbreviationKey = {
     XGE: "Xanathar's Guide to Everything",
     TCE: "Tasha's Cauldron of Everything",
 };
-const allowedRaritiesConsumables = ["common", "uncommon", "rare", "very rare"];
+const allowedRaritiesConsumables = ["common", "uncommon", "rare"]; //0-5
 const allowedRaritiesNonConsumables = ["common", "uncommon", "rare"];
 const basePrices = {
     common: 100,
     uncommon: 400,
     rare: 4000,
-    "very rare": 40_000,
+    "very rare": 40_000, //probably shouldn't include these in the store
     legendary: 200_000,  //we shouldn't include these in the store
-    artifact: 2_000_000  //made up price, we shouldn't include these in the store
+    artifact: 2_000_000  //made up price, we shouldn't ever include these in the store
 };
 //Level:                  0   1   2    3    4     5     6      7      8      9
 const scrollBasePrices = [30, 50, 200, 300, 2000, 3000, 20000, 25000, 30000, 100000]; //RAW 2024
-//const scrollBasePrices = [30, 50, 100, 200, 1000, 2000, 10000, 15000, 20000, 100000]; //custom
 
 let spells = [];   //all spells -- reference only
 
@@ -34,7 +30,6 @@ const magicStore = {
 
     inventory: [],
     pendingInventory: [], //temp inventory until save
-
 
     //move these array to global area pretty preaze
     magicItems: [],     //all magic items
@@ -174,11 +169,20 @@ const magicStore = {
             this.setCategoryPercentages([70, 26.2, .2, .5, 2.3, .4, .4, 0]);
 
         });
+
+        // const popup = document.querySelector('.popup-content');
+        // if (popup) {
+        //     const popupResizeObserver = new ResizeObserver(() => {
+        //         console.log('Popup resized!');
+        //         this.updateScrollButtonsVisibility();
+        //     });
+        //     popupResizeObserver.observe(popup);
+        // }
+        document.querySelector('.popup-content')?.addEventListener('scroll', this.updateScrollButtonsVisibility);
+        window.addEventListener('resize', this.updateScrollButtonsVisibility);
+
     },
 
-    /**
-     * Note: only loading common, uncommon, rare, very rare. No Legendary or Artifacts.
-     */
     loadMagicItemsFile: async function () {
         try {
             const response = await fetch('magic-items.json');
@@ -409,8 +413,8 @@ const magicStore = {
             let itemsIndex = getWeightedRandomIndex(this.categoryRarityScores[randomCategoryIndex]); //pick item in category
 
             let magicItem = structuredClone(this.categoryItems[randomCategoryIndex][itemsIndex]); //makes a copy (doesn't reference)
-            magicItem.variantName = this.riv.getVariantName(magicItem.name);
-            // console.log("magicItem.variantName: " + magicItem.variantName);
+            // magicItem.variantName = this.riv.getItemVariant(magicItem).name;
+            magicItem = this.riv.getItemVariant(magicItem);
 
             let inventoryIndex = pendingInventory.findIndex(item => item.name === magicItem.name);
 
@@ -464,7 +468,7 @@ const magicStore = {
                                 <th style="cursor:pointer" onclick="magicStore.sortUpdatesTable(3)">Price</th>
                                 <th style="cursor:pointer" onclick="magicStore.sortUpdatesTable(4)">Rarity</th>
                                 <th style="cursor:pointer" onclick="magicStore.sortUpdatesTable(5)">Rarity Score</th>
-                                <th>Delete</th>
+                                <th></th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -473,7 +477,8 @@ const magicStore = {
                                         <td>${u.action}</td>
                                         <!--td>${u.change > 0 ? '+' : ''}${u.change}</td-->
                                         <td>${u.category}</td>
-                                        <td data-original-name="${u.name}" title="source: ${u.source}">${stripItemNamePrefix(u.variantName) || stripItemNamePrefix(u.name)}</td>
+                                        <!--td data-original-name="${u.name}" title="source: ${u.source}">${stripItemNamePrefix(u.variantName) || stripItemNamePrefix(u.name)}</td-->
+                                        <td data-original-name="${u.name}" title="${this.getItemTooltip(u)}">${u.variantName}</td>
                                         <td>${u.price}</td>
                                         <td>${u.rarity}</td>
                                         <td>${u.rarityScore}</td>
@@ -492,7 +497,7 @@ const magicStore = {
                     </div>
                 </div>
                 <!-- Button column -->
-                <div style="display: flex; flex-direction: column; justify-content: space-between; align-items: flex-end; margin-left: 8px;">
+                <div id="popupScrollButtons" style="display: flex; flex-direction: column; justify-content: space-between; align-items: flex-end; margin-left: 8px;">
                     <button id="scrollDownUpdatesTable" class="btn btn-primary btn-sm" title="Scroll to bottom" style="margin-bottom: 8px;">
                         <span style="font-size: 1.2em;">&#8595;</span>
                     </button>
@@ -505,7 +510,13 @@ const magicStore = {
             <div id="updatesCategorySummary" class="mt-3"></div>
             `;
 
-        // delete button event listeners
+        this.updateScrollButtonsVisibility();
+
+        //*******************************************
+        //* Event listeners for the new html
+        //*******************************************
+
+        // "x" (delete) button event listeners
         document.querySelectorAll('.btn-delete-update').forEach(btn => {
             btn.addEventListener('click', function () {
                 const row = this.closest('tr');
@@ -530,8 +541,9 @@ const magicStore = {
             });
         });
 
-        // Get new variant button
+        // "V ↺" Get new variant button
         document.querySelectorAll('.btn-get-new-variant').forEach(btn => {
+            let that = this;
             btn.addEventListener('click', function () {
                 const row = this.closest('tr');
                 const idx = parseInt(row.getAttribute('data-update-idx'));
@@ -542,17 +554,17 @@ const magicStore = {
                 // Get a new variant name using the item's name
                 do {
                     i++;
-                    newVariant = magicStore.riv.getVariantName(lineItem.name);
-                } while(lineItem.variantName == newVariant && i < 100);
-                
-                // Update the variantName property
-                if (newVariant) lineItem.variantName = newVariant;
-
-                row.querySelector('td[data-original-name]').textContent = stripItemNamePrefix(newVariant) || stripItemNamePrefix(lineItem.name);
+                    console.log("i", i);
+                    newVariant = that.riv.getItemVariant(lineItem);
+                } while(lineItem.variantName == newVariant.variantName && i < 100);
+                todaysUpdates[idx] = newVariant;
+                // row.querySelector('td[data-original-name]').textContent = newVariant.variantName;
+                // Re-render the updates table to reflect the change
+                that.displayTodaysUpdates(todaysUpdates);
             });
         });
 
-        // "Get new from same category" button
+        // "C ↺" Get new from same category" button
         document.querySelectorAll('.btn-get-same-category').forEach(btn => {
             let that = this;
             btn.addEventListener('click', function () {
@@ -574,14 +586,9 @@ const magicStore = {
                 const picked = that.categoryItems[catIdx][pickIdx];
 
                 // Update the line item with the new item's properties
-                lineItem.name = picked.name;
-                lineItem.variantName = that.riv.getVariantName(picked.name);
-                lineItem.price = picked.price;
-                lineItem.rarity = picked.rarity;
-                lineItem.rarityScore = picked.rarityScore;
-                lineItem.category = picked.category;
-                lineItem.source = picked.source;
-
+                lineItem = that.riv.getItemVariant(picked);
+                
+                todaysUpdates[idx] = lineItem;
                 // Re-render the updates table to reflect the change
                 that.displayTodaysUpdates(todaysUpdates);
             });
@@ -635,6 +642,34 @@ const magicStore = {
                 };
             }
         }, 0);
+    },
+
+    updateScrollButtonsVisibility() {
+
+        const popup = document.querySelector('.popup-content');
+        const table = document.getElementById('updatesTable');
+        const scrollDownBtn = document.getElementById('scrollDownUpdatesTable');
+        const scrollUpBtn = document.getElementById('scrollUpUpdatesTable');
+        if (!popup || !table || !scrollDownBtn || !scrollUpBtn) return;
+
+        // Get bounding rectangles
+        const popupRect = popup.getBoundingClientRect();
+        const tableRect = table.getBoundingClientRect();
+
+        // If the bottom of the table is below the visible popup area, show scrollDownBtn
+        if (tableRect.bottom > popupRect.bottom) {
+            scrollDownBtn.classList.add('overflow-y');
+        } else {
+            scrollDownBtn.classList.remove('overflow-y');
+        }
+
+        // If the top of the table is above the visible popup area, show scrollUpBtn
+        if (tableRect.top < popupRect.top) {
+            scrollUpBtn.classList.add('overflow-y');
+        } else {
+            scrollUpBtn.classList.remove('overflow-y');
+        }
+
     },
 
     sortUpdatesTable(colIndex) {
@@ -775,31 +810,48 @@ const magicStore = {
         }
     },
 
+    getItemTooltip(item) {
+        let tooltip = "";
+
+        // if (item.category.toLowerCase() == "scroll") {
+        if (item.hasOwnProperty("spellLevel")) {
+            tooltip += "Orig item name: " + item.name + "\n";
+            tooltip += "Orig Spell Level: " + item.originalSpellLevel + "\n";
+            tooltip += "Spell Level: " + item.spellLevel + "\n";
+            tooltip += "Caster Level: " + item.casterLevel + "\n";
+            tooltip += "Prof Bonus: " + item.proficiencyBonus + "\n";
+            tooltip += "Ability Mod: " + item.abilityMod + "\n";
+            tooltip += "Attack: " + item.attackBonus + "\n";
+            tooltip += "DC: " + item.dc + "\n";
+        }
+
+        tooltip += "Source: " + item.source;
+
+        return tooltip;
+    },
+
     // --- Utility methods that are specific to this app ---
 
     /**
-     * @param {*} spellName Can be a spell name, scroll name, or tattoo name
+     * @param {*} name Can be a spell name, scroll name, or tattoo name
      * @returns A spell object
      */
-    getSpell: function (spellName) {
-        if (!spellName || typeof spellName !== "string") return null;
+    getSpell: function (name) {
+        if (!name || typeof name !== "string") return null;
+        const spell = spells.find(s => normalizeSpellName(s.name) === normalizeSpellName(name)) || null;
 
-        return spells.find(
-            s => normalizeSpellName(s.name) === normalizeSpellName(spellName)
-        ) || null;
+        return spell;
     },
 
-    
     /**
-     * @param {*} name Can be a spell name, scroll name, or tattoo name
-     * @returns A scroll object
+     * @param {string} name Can be a spell name, scroll name, or tattoo name
+     * @returns A scroll object or null
      */
     getScroll: function (name) {
         if (!name || typeof name !== "string") return null;
+        const scroll = this.scrolls.find(s => normalizeSpellName(s.name) === normalizeSpellName(name)) || null;
 
-        return this.scrolls.find(
-            s => normalizeSpellName(s.name) === normalizeSpellName(name)
-        ) || null;
+        return scroll;
     },
 
     /**
@@ -814,12 +866,13 @@ const magicStore = {
 
         let rareFactor1 = this.calculateMagicItemBasePrice(item);
 
-        // if (item.rarity.toLowerCase() == "common" && !item.name.toLowerCase().startsWith("potion of healing")) rareFactor1 *= 5; //not more copious. most common junk is not as high in demand as the price would normally dictate.
         if (item.rarity.toLowerCase() == "common"
             && !item.name.toLowerCase().startsWith("potion of healing")
             && item.category.toLowerCase() != "scroll"
+            && item.category.toLowerCase() != "tattoo"
         ) {
-            rareFactor1 *= 3; //more rare. most common junk is not as high in demand as the price would normally dictate.
+            // rareFactor1 *= 3; //more rare. most common junk is not as high in demand as the price would normally dictate.
+            rareFactor1 *= 6 //more rare. most common junk is not as high in demand as the price would normally dictate.
         }
 
         // let rarityScore = 100000 / this.calculateMagicItemBasePrice(item)**1.3 * item.likability;
@@ -828,10 +881,12 @@ const magicStore = {
         //scrolls are even easier to make than other consumables so lets bump them up again
          if (item.category.toLowerCase() == "scroll")  {
              const spell = this.getSpell(item.name);
-             if (spell && spell.componentConsumptionExpense) {
-                rarityScore *= 1.5;  //scroll bump: spells that consume comps.
-             } else {
-                rarityScore *= 2;    //bigger scroll bump: only need your regular (non-consumed) spell comps.
+            if (spell && spell.level != 0) {
+                if (spell.componentConsumptionExpense) {
+                    rarityScore *= 1.5;  //scroll bump: spells that consume comps.
+                } else {
+                    rarityScore *= 2;    //bigger scroll bump: only need your regular (non-consumed) spell comps.
+                }
              }
          }
         //potions of healing are way eaier to make than other items in their category
@@ -847,8 +902,13 @@ const magicStore = {
             }
         }
 
-        if (item.rarity.toLowerCase() == "common" && !item.name.toLowerCase().startsWith("potion of healing")) {
-            rarityScore /= 4; //demand is not that great for most of these items
+        if (item.rarity.toLowerCase() == "common"
+            && !item.name.toLowerCase().startsWith("potion of healing")
+            && item.category.toLowerCase() != "scroll"
+            && item.category.toLowerCase() != "tattoo"
+        ) {
+            // rarityScore /= 4; //demand is not that great for most of these items
+            // rarityScore /= 3; //demand is not that great for most of these items
         }
 
         return Number(rarityScore.toFixed(6));
@@ -911,8 +971,6 @@ const magicStore = {
         return expense;
     },
 
-
-
 }; //End of magicStore
 
 
@@ -924,6 +982,7 @@ const magicStore = {
  * @returns 
  */
 function normalizeSpellName(name) {
+    if (typeof name === 'undefined' || !name) return;
     name = stripItemNamePrefix(name);
     return name
         .toLowerCase()
@@ -938,10 +997,10 @@ function normalizeSpellName(name) {
  * @returns string
  */
 function stripItemNamePrefix(name) {
+    if (typeof name === 'undefined' || !name) return;
+    // console.log("name: " + name);
     return name
-        // .replace(/^scroll:\s*/i, '') // Remove "Scroll:" prefix
-        // .replace(/^spellwrought\btattoo:\s*/i, '') // Remove "Scroll:" prefix
-        .replace(/^.*:/, '') // Remove everything up to the last colon
+        .replace(/^.*:\s*/, '') // Remove everything up to the last colon and any spaces immeditely following the colon.
         ;
 }
 
@@ -969,25 +1028,31 @@ function getWeightedRandomIndex(weights, total = null) {
 }
 
 /**
- * Produces an integer that has a weighted proximity to the given "ave" parameter.
+ * Generate a standard normal distributed value using Box-Muller transform.
+ * Produces an integer that has a weighted proximity to the average of the given upper and lower bounds.
  * The deviations from ave follow a standard normal distribution.
- * @param {*} ave 
+ * @param {number} lowerBound 
+ * @param {number} upperBound 
  * @returns integer
  */
-function bellCurveRandomInt(ave) {
-    // Generate a standard normal distributed value using Box-Muller transform
+function bellCurveRandomInt(lowerBound, upperBound) {
+    const ave = (lowerBound + upperBound) / 2;
     let u = 0, v = 0;
     while (u === 0) u = Math.random(); // Avoid 0
     while (v === 0) v = Math.random();
-    let standardNormal = Math.sqrt(-2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v);
+    const standardNormal = Math.sqrt(-2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v);
 
-    // Scale and shift to desired mean and range
-    // Standard deviation is ave / 3 so ~99.7% of values are within [0, 2*ave]
-    let stddev = ave / 3;
-    let value = Math.round(ave + standardNormal * stddev);
+    //*** Standard deviation ***  Scale and shift to desired mean and range
+    // const stddev = (ave - lowerBound) / 3; //~99.7% of values are within [lowerBound, upperBound]
+    // const stddev = (ave - lowerBound) / 4; //~99.9937% of values are within [lowerBound, upperBound]
+    // const stddev = (ave - lowerBound) / 5; //~99.99994% of values are within [lowerBound, upperBound]
+    // const stddev = (ave - lowerBound) / 6; //~99.9999998% of values are within [lowerBound, upperBound]
+    const stddev = (ave - lowerBound) / 4;
+    
+    const value = Math.round(ave + standardNormal * stddev);
 
-    // Clamp to [0, 2*ave]
-    return Math.max(0, Math.min(2 * ave, value));
+    // Clamp to [lowerBound, upperBound]    The small % beyond the designated std devs is chopped off
+    return Math.max(lowerBound, Math.min(upperBound, value));
 }
 
 /**
@@ -1008,3 +1073,17 @@ function insertObjectAlphabetically(array, newObject) {
     
     return array;
 }
+
+
+// let sum = 0, i = 0;
+// const loopTimes = 1000000;
+
+// console.time();
+
+// while(i++ < loopTimes) {
+//     const val = bellCurveRandomInt(3,18);
+//     console.log(val);
+//     sum += val;
+// }
+// console.timeEnd();
+// console.log("ave: " + sum/loopTimes)
