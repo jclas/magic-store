@@ -352,7 +352,7 @@ function isConsumable(item) {
         "ammunition", "arrow of ", "bag of beans", "bead of ", "bolt of ", "bullet of ",
         "chime of opening", "dust of ", "elemental gem", "feather token",
         "marvelous pigments", "ointment", "robe of useful items", "sovereign glue",
-        "tattoo", "universal solvent", "powder"
+        "universal solvent", "powder"
     ];
 
     let lowerName;

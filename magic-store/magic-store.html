@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 18 18'><text x='0' y='14'>🔮</text></svg>" /> -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 18 18'><text x='0' y='14'>🧙🏻‍♂️</text></svg>" />
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css" />
     <link href="magic-store.css" rel="stylesheet" />
@@ -11,6 +10,7 @@
     <script src="variant-items.js"></script>
     <script src="magic-store.js"></script>
     <script src="navbar.js"></script>
+    <script src="footer.js"></script>
     <script src="likability.js"></script>
     <script src="update-scroll-likability.js"></script> <!--maintenance utility-->
     <script src="update-magic-item-likability.js"></script> <!--maintenance utility-->
@@ -34,7 +34,7 @@
                 <div class="mb-2">
                     <label>
                         Number of new magic items from suppliers: 
-                        <input type="number" id="arrivalsInput" min="1" max="100" value="100" style="width:60px;">
+                        <input type="number" id="arrivalsInput" min="1" max="100" value="25" style="width:60px;">
                     </label>
                 </div>
                 <div class="mb-2">
@@ -109,16 +109,8 @@
         </div>
     </div>
 </main>
+<!-- Footer will be injected by footer.js -->
 
-<footer>
-    <hr>
-    <div class="text-center text-muted small">
-        Best viewed by tablet (768px) or larger
-    </div>
-    <div class="text-center text-muted small">
-        Author: John Classen
-    </div>
-</footer>
 <script>
 document.addEventListener('DOMContentLoaded', async() => {
     await magicStore.initialize();
@@ -129,10 +121,18 @@ document.addEventListener('DOMContentLoaded', async() => {
 
     // console.log(filteredItems);
     // filteredItems.forEach(item => console.log(item.name, "(" + item.category + ")"));
-});
+
+
+
+
+
+
 
 // updateScrollLikability();
 // updateMagicItemLikability();
+
+});
+
 
 
 

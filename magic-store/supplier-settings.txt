@@ -1,11 +1,15 @@
 let's add a form that asks for:
 Population (where shop resides):      (Enter button)
-overridable suggested values....
-Number of Dedicated Arcanists:          spell scrolls
-Number of Dedicated Calligraphers:      spell scrolls, writings, ink
-Number of Dedicated Arcana/Alchemists:  Any potion, Acid, Alchemist's Fire, Component Pouch, Oil, Paper, Perfume
-Number of Dedicated Alchemists:         Acid, Alchemist's Fire, Component Pouch, Oil, Paper, Perfume
-Number of Dedicated Herbalists:         Potion of Healing (Common), Antitoxin, Candle, Healer's Kit
+
+Number of 8hr days / month:
+- includes full-time/partial crafters addded up
+- overridable suggested values
+Arcanists:          spell scrolls, any magic item (if base item was already made)
+Calligraphers:      spell scrolls, writings, ink
+Arcanist/Alchemists:  same as arcanist plus: Any potion, Acid, Alchemist's Fire, Component Pouch, Oil, Paper, Perfume
+Alchemists:         Acid, Alchemist's Fire, Component Pouch, Oil, Paper, Perfume
+Herbalists:         Potion of Healing (Common), Antitoxin, Candle, Healer's Kit
+Other misc magic item crafters 9such as arcanist/tinkerer
 
 ------------------------------------------------------------------------------------------------------------
 Most classes for crafting scrolls and potions tend to be:

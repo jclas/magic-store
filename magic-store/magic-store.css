@@ -3,7 +3,7 @@ body {
     font-size: 1rem;
     background-color: #f8f9fa;
     margin: 0;
-    padding: 20px;
+    padding: 5px 20px;
 }
 
 main {
@@ -118,9 +118,7 @@ button:hover {
 }
 
 #updatesTable tbody tr td:nth-last-child(1) {
-    text-align: center;
     padding: 2px;
-    
 }
 
 #updatesTable tbody tr td {

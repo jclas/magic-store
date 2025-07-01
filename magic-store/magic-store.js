@@ -1,5 +1,7 @@
-// ToDo: finish getItemVariant(name)
+// ToDo: Save items using Variant Name, not generic name
+// ToDo: finish adding items to getItemVariant(name)
 // ToDo: Statistics to approx supplied amounts that users can adjust. Town pop and magic presence (high/med/low)
+// ToDo: Update README.md
 // ToDo: derived scroll properties:  scrollLevel, attackBonus, dc. Start with standard values (with small random chance for upgrades)
 // ToDo: Finish adding the rest of TCE magic items.
 
@@ -23,6 +25,7 @@ const basePrices = {
 };
 //Level:                  0   1   2    3    4     5     6      7      8      9
 const scrollBasePrices = [30, 50, 200, 300, 2000, 3000, 20000, 25000, 30000, 100000]; //RAW 2024
+const scrollRarity = ['common', 'common', 'uncommon', 'uncommon', 'rare', 'rare', 'very rare', 'very rare', 'very rare', 'legendary'];
 
 let spells = [];   //all spells -- reference only
 
@@ -170,14 +173,6 @@ const magicStore = {
 
         });
 
-        // const popup = document.querySelector('.popup-content');
-        // if (popup) {
-        //     const popupResizeObserver = new ResizeObserver(() => {
-        //         console.log('Popup resized!');
-        //         this.updateScrollButtonsVisibility();
-        //     });
-        //     popupResizeObserver.observe(popup);
-        // }
         document.querySelector('.popup-content')?.addEventListener('scroll', this.updateScrollButtonsVisibility);
         window.addEventListener('resize', this.updateScrollButtonsVisibility);
 
@@ -413,7 +408,6 @@ const magicStore = {
             let itemsIndex = getWeightedRandomIndex(this.categoryRarityScores[randomCategoryIndex]); //pick item in category
 
             let magicItem = structuredClone(this.categoryItems[randomCategoryIndex][itemsIndex]); //makes a copy (doesn't reference)
-            // magicItem.variantName = this.riv.getItemVariant(magicItem).name;
             magicItem = this.riv.getItemVariant(magicItem);
 
             let inventoryIndex = pendingInventory.findIndex(item => item.name === magicItem.name);
@@ -868,7 +862,8 @@ const magicStore = {
      */
     calcRarityScore(item) {
 
-        let rareFactor1 = this.calculateMagicItemBasePrice(item);
+        // let rareFactor1 = this.calculateMagicItemBasePrice(item);
+        let rareFactor1 = item.price;
 
         if (item.rarity.toLowerCase() == "common"
             && !item.name.toLowerCase().startsWith("potion of healing")

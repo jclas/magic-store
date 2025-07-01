@@ -1,4 +1,4 @@
-// ToDo: getRandomCasterMetrics: fix the caster level results---way too high consistently--must be calcing it wrong
+// ToDo: get scroll variants with caster metrics
 //
 // The intention of this file is to house all code to determine a magic item's variations.
 // For example: Armor +1 could be Leather Armor +1 or Breastplate +1.
@@ -24,9 +24,11 @@ const randomItemVariants = {
         variantItem.variantName = variantItem.name; //default;
 
         const nameLower = item.name.toLowerCase();
+        if (nameLower.startsWith("scroll:")) {
+            variantItem = this.getSpellScrollVariant(variantItem);
+        }
 
         if (nameLower == "adamantine armor") {
-            console.log("adamantine armor");
             variantItem.variantName = "Adamantine " + this.getRandomMetalArmorType();
         }
 
@@ -352,54 +354,80 @@ const randomItemVariants = {
         updatedItem.price = this.getItemPrice(itemTypeVariant, updatedItem.rarity); //item price + rarity price
         updatedItem.proficiencyBonus = casterMetrics.profBonus;
         updatedItem.abilityMod = casterMetrics.abilityMod;
-        updatedItem.attackBonus = casterMetrics.abilityMod + updatedItem.proficiencyBonus;
-        updatedItem.dc = 8 + updatedItem.attackBonus;
+        updatedItem.attackBonus = casterMetrics.abilityMod + casterMetrics.profBonus;
+        updatedItem.dc = 8 + casterMetrics.abilityMod + casterMetrics.profBonus;
 
         return updatedItem;
     },
 
     /**
-     * ToDo: double check results. Might be wrong. Is level too high?
-     * 
-     * Produces a caster object with: caster level, ability mod, prof bonus, attack bonus, and dc.
+     * Assigns random caster metrics to the crafted scroll.
+     * @param {*} item 
+     * @returns 
+     */
+    getSpellScrollVariant(item) {
+
+        let updatedItem = structuredClone(item); //copy
+
+        const spell = magicStore.getSpell(item.name);
+        const casterMetrics = this.getRandomCasterMetrics(spell.level, false);
+
+        updatedItem.originalSpellLevel = spell.level;
+        updatedItem.spellLevel = spell.level;
+        updatedItem.casterLevel = casterMetrics.level;
+        updatedItem.proficiencyBonus = casterMetrics.profBonus;
+        updatedItem.abilityMod = casterMetrics.abilityMod;
+        updatedItem.attackBonus = casterMetrics.abilityMod + casterMetrics.profBonus;
+        updatedItem.dc = 8 + casterMetrics.abilityMod + casterMetrics.profBonus;
+
+        updatedItem.source = spell.source; //maybe should move this assignment to loading of scrolls?
+
+        return updatedItem;
+    },
+
+    /**
+     * Produces a caster object with: caster level, ability mod, prof bonus, attack bonus, dc.
      * The caster level is at least the min level needed to cast the given spellLevel.
      * A level is randomly chosen basen on a geometric progression of odds.
      * Each level's odds proportion is based on: spreadCoefficient^(20-Level)
      * @param {number} spellLevel 
+     * @param {number} useLowestCasterLevel (Default true) True ensures the minimum caster level is used.
      * @returns casterMetrics object
      */
-    getRandomCasterMetrics(spellLevel) {
+    getRandomCasterMetrics(spellLevel, useLowestCasterLevel = true) {
 
         const maxCasterLevel = 20;
         const minCasterLevel = parseInt(spellLevel * 2 - .5) || 1;
-        let casterLevel = 0;
+        let casterLevel = minCasterLevel; //default caster level
 
-        let cumLevelProportions = 0;
-        let sumLevelProportions = 0;
+        //****************************************************************
+        //***  Get random caster (based on odds) for given spellLevel  ***
+        //****************************************************************
+        if (useLowestCasterLevel == false) {
+            //spreadCoefficient affects the rate of geometic progression per character level.
+            //1 is equal proportions at each level, 2 is half the odds of being each level higher
+            const spreadCoefficient = 1.5;
 
-        //*********************
-        //***  Setup Odds  ****
-        //*********************
+            //set the odds
+            let cumLevelProportions = 0;
+            let sumLevelProportions = 0;
+            let levelProportions = [];
 
-        //Calculate a random caster level based on odds
-        const spreadCoefficient = 1.5;  //this determines the odds of being each character level. 1 is equal proportions at each level, 2 is half the odds of being each level higher
+            for(let i = 0; i < maxCasterLevel - minCasterLevel; i++ ) {
+                const levelProportion = spreadCoefficient**(maxCasterLevel - (i + 1));
+                levelProportions.push(levelProportion);
+                sumLevelProportions += levelProportion;
+            }
 
-        //set the odds
-        let levelProportions = [];
-        for(let i = 0; i < maxCasterLevel - minCasterLevel; i++ ) {
-            const levelProportion = spreadCoefficient**(maxCasterLevel - (i + 1));
-            levelProportions.push(levelProportion);
-            sumLevelProportions += levelProportion;
-        }
-
-        //pick caster level based on the odds
-        let rnd = Math.random();
-        for(let i = 0; i < maxCasterLevel - minCasterLevel; i++ ) {
-            cumLevelProportions += levelProportions[i];
-            const cumLevelOdds = cumLevelProportions / sumLevelProportions
-            if (rnd <= cumLevelOdds) {
-                casterLevel = minCasterLevel + i;
-                break;
+            //pick caster level based on the odds
+            let rnd = Math.random();
+            for(let i = 0; i < maxCasterLevel - minCasterLevel; i++ ) {
+                cumLevelProportions += levelProportions[i];
+                const cumLevelOdds = cumLevelProportions / sumLevelProportions
+                if (rnd <= cumLevelOdds) {
+                    casterLevel = minCasterLevel + i;
+                    break;
+                }
             }
         }
 
@@ -429,18 +457,18 @@ const randomItemVariants = {
     /**
      * NOT IMPLEMENTED YET - waiting for getEnspelledItemVariant() to be implemented
      * 
-     * Adds together the price to make the non-magical version with the rarity price.
+     * Adds the price to make the non-magical version to the rarity price.
      * itemTypeVariants include: armor, weapons, arcane focuses.
-     * @param {string} itemTypeVariant Examples: glaive, long sword, plate armor, staff
+     * @param {string} itemTypeVariant Examples: glaive, shortbow, plate armor, orb
      * @param {string} rarity common, uncommon, rare, very rare
-     * @param {number} ignorePriceTheshold ignores prices less than or equal to this amount. Default is 10.
+     * @param {number} ignorePriceTheshold ignores the non-magical price less than or equal to this amount. Default is 10.
      * @returns 
      */
     getItemPrice(itemTypeVariant, rarity, ignorePriceTheshold = 10) {
 
-        let itemPrices = {...armorPrices, ...weaponPrices, ...arcaneFocusPrices};
+        let itemPrices = {...armorPrices, ...weaponPrices, ...arcaneFocusPrices}; //non-magical prices
 
-        let price = itemPrices[itemTypeVariant.toLowerCase()];
+        let price = itemPrices[itemTypeVariant.toLowerCase()] || 0;
         if (price <= ignorePriceTheshold) price = 0;
 
         price +=  basePrices[rarity.toLowerCase()];
