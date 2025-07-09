@@ -2809,7 +2809,7 @@
   },
   {
     "name": "Potion of Levitation",
-    "description": "A potion that reduces the drinker's age.",
+    "description": "Levitate 1 hr (Homebrew).",
     "rarity": "rare",
     "likability": 0.4,
     "magicType": "minor",

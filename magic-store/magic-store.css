@@ -16,6 +16,11 @@ h1 {
     color: #343a40;
 }
 
+.demo-instructions {
+    color: #bbb;
+    font-size: large;
+}
+
 button {
     background-color: #007bff;
     color: white;

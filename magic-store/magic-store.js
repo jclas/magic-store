@@ -46,7 +46,6 @@ const magicStore = {
     riv: randomItemVariants,
 
     async initialize() {
-        // riv = randomItemVariants;
 
         this.setupEventListeners();
         spells = await this.loadSpellsFile();
@@ -60,8 +59,8 @@ const magicStore = {
             || (allowedRaritiesNonConsumables.includes(item.rarity.toLowerCase()) && !isConsumable(item))
 
         ));
-        this. magicItems.forEach(item => {
-            item.price = this.calculateMagicItemBasePrice(item);
+        this.magicItems.forEach(item => {
+            item.price = this.calculateMagicItemBasePrice(item); //tentative price before possible variant price applied.
             item.rarityScore = this.calcRarityScore(item);
             // console.log(item.name, item.price, item.rarityScore);
         });
@@ -70,7 +69,6 @@ const magicStore = {
         this.scrolls = allScrolls.filter(item =>
             item.rarity && allowedRaritiesConsumables.includes(item.rarity.toLowerCase())
         );
-
         this.scrolls.forEach(item => {
             item.price = this.calcSpecificScrollPrice(item);
             item.rarityScore = this.calcRarityScore(item);
@@ -263,7 +261,7 @@ const magicStore = {
                     </tr>
                 ` : this.inventory.map(item => `
                     <tr>
-                        <td title="${item.name}">${item.name}</td>
+                        <td title="${this.getItemTooltip(item)}">${item.variantName || item.name}</td>
                         <td class="text-end">${item.price}</td>
                         <td>${item.rarity}</td>
                         <td class="text-end">${item.rarityScore.toFixed(6)}</td>
@@ -410,7 +408,9 @@ const magicStore = {
             let magicItem = structuredClone(this.categoryItems[randomCategoryIndex][itemsIndex]); //makes a copy (doesn't reference)
             magicItem = this.riv.getItemVariant(magicItem);
 
-            let inventoryIndex = pendingInventory.findIndex(item => item.name === magicItem.name);
+            // let inventoryIndex = pendingInventory.findIndex(item => item.name === magicItem.name);
+            // let inventoryIndex = pendingInventory.findIndex(item => item.variantName === magicItem.variantName);
+            let inventoryIndex = pendingInventory.findIndex(item => item.variantName === magicItem.variantName && (!item.hasOwnProperty("casterLevel") || item.casterLevel == magicItem.casterLevel));
 
             if (inventoryIndex === -1) {
                 insertObjectAlphabetically(pendingInventory, {
@@ -938,7 +938,7 @@ const magicStore = {
 
     /**
      * Idk, I give up on tattoos. They are too crazy/broken.
-     * I'm just going to make them same as scrolls for now.
+     * I'm just going to charge twice as much as scrolls for now.
      * @param {*} tattoo 
      * @returns number
      */
