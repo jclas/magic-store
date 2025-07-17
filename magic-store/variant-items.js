@@ -1,16 +1,5 @@
-// ToDo: get scroll variants with caster metrics
-//
-// The intention of this file is to house all code to determine a magic item's variations.
-// For example: Armor +1 could be Leather Armor +1 or Breastplate +1.
-//
-// ToDo: Need to pass the item object, not just the name, so we can assign new possible metrics:
-//      - price (variant cost)
-//      - spell level (if upcasted)
-//      - caster level: which determines a probable attack bonus or DC
-//      - Change rarityScore based on number of variants.
-//      - consider having a hasVariants property
-//      
-//
+//ToDo: finish variants for all magic items
+//ToDo: Refactor getItemVariant. If name is blank/null then pick a random item based on category and rarity (level for scrolls).
 
 const randomItemVariants = {
 
@@ -350,7 +339,7 @@ const randomItemVariants = {
         updatedItem.spellName = filteredSpells[idx].name;
         updatedItem.originalSpellLevel = filteredSpells[idx].level;
         updatedItem.spellLevel = spellLevel;
-        updatedItem.casterLevel = casterMetrics.level;
+        // updatedItem.casterLevel = casterMetrics.level;
         updatedItem.price = this.getItemPrice(itemTypeVariant, updatedItem.rarity); //item price + rarity price
         updatedItem.proficiencyBonus = casterMetrics.profBonus;
         updatedItem.abilityMod = casterMetrics.abilityMod;

@@ -1,8 +1,9 @@
-// ToDo: Save items using Variant Name, not generic name
+// ToDo: change random magic item picking to randomly pick category and rarity, 
+//          then send it through the variant "blender". That way we can potential pick items with lower level spells
+//          that have been upgraded to the appropriate rarity (affects scrolls, enspelled items).
 // ToDo: finish adding items to getItemVariant(name)
 // ToDo: Statistics to approx supplied amounts that users can adjust. Town pop and magic presence (high/med/low)
 // ToDo: Update README.md
-// ToDo: derived scroll properties:  scrollLevel, attackBonus, dc. Start with standard values (with small random chance for upgrades)
 // ToDo: Finish adding the rest of TCE magic items.
 
 const sourceAbbreviationKey = {
@@ -89,21 +90,15 @@ const magicStore = {
                 return tattoo;
             });
 
-        // Combine all items into one array after loading
-        this.allItems = [
-            ...this.magicItems,
-            ...this.scrolls,
-            ...this.tattoos
-        ];
-        console.log('allItems.length: ' + this.allItems.length);
+        console.log('acceptable rarities magicItems.length: ' + this.magicItems.length);
 
         this.categoryItems.push(this.scrolls);
-        this.categoryItems.push(this.allItems.filter(item => item.category == 'potion'));
-        this.categoryItems.push(this.allItems.filter(item => item.category == 'ring'));
-        this.categoryItems.push(this.allItems.filter(item => ['rod','staff','wand'].includes(item.category)));
-        this.categoryItems.push(this.allItems.filter(item => item.category == 'wondrous item'));
-        this.categoryItems.push(this.allItems.filter(item => item.category == 'armor'));
-        this.categoryItems.push(this.allItems.filter(item => item.category == 'weapon'));
+        this.categoryItems.push(this.magicItems.filter(item => item.category == 'potion'));
+        this.categoryItems.push(this.magicItems.filter(item => item.category == 'ring'));
+        this.categoryItems.push(this.magicItems.filter(item => ['rod','staff','wand'].includes(item.category)));
+        this.categoryItems.push(this.magicItems.filter(item => item.category == 'wondrous item'));
+        this.categoryItems.push(this.magicItems.filter(item => item.category == 'armor'));
+        this.categoryItems.push(this.magicItems.filter(item => item.category == 'weapon'));
         this.categoryItems.push(this.tattoos);
 
         // this.categoryItems.forEach(arr =>{ console.log(arr.length); });
@@ -236,10 +231,19 @@ const magicStore = {
         return results;
     },
 
-    updateInventoryDisplay: function () {
+    updateInventoryDisplay: function () {        
         let main = document.querySelector('main');
         let table = document.getElementById('inventoryTable');
+
+        document.getElementsByClassName("demo-instructions")[0].remove();
         if (table) table.remove();
+
+        // Sort inventory by variantName ascending before displaying
+        this.inventory.sort((a, b) => {
+            const aVariant = a.variantName || "";
+            const bVariant = b.variantName || "";
+            return aVariant.localeCompare(bVariant);
+        });
 
         table = document.createElement('table');
         table.id = 'inventoryTable';
@@ -261,7 +265,7 @@ const magicStore = {
                     </tr>
                 ` : this.inventory.map(item => `
                     <tr>
-                        <td title="${this.getItemTooltip(item)}">${item.variantName || item.name}</td>
+                        <td title="${this.getCasterStatsTooltip(item)}">${item.variantName || item.name}</td>
                         <td class="text-end">${item.price}</td>
                         <td>${item.rarity}</td>
                         <td class="text-end">${item.rarityScore.toFixed(6)}</td>
@@ -287,10 +291,23 @@ const magicStore = {
             let aNum = parseFloat(aText.replace(/[^0-9.\-]+/g,""));
             let bNum = parseFloat(bText.replace(/[^0-9.\-]+/g,""));
             if (!isNaN(aNum) && !isNaN(bNum)) {
+                if (aNum === bNum && colIndex !== 0) {
+                    // Secondary sort on column 0 (Item name)
+                    let aName = a.cells[0].textContent.trim();
+                    let bName = b.cells[0].textContent.trim();
+                    return isAsc ? aName.localeCompare(bName) : bName.localeCompare(aName);
+                }
                 return isAsc ? aNum - bNum : bNum - aNum;
+            }
+            if (aText === bText && colIndex !== 0) {
+                // Secondary sort on column 0 (Item name)
+                let aName = a.cells[0].textContent.trim();
+                let bName = b.cells[0].textContent.trim();
+                return isAsc ? aName.localeCompare(bName) : bName.localeCompare(aName);
             }
             return isAsc ? aText.localeCompare(bText) : bText.localeCompare(aText);
         });
+        
         rows.forEach(row => tbody.appendChild(row));
         table.setAttribute('data-sort-col', colIndex);
         table.setAttribute('data-sort-dir', isAsc ? 'desc' : 'asc');
@@ -405,16 +422,14 @@ const magicStore = {
             let randomCategoryIndex = getWeightedRandomIndex(categoryPercentages);  //pick category
             let itemsIndex = getWeightedRandomIndex(this.categoryRarityScores[randomCategoryIndex]); //pick item in category
 
-            let magicItem = structuredClone(this.categoryItems[randomCategoryIndex][itemsIndex]); //makes a copy (doesn't reference)
-            magicItem = this.riv.getItemVariant(magicItem);
+            let randomItem = structuredClone(this.categoryItems[randomCategoryIndex][itemsIndex]); //makes a copy (doesn't reference)
+            randomItem = this.riv.getItemVariant(randomItem);
 
-            // let inventoryIndex = pendingInventory.findIndex(item => item.name === magicItem.name);
-            // let inventoryIndex = pendingInventory.findIndex(item => item.variantName === magicItem.variantName);
-            let inventoryIndex = pendingInventory.findIndex(item => item.variantName === magicItem.variantName && (!item.hasOwnProperty("casterLevel") || item.casterLevel == magicItem.casterLevel));
+            let inventoryIndex = pendingInventory.findIndex(item => item.variantName === randomItem.variantName && (!item.hasOwnProperty("attackBonus") || item.attackBonus == randomItem.attackBonus));
 
             if (inventoryIndex === -1) {
                 insertObjectAlphabetically(pendingInventory, {
-                    ...magicItem,
+                    ...randomItem,
                     quantity: 1,
                 });
 
@@ -428,17 +443,17 @@ const magicStore = {
                 //action: 'Supplier delivered',
                 action: 'Supplied (+1)',
                 change: +1,
-                ...magicItem
+                ...randomItem
             });
         }
 
-        // Sort todaysUpdates by action, then by name
+        // Sort todaysUpdates by action, then by variantName
         todaysUpdates.sort((a, b) => {
             // Sort by action first
             if (a.action !== b.action) {
                 return a.action.localeCompare(b.action);
             }
-            return a.name.localeCompare(b.name);
+            return a.variantName.localeCompare(b.variantName);
         });
 
         return todaysUpdates;
@@ -472,7 +487,7 @@ const magicStore = {
                                         <!--td>${u.change > 0 ? '+' : ''}${u.change}</td-->
                                         <td>${u.category}</td>
                                         <!--td data-original-name="${u.name}" title="source: ${u.source}">${stripItemNamePrefix(u.variantName) || stripItemNamePrefix(u.name)}</td-->
-                                        <td data-original-name="${u.name}" title="${this.getItemTooltip(u)}">${u.variantName}</td>
+                                        <td data-original-name="${u.name}" title="${this.getCasterStatsTooltip(u)}">${u.variantName}</td>
                                         <td>${u.price}</td>
                                         <td>${u.rarity}</td>
                                         <td>${u.rarityScore}</td>
@@ -522,9 +537,9 @@ const magicStore = {
                 // Remove from pendingInventory if it's a supplier delivery
                 const update = row.querySelector('td').textContent === 'Supplier delivered';
                 if (update) {
-                    // Find and remove from pendingInventory by name
-                    const name = row.querySelectorAll('td')[2].textContent;
-                    const invIdx = pendingInventory.findIndex(item => item.name === name);
+                    // Find and remove from pendingInventory by variantName
+                    const variantName = row.querySelectorAll('td')[2].textContent;
+                    const invIdx = pendingInventory.findIndex(item => item.variantName === variantName);
                     if (invIdx !== -1) {
                         pendingInventory.splice(invIdx, 1);
                     }
@@ -548,7 +563,6 @@ const magicStore = {
                 // Get a new variant name using the item's name
                 do {
                     i++;
-                    console.log("i", i);
                     newVariant = that.riv.getItemVariant(lineItem);
                 } while(lineItem.variantName == newVariant.variantName && i < 100);
                 todaysUpdates[idx] = newVariant;
@@ -670,6 +684,7 @@ const magicStore = {
 
     },
 
+    //Today's Updates
     sortUpdatesTable(colIndex) {
         const table = document.getElementById('updatesTable');
         if (!table) return;
@@ -678,7 +693,7 @@ const magicStore = {
         const isAsc = table.getAttribute('data-sort-col') == colIndex && table.getAttribute('data-sort-dir') == 'asc';
 
         rows.sort((a, b) => {
-            // Helper to get cell text
+            // Helper function to get cell text
             const getCell = (row, idx) => row.cells[idx]?.textContent.trim() || "";
 
             // Sort by Category (col 1), secondary by Item (col 2)
@@ -688,7 +703,7 @@ const magicStore = {
                     : getCell(b, 1).localeCompare(getCell(a, 1));
                 if (cmp !== 0) return cmp;
 
-                // Secondary sort on Item (col 2)
+                // Secondary sort on Item (col 2) Name
                 return isAsc
                     ? getCell(a, 2).localeCompare(getCell(b, 2))
                     : getCell(b, 2).localeCompare(getCell(a, 2));
@@ -711,7 +726,7 @@ const magicStore = {
                     : getCell(b, 2).localeCompare(getCell(a, 2));
             }
 
-            // If sorting by Category (col 2), do secondary sort on Item (col 1)
+            // If sorting by Category (col 2) Name, do secondary sort on Item (col 1) Category
             if (colIndex === 2) {
                 let cmp = isAsc
                     ? getCell(a, 2).localeCompare(getCell(b, 2))
@@ -723,7 +738,7 @@ const magicStore = {
                     : getCell(b, 1).localeCompare(getCell(a, 1));
             }
 
-            // For Price, Rarity Score, etc., try numeric sort
+            // For Price, Rarity Score, use a numeric sort
             if (colIndex === 3 || colIndex === 5) {
                 let aNum = parseFloat(getCell(a, colIndex).replace(/[^0-9.\-]+/g,""));
                 let bNum = parseFloat(getCell(b, colIndex).replace(/[^0-9.\-]+/g,""));
@@ -753,6 +768,20 @@ const magicStore = {
 
     saveTodaysUpdates: function () {
         this.inventory = structuredClone(pendingInventory.filter(item => item.quantity > 0));
+
+        // Sort inventory first by name, then by variantName
+        this.inventory.sort((a, b) => {
+            const aName = a.name || "";
+            const bName = b.name || "";
+            const nameCmp = aName.localeCompare(bName);
+            if (nameCmp !== 0) return nameCmp;
+
+            // Secondary sort by variantName
+            const aVariant = a.variantName || "";
+            const bVariant = b.variantName || "";
+            return aVariant.localeCompare(bVariant);
+        });
+
         const fileName = "magic-store-inventory.json";
         const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(this.inventory, null, 2));
         const dlAnchor = document.createElement('a');
@@ -808,15 +837,14 @@ const magicStore = {
         }
     },
 
-    getItemTooltip(item) {
+    getCasterStatsTooltip(item) {
         let tooltip = "";
 
-        // if (item.category.toLowerCase() == "scroll") {
         if (item.hasOwnProperty("spellLevel")) {
             tooltip += "Orig item name: " + item.name + "\n";
             tooltip += "Orig Spell Level: " + item.originalSpellLevel + "\n";
             tooltip += "Spell Level: " + item.spellLevel + "\n";
-            tooltip += "Caster Level: " + item.casterLevel + "\n";
+            // tooltip += "Caster Level: " + item.casterLevel + "\n";
             tooltip += "Prof Bonus: " + item.proficiencyBonus + "\n";
             tooltip += "Ability Mod: " + item.abilityMod + "\n";
             tooltip += "Attack: " + item.attackBonus + "\n";

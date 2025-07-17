@@ -372,15 +372,15 @@ function isConsumable(item) {
     return isConsumable;
 }
 
-// Helper: checks if any name is in the list
-function hasListMatch(searchName, list) {
+// Helper: checks if any name is in the array
+function hasListMatch(searchName, array) {
     const normalizedSearchName = normalizeSpellName(searchName);
-    return list.some(n => normalizeSpellName(n) === normalizedSearchName);  //exact match of one in the list
+    return array.some(n => normalizeSpellName(n) == normalizedSearchName);  //exact match of one in the list
 }
 
-// Helper: checks if any keyword/phrase in arr is found in str (case-insensitive)
-function hasWildcardListMatch(str, arr) {
+// Helper: checks if any keyword/phrase in array is found in str (case-insensitive)
+function hasWildcardListMatch(str, array) {
     if (!str) return false;
     const lowerStr = str.toLowerCase();
-    return arr.some(keyword => lowerStr.includes(keyword.toLowerCase()));
+    return array.some(keyword => lowerStr.includes(keyword.toLowerCase()));
 }
