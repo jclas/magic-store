@@ -241,6 +241,36 @@ button:hover {
     display: none;
 }
 
+/* Inventory scroll buttons */
+.inventory-container {
+    position: relative;
+}
+
+.scroll-buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 8px;
+    height: fit-content;
+    position: sticky;
+    top: 20px;
+}
+
+.inventory-spacer {
+    height: 20px;
+}
+
+/* show the inventory scroll button(s) */
+#scrollDownInventoryTable.overflow-y, #scrollUpInventoryTable.overflow-y {
+    display: block;
+}
+
+/* hide the inventory scroll button(s) */
+#scrollDownInventoryTable:not(.overflow-y), #scrollUpInventoryTable:not(.overflow-y) {
+    display: none;
+}
+
 /* Inline style replacements */
 #inventoryFileInput {
     display: none;

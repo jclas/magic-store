@@ -183,6 +183,10 @@ const magicStore = {
 
         document.querySelector('.popup-content')?.addEventListener('scroll', this.updateScrollButtonsVisibility);
         window.addEventListener('resize', this.updateScrollButtonsVisibility);
+        
+        // Add scroll and resize listeners for inventory scroll buttons
+        window.addEventListener('scroll', () => this.updateInventoryScrollButtonsVisibility());
+        window.addEventListener('resize', () => this.updateInventoryScrollButtonsVisibility());
 
     },
 
@@ -378,7 +382,31 @@ const magicStore = {
             </tr>
             </tfoot>
         `;
-        main.appendChild(table);
+        
+        // Create container for table and scroll buttons
+        const tableContainer = document.createElement('div');
+        tableContainer.className = 'inventory-container d-flex';
+        
+        // Create scroll buttons container
+        const scrollButtonsContainer = document.createElement('div');
+        scrollButtonsContainer.id = 'inventoryScrollButtons';
+        scrollButtonsContainer.className = 'scroll-buttons-container ms-2';
+        scrollButtonsContainer.innerHTML = `
+            <button id="scrollDownInventoryTable" class="btn btn-primary btn-sm mb-2" title="Scroll to bottom">
+                <span class="arrow">&#8595;</span>
+            </button>
+            <div class="inventory-spacer"></div>
+            <button id="scrollUpInventoryTable" class="btn btn-primary btn-sm" title="Scroll to top">
+                <span class="arrow">&#8593;</span>
+            </button>
+        `;
+        
+        tableContainer.appendChild(table);
+        tableContainer.appendChild(scrollButtonsContainer);
+        main.appendChild(tableContainer);
+        
+        // Add scroll button event listeners
+        this.setupInventoryScrollButtons();
 
         // Auto-save to localStorage whenever inventory is updated
         if (this.inventory.length > 0) {
@@ -795,6 +823,66 @@ const magicStore = {
             scrollUpBtn.classList.remove('overflow-y');
         }
 
+    },
+
+    setupInventoryScrollButtons() {
+        setTimeout(() => {
+            const scrollDownBtn = document.getElementById('scrollDownInventoryTable');
+            const scrollUpBtn = document.getElementById('scrollUpInventoryTable');
+            
+            // Find the scrollable container (window in this case for main page)
+            if (scrollDownBtn) {
+                scrollDownBtn.onclick = () => {
+                    // Scroll to the bottom of the page
+                    window.scrollTo({ 
+                        top: document.body.scrollHeight, 
+                        behavior: 'smooth' 
+                    });
+                };
+            }
+            if (scrollUpBtn) {
+                scrollUpBtn.onclick = () => {
+                    // Scroll to the top of the inventory table
+                    const inventoryTable = document.getElementById('inventoryTable');
+                    if (inventoryTable) {
+                        inventoryTable.scrollIntoView({ 
+                            behavior: 'smooth', 
+                            block: 'start' 
+                        });
+                    }
+                };
+            }
+            
+            // Update visibility based on table height
+            this.updateInventoryScrollButtonsVisibility();
+        }, 0);
+    },
+
+    updateInventoryScrollButtonsVisibility() {
+        const table = document.getElementById('inventoryTable');
+        const scrollDownBtn = document.getElementById('scrollDownInventoryTable');
+        const scrollUpBtn = document.getElementById('scrollUpInventoryTable');
+        
+        if (!table || !scrollDownBtn || !scrollUpBtn) return;
+
+        // Check if the table is tall enough to need scrolling
+        const tableHeight = table.offsetHeight;
+        const windowHeight = window.innerHeight;
+        const tableRect = table.getBoundingClientRect();
+        
+        // Show scroll down button if table extends below viewport
+        if (tableRect.bottom > windowHeight) {
+            scrollDownBtn.classList.add('overflow-y');
+        } else {
+            scrollDownBtn.classList.remove('overflow-y');
+        }
+        
+        // Show scroll up button if table top is above viewport
+        if (tableRect.top < 0) {
+            scrollUpBtn.classList.add('overflow-y');
+        } else {
+            scrollUpBtn.classList.remove('overflow-y');
+        }
     },
 
     //Today's Updates
