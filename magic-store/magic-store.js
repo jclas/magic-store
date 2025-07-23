@@ -320,10 +320,10 @@ const magicStore = {
 
     updateInventoryDisplay: function () {        
         let main = document.querySelector('main');
-        let table = document.getElementById('inventoryTable');
+        let existingContainer = document.querySelector('.inventory-container');
         let noInventoryMessage = document.getElementById('noInventoryMessage');
 
-        if (table) table.remove();
+        if (existingContainer) existingContainer.remove();
 
         // Show/hide no inventory message
         if (this.inventory.length === 0) {
@@ -384,26 +384,30 @@ const magicStore = {
         `;
         
         // Create container for table and scroll buttons
-        const tableContainer = document.createElement('div');
-        tableContainer.className = 'inventory-container d-flex';
+        const inventoryContainer = document.createElement('div');
+        inventoryContainer.className = 'inventory-container';
+        
+        // Create table wrapper
+        const tableWrapper = document.createElement('div');
+        tableWrapper.className = 'inventory-table-wrapper';
+        tableWrapper.appendChild(table);
         
         // Create scroll buttons container
         const scrollButtonsContainer = document.createElement('div');
         scrollButtonsContainer.id = 'inventoryScrollButtons';
-        scrollButtonsContainer.className = 'scroll-buttons-container ms-2';
+        scrollButtonsContainer.className = 'scroll-buttons-container';
         scrollButtonsContainer.innerHTML = `
-            <button id="scrollDownInventoryTable" class="btn btn-primary btn-sm mb-2" title="Scroll to bottom">
-                <span class="arrow">&#8595;</span>
-            </button>
-            <div class="inventory-spacer"></div>
             <button id="scrollUpInventoryTable" class="btn btn-primary btn-sm" title="Scroll to top">
                 <span class="arrow">&#8593;</span>
             </button>
+            <button id="scrollDownInventoryTable" class="btn btn-primary btn-sm" title="Scroll to bottom">
+                <span class="arrow">&#8595;</span>
+            </button>
         `;
         
-        tableContainer.appendChild(table);
-        tableContainer.appendChild(scrollButtonsContainer);
-        main.appendChild(tableContainer);
+        inventoryContainer.appendChild(tableWrapper);
+        inventoryContainer.appendChild(scrollButtonsContainer);
+        main.appendChild(inventoryContainer);
         
         // Add scroll button event listeners
         this.setupInventoryScrollButtons();
@@ -425,9 +429,33 @@ const magicStore = {
         // Toggle sort direction
         const isAsc = table.getAttribute('data-sort-col') == colIndex && table.getAttribute('data-sort-dir') == 'asc';
 
+        // Define rarity hierarchy for proper sorting
+        const rarityOrder = {
+            'common': 1,
+            'uncommon': 2,
+            'rare': 3,
+            'very rare': 4,
+            'legendary': 5
+        };
+
         rows.sort((a, b) => {
             let aText = a.cells[colIndex].textContent.trim();
             let bText = b.cells[colIndex].textContent.trim();
+            
+            // Special handling for rarity column (column 2)
+            if (colIndex === 2) {
+                const aRarityValue = rarityOrder[aText.toLowerCase()] || 999;
+                const bRarityValue = rarityOrder[bText.toLowerCase()] || 999;
+                
+                if (aRarityValue === bRarityValue) {
+                    // Secondary sort on column 0 (Item name)
+                    let aName = a.cells[0].textContent.trim();
+                    let bName = b.cells[0].textContent.trim();
+                    return isAsc ? aName.localeCompare(bName) : bName.localeCompare(aName);
+                }
+                return isAsc ? aRarityValue - bRarityValue : bRarityValue - aRarityValue;
+            }
+            
             // Try to compare as numbers if possible
             let aNum = parseFloat(aText.replace(/[^0-9.\-]+/g,""));
             let bNum = parseFloat(bText.replace(/[^0-9.\-]+/g,""));
