@@ -676,11 +676,10 @@ const magicStore = {
                 </div>
                 <!-- Button column -->
                 <div id="popupScrollButtons">
-                    <button id="scrollDownUpdatesTable" class="btn btn-primary btn-sm" title="Scroll to bottom">
+                    <button id="scrollDownUpdatesTable" title="Scroll to bottom">
                         <span class="arrow">&#8595;</span>
                     </button>
-                    <div class="updates-spacer"></div>
-                    <button id="scrollUpUpdatesTable" class="btn btn-primary btn-sm mb-3" title="Scroll to top">
+                    <button id="scrollUpUpdatesTable" title="Scroll to top">
                         <span class="arrow">&#8593;</span>
                     </button>
                 </div>
@@ -814,43 +813,48 @@ const magicStore = {
             }
             if (scrollDownBtn && popup) {
                 scrollDownBtn.onclick = () => {
-                    popup.scrollTop = popup.scrollHeight;
+                    popup.scrollTo({ 
+                        top: popup.scrollHeight, 
+                        behavior: 'smooth' 
+                    });
                 };
             }
             if (scrollUpBtn && popup) {
                 scrollUpBtn.onclick = () => {
-                    popup.scrollTop = 0;
+                    popup.scrollTo({ 
+                        top: 0, 
+                        behavior: 'smooth' 
+                    });
                 };
             }
         }, 0);
     },
 
     updateScrollButtonsVisibility() {
-
         const popup = document.querySelector('.popup-content');
         const table = document.getElementById('updatesTable');
         const scrollDownBtn = document.getElementById('scrollDownUpdatesTable');
         const scrollUpBtn = document.getElementById('scrollUpUpdatesTable');
+        
         if (!popup || !table || !scrollDownBtn || !scrollUpBtn) return;
 
         // Get bounding rectangles
         const popupRect = popup.getBoundingClientRect();
         const tableRect = table.getBoundingClientRect();
 
-        // If the bottom of the table is below the visible popup area, show scrollDownBtn
+        // Show scroll down button if table extends below viewport (like inventory buttons)
         if (tableRect.bottom > popupRect.bottom) {
             scrollDownBtn.classList.add('overflow-y');
         } else {
             scrollDownBtn.classList.remove('overflow-y');
         }
 
-        // If the top of the table is above the visible popup area, show scrollUpBtn
+        // Show scroll up button if table top is above viewport (like inventory buttons)
         if (tableRect.top < popupRect.top) {
             scrollUpBtn.classList.add('overflow-y');
         } else {
             scrollUpBtn.classList.remove('overflow-y');
         }
-
     },
 
     setupInventoryScrollButtons() {
