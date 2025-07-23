@@ -118,21 +118,35 @@ const magicStore = {
             label.title += `${this.categoryItems[index].length}`;
         });
 
+        // Auto-load existing inventory from localStorage
+        this.inventory = this.loadInventoryFromStorage();
+        
+        // Update display at the end
+        this.updateInventoryDisplay();
+
     },
 
     setupEventListeners() {
-        // document.getElementById('inventoryFileInput').addEventListener('change', async function (event) {
+        // Keep original file input for backwards compatibility
         document.getElementById('inventoryFileInput').addEventListener('change', async (event) => {
             const label = document.getElementById('inventoryFileLabel');
             if (event.currentTarget.files.length > 0) {
                 label.textContent = event.currentTarget.files[0].name;
             } else {
-                //label.textContent = "Load Inventory File 🪄";
                 return;
             }
 
             this.inventory = await magicStore.loadInventoryFile(event);
             magicStore.updateInventoryDisplay();
+        });
+
+        // Add localStorage save/load functionality
+        document.getElementById('btnExportInventory')?.addEventListener('click', () => {
+            this.exportInventoryAsJSON();
+        });
+
+        document.getElementById('btnImportInventory')?.addEventListener('click', () => {
+            this.importInventoryFromJSON();
         });
 
         document.getElementById('btnTodaysUpdates').addEventListener('click', () => magicStore.showUpdatesPopup()); 
@@ -231,12 +245,95 @@ const magicStore = {
         return results;
     },
 
+    loadInventoryFromStorage: function() {
+        try {
+            const stored = localStorage.getItem('magicStoreInventory');
+            return stored ? JSON.parse(stored) : [];
+        } catch (error) {
+            console.error('Failed to load inventory from localStorage:', error);
+            return [];
+        }
+    },
+
+    saveInventoryToStorage: function() {
+        try {
+            this.inventory = structuredClone(pendingInventory.filter(item => item.quantity > 0));
+            
+            // Sort inventory first by name, then by variantName
+            this.inventory.sort((a, b) => {
+                const aName = a.name || "";
+                const bName = b.name || "";
+                const nameCmp = aName.localeCompare(bName);
+                if (nameCmp !== 0) return nameCmp;
+
+                const aVariant = a.variantName || "";
+                const bVariant = b.variantName || "";
+                return aVariant.localeCompare(bVariant);
+            });
+
+            localStorage.setItem('magicStoreInventory', JSON.stringify(this.inventory, null, 2));
+            this.updateInventoryDisplay();
+            return true;
+        } catch (error) {
+            console.error('Failed to save inventory to localStorage:', error);
+            return false;
+        }
+    },
+
+    exportInventoryAsJSON: function() {
+        const fileName = "magic-store-inventory.json";
+        const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(this.inventory, null, 2));
+        const dlAnchor = document.createElement('a');
+        dlAnchor.setAttribute("href", dataStr);
+        dlAnchor.setAttribute("download", fileName);
+        document.body.appendChild(dlAnchor);
+        dlAnchor.click();
+        dlAnchor.remove();
+    },
+
+    importInventoryFromJSON: function() {
+        const input = document.createElement('input');
+        input.type = 'file';
+        input.accept = '.json';
+        input.onchange = async (event) => {
+            const file = event.target.files[0];
+            if (file) {
+                try {
+                    const text = await file.text();
+                    const imported = JSON.parse(text);
+                    this.inventory = imported;
+                    this.saveInventoryToStorage(); // Auto-save to localStorage
+                    this.updateInventoryDisplay();
+                    alert('Inventory imported successfully!');
+                } catch (error) {
+                    alert('Invalid JSON file.');
+                }
+            }
+        };
+        input.click();
+    },
+
     updateInventoryDisplay: function () {        
         let main = document.querySelector('main');
         let table = document.getElementById('inventoryTable');
+        let noInventoryMessage = document.getElementById('noInventoryMessage');
 
-        document.getElementsByClassName("demo-instructions")[0].remove();
         if (table) table.remove();
+
+        // Show/hide no inventory message
+        if (this.inventory.length === 0) {
+            if (noInventoryMessage) {
+                noInventoryMessage.style.display = 'block';
+            }
+            return; // Don't create table if no inventory
+        } else {
+            if (noInventoryMessage) {
+                noInventoryMessage.style.display = 'none';
+            }
+            // Only remove demo instructions when we have inventory to show
+            const demoInstructions = document.getElementsByClassName("demo-instructions")[0];
+            if (demoInstructions) demoInstructions.remove();
+        }
 
         // Sort inventory by variantName ascending before displaying
         this.inventory.sort((a, b) => {
@@ -248,6 +345,10 @@ const magicStore = {
         table = document.createElement('table');
         table.id = 'inventoryTable';
         table.className = 'table table-striped mt-3';
+        
+        // Calculate total quantity
+        const totalQuantity = this.inventory.reduce((sum, item) => sum + item.quantity, 0);
+        
         table.innerHTML = `
             <thead>
             <tr>
@@ -259,11 +360,7 @@ const magicStore = {
             </tr>
             </thead>
             <tbody>
-                ${this.inventory.length === 0 ? `
-                    <tr>
-                        <td colspan="5" class="text-center">No inventory loaded.</td>
-                    </tr>
-                ` : this.inventory.map(item => `
+                ${this.inventory.map(item => `
                     <tr>
                         <td title="${this.getCasterStatsTooltip(item)}">${item.variantName || item.name}</td>
                         <td class="text-end">${item.price}</td>
@@ -273,8 +370,23 @@ const magicStore = {
                     </tr>
                 `).join('')}
             </tbody>
+            <tfoot>
+            <tr class="table-secondary">
+                <td colspan="4" class="text-end fw-bold">Total Items:</td>
+                <td class="text-end fw-bold">${totalQuantity}</td>
+            </tr>
+            </tfoot>
         `;
         main.appendChild(table);
+
+        // Auto-save to localStorage whenever inventory is updated
+        if (this.inventory.length > 0) {
+            try {
+                localStorage.setItem('magicStoreInventory', JSON.stringify(this.inventory, null, 2));
+            } catch (error) {
+                console.error('Auto-save failed:', error);
+            }
+        }
     },
 
     sortInventoryTable: function(colIndex) {
@@ -782,19 +894,13 @@ const magicStore = {
             return aVariant.localeCompare(bVariant);
         });
 
-        const fileName = "magic-store-inventory.json";
-        const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(this.inventory, null, 2));
-        const dlAnchor = document.createElement('a');
-        dlAnchor.setAttribute("href", dataStr);
-        dlAnchor.setAttribute("download", fileName);
-        document.body.appendChild(dlAnchor);
-        dlAnchor.click();
-        dlAnchor.remove();
-
-        document.getElementById('updatePopup').style.display = 'none';
-
-        document.getElementById('inventoryFileLabel').textContent = "Load Inventory File 🪄";
-        this.updateInventoryDisplay();
+        // Save to localStorage instead of downloading file
+        if (this.saveInventoryToStorage()) {
+            document.getElementById('updatePopup').style.display = 'none';
+            alert('Today\'s updates saved successfully!');
+        } else {
+            alert('Failed to save updates.');
+        }
     },
 
     /**
