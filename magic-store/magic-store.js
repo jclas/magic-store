@@ -1,6 +1,7 @@
 // ToDo: change random magic item picking to randomly pick category and rarity, 
 //          then send it through the variant "blender". That way we can potential pick items with lower level spells
 //          that have been upgraded to the appropriate rarity (affects scrolls, enspelled items).
+// ToDo: Let user decide rarity max.
 // ToDo: finish adding items to getItemVariant(name)
 // ToDo: Statistics to approx supplied amounts that users can adjust. Town pop and magic presence (high/med/low)
 // ToDo: Update README.md
@@ -352,11 +353,11 @@ const magicStore = {
         table.innerHTML = `
             <thead>
             <tr>
-                <th style="cursor:pointer;" onclick="magicStore.sortInventoryTable(0)">Item</th>
-                <th class="text-end" style="width:100px; cursor:pointer" onclick="magicStore.sortInventoryTable(1)">Price (gp)</th>
-                <th style="width:110px; cursor:pointer" onclick="magicStore.sortInventoryTable(2)">Rarity</th>
-                <th class="text-end" style="width:130px; cursor:pointer" onclick="magicStore.sortInventoryTable(3)">Rarity Score</th>
-                <th class="text-end" style="width:100px; cursor:pointer" onclick="magicStore.sortInventoryTable(4)">Quantity</th>
+                <th onclick="magicStore.sortInventoryTable(0)">Item</th>
+                <th class="text-end" onclick="magicStore.sortInventoryTable(1)">Price (gp)</th>
+                <th onclick="magicStore.sortInventoryTable(2)">Rarity</th>
+                <th class="text-end" onclick="magicStore.sortInventoryTable(3)">Rarity Score</th>
+                <th class="text-end" onclick="magicStore.sortInventoryTable(4)">Quantity</th>
             </tr>
             </thead>
             <tbody>
@@ -576,19 +577,19 @@ const magicStore = {
 
         document.getElementById('todaysUpdatesTable').innerHTML =
             `
-            <div style="display: flex; flex-direction: row;">
+            <div class="updates-container">
                 <!-- Table column -->
-                <div style="flex: 1; display: flex; flex-direction: column;">
+                <div class="updates-table-column">
                     <div id="updatesTableContainer">
                         <table id='updatesTable' class="table table-bordered">
                             <thead>
                                 <tr>
-                                <th style="cursor:pointer" onclick="magicStore.sortUpdatesTable(0)">Action</th>
-                                <th style="cursor:pointer" onclick="magicStore.sortUpdatesTable(1)">Category</th>
-                                <th style="cursor:pointer" onclick="magicStore.sortUpdatesTable(2)">Item</th>
-                                <th style="cursor:pointer" onclick="magicStore.sortUpdatesTable(3)">Price</th>
-                                <th style="cursor:pointer" onclick="magicStore.sortUpdatesTable(4)">Rarity</th>
-                                <th style="cursor:pointer" onclick="magicStore.sortUpdatesTable(5)">Rarity Score</th>
+                                <th onclick="magicStore.sortUpdatesTable(0)">Action</th>
+                                <th onclick="magicStore.sortUpdatesTable(1)">Category</th>
+                                <th onclick="magicStore.sortUpdatesTable(2)">Item</th>
+                                <th onclick="magicStore.sortUpdatesTable(3)">Price</th>
+                                <th onclick="magicStore.sortUpdatesTable(4)">Rarity</th>
+                                <th onclick="magicStore.sortUpdatesTable(5)">Rarity Score</th>
                                 <th></th>
                                 </tr>
                             </thead>
@@ -618,13 +619,13 @@ const magicStore = {
                     </div>
                 </div>
                 <!-- Button column -->
-                <div id="popupScrollButtons" style="display: flex; flex-direction: column; justify-content: space-between; align-items: flex-end; margin-left: 8px;">
-                    <button id="scrollDownUpdatesTable" class="btn btn-primary btn-sm" title="Scroll to bottom" style="margin-bottom: 8px;">
-                        <span style="font-size: 1.2em;">&#8595;</span>
+                <div id="popupScrollButtons">
+                    <button id="scrollDownUpdatesTable" class="btn btn-primary btn-sm" title="Scroll to bottom">
+                        <span class="arrow">&#8595;</span>
                     </button>
-                    <div style="flex:1"></div>
-                    <button id="scrollUpUpdatesTable" class="btn btn-primary btn-sm mb-3" title="Scroll to top" style="margin-top: 8px;">
-                        <span style="font-size: 1.2em;">&#8593;</span>
+                    <div class="updates-spacer"></div>
+                    <button id="scrollUpUpdatesTable" class="btn btn-primary btn-sm mb-3" title="Scroll to top">
+                        <span class="arrow">&#8593;</span>
                     </button>
                 </div>
             </div>
