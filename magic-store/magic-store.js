@@ -798,19 +798,9 @@ const magicStore = {
         setTimeout(() => {
             const scrollDownBtn = document.getElementById('scrollDownUpdatesTable');
             const scrollUpBtn = document.getElementById('scrollUpUpdatesTable');
-            // Find the popup container that actually scrolls
-            let popup = document.getElementById('updatePopup');
-            // If updatePopup doesn't scroll, try its first child with overflow
-            if (popup) {
-                // If the popup itself doesn't scroll, try to find a scrollable child
-                if (popup.scrollHeight <= popup.clientHeight) {
-                    // Try to find a scrollable child
-                    const scrollable = Array.from(popup.querySelectorAll('*')).find(
-                        el => el.scrollHeight > el.clientHeight
-                    );
-                    if (scrollable) popup = scrollable;
-                }
-            }
+            // Always target the popup-content element which is the actual scrollable container
+            const popup = document.querySelector('.popup-content');
+            
             if (scrollDownBtn && popup) {
                 scrollDownBtn.onclick = () => {
                     popup.scrollTo({ 
