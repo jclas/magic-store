@@ -321,24 +321,24 @@ const magicStore = {
     updateInventoryDisplay: function () {        
         let main = document.querySelector('main');
         let existingContainer = document.querySelector('.inventory-container');
-        let noInventoryMessage = document.getElementById('noInventoryMessage');
+        let zeroInventoryMessage = document.getElementById('zeroInventoryMessage');
 
         if (existingContainer) existingContainer.remove();
 
         // Show/hide no inventory message
         if (this.inventory.length === 0) {
-            if (noInventoryMessage) {
-                noInventoryMessage.style.display = 'block';
+            if (zeroInventoryMessage) {
+                zeroInventoryMessage.style.display = 'block';
             }
             return; // Don't create table if no inventory
-        } else {
-            if (noInventoryMessage) {
-                noInventoryMessage.style.display = 'none';
-            }
-            // Only remove demo instructions when we have inventory to show
-            const demoInstructions = document.getElementsByClassName("demo-instructions")[0];
-            if (demoInstructions) demoInstructions.remove();
         }
+
+        if (zeroInventoryMessage) {
+            zeroInventoryMessage.style.display = 'none';
+        }
+        // Only remove demo instructions when we have inventory to show
+        const demoInstructions = document.getElementsByClassName("demo-instructions")[0];
+        if (demoInstructions) demoInstructions.remove();
 
         // Sort inventory by variantName ascending before displaying
         this.inventory.sort((a, b) => {
@@ -408,7 +408,13 @@ const magicStore = {
         inventoryContainer.appendChild(tableWrapper);
         inventoryContainer.appendChild(scrollButtonsContainer);
         main.appendChild(inventoryContainer);
-        
+
+        const sortingNote = document.createElement('div');
+        sortingNote.className = 'text-muted mt-5';
+        sortingNote.innerHTML = 'Note: Multiples of the same item that contain spells (such as scrolls) are grouped by Attack/DC. (See item mouseover tooltips.)';
+        main.appendChild(sortingNote);
+
+
         // Add scroll button event listeners
         this.setupInventoryScrollButtons();
 
