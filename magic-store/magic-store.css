@@ -16,7 +16,8 @@ h1 {
     color: #343a40;
 }
 
-.demo-instructions {
+#demo-instructions {
+    display: none;
     color: #bbb;
     font-size: large;
 }
@@ -349,7 +350,8 @@ button:hover {
     display: none;
 }
 
-#noInventoryMessage {
+#zero-inventory-message,
+#inventory-message {
     display: none;
 }
 

@@ -151,7 +151,7 @@ const magicStore = {
         });
 
         document.getElementById('btnTodaysUpdates').addEventListener('click', () => magicStore.showUpdatesPopup()); 
-        document.getElementById('btnSaveTodaysUpdates').addEventListener('click',() => magicStore.saveTodaysUpdates());
+        document.getElementById('btnSaveTodaysUpdates').addEventListener('click', () => magicStore.saveTodaysUpdates());
         document.getElementById('closePopup').addEventListener('click', () => {
             document.getElementById('updatePopup').style.display = 'none';
         });
@@ -277,7 +277,6 @@ const magicStore = {
             });
 
             localStorage.setItem('magicStoreInventory', JSON.stringify(this.inventory, null, 2));
-            this.updateInventoryDisplay();
             return true;
         } catch (error) {
             console.error('Failed to save inventory to localStorage:', error);
@@ -307,12 +306,15 @@ const magicStore = {
                     const text = await file.text();
                     const imported = JSON.parse(text);
                     this.inventory = imported;
-                    this.saveInventoryToStorage(); // Auto-save to localStorage
+                } catch (error) {
+                    alert('Error loading JSON file.');
+                    return;
+                }
+
+                if (this.saveInventoryToStorage()) {
                     this.updateInventoryDisplay();
                     alert('Inventory imported successfully!');
-                } catch (error) {
-                    alert('Invalid JSON file.');
-                }
+                }                
             }
         };
         input.click();
@@ -320,25 +322,29 @@ const magicStore = {
 
     updateInventoryDisplay: function () {        
         let main = document.querySelector('main');
-        let existingContainer = document.querySelector('.inventory-container');
-        let zeroInventoryMessage = document.getElementById('zeroInventoryMessage');
+        let existingInventoryContainer = document.querySelector('.inventory-container');
+        let demoInstructions = document.getElementById("demo-instructions");
+        let zeroInventoryMessage = document.getElementById('zero-inventory-message');
+        let inventoryMessage = document.getElementById('inventory-message');
 
-        if (existingContainer) existingContainer.remove();
+        if (existingInventoryContainer) existingInventoryContainer.remove();
 
-        // Show/hide no inventory message
+        // Show/hide messages
         if (this.inventory.length === 0) {
-            if (zeroInventoryMessage) {
-                zeroInventoryMessage.style.display = 'block';
-            }
+            inventoryMessage.style.display = 'none';
+            zeroInventoryMessage.style.display = 'block';
+            demoInstructions.style.display = 'block';
             return; // Don't create table if no inventory
         }
 
-        if (zeroInventoryMessage) {
-            zeroInventoryMessage.style.display = 'none';
-        }
+        // Show/hide messages
+        inventoryMessage.style.display = 'block';
+        zeroInventoryMessage.style.display = 'none';
+        demoInstructions.style.display = 'none';
+
         // Only remove demo instructions when we have inventory to show
-        const demoInstructions = document.getElementsByClassName("demo-instructions")[0];
-        if (demoInstructions) demoInstructions.remove();
+        // const demoInstructions = document.getElementById("demo-instructions");
+        //if (demoInstructions) demoInstructions.remove();
 
         // Sort inventory by variantName ascending before displaying
         this.inventory.sort((a, b) => {
@@ -382,11 +388,7 @@ const magicStore = {
             </tr>
             </tfoot>
         `;
-        
-        // Create container for table and scroll buttons
-        const inventoryContainer = document.createElement('div');
-        inventoryContainer.className = 'inventory-container';
-        
+       
         // Create table wrapper
         const tableWrapper = document.createElement('div');
         tableWrapper.className = 'inventory-table-wrapper';
@@ -405,15 +407,14 @@ const magicStore = {
             </button>
         `;
         
+        // Create container for table and scroll buttons
+        const inventoryContainer = document.createElement('div');
+        inventoryContainer.className = 'inventory-container';
+
         inventoryContainer.appendChild(tableWrapper);
         inventoryContainer.appendChild(scrollButtonsContainer);
         main.appendChild(inventoryContainer);
-
-        const sortingNote = document.createElement('div');
-        sortingNote.className = 'text-muted mt-5';
-        sortingNote.innerHTML = 'Note: Multiples of the same item that contain spells (such as scrolls) are grouped by Attack/DC. (See item mouseover tooltips.)';
-        main.appendChild(sortingNote);
-
+        
 
         // Add scroll button event listeners
         this.setupInventoryScrollButtons();
@@ -1014,6 +1015,7 @@ const magicStore = {
         // Save to localStorage instead of downloading file
         if (this.saveInventoryToStorage()) {
             document.getElementById('updatePopup').style.display = 'none';
+            this.updateInventoryDisplay();
             alert('Today\'s updates saved successfully!');
         } else {
             alert('Failed to save updates.');
